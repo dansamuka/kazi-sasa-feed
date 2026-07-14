@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed_version": "3.8",
-    "generated_at": "2026-07-13T06:14:27.704608Z",
-    "next_expected_update": "2026-07-13T12:14:27.704608Z",
-    "opportunity_count": 0,
-    "source_count": 0,
+    "generated_at": "2026-07-14T07:28:02.813217Z",
+    "next_expected_update": "2026-07-14T13:28:02.813217Z",
+    "opportunity_count": 4,
+    "source_count": 4,
     "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
     "is_sample_data": false,
     "supported_languages": [
@@ -30,12 +30,813 @@
     "kenya_public_institutions_version": "1.0",
     "multinational_source_pack_version": "1.0",
     "multinational_adapter_version": "1.0",
-    "publication_repair_version": "1.0",
     "africa_access_certification_version": "1.0",
     "government_deduplication_version": "3.0",
     "eligibility_evidence_version": "2.0",
+    "source_data_generated_at": "2026-07-14T05:18:09.430608Z",
+    "bootstrap_schema_migration": true,
+    "live_refresh_completed": false,
     "certified_subset": true,
-    "parent_opportunity_count": 204
+    "parent_opportunity_count": 885
   },
-  "opportunities": []
+  "opportunities": [
+    {
+      "id": "official-unicef-811f9faa67f1c71e",
+      "title": "Consultant (e) National en épidémiologie nutritionnelle et analyse des facteurs de risque de la malnutrition. Antananarivo Madagascar. Nationals Only.4 Months. Office based#594439",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "UNICEF",
+        "type": "multilateral",
+        "verified": true,
+        "id": "unicef",
+        "type_detail": "un_agency",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Consultant (e) National en épidémiologie nutritionnelle et analyse des facteurs de risque de la malnutrition. Antananarivo Madagascar. Nationals Only.4 Months. Office based#594439",
+        "country": "Madagascar",
+        "region": "East Africa",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": null,
+        "country_code": "MG",
+        "country_iso3": "MDG",
+        "city": "Antananarivo",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -18.8667,
+          "lon": 47.5
+        },
+        "normalisation_confidence": 1.0,
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Antananarivo",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "Madagascar",
+        "region_canonical": "East Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": null,
+      "categories": [],
+      "specialisations": [],
+      "source_context_specialisations": [
+        "programme_management"
+      ],
+      "industry": "technology",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": null,
+      "deadline": null,
+      "deadline_confidence": "unknown",
+      "years_experience_min": null,
+      "years_experience_max": null,
+      "education_required": null,
+      "education_field": [],
+      "languages_required": [],
+      "contract_type": "consultant",
+      "source": {
+        "name": "PageUp-hosted institutional board",
+        "url": "https://jobs.unicef.org/",
+        "confidence": "official",
+        "last_seen_at": "2026-07-14T05:00:06.310248Z",
+        "id": "pageup-institutional-board",
+        "kind": "institution_official",
+        "registry_managed": true
+      },
+      "apply_url": "https://jobs.unicef.org/en-us/job/594439/consultant-e-national-en-épidémiologie-nutritionnelle-et-analyse-des-facteurs-de-risque-de-la-malnutrition-antananarivo-madagascar-nationals-only4-months-office-based594439",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+      "raw_description_url": "https://jobs.unicef.org/en-us/job/594439/consultant-e-national-en-épidémiologie-nutritionnelle-et-analyse-des-facteurs-de-risque-de-la-malnutrition-antananarivo-madagascar-nationals-only4-months-office-based594439",
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase7_priority_institution": false
+      },
+      "role_family": "technology",
+      "role_subfamily": null,
+      "thematic_sectors": [
+        "technology"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": true,
+        "organisation_group": "un_agency",
+        "classification": "institutional_support",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.68,
+        "evidence": [
+          "ngo_or_un_institution"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase8_priority_organisation": true
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.96,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "MG"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "detected_language": "en"
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "MG",
+        "known_country_name": "Madagascar"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.96,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "eligible_nationalities": [
+          "MG"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      }
+    },
+    {
+      "id": "government-ke-kenya-public-service-commission-51342baf9da353aefa",
+      "title": "Cook[3]",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Kenya Public Service Commission",
+        "type": "government",
+        "verified": true,
+        "id": "kenya-public-service-commission",
+        "type_detail": "government",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Kenya",
+        "country": "Kenya",
+        "region": "East Africa",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "country_code": "KE",
+        "country_iso3": "KEN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.93,
+        "normalisation_evidence": [
+          "existing_country"
+        ],
+        "matched_location_alias": "Kenya",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": null,
+      "categories": [],
+      "specialisations": [],
+      "industry": "public_sector",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": "2026-06-17T00:00:00Z",
+      "deadline": "2026-08-03T23:59:59Z",
+      "deadline_confidence": "explicit",
+      "years_experience_min": null,
+      "years_experience_max": null,
+      "education_required": null,
+      "education_field": [],
+      "languages_required": [],
+      "contract_type": "unknown",
+      "source": {
+        "name": "Kenya Public Service Commission official vacancies",
+        "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
+        "confidence": "official",
+        "last_seen_at": "2026-07-14T05:15:20.192731Z",
+        "id": null,
+        "kind": "direct_or_official",
+        "registry_managed": false
+      },
+      "apply_url": "https://psckjobs.go.ke/",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": "Citizenship restricted",
+      "summary": "State Department for Correctional Services | Experience: 0 years",
+      "raw_description_url": "https://psckjobs.go.ke/",
+      "government_fields": {
+        "advert_reference": "D85/2026",
+        "public_service_grade": "E",
+        "salary_scale": null,
+        "number_of_positions": 18,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "KE"
+        ],
+        "application_method": "PSCIMS online application",
+        "application_form_url": "https://psckjobs.go.ke/",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "government",
+        "registry_id": "kenya-public-service-commission",
+        "source_pack": "phase9_government_wave1",
+        "phase7_priority_institution": false
+      },
+      "role_family": "government_administration",
+      "role_subfamily": null,
+      "thematic_sectors": [
+        "public_sector"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": "kenya-public-service-commission",
+        "source_pack": "phase9_government_wave1",
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": true,
+        "institution_type": "government",
+        "registry_id": "kenya-public-service-commission",
+        "source_pack": "phase9_government_wave1",
+        "phase9_priority_portal": true,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": "D85/2026",
+        "public_service_grade": "E",
+        "salary_scale": null,
+        "number_of_positions": 18,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "KE"
+        ],
+        "application_method": "PSCIMS online application",
+        "application_form_url": "https://psckjobs.go.ke/",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "kenya-public-service-commission",
+        "source_pack": "phase9_government_wave1",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "kenya-public-service-commission",
+        "source_pack": "phase9_government_wave1",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.99,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "KE"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "detected_language": "en"
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.99,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "eligible_nationalities": [
+          "KE"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      }
+    },
+    {
+      "id": "government-tz-tanzania-ajira-cabe657b9103fb93e1",
+      "title": "Dereva Daraja Ii (Driver Ii)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Tanzania Public Service Recruitment Secretariat",
+        "type": "government",
+        "verified": true,
+        "id": "tanzania-ajira",
+        "type_detail": "government",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Tanzania",
+        "country": "Tanzania",
+        "region": "East Africa",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": null,
+        "country_code": "TZ",
+        "country_iso3": "TZA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.93,
+        "normalisation_evidence": [
+          "existing_country"
+        ],
+        "matched_location_alias": "Tanzania",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "Tanzania",
+        "region_canonical": "East Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": null,
+      "categories": [
+        "talent_acquisition"
+      ],
+      "specialisations": [
+        "talent_acquisition"
+      ],
+      "industry": "human_resources",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": null,
+      "deadline": "2026-07-23T23:59:59Z",
+      "deadline_confidence": "explicit",
+      "years_experience_min": null,
+      "years_experience_max": null,
+      "education_required": "diploma",
+      "education_field": [],
+      "languages_required": [],
+      "contract_type": "unknown",
+      "source": {
+        "name": "Tanzania PSRS official advertisements",
+        "url": "https://www.ajira.go.tz/",
+        "confidence": "official",
+        "last_seen_at": "2026-07-14T05:15:28.522356Z",
+        "id": null,
+        "kind": "direct_or_official",
+        "registry_managed": false
+      },
+      "apply_url": "https://portal.ajira.go.tz/",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": "Citizenship restricted",
+      "summary": "2.1 MAJUKUMU YA KAZI i . Kukagua gari kabla na baada ya safari ili kubaini hali ya usalama wa gari; ii . Kuwapeleka Watumishi maeneo mbalimbali kwenye safari za kikazi; iii . Kufanya matengenezo madogo madogo ya gari; iv . Kujaza na kutunza taarifa za safari zote katika daftari la safari; v . Kukusanya na kusambaza nyaraka mbalimbali; na vi . Kufanya usafi wa Gari; 2.2 SIFA ZA MWOMBAJI Kuajiriwa wenye cheti cha kidato cha Nne (Form IV) na Leseni ya Daraja E au C ya uendeshaji magari ambayo wamefanyia kazi kwa muda usiopungua mwaka mmoja (1) bila kusababisha ajali pamoja na vyeti vya mafunzo vilivyowapatia sifa ya kupata madaraja husika. Wawe wamehudhuria mafunzo ya msingi ya Uendeshaji magari (Basic Driving Course) yanayotolewa na Chuo cha VETA au Chuo kingine kinachotambuliwa na Serikali. 2.3 NGAZI YA MSHAHARA TGS B MASHARTI YA JUMLA Page 2 of 4 1 . Waombaji wote lazima wawe raia wa Jamhuri ya Muungano wa Tanzania na wasizidi umri wa miaka 45. Hata hivyo, kwa nafasi za ndani ya Taasisi za Kijeshi: Waombaji wa nafasi zisizo za shahada wasizidi umri wa miaka 25. Waombaji wa nafasi za shahada wasizidi umri wa miaka 30. 2 . Waombaji wenye ulemavu wanahamasishwa kutuma maombi na wanapa",
+      "raw_description_url": "https://www.ajira.go.tz/baseattachments/advertisementattachments/260710151931TANGAZO LA KAZI PS NA MADEREVA (1).pdf",
+      "government_fields": {
+        "advert_reference": "PSRS-2.0",
+        "public_service_grade": null,
+        "salary_scale": "TGS B",
+        "number_of_positions": 4,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "TZ"
+        ],
+        "application_method": "Tanzania Recruitment Portal",
+        "application_form_url": "https://portal.ajira.go.tz/",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": "https://www.ajira.go.tz/baseattachments/advertisementattachments/260710151931TANGAZO LA KAZI PS NA MADEREVA (1).pdf"
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "government",
+        "registry_id": "tanzania-ajira",
+        "source_pack": "phase9_government_wave1",
+        "phase7_priority_institution": false
+      },
+      "role_family": "human_resources",
+      "role_subfamily": "talent_acquisition",
+      "thematic_sectors": [
+        "people"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": "tanzania-ajira",
+        "source_pack": "phase9_government_wave1",
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": true,
+        "institution_type": "government",
+        "registry_id": "tanzania-ajira",
+        "source_pack": "phase9_government_wave1",
+        "phase9_priority_portal": true,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": "PSRS-2.0",
+        "public_service_grade": null,
+        "salary_scale": "TGS B",
+        "number_of_positions": 4,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "TZ"
+        ],
+        "application_method": "Tanzania Recruitment Portal",
+        "application_form_url": "https://portal.ajira.go.tz/",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": "https://www.ajira.go.tz/baseattachments/advertisementattachments/260710151931TANGAZO LA KAZI PS NA MADEREVA (1).pdf"
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "tanzania-ajira",
+        "source_pack": "phase9_government_wave1",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "tanzania-ajira",
+        "source_pack": "phase9_government_wave1",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.99,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "TZ"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "detected_language": "sw"
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "TZ",
+        "known_country_name": "Tanzania, United Republic of"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.99,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "eligible_nationalities": [
+          "TZ"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      }
+    },
+    {
+      "id": "government-za-south-africa-dpsa-83e0355badc0621d9f",
+      "title": "ASSISTANT DIRECTOR: INTEGRATED MONITORING AND REPORTING",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "South Africa Department of Public Service and Administration",
+        "type": "government",
+        "verified": true,
+        "id": "south-africa-dpsa",
+        "type_detail": "government",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Pretoria",
+        "country": "South Africa",
+        "region": "Southern Africa",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": null,
+        "country_code": "ZA",
+        "country_iso3": "ZAF",
+        "city": "Pretoria",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -25.75,
+          "lon": 28.2
+        },
+        "normalisation_confidence": 1.0,
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Pretoria",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "South Africa",
+        "region_canonical": "Southern Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": "senior",
+      "categories": [
+        "monitoring_evaluation",
+        "programme_management",
+        "technical_writing"
+      ],
+      "specialisations": [
+        "monitoring_evaluation",
+        "programme_management",
+        "technical_writing"
+      ],
+      "industry": "development_humanitarian",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": null,
+      "deadline": "2026-07-24T23:59:59Z",
+      "deadline_confidence": "explicit",
+      "years_experience_min": 3,
+      "years_experience_max": 5,
+      "education_required": "bachelor",
+      "education_field": [
+        "monitoring and evaluation / \ndevelopment studies",
+        "monitoring and evaluation / \ndevelopment studies"
+      ],
+      "languages_required": [],
+      "contract_type": "contract",
+      "source": {
+        "name": "South Africa DPSA official vacancy circular",
+        "url": "https://www.dpsa.gov.za/newsroom/psvc/",
+        "confidence": "official",
+        "last_seen_at": "2026-07-14T05:15:51.001161Z",
+        "id": null,
+        "kind": "direct_or_official",
+        "registry_managed": false
+      },
+      "apply_url": "https://www.dpsa.gov.za/dpsa2g/documents/vacancies/2026/PSV%20CIRCULAR%2024%20of%202026.pdf",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": "Citizenship restricted",
+      "summary": "3-Year National Diploma or Bachelor’s Degree in Monitoring and Evaluation / Development Studies or equivalent qualification at NQF level 6/7 as recognised by SAQA. 3-5 years’ experience in a related field. Proficient in Microsoft Office packages (MS Word, MS PowerPoint, MS Teams, MS Excel and Outlook e.t.c). A valid driver’s license and extensive travelling. Generic Competencies: Planning and Organising, Coordination, Problem Solving & Decision Making, Project Management, People Management & Empowerment, Client Orientation & Customer Focus, Team Leadership, Diversity Management, Communication (Verbal & Written). Technical Competencies: In-depth knowledge of: Monitoring, Reporting and Evaluation, Strategic planning. Outcome base approach. Analytic skills. Research. Excel at intermediate /advanced level. 15",
+      "raw_description_url": "https://www.dpsa.gov.za/dpsa2g/documents/vacancies/2026/PSV%20CIRCULAR%2024%20of%202026.pdf",
+      "government_fields": {
+        "advert_reference": "24/11",
+        "public_service_grade": null,
+        "salary_scale": "R487 197 per annum (Level 09)",
+        "number_of_positions": null,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "ZA"
+        ],
+        "application_method": "Z83 / department instructions",
+        "application_form_url": "https://www.dpsa.gov.za/dpsa2g/documents/forms/Z83.pdf",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": "https://www.dpsa.gov.za/dpsa2g/documents/vacancies/2026/PSV%20CIRCULAR%2024%20of%202026.pdf"
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "government",
+        "registry_id": "south-africa-dpsa",
+        "source_pack": "phase9_government_wave1",
+        "phase7_priority_institution": false
+      },
+      "role_family": "monitoring_evaluation_and_learning",
+      "role_subfamily": "monitoring_evaluation",
+      "thematic_sectors": [
+        "development",
+        "research"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "development",
+        "track": "programme_management",
+        "canonical_specialisation": "programme_management",
+        "confidence": 0.82,
+        "evidence": [
+          "canonical_specialisation:programme_management"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": true,
+        "registry_id": "south-africa-dpsa",
+        "source_pack": "phase9_government_wave1",
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": true,
+        "institution_type": "government",
+        "registry_id": "south-africa-dpsa",
+        "source_pack": "phase9_government_wave1",
+        "phase9_priority_portal": true,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": "24/11",
+        "public_service_grade": null,
+        "salary_scale": "R487 197 per annum (Level 09)",
+        "number_of_positions": null,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "ZA"
+        ],
+        "application_method": "Z83 / department instructions",
+        "application_form_url": "https://www.dpsa.gov.za/dpsa2g/documents/forms/Z83.pdf",
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": "https://www.dpsa.gov.za/dpsa2g/documents/vacancies/2026/PSV%20CIRCULAR%2024%20of%202026.pdf"
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "south-africa-dpsa",
+        "source_pack": "phase9_government_wave1",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "south-africa-dpsa",
+        "source_pack": "phase9_government_wave1",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.99,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "ZA"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "detected_language": "en"
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "ZA",
+        "known_country_name": "South Africa"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.99,
+        "evidence": [
+          "structured_government_citizenship_requirement"
+        ],
+        "evidence_strength": "structured_source",
+        "eligible_nationalities": [
+          "ZA"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      }
+    }
+  ]
 }

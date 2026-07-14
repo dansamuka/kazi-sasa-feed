@@ -1,26 +1,25 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-14T05:18:09.892218Z",
-  "feed_generated_at": "2026-07-14T05:18:09.430608Z",
+  "generated_at": "2026-07-14T07:28:03.505687Z",
+  "feed_generated_at": "2026-07-14T07:28:02.813217Z",
   "feed_version": "3.8",
   "status": "passed",
   "errors": [],
   "warnings": [
-    "Phase 5 target: official-location-pending share is 20.0%; target maximum is 15%"
+    "Phase 5 target: official-location-pending share is 20.8%; target maximum is 15%"
   ],
   "metrics": {
-    "opportunity_count": 945,
+    "opportunity_count": 885,
     "by_region": {
-      "unknown": 261,
       "West Africa": 97,
       "Southern Africa": 461,
       "Central Africa": 16,
       "East Africa": 92,
       "North Africa": 14,
+      "unknown": 201,
       "Africa": 4
     },
     "by_country_code": {
-      "official_location_pending": 189,
       "LR": 1,
       "MZ": 12,
       "SN": 3,
@@ -30,14 +29,15 @@
       "KE": 29,
       "MA": 13,
       "AO": 1,
+      "official_location_pending": 184,
       "MG": 13,
       "SL": 1,
       "CF": 1,
       "CD": 2,
       "NG": 63,
-      "location_neutral": 63,
       "LY": 1,
-      "unknown": 13,
+      "location_neutral": 20,
+      "unknown": 1,
       "BW": 2,
       "UG": 10,
       "TZ": 20,
@@ -53,19 +53,19 @@
       "GQ": 1
     },
     "physical_country_records": 680,
-    "location_neutral_records": 63,
-    "location_neutral_percent": 6.7,
-    "official_location_pending_records": 189,
-    "official_location_pending_percent": 20.0,
-    "unresolved_location_records": 13,
-    "unresolved_location_percent": 1.4,
+    "location_neutral_records": 20,
+    "location_neutral_percent": 2.3,
+    "official_location_pending_records": 184,
+    "official_location_pending_percent": 20.8,
+    "unresolved_location_records": 1,
+    "unresolved_location_percent": 0.1,
     "by_source": {
-      "Cornerstone-hosted institutional board": 26,
-      "PageUp-hosted institutional board": 15,
-      "DFI and multilateral official career page": 20,
+      "Cornerstone-hosted institutional board": 10,
+      "PageUp-hosted institutional board": 14,
+      "DFI and multilateral official career page": 19,
       "NGO and UN official career page": 3,
       "Kenya public institution official vacancies": 11,
-      "Multinational employer official careers": 132,
+      "Multinational employer official careers": 126,
       "Kenya Public Service Commission official vacancies": 1,
       "Tanzania PSRS official advertisements": 1,
       "South Africa DPSA official vacancy circular": 1,
@@ -76,7 +76,7 @@
       "Jumo": 10,
       "Stripe": 8,
       "GitLab": 2,
-      "Ramp": 63,
+      "Ramp": 51,
       "PostHog": 4,
       "Copia Global": 1,
       "Sun King": 151,
@@ -84,11 +84,11 @@
       "MSF West and Central Africa": 5,
       "Nawiri Group": 8,
       "MCD Global Health": 1,
-      "Himalayas": 18,
+      "Himalayas": 7,
       "Remotive": 10,
-      "Jobicy": 14
+      "Jobicy": 1
     },
-    "official_apply_records": 505,
-    "official_apply_percent": 53.4
+    "official_apply_records": 469,
+    "official_apply_percent": 53.0
   }
 }

@@ -1,7 +1,7 @@
 {
-  "report_version": "11.0",
-  "phase": "11",
-  "generated_at": "2026-07-14T04:59:45.877321Z",
+  "report_version": "12.0",
+  "phase": "Africa and Eligibility Certification Hardening",
+  "generated_at": "2026-07-14T07:27:56.766033Z",
   "validation_errors": [],
   "summary": {
     "organisation_count": 243,
@@ -10,6 +10,8 @@
     "verified_ats_connections": 240,
     "source_registry_count": 33,
     "african_country_count": 54,
+    "global_country_count": 249,
+    "global_african_flag_count": 54,
     "registered_city_count": 155,
     "registered_admin_area_count": 70,
     "city_coordinate_count": 111,
@@ -211,6 +213,10 @@
       "smartrecruiters": 2,
       "workable": 2,
       "workday": 11
+    },
+    "global_countries_by_africa_flag": {
+      "african": 54,
+      "non_african": 195
     },
     "multinational_registry_city_footprint": {
       "Abidjan": 6,
