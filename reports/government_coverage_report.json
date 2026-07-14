@@ -1,22 +1,45 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-13T13:23:19.555338Z",
-  "feed_generated_at": "2026-07-13T06:14:27.704608Z",
+  "generated_at": "2026-07-14T05:18:09.645419Z",
+  "feed_generated_at": "2026-07-14T05:18:09.430608Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 204,
-    "government_opportunity_count": 0,
-    "phase9_priority_opportunity_count": 0,
-    "represented_portals": 0,
-    "represented_countries": 0,
-    "with_advert_reference_count": 0,
-    "with_deadline_count": 0,
-    "with_number_of_positions_count": 0
+    "opportunity_count": 945,
+    "government_opportunity_count": 14,
+    "phase9_priority_opportunity_count": 3,
+    "represented_portals": 5,
+    "represented_countries": 3,
+    "with_advert_reference_count": 3,
+    "with_deadline_count": 3,
+    "with_number_of_positions_count": 2
   },
   "coverage": {
-    "by_country": {},
-    "by_portal": {},
-    "by_public_service_grade": {},
-    "by_role_family": {}
+    "by_country": {
+      "unknown": 9,
+      "Kenya": 3,
+      "South Africa": 1,
+      "Tanzania": 1
+    },
+    "by_portal": {
+      "Kenya Broadcasting Corporation": 10,
+      "Kenya Public Service Commission": 1,
+      "Kenya Railways Corporation": 1,
+      "South Africa Department of Public Service and Administration": 1,
+      "Tanzania Public Service Recruitment Secretariat": 1
+    },
+    "by_public_service_grade": {
+      "unknown": 13,
+      "E": 1
+    },
+    "by_role_family": {
+      "unknown": 6,
+      "sales_business_development": 2,
+      "banking_and_finance": 1,
+      "government_administration": 1,
+      "human_resources": 1,
+      "legal": 1,
+      "monitoring_evaluation_and_learning": 1,
+      "technology": 1
+    }
   }
 }

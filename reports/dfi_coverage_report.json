@@ -1,25 +1,78 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-13T13:23:19.554004Z",
-  "feed_generated_at": "2026-07-13T06:14:27.704608Z",
+  "generated_at": "2026-07-14T05:18:09.644216Z",
+  "feed_generated_at": "2026-07-14T05:18:09.430608Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 204,
-    "dfi_or_multilateral_opportunity_count": 0,
-    "phase7_priority_institution_opportunity_count": 0,
-    "dfi_investment_role_count": 0,
-    "represented_institutions": 0,
-    "represented_countries": 0,
-    "official_application_count": 0,
-    "official_application_percent": 0.0
+    "opportunity_count": 945,
+    "dfi_or_multilateral_opportunity_count": 47,
+    "phase7_priority_institution_opportunity_count": 47,
+    "dfi_investment_role_count": 33,
+    "represented_institutions": 7,
+    "represented_countries": 9,
+    "official_application_count": 46,
+    "official_application_percent": 97.9
   },
   "coverage": {
-    "by_institution": {},
-    "by_institution_type": {},
-    "by_country": {},
-    "by_source": {},
-    "by_role_family": {},
-    "by_dfi_relevance": {},
-    "by_investment_track": {}
+    "by_institution": {
+      "World Bank Group": 26,
+      "Africa50": 13,
+      "African Development Bank": 3,
+      "Shelter Afrique Development Bank": 2,
+      "DBSA": 1,
+      "Norfund": 1,
+      "Private Infrastructure Development Group": 1
+    },
+    "by_institution_type": {
+      "multilateral": 26,
+      "investment_firm": 14,
+      "development_bank": 6,
+      "dfi": 1
+    },
+    "by_country": {
+      "unknown": 27,
+      "Morocco": 10,
+      "Guinea": 2,
+      "South Africa": 2,
+      "Angola": 1,
+      "Cameroon": 1,
+      "Kenya": 1,
+      "Liberia": 1,
+      "Mozambique": 1,
+      "Senegal": 1
+    },
+    "by_source": {
+      "Cornerstone-hosted institutional board": 26,
+      "DFI and multilateral official career page": 20,
+      "Adzuna": 1
+    },
+    "by_role_family": {
+      "investment": 33,
+      "development_programmes": 3,
+      "technology": 3,
+      "procurement": 2,
+      "consulting": 1,
+      "economics_and_research": 1,
+      "education": 1,
+      "engineering": 1,
+      "humanitarian": 1,
+      "real_estate": 1
+    },
+    "by_dfi_relevance": {
+      "direct_investment": 19,
+      "adjacent_experience": 14,
+      "institutional_role": 14
+    },
+    "by_investment_track": {
+      "infrastructure_finance": 8,
+      "financial_institutions": 6,
+      "investment_operations": 6,
+      "investment_analysis": 5,
+      "portfolio_management": 3,
+      "climate_finance": 2,
+      "blended_finance": 1,
+      "project_finance": 1,
+      "resource_mobilisation": 1
+    }
   }
 }
