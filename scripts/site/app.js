@@ -45,13 +45,39 @@ const ELIGIBILITY_LABELS = {
   internal_only: 'Internal applicants only',
   ineligible: 'Not eligible',
 };
+const AFRICA_RELEVANCE_LABELS = {
+  africa_based_confirmed: 'Confirmed Africa-based',
+  africa_regional: 'Africa regional / remit',
+  remote_confirmed_open_to_africa: 'Remote confirmed open to Africa',
+  africa_remit_non_african_location: 'Africa remit, non-African base',
+  official_location_pending: 'Official role, location pending',
+  global_access_unconfirmed: 'Global access unconfirmed',
+  non_african: 'Non-African',
+  unresolved: 'Location unresolved',
+};
+const AFRICAN_ACCESS_LABELS = {
+  confirmed_any_african_national: 'Open to any African nationality',
+  confirmed_specific_african_nationality: 'Specific African nationality required',
+  confirmed_international_recruitment: 'International recruitment confirmed',
+  likely_open: 'Likely open to African applicants',
+  work_authorisation_required: 'Local work authorisation required',
+  local_only: 'Local recruitment only',
+  internal_only: 'Internal applicants only',
+  unknown: 'African applicant access unverified',
+  not_open: 'Not open to African applicants',
+};
+const CERTIFICATION_SCOPE_LABELS = {
+  certified: 'Certified / conditional access',
+  africa_unverified: 'Africa-relevant, access unverified',
+  broader_index: 'Broader index / location pending',
+};
 
 function newFilterState(sortBy = 'relevance', expanded = new Set()) {
   return {
     keyword: '', location: '', datePosted: '',
     experience: new Set(), jobType: new Set(), remote: new Set(),
     company: new Set(), industry: new Set(), country: new Set(), city: new Set(),
-    roleFamily: new Set(), investmentClass: new Set(), investmentTrack: new Set(), dfiInstitution: new Set(), dfiRelevance: new Set(), ngoInstitution: new Set(), ngoTrack: new Set(), government: new Set(), governmentGrade: new Set(), publicInstitution: new Set(), publicInstitutionCategory: new Set(), multinational: new Set(), multinationalSector: new Set(), orgType: new Set(), eligibility: new Set(),
+    roleFamily: new Set(), investmentClass: new Set(), investmentTrack: new Set(), dfiInstitution: new Set(), dfiRelevance: new Set(), ngoInstitution: new Set(), ngoTrack: new Set(), government: new Set(), governmentGrade: new Set(), publicInstitution: new Set(), publicInstitutionCategory: new Set(), multinational: new Set(), multinationalSector: new Set(), orgType: new Set(), eligibility: new Set(), africaRelevance: new Set(), africanAccess: new Set(), certificationScope: new Set(['certified']),
     sortBy, page: 1, expanded,
   };
 }
@@ -131,7 +157,7 @@ function renderHeroStats() {
   const countries = new Set(ITEMS.map(item => item.country).filter(Boolean));
   const cities = new Set(ITEMS.map(item => item.city).filter(Boolean));
   const stats = [
-    { num: ITEMS.length, label: 'Live roles' },
+    { num: ITEMS.length, label: META.bootstrap_schema_migration ? 'Available roles' : 'Live roles' },
     { num: sources.size, label: 'Sources' },
     { num: roleFamilies.size, label: 'Role families' },
     { num: `${countries.size}/${cities.size}`, label: 'Countries / cities' },
@@ -147,10 +173,20 @@ function renderSourceStrip() {
     '<span class="tag">Sources</span> ' + sources.map(escapeHtml).join(' &middot; ');
 }
 
+function renderFreshnessStatus() {
+  const banner = document.getElementById('freshnessBanner');
+  if (!banner) return;
+  if (META.bootstrap_schema_migration && !META.live_refresh_completed) {
+    banner.innerHTML = '<span class="live-dot"></span> LAST-KNOWN-GOOD DATA &mdash; Africa/access certification schema is live; source refresh retry pending';
+  }
+}
+
 function renderFooterMeta() {
-  const generated = new Date(META.generated_at);
-  const timeText = Number.isNaN(generated.getTime()) ? META.generated_at : generated.toISOString().slice(0, 16).replace('T', ' ');
-  document.getElementById('footerMeta').textContent = `Data as of ${timeText} UTC · schema v${META.feed_version}`;
+  const sourceTime = META.source_data_generated_at || META.generated_at;
+  const generated = new Date(sourceTime);
+  const timeText = Number.isNaN(generated.getTime()) ? sourceTime : generated.toISOString().slice(0, 16).replace('T', ' ');
+  const suffix = META.bootstrap_schema_migration && !META.live_refresh_completed ? ' · schema migrated without claiming a fresh source pull' : '';
+  document.getElementById('footerMeta').textContent = `Source data as of ${timeText} UTC · schema v${META.feed_version}${suffix}`;
 }
 
 function selected(set, value) {
@@ -168,6 +204,7 @@ function getFiltered() {
         item.role_subfamily, item.org_type, item.eligibility, item.investment_track,
         item.investment_classification, item.dfi_relevance, item.institution_type,
         item.ngo_classification, item.ngo_track, item.ngo_organisation_group,
+        item.africa_relevance, item.african_applicant_access,
         ...(item.thematic_sectors || []),
       ].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(keyword)) return false;
@@ -198,6 +235,10 @@ function getFiltered() {
     if (!selected(state.publicInstitutionCategory, item.public_institution_category)) return false;
     if (!selected(state.multinational, String(Boolean(item.is_multinational)))) return false;
     if (!selected(state.multinationalSector, item.multinational_sector)) return false;
+    if (!selected(state.africaRelevance, item.africa_relevance)) return false;
+    if (!selected(state.africanAccess, item.african_applicant_access)) return false;
+    const certificationScope = item.certified_default_view ? 'certified' : item.africa_default_visible ? 'africa_unverified' : 'broader_index';
+    if (!selected(state.certificationScope, certificationScope)) return false;
     if (!selected(state.orgType, item.org_type)) return false;
     if (!selected(state.eligibility, item.eligibility)) return false;
     return true;
@@ -230,6 +271,9 @@ const PILL_CONFIGS = [
   { key: 'publicInstitutionCategory', pillId: 'publicInstitutionCategoryPill', dropdownId: 'publicInstitutionCategoryDropdown', label: 'Public institution category', kind: 'multi' },
   { key: 'multinational', pillId: 'multinationalPill', dropdownId: 'multinationalDropdown', label: 'Multinationals', kind: 'multi' },
   { key: 'multinationalSector', pillId: 'multinationalSectorPill', dropdownId: 'multinationalSectorDropdown', label: 'Multinational sector', kind: 'multi' },
+  { key: 'certificationScope', pillId: 'certificationScopePill', dropdownId: 'certificationScopeDropdown', label: 'Certification scope', kind: 'multi' },
+  { key: 'africaRelevance', pillId: 'africaRelevancePill', dropdownId: 'africaRelevanceDropdown', label: 'Africa relevance', kind: 'multi' },
+  { key: 'africanAccess', pillId: 'africanAccessPill', dropdownId: 'africanAccessDropdown', label: 'African applicant access', kind: 'multi' },
   { key: 'orgType', pillId: 'orgTypePill', dropdownId: 'orgTypeDropdown', label: 'Organisation type', kind: 'multi' },
   { key: 'eligibility', pillId: 'eligibilityPill', dropdownId: 'eligibilityDropdown', label: 'Eligibility', kind: 'multi' },
   { key: 'experience', pillId: 'expPill', dropdownId: 'expDropdown', label: 'Experience level', kind: 'multi' },
@@ -261,6 +305,9 @@ function valueFor(item, key) {
     publicInstitutionCategory: item.public_institution_category,
     multinational: String(Boolean(item.is_multinational)),
     multinationalSector: item.multinational_sector,
+    africaRelevance: item.africa_relevance,
+    africanAccess: item.african_applicant_access,
+    certificationScope: item.certified_default_view ? 'certified' : item.africa_default_visible ? 'africa_unverified' : 'broader_index',
     orgType: item.org_type,
     eligibility: item.eligibility,
   };
@@ -272,6 +319,9 @@ function labelFor(key, value) {
   if (key === 'jobType') return JOB_TYPE_LABELS[value] || humanize(value);
   if (key === 'remote') return REMOTE_LABELS[value] || humanize(value);
   if (key === 'eligibility') return ELIGIBILITY_LABELS[value] || humanize(value);
+  if (key === 'africaRelevance') return AFRICA_RELEVANCE_LABELS[value] || humanize(value);
+  if (key === 'africanAccess') return AFRICAN_ACCESS_LABELS[value] || humanize(value);
+  if (key === 'certificationScope') return CERTIFICATION_SCOPE_LABELS[value] || humanize(value);
   if (key === 'investmentClass') return INVESTMENT_CLASS_LABELS[value] || humanize(value);
   if (key === 'dfiInstitution') return DFI_INSTITUTION_LABELS[value] || humanize(value);
   if (key === 'dfiRelevance') return DFI_RELEVANCE_LABELS[value] || humanize(value);
@@ -411,6 +461,8 @@ function renderCard(item) {
   if (item.is_multinational) chips.push(`<span class="chip role-family">Multinational</span>`);
   if (item.multinational_sector) chips.push(`<span class="chip industry">${escapeHtml(humanize(item.multinational_sector))}</span>`);
   if (item.org_type) chips.push(`<span class="chip">${escapeHtml(humanize(item.org_type))}</span>`);
+  if (item.africa_relevance) chips.push(`<span class="chip role-family">${escapeHtml(AFRICA_RELEVANCE_LABELS[item.africa_relevance] || humanize(item.africa_relevance))}</span>`);
+  if (item.african_applicant_access) chips.push(`<span class="chip ${item.certified_default_view ? 'eligibility-positive' : 'eligibility-uncertain'}">${escapeHtml(AFRICAN_ACCESS_LABELS[item.african_applicant_access] || humanize(item.african_applicant_access))}</span>`);
   if (item.eligibility) chips.push(`<span class="chip ${eligibilityClass(item.eligibility)}">${escapeHtml(ELIGIBILITY_LABELS[item.eligibility] || humanize(item.eligibility))}</span>`);
   if (item.industry) chips.push(`<span class="chip industry">${escapeHtml(humanize(item.industry))}</span>`);
   if (item.work_mode) chips.push(`<span class="chip">${escapeHtml(REMOTE_LABELS[remoteValue(item)] || humanize(item.work_mode))}</span>`);
@@ -444,6 +496,10 @@ function renderCard(item) {
       ['Investment confidence', item.investment_confidence !== null && item.investment_confidence !== undefined ? `${Math.round(item.investment_confidence * 100)}%` : null],
       ['City', item.city],
       ['Country', item.country],
+      ['Africa relevance', AFRICA_RELEVANCE_LABELS[item.africa_relevance] || humanize(item.africa_relevance)],
+      ['African applicant access', AFRICAN_ACCESS_LABELS[item.african_applicant_access] || humanize(item.african_applicant_access)],
+      ['Access evidence strength', humanize(item.african_access_evidence_strength)],
+      ['Eligible nationalities', (item.african_access_nationalities || []).join(', ') || null],
       ['Eligibility', item.eligibility ? `${ELIGIBILITY_LABELS[item.eligibility] || humanize(item.eligibility)}${eligibilityConfidence ? ` · ${eligibilityConfidence}` : ''}` : null],
       ['Posted', fmtDate(item.posted)],
       ['Deadline', fmtDate(item.deadline) || 'Not specified'],
@@ -526,6 +582,7 @@ document.getElementById('clearAllBtn').addEventListener('click', () => {
 positionDawnMarker();
 renderHeroStats();
 renderSourceStrip();
+renderFreshnessStatus();
 renderFooterMeta();
 setupPills();
 updatePillLabels();

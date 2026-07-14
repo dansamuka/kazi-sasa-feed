@@ -280,7 +280,7 @@ terms verification / a signup step).
   source governance, taxonomy mapping, Phase 2 enrichment, Android compatibility,
   reports, mobility filtering, Phase 3 collection isolation and HTTP policy, the
   public filters, Phase 4 multilingual/location coverage, a 582-case
-  location corpus, Phase 6's 99-case investment/DFI corpus, and saved-response fixtures and adapter tests across all 17 collectors. Run them with
+  location corpus, Phase 6's 99-case investment/DFI corpus, and saved-response fixtures and adapter tests across the collector registry. Run them with
   `python3 -m pytest scripts/tests -q`.
 
 ## Why source-transparent matters here
@@ -338,7 +338,7 @@ pip install -r requirements.txt
 python3 scripts/validate_registry.py                              # all Phase 1 registry references
 python3 scripts/generate_legacy_configs.py --check                    # generated compatibility files current
 python3 scripts/validate_sources.py sources.json                      # generated confidence view
-python3 -m pytest scripts/tests -q                                    # 239 tests, no network needed
+python3 -m pytest scripts/tests -q                                    # 287 tests, no network needed
 python3 scripts/generate_registry_report.py                           # registry inventory report
 python3 scripts/validate_feed.py feed.json --taxonomy taxonomy.json --fail-on-warnings
 python3 scripts/generate_reports.py                                   # coverage + health + manifest + dedup + gates
@@ -398,11 +398,18 @@ python3 scripts/refresh_feed.py --out feed.json                       # live ful
   URL in `UNTALENT_FEED_URL`; the collector cleanly skips when absent. No Tier 3
   scrapers are implemented. See `LEGAL_NOTES.md` for excluded/deferred sources.
 
-### Deployment verification
+### Safe deployment and publication verification
 
-The scheduled workflow runs publication commands from the repository root and verifies the exact artifacts that Git will commit. `scripts/verify_published_output.py` rejects stale feeds, wrong feed versions, missing Phase 2 fields, count mismatches, and a `docs/index.html` generated from a different feed.
+Use `deploy.bat` from the extracted repository folder. It now performs a **source-only deployment**: it clones the current repository, preserves the live `feed.json`, generated Pages site and runtime reports, overlays the new source package, and pushes normally. It does not force-push the bundled offline snapshot.
 
-After deploying a new ZIP, run **Actions → Refresh feed → Run workflow**. A successful Phase 9 run must pass both **Verify freshly generated Phase 9 root output** and **Verify site was built from the current root feed**, including the Phase 8.1 title-quality and Phase 9 government-site guards.
+The refresh workflow then publishes in two stages:
+
+1. It upgrades the current last-known-good feed and Pages site to schema v3.8 and commits that bootstrap immediately.
+2. It runs the long live collection into `.runtime/` and promotes the result only after clean validation.
+
+If an upstream collector fails, the Phase 11 bootstrap remains public rather than leaving Pages on v3.6. The site clearly labels this state as last-known-good data and retains the original source-data timestamp. `scripts/verify_published_output.py` continues to reject schema mismatches, missing required profiles, count mismatches and a site built from a different feed.
+
+See [`PHASE11_PUBLICATION_CORRECTION.md`](PHASE11_PUBLICATION_CORRECTION.md).
 
 
 ## Phase 5 run #24 hotfix
@@ -429,3 +436,18 @@ The feed is now version **3.8**. The authoritative registries include **60 Kenya
 New public adapters cover Workday, SmartRecruiters and Workable, with controlled official-careers-page fallbacks. The board includes filters for Kenya public institutions, public-institution category, multinationals and multinational sector. See [`PHASE10_KENYA_PHASE11_IMPLEMENTATION.md`](PHASE10_KENYA_PHASE11_IMPLEMENTATION.md).
 
 A Phase 11 publication must pass `--require-phase11` and `--require-phase11-site` and must generate both `reports/kenya_public_institutions_report.json` and `reports/multinational_coverage_report.json`.
+
+## Phase 11 publication correction
+
+The source-only deploy, last-known-good bootstrap, legacy DFI/NGO classification repair and staged live-refresh promotion are documented in [`PHASE11_PUBLICATION_CORRECTION.md`](PHASE11_PUBLICATION_CORRECTION.md).
+
+## Africa and eligibility certification
+
+The feed now separates Africa relevance from applicant eligibility. The main
+site defaults to the certified/conditional-access subset only. Africa-relevant
+roles whose applicant access is still unverified remain available through the
+**Certification scope** filter, while `certified_feed.json` contains only roles
+with meaningful access evidence. Use the **Certification scope**,
+**Africa relevance**, and **African applicant access** filters to inspect the
+broader index. Known non-African roles without an Africa remit are rejected and
+audited in `reports/rejected_records.json`.

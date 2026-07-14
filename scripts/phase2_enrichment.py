@@ -16,6 +16,7 @@ from normalizers.location import AfricanLocationNormalizer, detect_text_language
 from normalizers.multilingual import extract_eligibility_signals_multilingual
 from classifiers.investment import InvestmentClassifier
 from classifiers.ngo import NGOClassifier
+from classifiers.africa_access import AfricaAccessClassifier, legacy_eligibility_from_access
 
 VALID_ELIGIBILITY_STATUSES = {
     "eligible",
@@ -49,6 +50,7 @@ class Phase2Enricher:
         sources: dict[str, Any] | None = None,
         investment_taxonomy: dict[str, Any] | None = None,
         ngo_taxonomy: dict[str, Any] | None = None,
+        global_countries: dict[str, Any] | None = None,
     ):
         self.organisations = organisations or {"organisations": []}
         self.locations = locations or {"countries": []}
@@ -56,8 +58,10 @@ class Phase2Enricher:
         self.sources = sources or {"sources": []}
         self.investment_taxonomy = investment_taxonomy or {}
         self.ngo_taxonomy = ngo_taxonomy or {}
+        self.global_countries = global_countries or {"countries": []}
         self._investment_classifier = InvestmentClassifier(self.investment_taxonomy) if self.investment_taxonomy else None
         self._ngo_classifier = NGOClassifier(self.ngo_taxonomy) if self.ngo_taxonomy else None
+        self._africa_access_classifier = AfricaAccessClassifier(self.locations, self.global_countries) if self.global_countries.get("countries") else None
         self._location_normalizer = AfricanLocationNormalizer(self.locations)
 
         self._organisations_by_name: dict[str, dict[str, Any]] = {}
@@ -111,6 +115,7 @@ class Phase2Enricher:
         self._enrich_government(opp)
         self._enrich_public_institution(opp)
         self._enrich_multinational(opp)
+        self._enrich_africa_access(opp)
         self._enrich_eligibility(opp)
         self._enrich_source(opp)
         return opp
@@ -191,7 +196,8 @@ class Phase2Enricher:
         source_pack = matched.get("source_pack") if matched else None
         institution_type = organisation.get("type_detail") or organisation.get("type") or "unverified"
         fields = opp.get("government_fields") or {}
-        is_government = institution_type in {"government", "regulator", "state_owned_enterprise", "university"} or source_pack in {"phase9_government_wave1", "phase10_kenya_public_institutions"}
+        existing_profile = opp.get("government_profile") or {}
+        is_government = institution_type in {"government", "regulator", "state_owned_enterprise", "university"} or source_pack in {"phase9_government_wave1", "phase10_kenya_public_institutions"} or bool(existing_profile.get("is_government_or_public_service"))
         opp["government_profile"] = {
             "is_government_or_public_service": bool(is_government),
             "institution_type": institution_type,
@@ -200,17 +206,17 @@ class Phase2Enricher:
             "phase9_priority_portal": source_pack == "phase9_government_wave1",
             "phase10_kenya_public_institution": source_pack == "phase10_kenya_public_institutions",
             "public_institution_category": matched.get("public_institution_category") if matched else None,
-            "advert_reference": fields.get("advert_reference"),
-            "public_service_grade": fields.get("public_service_grade"),
-            "salary_scale": fields.get("salary_scale"),
-            "number_of_positions": fields.get("number_of_positions"),
-            "citizenship_required": fields.get("citizenship_required"),
-            "eligible_nationalities": fields.get("eligible_nationalities") or [],
-            "application_method": fields.get("application_method"),
-            "application_form_url": fields.get("application_form_url"),
-            "internal_only": bool(fields.get("internal_only", False)),
-            "county_or_region_requirement": fields.get("county_or_region_requirement"),
-            "source_document_url": fields.get("source_document_url"),
+            "advert_reference": fields.get("advert_reference", existing_profile.get("advert_reference")),
+            "public_service_grade": fields.get("public_service_grade", existing_profile.get("public_service_grade")),
+            "salary_scale": fields.get("salary_scale", existing_profile.get("salary_scale")),
+            "number_of_positions": fields.get("number_of_positions", existing_profile.get("number_of_positions")),
+            "citizenship_required": fields.get("citizenship_required", existing_profile.get("citizenship_required")),
+            "eligible_nationalities": fields.get("eligible_nationalities") or existing_profile.get("eligible_nationalities") or [],
+            "application_method": fields.get("application_method", existing_profile.get("application_method")),
+            "application_form_url": fields.get("application_form_url", existing_profile.get("application_form_url")),
+            "internal_only": bool(fields.get("internal_only", existing_profile.get("internal_only", False))),
+            "county_or_region_requirement": fields.get("county_or_region_requirement", existing_profile.get("county_or_region_requirement")),
+            "source_document_url": fields.get("source_document_url", existing_profile.get("source_document_url")),
         }
 
 
@@ -273,6 +279,29 @@ class Phase2Enricher:
         location["location_language"] = match.detected_language
         location["is_african"] = match.is_african
 
+        # Phase 12 recognises non-African ISO codes/names as well. This prevents
+        # locations such as ``Tashkent, UZ`` from being misclassified as an
+        # official vacancy with an unknown duty station.
+        if self._africa_access_classifier and not match.country_code:
+            global_match = self._africa_access_classifier.detect_global_country(
+                raw, location.get("country_code") or location.get("country_iso3"), location.get("country")
+            )
+            if global_match:
+                location["country_code"] = global_match.get("iso2")
+                location["country_iso3"] = global_match.get("iso3")
+                location["country_canonical"] = global_match.get("name")
+                location["region_canonical"] = "Non-Africa" if not global_match.get("is_african") else location.get("region_canonical")
+                location["is_african"] = bool(global_match.get("is_african"))
+                location["known_non_african"] = not bool(global_match.get("is_african"))
+                location["global_location_evidence"] = ["global_country_registry_match"]
+                location["normalisation_confidence"] = max(float(location.get("normalisation_confidence") or 0), 0.96)
+            else:
+                location["known_non_african"] = False
+                location["global_location_evidence"] = []
+        else:
+            location["known_non_african"] = False
+            location["global_location_evidence"] = []
+
         # Explicitly preserve the six legacy location keys. Phase 4 adds richer
         # metadata but never rewrites what the current Android DTO consumes.
         location.setdefault("raw", raw or None)
@@ -325,7 +354,33 @@ class Phase2Enricher:
             )
         )
 
+    def _enrich_africa_access(self, opp: dict[str, Any]) -> None:
+        if not self._africa_access_classifier:
+            opp.setdefault("africa_relevance", {
+                "status": "unresolved", "confidence": 0.0, "evidence": ["classifier_not_configured"],
+                "certification_level": "unverified", "default_visible": False,
+                "known_country_code": None, "known_country_name": None,
+            })
+            opp.setdefault("african_applicant_access", {
+                "status": "unknown", "confidence": 0.0, "evidence": ["classifier_not_configured"],
+                "evidence_strength": "none", "eligible_nationalities": [],
+                "citizenship_required": None, "work_authorisation_required": None,
+                "certification_level": "unverified",
+            })
+            return
+        relevance, access = self._africa_access_classifier.classify(opp)
+        opp["africa_relevance"] = relevance.as_dict()
+        opp["african_applicant_access"] = access.as_dict()
+
     def _enrich_eligibility(self, opp: dict[str, Any]) -> None:
+        if self._africa_access_classifier and opp.get("african_applicant_access"):
+            access = self._africa_access_classifier.classify_access(
+                opp, self._africa_access_classifier.classify_relevance(opp)
+            )
+            legacy = legacy_eligibility_from_access(access)
+            legacy["detected_language"] = detect_text_language(self._eligibility_text(opp))
+            opp["eligibility"] = legacy
+            return
         location = opp.get("location") or {}
         text = self._eligibility_text(opp)
         normalised = _normalise_text(text)

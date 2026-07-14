@@ -44,6 +44,19 @@ ISO2_RE = re.compile(r"^[A-Z]{2}$")
 ISO3_RE = re.compile(r"^[A-Z]{3}$")
 VALID_EXTRACTION_LANGUAGES = {"en", "fr", "pt", "ar", "sw"}
 
+VALID_AFRICA_RELEVANCE_STATUSES = {
+    "africa_based_confirmed", "africa_regional", "remote_confirmed_open_to_africa",
+    "africa_remit_non_african_location", "official_location_pending",
+    "global_access_unconfirmed", "non_african", "unresolved",
+}
+VALID_AFRICAN_APPLICANT_ACCESS_STATUSES = {
+    "confirmed_any_african_national", "confirmed_specific_african_nationality",
+    "confirmed_international_recruitment", "likely_open",
+    "work_authorisation_required", "local_only", "internal_only", "unknown", "not_open",
+}
+VALID_CERTIFICATION_LEVELS = {"certified", "conditional", "unverified", "excluded"}
+VALID_EVIDENCE_STRENGTHS = {"explicit", "structured_source", "strong_inference", "weak_inference", "none"}
+
 REQUIRED_OPPORTUNITY_FIELDS = ["id", "title", "opportunity_type", "organisation", "location", "source"]
 
 
@@ -117,6 +130,12 @@ def validate_meta(meta: dict, errs: ValidationErrors):
     for key in ("official_vacancy_quality_version", "government_source_pack_version", "government_schema_version", "kenya_public_institutions_version", "multinational_source_pack_version", "multinational_adapter_version"):
         if key in meta and meta.get(key) != "1.0" and not (key == "official_vacancy_quality_version" and meta.get(key) == "1.1"):
             errs.error(f"meta.{key} has an unsupported version")
+    if "africa_access_certification_version" in meta and meta.get("africa_access_certification_version") != "1.0":
+        errs.error("meta.africa_access_certification_version must be 1.0")
+    if "government_deduplication_version" in meta and meta.get("government_deduplication_version") != "3.0":
+        errs.error("meta.government_deduplication_version must be 3.0")
+    if "eligibility_evidence_version" in meta and meta.get("eligibility_evidence_version") != "2.0":
+        errs.error("meta.eligibility_evidence_version must be 2.0")
 
 
 def validate_opportunity(
@@ -350,6 +369,43 @@ def validate_opportunity(
             if multinational_profile.get("phase11_priority_employer") and multinational_profile.get("source_pack") != "phase11_multinationals":
                 errs.error(f"{label}: Phase 11 priority employer must use phase11_multinationals source pack")
 
+    africa_profile = opp.get("africa_relevance")
+    if africa_profile is not None:
+        if not isinstance(africa_profile, dict):
+            errs.error(f"{label}: africa_relevance must be an object")
+        else:
+            if africa_profile.get("status") not in VALID_AFRICA_RELEVANCE_STATUSES:
+                errs.error(f"{label}: invalid africa_relevance.status '{africa_profile.get('status')}'")
+            if africa_profile.get("certification_level") not in VALID_CERTIFICATION_LEVELS:
+                errs.error(f"{label}: invalid africa_relevance.certification_level")
+            if not isinstance(africa_profile.get("default_visible"), bool):
+                errs.error(f"{label}: africa_relevance.default_visible must be boolean")
+            confidence = africa_profile.get("confidence")
+            if not isinstance(confidence, (int, float)) or isinstance(confidence, bool) or not 0 <= confidence <= 1:
+                errs.error(f"{label}: africa_relevance.confidence must be between 0 and 1")
+            evidence = africa_profile.get("evidence")
+            if not isinstance(evidence, list) or any(not isinstance(item, str) for item in evidence):
+                errs.error(f"{label}: africa_relevance.evidence must be a list of strings")
+
+    access_profile = opp.get("african_applicant_access")
+    if access_profile is not None:
+        if not isinstance(access_profile, dict):
+            errs.error(f"{label}: african_applicant_access must be an object")
+        else:
+            if access_profile.get("status") not in VALID_AFRICAN_APPLICANT_ACCESS_STATUSES:
+                errs.error(f"{label}: invalid african_applicant_access.status '{access_profile.get('status')}'")
+            if access_profile.get("certification_level") not in VALID_CERTIFICATION_LEVELS:
+                errs.error(f"{label}: invalid african_applicant_access.certification_level")
+            if access_profile.get("evidence_strength") not in VALID_EVIDENCE_STRENGTHS:
+                errs.error(f"{label}: invalid african_applicant_access.evidence_strength")
+            confidence = access_profile.get("confidence")
+            if not isinstance(confidence, (int, float)) or isinstance(confidence, bool) or not 0 <= confidence <= 1:
+                errs.error(f"{label}: african_applicant_access.confidence must be between 0 and 1")
+            for field_name in ("evidence", "eligible_nationalities"):
+                value = access_profile.get(field_name)
+                if not isinstance(value, list) or any(not isinstance(item, str) for item in value):
+                    errs.error(f"{label}: african_applicant_access.{field_name} must be a list of strings")
+
     source = opp.get("source", {})
     investment_profile = opp.get("investment_profile")
     if investment_profile is not None:
@@ -482,6 +538,9 @@ def validate_opportunity(
                 value = eligibility.get(field_name, [])
                 if not isinstance(value, list) or any(not isinstance(item, str) for item in value):
                     errs.error(f"{label}: eligibility.{field_name} must be a list of strings")
+            evidence_strength = eligibility.get("evidence_strength")
+            if evidence_strength is not None and evidence_strength not in VALID_EVIDENCE_STRENGTHS:
+                errs.error(f"{label}: eligibility.evidence_strength is invalid")
             detected_language = eligibility.get("detected_language")
             if detected_language is not None and detected_language not in VALID_EXTRACTION_LANGUAGES:
                 errs.error(f"{label}: eligibility.detected_language must be one of {sorted(VALID_EXTRACTION_LANGUAGES)}")

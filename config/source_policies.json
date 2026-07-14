@@ -1,5 +1,5 @@
 {
-  "policy_version": "5.0",
+  "policy_version": "6.0",
   "_comment": "Central source and collection policies. Collectors may be stricter but must not weaken these defaults.",
   "source_precedence": [
     "official",
@@ -32,12 +32,20 @@
     "publish_ngo_coverage_report": true,
     "enrich_phase9_government_metadata": true,
     "publish_government_coverage_report": true,
-    "official_vacancy_title_gate": true
+    "official_vacancy_title_gate": true,
+    "enrich_phase12_africa_access_metadata": true,
+    "publish_certified_subset": true,
+    "publish_certification_report": true,
+    "publish_rejected_records_audit": true,
+    "enforce_government_deduplication_loss_gate": true
   },
   "eligibility": {
     "generic_company_sponsorship_is_not_role_evidence": true,
     "require_role_specific_mobility_signal_for_non_african_locations": true,
-    "ambiguous_remote_is_not_kenya_accessible": true
+    "ambiguous_remote_is_not_kenya_accessible": true,
+    "african_duty_station_is_not_eligibility_proof": true,
+    "structured_source_restrictions_override_text_inference": true,
+    "explicit_evidence_required_for_certified_access": true
   },
   "registry": {
     "organisations_authoritative": true,
@@ -66,7 +74,9 @@
     "phase10_kenya_additive_only": true,
     "phase10_kenya_fields_optional_for_older_snapshots": true,
     "phase11_additive_only": true,
-    "phase11_fields_optional_for_older_snapshots": true
+    "phase11_fields_optional_for_older_snapshots": true,
+    "phase12_additive_only": true,
+    "phase12_fields_optional_for_older_snapshots": true
   },
   "location_normalisation": {
     "registry_authoritative": true,
@@ -159,5 +169,17 @@
     "workable_public_postings": true,
     "city_coverage_reporting": true,
     "disabled_sources_must_have_reason": true
+  },
+  "africa_eligibility_certification": {
+    "version": "1.0",
+    "location_and_access_are_separate": true,
+    "known_non_african_locations_excluded_without_africa_remit": true,
+    "african_duty_station_is_not_access_evidence": true,
+    "structured_government_citizenship_precedes_text_inference": true,
+    "explicit_evidence_required_for_certified_access": true,
+    "government_shared_urls_are_not_deduplication_keys": true,
+    "certified_subset_published": true,
+    "broad_index_defaults_to_africa_relevant_scope": true,
+    "rejected_records_audited": true
   }
 }

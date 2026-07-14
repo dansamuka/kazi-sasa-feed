@@ -41,6 +41,20 @@ def slim_opportunity(o: dict) -> dict:
         "eligibility": (o.get("eligibility") or {}).get("status"),
         "eligibility_confidence": (o.get("eligibility") or {}).get("confidence"),
         "eligibility_evidence": (o.get("eligibility") or {}).get("evidence") or [],
+        "africa_relevance": (o.get("africa_relevance") or {}).get("status"),
+        "africa_relevance_confidence": (o.get("africa_relevance") or {}).get("confidence"),
+        "africa_certification_level": (o.get("africa_relevance") or {}).get("certification_level"),
+        "africa_default_visible": (o.get("africa_relevance") or {}).get("default_visible", False),
+        "african_applicant_access": (o.get("african_applicant_access") or {}).get("status"),
+        "african_access_confidence": (o.get("african_applicant_access") or {}).get("confidence"),
+        "african_access_evidence_strength": (o.get("african_applicant_access") or {}).get("evidence_strength"),
+        "african_access_certification_level": (o.get("african_applicant_access") or {}).get("certification_level"),
+        "african_access_nationalities": (o.get("african_applicant_access") or {}).get("eligible_nationalities") or [],
+        "certified_default_view": bool(
+            (o.get("africa_relevance") or {}).get("default_visible")
+            and (o.get("african_applicant_access") or {}).get("certification_level") in {"certified", "conditional"}
+            and (o.get("african_applicant_access") or {}).get("status") not in {"not_open", "internal_only", "unknown"}
+        ),
         "investment_classification": (o.get("investment_profile") or {}).get("classification"),
         "investment_track": (o.get("investment_profile") or {}).get("track"),
         "investment_confidence": (o.get("investment_profile") or {}).get("confidence"),

@@ -53,6 +53,10 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
     by_public_institution_category = Counter()
     by_multinational_sector = Counter()
     by_phase11_priority = Counter()
+    by_africa_relevance = Counter()
+    by_african_applicant_access = Counter()
+    by_access_evidence_strength = Counter()
+    by_certification_level = Counter()
 
     for opp in opportunities:
         source = opp.get("source") or {}
@@ -63,7 +67,7 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
         by_org_type[org.get("type_detail") or org.get("type") or "unknown"] += 1
         by_opportunity_type[opp.get("opportunity_type") or "unknown"] += 1
         by_industry[opp.get("industry") or "unknown"] += 1
-        by_country[location.get("country") or "unknown"] += 1
+        by_country[location.get("country_canonical") or location.get("country") or "unknown"] += 1
         by_scope[location.get("scope") or "unknown"] += 1
         by_work_mode[opp.get("work_mode") or "unknown"] += 1
         by_role_family[opp.get("role_family") or "unknown"] += 1
@@ -106,6 +110,14 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
         multi = opp.get("multinational_profile") or {}
         by_multinational_sector[multi.get("sector") or "none"] += 1
         by_phase11_priority["priority" if multi.get("phase11_priority_employer") else "other"] += 1
+        africa_profile = opp.get("africa_relevance") or {}
+        access_profile = opp.get("african_applicant_access") or {}
+        by_africa_relevance[africa_profile.get("status") or "missing"] += 1
+        by_african_applicant_access[access_profile.get("status") or "missing"] += 1
+        by_access_evidence_strength[access_profile.get("evidence_strength") or "missing"] += 1
+        by_certification_level[
+            f"{africa_profile.get('certification_level') or 'missing'}|{access_profile.get('certification_level') or 'missing'}"
+        ] += 1
         investment_confidence = investment.get("confidence")
         if isinstance(investment_confidence, (int, float)):
             investment_bucket = "high_0.85_plus" if investment_confidence >= 0.85 else "medium_0.65_0.84" if investment_confidence >= 0.65 else "low_below_0.65"
@@ -114,7 +126,7 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
         by_investment_confidence[investment_bucket] += 1
 
     completeness_fields = {
-        "country": lambda o: bool((o.get("location") or {}).get("country")),
+        "country": lambda o: bool((o.get("location") or {}).get("country_canonical") or (o.get("location") or {}).get("country")),
         "work_mode": lambda o: bool(o.get("work_mode")),
         "industry": lambda o: bool(o.get("industry")),
         "specialisations": lambda o: bool(o.get("specialisations")),
@@ -133,6 +145,9 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
         "role_family": lambda o: bool(o.get("role_family")),
         "thematic_sectors": lambda o: bool(o.get("thematic_sectors")),
         "eligibility_evidence": lambda o: bool((o.get("eligibility") or {}).get("evidence")),
+        "meaningful_eligibility_evidence": lambda o: (o.get("african_applicant_access") or {}).get("evidence_strength") not in (None, "none"),
+        "africa_relevance_profile": lambda o: bool(o.get("africa_relevance")),
+        "african_applicant_access_profile": lambda o: bool(o.get("african_applicant_access")),
         "source_registry_id": lambda o: bool((o.get("source") or {}).get("id")),
         "country_iso3": lambda o: bool((o.get("location") or {}).get("country_iso3")),
         "admin_area": lambda o: bool((o.get("location") or {}).get("admin_area")),
@@ -179,6 +194,7 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
             "kenya_public_institution_opportunities": sum(1 for o in opportunities if (o.get("public_institution_profile") or {}).get("is_kenya_public_institution")),
             "multinational_opportunities": sum(1 for o in opportunities if (o.get("multinational_profile") or {}).get("is_multinational")),
             "phase11_priority_employer_opportunities": sum(1 for o in opportunities if (o.get("multinational_profile") or {}).get("phase11_priority_employer")),
+            "certified_default_opportunities": sum(1 for o in opportunities if (o.get("africa_relevance") or {}).get("default_visible") and (o.get("african_applicant_access") or {}).get("certification_level") in {"certified", "conditional"}),
         },
         "coverage": {
             "by_source": _sorted_counter(by_source),
@@ -212,6 +228,10 @@ def build_coverage_report(feed: dict, validation_errors: int = 0, validation_war
             "by_public_institution_category": _sorted_counter(by_public_institution_category),
             "by_multinational_sector": _sorted_counter(by_multinational_sector),
             "by_phase11_priority": _sorted_counter(by_phase11_priority),
+            "by_africa_relevance": _sorted_counter(by_africa_relevance),
+            "by_african_applicant_access": _sorted_counter(by_african_applicant_access),
+            "by_access_evidence_strength": _sorted_counter(by_access_evidence_strength),
+            "by_certification_level": _sorted_counter(by_certification_level),
         },
         "data_completeness": completeness,
     }

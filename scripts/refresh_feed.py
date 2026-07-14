@@ -42,6 +42,7 @@ from pipeline.collect import CollectorRunner  # noqa: E402
 from pipeline.http import HttpClient  # noqa: E402
 from pipeline.deduplicate import deduplicate_opportunities  # noqa: E402
 from coverage_gates import evaluate_coverage_gates  # noqa: E402
+from certification_gates import evaluate as evaluate_certification, build_certified_feed  # noqa: E402
 from normalizers.temporal import normalise_opportunity_temporal_fields  # noqa: E402
 
 
@@ -86,6 +87,7 @@ class FeedBuilder:
             for source_key, terms in taxonomy.get("ignored_specialisation_terms", {}).items()
         }
         self.opportunities: list[dict] = []
+        self.rejected_scope: list[dict] = []
 
     @staticmethod
     def _build_alias_map(entries: list[dict]) -> dict:
@@ -227,7 +229,21 @@ class FeedBuilder:
 
     def add(self, opportunity: dict):
         opportunity = normalise_opportunity_temporal_fields(opportunity)
-        self.opportunities.append(self.enricher.enrich(opportunity) if self.enricher else opportunity)
+        enriched = self.enricher.enrich(opportunity) if self.enricher else opportunity
+        relevance = enriched.get("africa_relevance") or {}
+        # Certification rule: known non-African duty stations without an
+        # explicit Africa remit are never published in the Africa feed.
+        if relevance.get("status") == "non_african":
+            self.rejected_scope.append({
+                "id": enriched.get("id"),
+                "title": enriched.get("title"),
+                "organisation": (enriched.get("organisation") or {}).get("name"),
+                "location": enriched.get("location"),
+                "reason": "known_non_african_without_africa_remit",
+                "africa_relevance": relevance,
+            })
+            return
+        self.opportunities.append(enriched)
 
     def deduplicate(self) -> int:
         """Resolve ID, URL and conservative semantic duplicates.
@@ -263,11 +279,17 @@ class FeedBuilder:
                 "ngo_taxonomy_version": "1.0",
                 "ngo_classifier_version": "1.1",
                 "official_vacancy_quality_version": "1.1",
+                "publication_repair_version": "1.0",
+                "bootstrap_schema_migration": False,
+                "live_refresh_completed": True,
                 "government_source_pack_version": "1.0",
                 "government_schema_version": "1.0",
                 "kenya_public_institutions_version": "1.0",
                 "multinational_source_pack_version": "1.0",
                 "multinational_adapter_version": "1.0",
+                "africa_access_certification_version": "1.0",
+                "government_deduplication_version": "3.0",
+                "eligibility_evidence_version": "2.0",
             },
             "opportunities": self.opportunities,
         }
@@ -343,6 +365,7 @@ def main():
     parser.add_argument("--sources", default="config/source_registry.json")
     parser.add_argument("--organisations", default="config/organisations.json")
     parser.add_argument("--locations", default="config/african_locations.json")
+    parser.add_argument("--global-countries", default="config/global_country_codes.json")
     parser.add_argument("--role-taxonomy", default="config/role_taxonomy.json")
     parser.add_argument("--investment-taxonomy", default="config/investment_taxonomy.json")
     parser.add_argument("--ngo-taxonomy", default="config/ngo_taxonomy.json")
@@ -358,6 +381,9 @@ def main():
     parser.add_argument("--government-coverage-report", default="reports/government_coverage_report.json")
     parser.add_argument("--public-institution-coverage-report", default="reports/kenya_public_institutions_report.json")
     parser.add_argument("--multinational-coverage-report", default="reports/multinational_coverage_report.json")
+    parser.add_argument("--certification-report", default="reports/africa_eligibility_certification_report.json")
+    parser.add_argument("--rejected-records", default="reports/rejected_records.json")
+    parser.add_argument("--certified-feed", default="certified_feed.json")
     parser.add_argument("--public-institution-registry", default="config/kenya_public_institutions.json")
     parser.add_argument("--multinational-registry", default="config/multinational_targets.json")
     parser.add_argument("--coverage-gates", default="config/coverage_gates.json")
@@ -386,6 +412,7 @@ def main():
         sources,
         load_json(here / args.investment_taxonomy),
         load_json(here / args.ngo_taxonomy),
+        load_json(here / args.global_countries),
     )
     builder = FeedBuilder(taxonomy, sources, enricher=enricher)
 
@@ -461,6 +488,17 @@ def main():
         print("Generated feed failed Phase 5 regression coverage gates - not writing output.", file=sys.stderr)
         sys.exit(1)
 
+    certification_report = evaluate_certification(
+        feed, getattr(builder, "deduplication_report", {})
+    )
+    for warning in certification_report["warnings"]:
+        print(f"WARN certification: {warning}", file=sys.stderr)
+    for error in certification_report["errors"]:
+        print(f"ERROR certification: {error}", file=sys.stderr)
+    if certification_report["errors"]:
+        print("Generated feed failed Africa/access certification gates - not writing output.", file=sys.stderr)
+        sys.exit(1)
+
     try:
         out_path = _resolve_repo_path(here, args.out)
     except ValueError as exc:
@@ -496,6 +534,9 @@ def main():
         government_coverage_path = _resolve_repo_path(here, args.government_coverage_report)
         public_institution_coverage_path = _resolve_repo_path(here, args.public_institution_coverage_report)
         multinational_coverage_path = _resolve_repo_path(here, args.multinational_coverage_report)
+        certification_path = _resolve_repo_path(here, args.certification_report)
+        rejected_path = _resolve_repo_path(here, args.rejected_records)
+        certified_feed_path = _resolve_repo_path(here, args.certified_feed)
         health_path, manifest_path, errors_path = _write_runtime_reports(
             here, args.source_health, args.collector_manifest, args.collector_errors,
             per_source_counts, source_statuses, configured_counts, http_client.stats,
@@ -509,6 +550,14 @@ def main():
     )
     write_json(deduplication_path, {"report_version": "1.0", **getattr(builder, "deduplication_report", {"input_count": len(builder.opportunities), "published_count": len(builder.opportunities), "removed_count": 0, "events": []})})
     write_json(coverage_gate_path, coverage_gate_report)
+    write_json(certification_path, certification_report)
+    write_json(certified_feed_path, build_certified_feed(feed))
+    write_json(rejected_path, {
+        "report_version": "1.0",
+        "generated_at": feed["meta"]["generated_at"],
+        "rejected_count": len(builder.rejected_scope),
+        "records": builder.rejected_scope,
+    })
     write_json(investment_coverage_path, build_investment_coverage_report(feed))
     write_json(dfi_coverage_path, build_dfi_coverage_report(feed))
     write_json(ngo_coverage_path, build_ngo_coverage_report(feed))
@@ -534,6 +583,9 @@ def main():
     print(f"Wrote government coverage report to {government_coverage_path}")
     print(f"Wrote Kenya public-institution coverage report to {public_institution_coverage_path}")
     print(f"Wrote multinational coverage report to {multinational_coverage_path}")
+    print(f"Wrote Africa/access certification report to {certification_path}")
+    print(f"Wrote certified default feed to {certified_feed_path}")
+    print(f"Wrote rejected records audit to {rejected_path}")
 
 
 if __name__ == "__main__":

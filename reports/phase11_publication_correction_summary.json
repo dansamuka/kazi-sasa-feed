@@ -1,0 +1,22 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 11 publication correction",
+  "generated_at": "2026-07-14T06:15:55.651719Z",
+  "feed_version": "3.8",
+  "tests": 272,
+  "features": [
+    "source_only_deployment",
+    "preserve_live_generated_artifacts",
+    "bootstrap_existing_feed",
+    "legacy_source_default_repair",
+    "invalid_official_title_removal",
+    "non_african_official_scope_repair",
+    "staged_live_refresh",
+    "last_known_good_fallback",
+    "honest_source_timestamp_banner"
+  ],
+  "packaged_snapshot": {
+    "opportunity_count": 204,
+    "ids_preserved": true
+  }
+}

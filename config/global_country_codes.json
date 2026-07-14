@@ -1,0 +1,2483 @@
+{
+  "registry_version": "1.0",
+  "countries": [
+    {
+      "iso2": "AW",
+      "iso3": "ABW",
+      "name": "Aruba",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "name": "Afghanistan",
+      "aliases": [
+        "Islamic Republic of Afghanistan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "name": "Angola",
+      "aliases": [
+        "Republic of Angola"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Angolan"
+      ]
+    },
+    {
+      "iso2": "AI",
+      "iso3": "AIA",
+      "name": "Anguilla",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AX",
+      "iso3": "ALA",
+      "name": "Åland Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "name": "Albania",
+      "aliases": [
+        "Republic of Albania"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AD",
+      "iso3": "AND",
+      "name": "Andorra",
+      "aliases": [
+        "Principality of Andorra"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "aliases": [
+        "UAE",
+        "United Arab Emirates"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "name": "Argentina",
+      "aliases": [
+        "Argentine Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "name": "Armenia",
+      "aliases": [
+        "Republic of Armenia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "name": "American Samoa",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AQ",
+      "iso3": "ATA",
+      "name": "Antarctica",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TF",
+      "iso3": "ATF",
+      "name": "French Southern Territories",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "name": "Antigua and Barbuda",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "name": "Australia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "name": "Austria",
+      "aliases": [
+        "Republic of Austria"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "name": "Azerbaijan",
+      "aliases": [
+        "Republic of Azerbaijan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "name": "Burundi",
+      "aliases": [
+        "Republic of Burundi"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Burundian"
+      ]
+    },
+    {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "name": "Belgium",
+      "aliases": [
+        "Kingdom of Belgium"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "name": "Benin",
+      "aliases": [
+        "Republic of Benin"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Beninese"
+      ]
+    },
+    {
+      "iso2": "BQ",
+      "iso3": "BES",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "aliases": [],
+      "is_african": true,
+      "nationality_terms": [
+        "Burkinabe",
+        "Burkinabè"
+      ]
+    },
+    {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "name": "Bangladesh",
+      "aliases": [
+        "People's Republic of Bangladesh"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "name": "Bulgaria",
+      "aliases": [
+        "Republic of Bulgaria"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "name": "Bahrain",
+      "aliases": [
+        "Kingdom of Bahrain"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "name": "Bahamas",
+      "aliases": [
+        "Commonwealth of the Bahamas"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [
+        "Republic of Bosnia and Herzegovina"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BL",
+      "iso3": "BLM",
+      "name": "Saint Barthélemy",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "name": "Belarus",
+      "aliases": [
+        "Republic of Belarus"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "name": "Belize",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BM",
+      "iso3": "BMU",
+      "name": "Bermuda",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "name": "Bolivia, Plurinational State of",
+      "aliases": [
+        "Bolivia",
+        "Plurinational State of Bolivia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "name": "Brazil",
+      "aliases": [
+        "Federative Republic of Brazil"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "name": "Barbados",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "name": "Brunei Darussalam",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "name": "Bhutan",
+      "aliases": [
+        "Kingdom of Bhutan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BV",
+      "iso3": "BVT",
+      "name": "Bouvet Island",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "name": "Botswana",
+      "aliases": [
+        "Republic of Botswana"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Botswanan",
+        "Motswana"
+      ]
+    },
+    {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "name": "Central African Republic",
+      "aliases": [],
+      "is_african": true,
+      "nationality_terms": [
+        "Central African"
+      ]
+    },
+    {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "name": "Canada",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CC",
+      "iso3": "CCK",
+      "name": "Cocos (Keeling) Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "name": "Switzerland",
+      "aliases": [
+        "Swiss Confederation"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "name": "Chile",
+      "aliases": [
+        "Republic of Chile"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "name": "China",
+      "aliases": [
+        "People's Republic of China"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "name": "Côte d'Ivoire",
+      "aliases": [
+        "Ivory Coast",
+        "Republic of Côte d'Ivoire"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Ivorian"
+      ]
+    },
+    {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "aliases": [
+        "Republic of Cameroon"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Cameroonian"
+      ]
+    },
+    {
+      "iso2": "CD",
+      "iso3": "COD",
+      "name": "Congo, The Democratic Republic of the",
+      "aliases": [
+        "DR Congo",
+        "DRC"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "DR Congolese",
+        "Congolese from the Democratic Republic of the Congo"
+      ]
+    },
+    {
+      "iso2": "CG",
+      "iso3": "COG",
+      "name": "Congo",
+      "aliases": [
+        "Congo Republic",
+        "Republic of the Congo"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Republic of Congo national",
+        "Congolese from the Republic of the Congo"
+      ]
+    },
+    {
+      "iso2": "CK",
+      "iso3": "COK",
+      "name": "Cook Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CO",
+      "iso3": "COL",
+      "name": "Colombia",
+      "aliases": [
+        "Republic of Colombia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KM",
+      "iso3": "COM",
+      "name": "Comoros",
+      "aliases": [
+        "Union of the Comoros"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Comorian"
+      ]
+    },
+    {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "name": "Cabo Verde",
+      "aliases": [
+        "Republic of Cabo Verde"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Cabo Verdean",
+        "Cape Verdean"
+      ]
+    },
+    {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "aliases": [
+        "Republic of Costa Rica"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "name": "Cuba",
+      "aliases": [
+        "Republic of Cuba"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CW",
+      "iso3": "CUW",
+      "name": "Curaçao",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CX",
+      "iso3": "CXR",
+      "name": "Christmas Island",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KY",
+      "iso3": "CYM",
+      "name": "Cayman Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "name": "Cyprus",
+      "aliases": [
+        "Republic of Cyprus"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "name": "Czechia",
+      "aliases": [
+        "Czech Republic",
+        "Czechia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "name": "Germany",
+      "aliases": [
+        "Federal Republic of Germany"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "aliases": [
+        "Republic of Djibouti"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Djiboutian"
+      ]
+    },
+    {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "name": "Dominica",
+      "aliases": [
+        "Commonwealth of Dominica"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "name": "Denmark",
+      "aliases": [
+        "Kingdom of Denmark"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "name": "Dominican Republic",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "name": "Algeria",
+      "aliases": [
+        "People's Democratic Republic of Algeria"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Algerian"
+      ]
+    },
+    {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "name": "Ecuador",
+      "aliases": [
+        "Republic of Ecuador"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "name": "Egypt",
+      "aliases": [
+        "Arab Republic of Egypt"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Egyptian"
+      ]
+    },
+    {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "aliases": [
+        "the State of Eritrea"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Eritrean"
+      ]
+    },
+    {
+      "iso2": "EH",
+      "iso3": "ESH",
+      "name": "Western Sahara",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "name": "Spain",
+      "aliases": [
+        "Kingdom of Spain"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "EE",
+      "iso3": "EST",
+      "name": "Estonia",
+      "aliases": [
+        "Republic of Estonia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "aliases": [
+        "Federal Democratic Republic of Ethiopia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Ethiopian"
+      ]
+    },
+    {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "name": "Finland",
+      "aliases": [
+        "Republic of Finland"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "name": "Fiji",
+      "aliases": [
+        "Republic of Fiji"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "FK",
+      "iso3": "FLK",
+      "name": "Falkland Islands (Malvinas)",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "name": "France",
+      "aliases": [
+        "French Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "FO",
+      "iso3": "FRO",
+      "name": "Faroe Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "name": "Micronesia, Federated States of",
+      "aliases": [
+        "Federated States of Micronesia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "name": "Gabon",
+      "aliases": [
+        "Gabonese Republic"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Gabonese"
+      ]
+    },
+    {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "name": "United Kingdom",
+      "aliases": [
+        "Britain",
+        "Great Britain",
+        "UK",
+        "United Kingdom",
+        "United Kingdom of Great Britain and Northern Ireland"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "name": "Georgia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GG",
+      "iso3": "GGY",
+      "name": "Guernsey",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "name": "Ghana",
+      "aliases": [
+        "Republic of Ghana"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Ghanaian"
+      ]
+    },
+    {
+      "iso2": "GI",
+      "iso3": "GIB",
+      "name": "Gibraltar",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "name": "Guinea",
+      "aliases": [
+        "Republic of Guinea"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Guinean"
+      ]
+    },
+    {
+      "iso2": "GP",
+      "iso3": "GLP",
+      "name": "Guadeloupe",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "name": "Gambia",
+      "aliases": [
+        "Republic of the Gambia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Gambian"
+      ]
+    },
+    {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Republic of Guinea-Bissau"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Bissau-Guinean"
+      ]
+    },
+    {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "Republic of Equatorial Guinea"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Equatorial Guinean"
+      ]
+    },
+    {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "name": "Greece",
+      "aliases": [
+        "Hellenic Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "name": "Grenada",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GL",
+      "iso3": "GRL",
+      "name": "Greenland",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "name": "Guatemala",
+      "aliases": [
+        "Republic of Guatemala"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GF",
+      "iso3": "GUF",
+      "name": "French Guiana",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GU",
+      "iso3": "GUM",
+      "name": "Guam",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "name": "Guyana",
+      "aliases": [
+        "Republic of Guyana"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HK",
+      "iso3": "HKG",
+      "name": "Hong Kong",
+      "aliases": [
+        "Hong Kong",
+        "Hong Kong Special Administrative Region of China"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HM",
+      "iso3": "HMD",
+      "name": "Heard Island and McDonald Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HN",
+      "iso3": "HND",
+      "name": "Honduras",
+      "aliases": [
+        "Republic of Honduras"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "name": "Croatia",
+      "aliases": [
+        "Republic of Croatia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "name": "Haiti",
+      "aliases": [
+        "Republic of Haiti"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "name": "Hungary",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "aliases": [
+        "Republic of Indonesia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IM",
+      "iso3": "IMN",
+      "name": "Isle of Man",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IN",
+      "iso3": "IND",
+      "name": "India",
+      "aliases": [
+        "Republic of India"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IO",
+      "iso3": "IOT",
+      "name": "British Indian Ocean Territory",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "name": "Ireland",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "name": "Iran, Islamic Republic of",
+      "aliases": [
+        "Iran",
+        "Islamic Republic of Iran"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "name": "Iraq",
+      "aliases": [
+        "Republic of Iraq"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "name": "Iceland",
+      "aliases": [
+        "Republic of Iceland"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "name": "Israel",
+      "aliases": [
+        "State of Israel"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "JE",
+      "iso3": "JEY",
+      "name": "Jersey",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "name": "Jordan",
+      "aliases": [
+        "Hashemite Kingdom of Jordan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "name": "Japan",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "name": "Kazakhstan",
+      "aliases": [
+        "Republic of Kazakhstan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "name": "Kenya",
+      "aliases": [
+        "Republic of Kenya"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Kenyan"
+      ]
+    },
+    {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "name": "Kyrgyzstan",
+      "aliases": [
+        "Kyrgyz Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "name": "Cambodia",
+      "aliases": [
+        "Kingdom of Cambodia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "name": "Kiribati",
+      "aliases": [
+        "Republic of Kiribati"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "name": "Korea, Republic of",
+      "aliases": [
+        "Republic of Korea",
+        "South Korea"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "name": "Kuwait",
+      "aliases": [
+        "State of Kuwait"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "name": "Lao People's Democratic Republic",
+      "aliases": [
+        "Laos"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "name": "Lebanon",
+      "aliases": [
+        "Lebanese Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "name": "Liberia",
+      "aliases": [
+        "Republic of Liberia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Liberian"
+      ]
+    },
+    {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "name": "Libya",
+      "aliases": [],
+      "is_african": true,
+      "nationality_terms": [
+        "Libyan"
+      ]
+    },
+    {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "name": "Saint Lucia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "name": "Liechtenstein",
+      "aliases": [
+        "Principality of Liechtenstein"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "name": "Sri Lanka",
+      "aliases": [
+        "Democratic Socialist Republic of Sri Lanka"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "aliases": [
+        "Kingdom of Lesotho"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Basotho",
+        "Lesotho national"
+      ]
+    },
+    {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "name": "Lithuania",
+      "aliases": [
+        "Republic of Lithuania"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "name": "Luxembourg",
+      "aliases": [
+        "Grand Duchy of Luxembourg"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "name": "Latvia",
+      "aliases": [
+        "Republic of Latvia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MO",
+      "iso3": "MAC",
+      "name": "Macao",
+      "aliases": [
+        "Macao Special Administrative Region of China",
+        "Macau"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MF",
+      "iso3": "MAF",
+      "name": "Saint Martin (French part)",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "name": "Morocco",
+      "aliases": [
+        "Kingdom of Morocco"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Moroccan"
+      ]
+    },
+    {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "name": "Monaco",
+      "aliases": [
+        "Principality of Monaco"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "name": "Moldova, Republic of",
+      "aliases": [
+        "Moldova",
+        "Republic of Moldova"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "aliases": [
+        "Republic of Madagascar"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Malagasy"
+      ]
+    },
+    {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "name": "Maldives",
+      "aliases": [
+        "Republic of Maldives"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "name": "Mexico",
+      "aliases": [
+        "United Mexican States"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "name": "Marshall Islands",
+      "aliases": [
+        "Republic of the Marshall Islands"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "name": "North Macedonia",
+      "aliases": [
+        "Republic of North Macedonia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "name": "Mali",
+      "aliases": [
+        "Republic of Mali"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Malian"
+      ]
+    },
+    {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "name": "Malta",
+      "aliases": [
+        "Republic of Malta"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "name": "Myanmar",
+      "aliases": [
+        "Republic of Myanmar"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "name": "Montenegro",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "name": "Mongolia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MP",
+      "iso3": "MNP",
+      "name": "Northern Mariana Islands",
+      "aliases": [
+        "Commonwealth of the Northern Mariana Islands"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "aliases": [
+        "Republic of Mozambique"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Mozambican"
+      ]
+    },
+    {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "aliases": [
+        "Islamic Republic of Mauritania"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Mauritanian"
+      ]
+    },
+    {
+      "iso2": "MS",
+      "iso3": "MSR",
+      "name": "Montserrat",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MQ",
+      "iso3": "MTQ",
+      "name": "Martinique",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "name": "Mauritius",
+      "aliases": [
+        "Republic of Mauritius"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Mauritian"
+      ]
+    },
+    {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "name": "Malawi",
+      "aliases": [
+        "Republic of Malawi"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Malawian"
+      ]
+    },
+    {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "name": "Malaysia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "YT",
+      "iso3": "MYT",
+      "name": "Mayotte",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "name": "Namibia",
+      "aliases": [
+        "Republic of Namibia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Namibian"
+      ]
+    },
+    {
+      "iso2": "NC",
+      "iso3": "NCL",
+      "name": "New Caledonia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NE",
+      "iso3": "NER",
+      "name": "Niger",
+      "aliases": [
+        "Republic of the Niger"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Nigerien"
+      ]
+    },
+    {
+      "iso2": "NF",
+      "iso3": "NFK",
+      "name": "Norfolk Island",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "aliases": [
+        "Federal Republic of Nigeria"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Nigerian"
+      ]
+    },
+    {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "name": "Nicaragua",
+      "aliases": [
+        "Republic of Nicaragua"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NU",
+      "iso3": "NIU",
+      "name": "Niue",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "name": "Netherlands",
+      "aliases": [
+        "Kingdom of the Netherlands"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "name": "Norway",
+      "aliases": [
+        "Kingdom of Norway"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "name": "Nepal",
+      "aliases": [
+        "Federal Democratic Republic of Nepal"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "name": "Nauru",
+      "aliases": [
+        "Republic of Nauru"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "name": "Oman",
+      "aliases": [
+        "Sultanate of Oman"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "name": "Pakistan",
+      "aliases": [
+        "Islamic Republic of Pakistan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "name": "Panama",
+      "aliases": [
+        "Republic of Panama"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PN",
+      "iso3": "PCN",
+      "name": "Pitcairn",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PE",
+      "iso3": "PER",
+      "name": "Peru",
+      "aliases": [
+        "Republic of Peru"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "name": "Philippines",
+      "aliases": [
+        "Republic of the Philippines"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "name": "Palau",
+      "aliases": [
+        "Republic of Palau"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "name": "Papua New Guinea",
+      "aliases": [
+        "Independent State of Papua New Guinea"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PL",
+      "iso3": "POL",
+      "name": "Poland",
+      "aliases": [
+        "Republic of Poland"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PR",
+      "iso3": "PRI",
+      "name": "Puerto Rico",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "name": "Korea, Democratic People's Republic of",
+      "aliases": [
+        "Democratic People's Republic of Korea",
+        "North Korea"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "name": "Portugal",
+      "aliases": [
+        "Portuguese Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "name": "Paraguay",
+      "aliases": [
+        "Republic of Paraguay"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "name": "Palestine, State of",
+      "aliases": [
+        "Palestine",
+        "the State of Palestine"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "PF",
+      "iso3": "PYF",
+      "name": "French Polynesia",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "name": "Qatar",
+      "aliases": [
+        "State of Qatar"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "RE",
+      "iso3": "REU",
+      "name": "Réunion",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "name": "Romania",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "name": "Russian Federation",
+      "aliases": [
+        "Russia",
+        "Russian Federation"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "aliases": [
+        "Rwandese Republic"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Rwandan"
+      ]
+    },
+    {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Kingdom of Saudi Arabia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "name": "Sudan",
+      "aliases": [
+        "Republic of the Sudan"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Sudanese"
+      ]
+    },
+    {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "name": "Senegal",
+      "aliases": [
+        "Republic of Senegal"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Senegalese"
+      ]
+    },
+    {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "name": "Singapore",
+      "aliases": [
+        "Republic of Singapore"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "GS",
+      "iso3": "SGS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SH",
+      "iso3": "SHN",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SJ",
+      "iso3": "SJM",
+      "name": "Svalbard and Jan Mayen",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "name": "Solomon Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republic of Sierra Leone"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Sierra Leonean"
+      ]
+    },
+    {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "name": "El Salvador",
+      "aliases": [
+        "Republic of El Salvador"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "name": "San Marino",
+      "aliases": [
+        "Republic of San Marino"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "name": "Somalia",
+      "aliases": [
+        "Federal Republic of Somalia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Somali"
+      ]
+    },
+    {
+      "iso2": "PM",
+      "iso3": "SPM",
+      "name": "Saint Pierre and Miquelon",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "name": "Serbia",
+      "aliases": [
+        "Republic of Serbia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "name": "South Sudan",
+      "aliases": [
+        "Republic of South Sudan"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "South Sudanese"
+      ]
+    },
+    {
+      "iso2": "ST",
+      "iso3": "STP",
+      "name": "Sao Tome and Principe",
+      "aliases": [
+        "Democratic Republic of Sao Tome and Principe"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Sao Tomean",
+        "São Toméan"
+      ]
+    },
+    {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "name": "Suriname",
+      "aliases": [
+        "Republic of Suriname"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "name": "Slovakia",
+      "aliases": [
+        "Slovak Republic"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "name": "Slovenia",
+      "aliases": [
+        "Republic of Slovenia"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "name": "Sweden",
+      "aliases": [
+        "Kingdom of Sweden"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "name": "Eswatini",
+      "aliases": [
+        "Kingdom of Eswatini"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Swazi",
+        "Eswatini national"
+      ]
+    },
+    {
+      "iso2": "SX",
+      "iso3": "SXM",
+      "name": "Sint Maarten (Dutch part)",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "name": "Seychelles",
+      "aliases": [
+        "Republic of Seychelles"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Seychellois"
+      ]
+    },
+    {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "name": "Syrian Arab Republic",
+      "aliases": [
+        "Syria"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TC",
+      "iso3": "TCA",
+      "name": "Turks and Caicos Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "name": "Chad",
+      "aliases": [
+        "Republic of Chad"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Chadian"
+      ]
+    },
+    {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "name": "Togo",
+      "aliases": [
+        "Togolese Republic"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Togolese"
+      ]
+    },
+    {
+      "iso2": "TH",
+      "iso3": "THA",
+      "name": "Thailand",
+      "aliases": [
+        "Kingdom of Thailand"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "name": "Tajikistan",
+      "aliases": [
+        "Republic of Tajikistan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TK",
+      "iso3": "TKL",
+      "name": "Tokelau",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "name": "Turkmenistan",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "name": "Timor-Leste",
+      "aliases": [
+        "Democratic Republic of Timor-Leste"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TO",
+      "iso3": "TON",
+      "name": "Tonga",
+      "aliases": [
+        "Kingdom of Tonga"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Republic of Trinidad and Tobago"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "aliases": [
+        "Republic of Tunisia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Tunisian"
+      ]
+    },
+    {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "name": "Türkiye",
+      "aliases": [
+        "Republic of Türkiye",
+        "Turkey",
+        "Türkiye"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "name": "Tuvalu",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TW",
+      "iso3": "TWN",
+      "name": "Taiwan, Province of China",
+      "aliases": [
+        "Taiwan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "name": "Tanzania, United Republic of",
+      "aliases": [
+        "Tanzania",
+        "United Republic of Tanzania"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Tanzanian"
+      ]
+    },
+    {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "name": "Uganda",
+      "aliases": [
+        "Republic of Uganda"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Ugandan"
+      ]
+    },
+    {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "UM",
+      "iso3": "UMI",
+      "name": "United States Minor Outlying Islands",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "UY",
+      "iso3": "URY",
+      "name": "Uruguay",
+      "aliases": [
+        "Eastern Republic of Uruguay"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "US",
+      "iso3": "USA",
+      "name": "United States",
+      "aliases": [
+        "America",
+        "USA",
+        "United States of America"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "name": "Uzbekistan",
+      "aliases": [
+        "Republic of Uzbekistan"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "name": "Holy See (Vatican City State)",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "name": "Venezuela, Bolivarian Republic of",
+      "aliases": [
+        "Bolivarian Republic of Venezuela",
+        "Venezuela"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VG",
+      "iso3": "VGB",
+      "name": "Virgin Islands, British",
+      "aliases": [
+        "British Virgin Islands"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VI",
+      "iso3": "VIR",
+      "name": "Virgin Islands, U.S.",
+      "aliases": [
+        "Virgin Islands of the United States"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "name": "Viet Nam",
+      "aliases": [
+        "Socialist Republic of Viet Nam",
+        "Viet Nam",
+        "Vietnam"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "name": "Vanuatu",
+      "aliases": [
+        "Republic of Vanuatu"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "WF",
+      "iso3": "WLF",
+      "name": "Wallis and Futuna",
+      "aliases": [],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "name": "Samoa",
+      "aliases": [
+        "Independent State of Samoa"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "name": "Yemen",
+      "aliases": [
+        "Republic of Yemen"
+      ],
+      "is_african": false,
+      "nationality_terms": []
+    },
+    {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "aliases": [
+        "Republic of South Africa"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "South African"
+      ]
+    },
+    {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "aliases": [
+        "Republic of Zambia"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Zambian"
+      ]
+    },
+    {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "aliases": [
+        "Republic of Zimbabwe"
+      ],
+      "is_african": true,
+      "nationality_terms": [
+        "Zimbabwean"
+      ]
+    }
+  ]
+}

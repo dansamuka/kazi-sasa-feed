@@ -31,6 +31,7 @@ def validate_all(root: Path) -> list[str]:
     sources = load_json(config / "source_registry.json")
     portals = load_json(config / "public_portals.json")
     locations = load_json(config / "african_locations.json")
+    global_countries = load_json(config / "global_country_codes.json")
     roles = load_json(config / "role_taxonomy.json")
     policies = load_json(config / "source_policies.json")
     investment = load_json(config / "investment_taxonomy.json")
@@ -66,6 +67,52 @@ def validate_all(root: Path) -> list[str]:
     valid_country_codes = {value for value in iso2_values if len(value) == 2}
     if len(valid_country_codes) != 54:
         errors.append(f"african_locations.json must contain 54 unique ISO2 countries, found {len(valid_country_codes)}")
+    # Phase 12 global-country registry. This closes a deliberate gap in the
+    # Africa-only location normaliser: known non-African ISO codes and country
+    # aliases must be recognised before a role can enter the Africa feed.
+    if global_countries.get("registry_version") != "1.0":
+        errors.append("global_country_codes.json registry_version must be 1.0")
+    global_rows = global_countries.get("countries")
+    if not isinstance(global_rows, list) or not global_rows:
+        errors.append("global_country_codes.json countries must be a non-empty list")
+        global_rows = []
+    global_iso2 = [str(row.get("iso2", "")).upper() for row in global_rows if isinstance(row, dict)]
+    global_iso3 = [str(row.get("iso3", "")).upper() for row in global_rows if isinstance(row, dict)]
+    for value in sorted(_duplicates(global_iso2)):
+        errors.append(f"duplicate global ISO2 country code {value!r}")
+    for value in sorted(_duplicates(global_iso3)):
+        errors.append(f"duplicate global ISO3 country code {value!r}")
+    if len(set(global_iso2)) != 249:
+        errors.append(f"global_country_codes.json must contain 249 unique ISO2 countries, found {len(set(global_iso2))}")
+    if len(set(global_iso3)) != 249:
+        errors.append(f"global_country_codes.json must contain 249 unique ISO3 countries, found {len(set(global_iso3))}")
+    for index, row in enumerate(global_rows):
+        label = f"global_country_codes.countries[{index}]"
+        if not isinstance(row, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        if len(str(row.get("iso2", ""))) != 2 or len(str(row.get("iso3", ""))) != 3:
+            errors.append(f"{label} requires valid ISO2 and ISO3 codes")
+        if not row.get("name"):
+            errors.append(f"{label}.name is required")
+        if not isinstance(row.get("aliases", []), list):
+            errors.append(f"{label}.aliases must be a list")
+        if not isinstance(row.get("nationality_terms", []), list):
+            errors.append(f"{label}.nationality_terms must be a list")
+        if not isinstance(row.get("is_african"), bool):
+            errors.append(f"{label}.is_african must be boolean")
+    flagged_african = {
+        str(row.get("iso2", "")).upper() for row in global_rows
+        if isinstance(row, dict) and row.get("is_african")
+    }
+    if flagged_african != valid_country_codes:
+        missing = sorted(valid_country_codes - flagged_african)
+        extra = sorted(flagged_african - valid_country_codes)
+        errors.append(
+            "global_country_codes African flags must exactly match african_locations.json "
+            f"(missing={missing}, extra={extra})"
+        )
+
     for index, country in enumerate(countries):
         label = f"african_locations.countries[{index}]"
         if not isinstance(country, dict):
@@ -341,6 +388,8 @@ def validate_all(root: Path) -> list[str]:
         "phase10_kenya_fields_optional_for_older_snapshots",
         "phase11_additive_only",
         "phase11_fields_optional_for_older_snapshots",
+        "phase12_additive_only",
+        "phase12_fields_optional_for_older_snapshots",
     ):
         if schema_policy.get(required) is not True:
             errors.append(f"source_policies.schema_evolution.{required} must be true")
@@ -509,6 +558,23 @@ def validate_all(root: Path) -> list[str]:
             errors.append(f"source_policies.multinational_source_pack.{required} must be true")
     if multinational_policy.get("target_employer_count") != 100:
         errors.append("source_policies.multinational_source_pack.target_employer_count must be 100")
+
+    certification_policy = policies.get("africa_eligibility_certification") or {}
+    for required in (
+        "location_and_access_are_separate",
+        "known_non_african_locations_excluded_without_africa_remit",
+        "african_duty_station_is_not_access_evidence",
+        "structured_government_citizenship_precedes_text_inference",
+        "explicit_evidence_required_for_certified_access",
+        "government_shared_urls_are_not_deduplication_keys",
+        "certified_subset_published",
+        "broad_index_defaults_to_africa_relevant_scope",
+        "rejected_records_audited",
+    ):
+        if certification_policy.get(required) is not True:
+            errors.append(f"source_policies.africa_eligibility_certification.{required} must be true")
+    if certification_policy.get("version") != "1.0":
+        errors.append("source_policies.africa_eligibility_certification.version must be 1.0")
 
     return errors
 

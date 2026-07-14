@@ -1,0 +1,29 @@
+{
+  "report_version": "1.0",
+  "phase": "Africa and Eligibility Certification Hardening",
+  "feed_version": "3.8",
+  "summary": {
+    "broad_index_count": 204,
+    "certified_subset_count": 0,
+    "tests_expected": 287,
+    "global_country_registry_count": 249,
+    "african_country_count": 54,
+    "certification_status": "passed"
+  },
+  "features": [
+    "Africa relevance profile",
+    "African applicant access profile",
+    "structured government citizenship precedence",
+    "non-African scope rejection",
+    "government advert-reference deduplication",
+    "certified subset feed",
+    "site certification filters",
+    "CI certification gates",
+    "certified-only default website view"
+  ],
+  "compatibility": {
+    "feed_version_retained": "3.8",
+    "legacy_eligibility_preserved": true,
+    "additive_only": true
+  }
+}

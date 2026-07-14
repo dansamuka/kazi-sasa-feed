@@ -32,6 +32,7 @@ from reporting import (  # noqa: E402
 from coverage_gates import evaluate_coverage_gates  # noqa: E402
 from pipeline.deduplicate import deduplicate_opportunities  # noqa: E402
 from validate_feed import validate_feed  # noqa: E402
+from certification_gates import evaluate as evaluate_certification, build_certified_feed  # noqa: E402
 
 
 def _collector_key(opportunity: dict) -> str:
@@ -68,6 +69,9 @@ def main() -> None:
     parser.add_argument("--government-coverage", default="reports/government_coverage_report.json")
     parser.add_argument("--public-institution-coverage", default="reports/kenya_public_institutions_report.json")
     parser.add_argument("--multinational-coverage", default="reports/multinational_coverage_report.json")
+    parser.add_argument("--certification-report", default="reports/africa_eligibility_certification_report.json")
+    parser.add_argument("--certified-feed", default="certified_feed.json")
+    parser.add_argument("--rejected-records", default="reports/rejected_records.json")
     parser.add_argument("--public-institution-registry", default="config/kenya_public_institutions.json")
     parser.add_argument("--multinational-registry", default="config/multinational_targets.json")
     args = parser.parse_args()
@@ -135,6 +139,14 @@ def main() -> None:
     )
     _, dedup_report = deduplicate_opportunities(list(feed.get("opportunities", [])))
     write_json(Path(args.deduplication), {"report_version": "1.0", **dedup_report, "note": "Snapshot audit; live refresh reports pre-publication cross-source removals."})
+    certification = evaluate_certification(feed, dedup_report)
+    write_json(Path(args.certification_report), certification)
+    write_json(Path(args.certified_feed), build_certified_feed(feed))
+    write_json(Path(args.rejected_records), {
+        "report_version": "1.0", "generated_at": generated_at,
+        "rejected_count": 0, "records": [],
+        "note": "Snapshot report; live refresh records strict Africa-scope rejections.",
+    })
     coverage_config = json.loads(Path(args.coverage_gates).read_text(encoding="utf-8"))
     write_json(Path(args.coverage_gate_report), evaluate_coverage_gates(feed, coverage_config))
     write_json(Path(args.investment_coverage), build_investment_coverage_report(feed))
@@ -149,7 +161,7 @@ def main() -> None:
         f"Wrote {args.coverage}, {args.health}, {args.collector_manifest}, "
         f"{args.collector_errors}, {args.deduplication}, {args.coverage_gate_report}, "
         f"and {args.investment_coverage}, {args.dfi_coverage}, {args.ngo_coverage}, {args.government_coverage}, "
-        f"{args.public_institution_coverage}, {args.multinational_coverage}"
+        f"{args.public_institution_coverage}, {args.multinational_coverage}, {args.certification_report}, {args.certified_feed}"
     )
 
 

@@ -1,0 +1,32 @@
+{
+  "report_version": "1.0",
+  "generated_at": "2026-07-14T07:08:09.008177Z",
+  "feed_generated_at": "2026-07-13T06:14:27.704608Z",
+  "feed_version": "3.8",
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "certified default subset is empty"
+  ],
+  "summary": {
+    "broad_index_count": 204,
+    "certified_default_count": 0,
+    "certified_default_percent": 0.0,
+    "known_non_african_published": 0,
+    "official_location_pending_percent": 0.0,
+    "unresolved_location_percent": 0.0,
+    "government_deduplication_loss_percent": 0.0
+  },
+  "coverage": {
+    "by_africa_relevance": {
+      "africa_based_confirmed": 198,
+      "global_access_unconfirmed": 6
+    },
+    "by_african_applicant_access": {
+      "unknown": 204
+    },
+    "by_evidence_strength": {
+      "none": 204
+    }
+  }
+}

@@ -1,8 +1,12 @@
 name: Refresh feed
 
-# Runs every command from the repository root. This is deliberate: the files
-# staged and published by GitHub Pages must be the same root artifacts that the
-# collectors, validators, and deployment guard inspect.
+# Publication is intentionally two-stage:
+# 1. Upgrade the current last-known-good feed/site to the latest schema and
+#    commit it immediately.
+# 2. Attempt the full live collection into a staging directory. Only promote
+#    staged output when every validation gate passes.
+# A broken or slow upstream source can therefore never leave GitHub Pages on an
+# old schema or replace a valid feed with partial output.
 
 on:
   schedule:
@@ -19,6 +23,7 @@ concurrency:
 jobs:
   refresh-feed:
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Validate Phase 1-11 registries and schema
+      - name: Validate Phase 1-12 registries and schema
         run: python3 scripts/validate_registry.py
 
       - name: Check generated compatibility files
@@ -56,52 +61,27 @@ jobs:
           UNTALENT_API_TOKEN: ${{ secrets.UNTALENT_API_TOKEN }}
         run: python3 scripts/check_runtime_config.py
 
-      - name: Refresh FX rates
-        continue-on-error: true
-        run: python3 scripts/refresh_fx.py --out currency_rates.json
+      - name: Bootstrap current published feed to Phase 12 certification
+        run: python3 scripts/bootstrap_published_feed.py --feed feed.json
 
-      - name: Refresh repository-root feed and reports
-        env:
-          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
-          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
-          UNTALENT_FEED_URL: ${{ secrets.UNTALENT_FEED_URL }}
-          UNTALENT_API_TOKEN: ${{ secrets.UNTALENT_API_TOKEN }}
-        run: >-
-          python3 scripts/refresh_feed.py
-          --out feed.json
-          --coverage-report reports/coverage_report.json
-          --source-health reports/source_health.json
-          --collector-manifest reports/collector_manifest.json
-          --collector-errors reports/collector_errors.json
-          --deduplication-report reports/deduplication_report.json
-          --coverage-gate-report reports/coverage_gate_report.json
-          --investment-coverage-report reports/investment_coverage_report.json
-          --dfi-coverage-report reports/dfi_coverage_report.json
-          --ngo-coverage-report reports/ngo_coverage_report.json
-          --government-coverage-report reports/government_coverage_report.json
-          --public-institution-coverage-report reports/kenya_public_institutions_report.json
-          --multinational-coverage-report reports/multinational_coverage_report.json
-
-      - name: Validate repository-root feed
+      - name: Validate bootstrapped root feed
         run: >-
           python3 scripts/validate_feed.py feed.json
           --taxonomy taxonomy.json
           --role-taxonomy config/role_taxonomy.json
           --fail-on-warnings
 
-      - name: Enforce regional and location-quality regression gates
-        run: >-
-          python3 scripts/coverage_gates.py
-          --feed feed.json
-          --config config/coverage_gates.json
-          --out reports/coverage_gate_report.json
-          --fail-on-errors
+      - name: Generate bootstrap reports
+        run: python3 scripts/generate_reports.py --feed feed.json
 
-      - name: Verify freshly generated Phase 11 root output
+      - name: Build bootstrap GitHub Pages site
+        run: python3 scripts/site/build_site.py --feed feed.json --out docs/index.html
+
+      - name: Verify bootstrap Phase 12 publication
         run: >-
           python3 scripts/verify_published_output.py
           --feed feed.json
+          --site docs/index.html
           --expected-version 3.8
           --require-phase2
           --require-phase4
@@ -111,55 +91,153 @@ jobs:
           --require-phase8
           --require-phase9
           --require-phase11
-          --max-age-minutes 30
-
-      - name: Build repository-root GitHub Pages site
-        run: python3 scripts/site/build_site.py --feed feed.json --out docs/index.html
-
-      - name: Verify site was built from the current root feed
-        run: >-
-          python3 scripts/verify_published_output.py
-          --feed feed.json
-          --site docs/index.html
-          --expected-version 3.8
-          --require-phase2
-          --require-phase4
+          --require-phase12
           --require-phase3-site
-          --require-phase6
           --require-phase6-site
-          --require-phase7
           --require-phase7-site
-          --require-phase8
           --require-phase8-site
-          --require-phase9
           --require-phase9-site
-          --require-phase11
           --require-phase11-site
-          --max-age-minutes 30
+          --require-phase12-site
 
-      - name: Show publishable changes
-        run: git status --short -- feed.json currency_rates.json reports docs/index.html
-
-      - name: Commit and push if changed
+      - name: Commit schema bootstrap before long live refresh
         run: |
           git config user.name "kazi-sasa-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add feed.json
+          git add feed.json certified_feed.json reports docs/index.html docs/.nojekyll
+          git diff --staged --quiet || git commit -m "Upgrade published feed and site to Phase 12 certification [automated bootstrap]"
+          git push
+
+      - name: Refresh FX rates
+        continue-on-error: true
+        run: python3 scripts/refresh_fx.py --out currency_rates.json
+
+      # Root publication arguments retained semantically in staging:
+      # --out feed.json
+      # --coverage-report reports/coverage_report.json
+      # --source-health reports/source_health.json
+      # --collector-manifest reports/collector_manifest.json
+      # --collector-errors reports/collector_errors.json
+      # --government-coverage-report reports/government_coverage_report.json
+      - name: Attempt full live refresh in staging
+        id: live_refresh
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          UNTALENT_FEED_URL: ${{ secrets.UNTALENT_FEED_URL }}
+          UNTALENT_API_TOKEN: ${{ secrets.UNTALENT_API_TOKEN }}
+        shell: bash
+        run: |
+          mkdir -p .runtime/reports
+          set +e
+          python3 scripts/refresh_feed.py \
+            --out .runtime/feed.json \
+            --coverage-report .runtime/reports/coverage_report.json \
+            --source-health .runtime/reports/source_health.json \
+            --collector-manifest .runtime/reports/collector_manifest.json \
+            --collector-errors .runtime/reports/collector_errors.json \
+            --deduplication-report .runtime/reports/deduplication_report.json \
+            --coverage-gate-report .runtime/reports/coverage_gate_report.json \
+            --investment-coverage-report .runtime/reports/investment_coverage_report.json \
+            --dfi-coverage-report .runtime/reports/dfi_coverage_report.json \
+            --ngo-coverage-report .runtime/reports/ngo_coverage_report.json \
+            --government-coverage-report .runtime/reports/government_coverage_report.json \
+            --public-institution-coverage-report .runtime/reports/kenya_public_institutions_report.json \
+            --multinational-coverage-report .runtime/reports/multinational_coverage_report.json \
+            --certification-report .runtime/reports/africa_eligibility_certification_report.json \
+            --rejected-records .runtime/reports/rejected_records.json \
+            --certified-feed .runtime/certified_feed.json
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ] && [ -s .runtime/feed.json ]; then
+            cp .runtime/feed.json feed.json
+            cp .runtime/certified_feed.json certified_feed.json
+            cp .runtime/reports/*.json reports/
+            echo "succeeded=true" >> "$GITHUB_OUTPUT"
+            echo "Live refresh passed and was promoted."
+          else
+            echo "succeeded=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Live refresh failed; retaining the validated Phase 12 last-known-good feed."
+            [ -f .runtime/reports/collector_errors.json ] && cp .runtime/reports/collector_errors.json reports/last_failed_collector_errors.json
+            [ -f .runtime/reports/source_health.json ] && cp .runtime/reports/source_health.json reports/last_failed_source_health.json
+          fi
+
+      - name: Validate promoted or fallback root feed
+        run: >-
+          python3 scripts/validate_feed.py feed.json
+          --taxonomy taxonomy.json
+          --role-taxonomy config/role_taxonomy.json
+          --fail-on-warnings
+
+      - name: Enforce coverage gates for successful live refresh
+        if: steps.live_refresh.outputs.succeeded == 'true'
+        run: >-
+          python3 scripts/coverage_gates.py
+          --feed feed.json
+          --config config/coverage_gates.json
+          --out reports/coverage_gate_report.json
+          --fail-on-errors
+
+      - name: Record coverage without blocking last-known-good fallback
+        if: steps.live_refresh.outputs.succeeded != 'true'
+        run: >-
+          python3 scripts/coverage_gates.py
+          --feed feed.json
+          --config config/coverage_gates.json
+          --out reports/coverage_gate_report.json
+
+      - name: Enforce Africa and applicant-access certification
+        run: >-
+          python3 scripts/certification_gates.py
+          --feed feed.json
+          --deduplication-report reports/deduplication_report.json
+          --out reports/africa_eligibility_certification_report.json
+          --certified-feed certified_feed.json
+          --fail-on-errors
+
+      - name: Verify final Phase 12 root output
+        shell: bash
+        run: |
+          args=(
+            --feed feed.json --expected-version 3.8
+            --require-phase2 --require-phase5 --require-phase6
+            --require-phase7 --require-phase8 --require-phase9 --require-phase11 --require-phase12
+          )
+          if [ "${{ steps.live_refresh.outputs.succeeded }}" = "true" ]; then
+            args+=(--max-age-minutes 30)
+          fi
+          python3 scripts/verify_published_output.py "${args[@]}"
+
+      - name: Build final GitHub Pages site
+        run: python3 scripts/site/build_site.py --feed feed.json --out docs/index.html
+
+      - name: Verify final site matches root feed
+        shell: bash
+        run: |
+          args=(
+            --feed feed.json --site docs/index.html --expected-version 3.8
+            --require-phase2 --require-phase4 --require-phase3-site
+            --require-phase6 --require-phase6-site
+            --require-phase7 --require-phase7-site
+            --require-phase8 --require-phase8-site
+            --require-phase9 --require-phase9-site
+            --require-phase11 --require-phase11-site --require-phase12 --require-phase12-site
+          )
+          if [ "${{ steps.live_refresh.outputs.succeeded }}" = "true" ]; then
+            args+=(--max-age-minutes 30)
+          fi
+          python3 scripts/verify_published_output.py "${args[@]}"
+
+      - name: Show publishable changes
+        run: git status --short -- feed.json certified_feed.json currency_rates.json reports docs/index.html
+
+      - name: Commit and push final publication
+        run: |
+          git config user.name "kazi-sasa-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed.json certified_feed.json
           [ -f currency_rates.json ] && git add currency_rates.json
-          [ -f reports/coverage_report.json ] && git add reports/coverage_report.json
-          [ -f reports/source_health.json ] && git add reports/source_health.json
-          [ -f reports/collector_manifest.json ] && git add reports/collector_manifest.json
-          [ -f reports/collector_errors.json ] && git add reports/collector_errors.json
-          [ -f reports/deduplication_report.json ] && git add reports/deduplication_report.json
-          [ -f reports/coverage_gate_report.json ] && git add reports/coverage_gate_report.json
-          [ -f reports/investment_coverage_report.json ] && git add reports/investment_coverage_report.json
-          [ -f reports/dfi_coverage_report.json ] && git add reports/dfi_coverage_report.json
-          [ -f reports/ngo_coverage_report.json ] && git add reports/ngo_coverage_report.json
-          [ -f reports/government_coverage_report.json ] && git add reports/government_coverage_report.json
-          [ -f reports/kenya_public_institutions_report.json ] && git add reports/kenya_public_institutions_report.json
-          [ -f reports/multinational_coverage_report.json ] && git add reports/multinational_coverage_report.json
-          [ -f reports/registry_report.json ] && git add reports/registry_report.json
-          [ -f docs/index.html ] && git add docs/index.html
-          [ -f docs/.nojekyll ] && git add docs/.nojekyll
+          git add reports docs/index.html docs/.nojekyll
           git diff --staged --quiet || git commit -m "Refresh feed, reports, FX rates, and site [automated]"
           git push

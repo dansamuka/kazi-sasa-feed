@@ -378,3 +378,78 @@ Version 3.8 adds:
 - `kenya_public_institutions_version: "1.0"`
 - `multinational_source_pack_version: "1.0"`
 - `multinational_adapter_version: "1.0"`
+
+## Africa relevance and African-applicant access certification
+
+Every generated opportunity includes two independent profiles.
+
+### `africa_relevance`
+
+This describes the geographic relationship of the vacancy to Africa. It does
+not claim that an African applicant is eligible.
+
+```json
+{
+  "status": "africa_based_confirmed",
+  "confidence": 0.99,
+  "evidence": ["physical_duty_station_in_africa"],
+  "certification_level": "certified",
+  "default_visible": true,
+  "known_country_code": "KE",
+  "known_country_name": "Kenya"
+}
+```
+
+Valid statuses are:
+
+- `africa_based_confirmed`
+- `africa_regional`
+- `remote_confirmed_open_to_africa`
+- `africa_remit_non_african_location`
+- `official_location_pending`
+- `global_access_unconfirmed`
+- `non_african`
+- `unresolved`
+
+Known non-African duty stations without an explicit Africa remit are rejected
+from the published Africa feed and retained in `reports/rejected_records.json`.
+
+### `african_applicant_access`
+
+This describes what the source actually proves about access for African
+applicants. An African duty station alone is not eligibility evidence.
+
+```json
+{
+  "status": "confirmed_specific_african_nationality",
+  "confidence": 0.99,
+  "evidence": ["structured_government_citizenship_requirement"],
+  "evidence_strength": "structured_source",
+  "eligible_nationalities": ["KE"],
+  "citizenship_required": true,
+  "work_authorisation_required": null,
+  "certification_level": "certified"
+}
+```
+
+Valid statuses are:
+
+- `confirmed_any_african_national`
+- `confirmed_specific_african_nationality`
+- `confirmed_international_recruitment`
+- `likely_open`
+- `work_authorisation_required`
+- `local_only`
+- `internal_only`
+- `unknown`
+- `not_open`
+
+Structured government citizenship fields take precedence over text inference.
+The legacy `eligibility` object remains for Android compatibility and is
+produced from this profile.
+
+### Certified subset
+
+`certified_feed.json` contains only opportunities with confirmed or conditional
+Africa relevance and meaningful applicant-access evidence. `feed.json` remains
+the broader audited index. The public board defaults to the certified/conditional-access subset. Users may explicitly opt into Africa-relevant roles with unverified applicant access or the broader location-pending index.

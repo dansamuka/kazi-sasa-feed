@@ -106,6 +106,21 @@ PHASE11_REQUIRED_MULTINATIONAL_PROFILE_FIELDS = {
     "phase11_priority_employer", "african_city_footprint",
 }
 
+PHASE12_REQUIRED_META_FIELDS = {
+    "africa_access_certification_version": "1.0",
+    "government_deduplication_version": "3.0",
+    "eligibility_evidence_version": "2.0",
+}
+PHASE12_REQUIRED_AFRICA_FIELDS = {
+    "status", "confidence", "evidence", "certification_level",
+    "default_visible", "known_country_code", "known_country_name",
+}
+PHASE12_REQUIRED_ACCESS_FIELDS = {
+    "status", "confidence", "evidence", "evidence_strength",
+    "eligible_nationalities", "citizenship_required",
+    "work_authorisation_required", "certification_level",
+}
+
 PHASE8_REQUIRED_PROFILE_FIELDS = {
     "is_ngo_or_un", "organisation_group", "classification", "track",
     "canonical_specialisation", "confidence", "evidence", "negative_evidence",
@@ -138,6 +153,7 @@ def verify_feed(
     require_phase8: bool = False,
     require_phase9: bool = False,
     require_phase11: bool = False,
+    require_phase12: bool = False,
 ) -> list[str]:
     errors: list[str] = []
     meta = feed.get("meta") or {}
@@ -302,6 +318,23 @@ def verify_feed(
                 errors.append("additional Phase 11 field errors omitted")
                 break
 
+    if require_phase12:
+        for field, expected in PHASE12_REQUIRED_META_FIELDS.items():
+            if meta.get(field) != expected:
+                errors.append(f"root feed meta.{field} must be {expected!r}")
+        for index, opportunity in enumerate(opportunities):
+            relevance = opportunity.get("africa_relevance") or {}
+            missing_relevance = PHASE12_REQUIRED_AFRICA_FIELDS - set(relevance)
+            if missing_relevance:
+                errors.append(f"opportunities[{index}].africa_relevance missing Phase 12 fields: {sorted(missing_relevance)}")
+            access = opportunity.get("african_applicant_access") or {}
+            missing_access = PHASE12_REQUIRED_ACCESS_FIELDS - set(access)
+            if missing_access:
+                errors.append(f"opportunities[{index}].african_applicant_access missing Phase 12 fields: {sorted(missing_access)}")
+            if len(errors) >= 25:
+                errors.append("additional Phase 12 field errors omitted")
+                break
+
     return errors
 
 
@@ -327,13 +360,17 @@ PHASE11_SITE_MARKERS = {
     '"is_kenya_public_institution"', '"public_institution_category"',
     '"is_multinational"', '"multinational_sector"', '"phase11_priority_employer"',
 }
+PHASE12_SITE_MARKERS = {
+    'africaRelevancePill', 'africanAccessPill', 'certificationScopePill',
+    '"africa_relevance"', '"african_applicant_access"', '"certified_default_view"',
+}
 PHASE6_SITE_MARKERS = {
     'investmentClassPill', 'investmentTrackPill', '"investment_track"', '"dfi_relevance"',
     '"investment_classification"',
 }
 
 
-def verify_site(site_html: str, feed: dict, require_phase3: bool = False, require_phase6: bool = False, require_phase7: bool = False, require_phase8: bool = False, require_phase9: bool = False, require_phase11: bool = False) -> list[str]:
+def verify_site(site_html: str, feed: dict, require_phase3: bool = False, require_phase6: bool = False, require_phase7: bool = False, require_phase8: bool = False, require_phase9: bool = False, require_phase11: bool = False, require_phase12: bool = False) -> list[str]:
     errors: list[str] = []
     meta = feed.get("meta") or {}
     generated_at = str(meta.get("generated_at") or "")
@@ -371,6 +408,10 @@ def verify_site(site_html: str, feed: dict, require_phase3: bool = False, requir
         missing = sorted(marker for marker in PHASE11_SITE_MARKERS if marker not in site_html)
         if missing:
             errors.append(f"generated site is missing Phase 11 public-institution/multinational markers: {missing}")
+    if require_phase12:
+        missing = sorted(marker for marker in PHASE12_SITE_MARKERS if marker not in site_html)
+        if missing:
+            errors.append(f"generated site is missing Phase 12 certification markers: {missing}")
     return errors
 
 
@@ -387,12 +428,14 @@ def main() -> None:
     parser.add_argument("--require-phase8", action="store_true")
     parser.add_argument("--require-phase9", action="store_true")
     parser.add_argument("--require-phase11", action="store_true")
+    parser.add_argument("--require-phase12", action="store_true")
     parser.add_argument("--require-phase3-site", action="store_true")
     parser.add_argument("--require-phase6-site", action="store_true")
     parser.add_argument("--require-phase7-site", action="store_true")
     parser.add_argument("--require-phase8-site", action="store_true")
     parser.add_argument("--require-phase9-site", action="store_true")
     parser.add_argument("--require-phase11-site", action="store_true")
+    parser.add_argument("--require-phase12-site", action="store_true")
     parser.add_argument("--max-age-minutes", type=int, default=None)
     args = parser.parse_args()
 
@@ -410,6 +453,7 @@ def main() -> None:
         require_phase8=args.require_phase8,
         require_phase9=args.require_phase9,
         require_phase11=args.require_phase11,
+        require_phase12=args.require_phase12,
     )
 
     if args.site:
@@ -425,6 +469,7 @@ def main() -> None:
                 require_phase8=args.require_phase8_site,
                 require_phase9=args.require_phase9_site,
                 require_phase11=args.require_phase11_site,
+                require_phase12=args.require_phase12_site,
             ))
 
     if errors:

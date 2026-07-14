@@ -29,7 +29,11 @@
     "government_schema_version": "1.0",
     "kenya_public_institutions_version": "1.0",
     "multinational_source_pack_version": "1.0",
-    "multinational_adapter_version": "1.0"
+    "multinational_adapter_version": "1.0",
+    "publication_repair_version": "1.0",
+    "africa_access_certification_version": "1.0",
+    "government_deduplication_version": "3.0",
+    "eligibility_evidence_version": "2.0"
   },
   "opportunities": [
     {
@@ -68,7 +72,9 @@
         ],
         "matched_location_alias": "Nairobi",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "hybrid",
       "seniority": "senior",
@@ -122,14 +128,15 @@
         "climate"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.86,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -203,6 +210,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -237,7 +267,9 @@
         ],
         "matched_location_alias": "Kenya",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "remote_kenya",
       "seniority": "mid",
@@ -288,14 +320,15 @@
         "climate"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.92,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "remote_from_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -366,6 +399,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -404,7 +460,9 @@
         ],
         "matched_location_alias": "Kampala",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "onsite",
       "seniority": "leadership",
@@ -461,14 +519,14 @@
       ],
       "eligibility": {
         "status": "uncertain",
-        "confidence": 0.62,
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_africa",
-          "work_authorisation_unknown"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -542,6 +600,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "UG",
+        "known_country_name": "Uganda"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -574,7 +655,9 @@
         "normalisation_evidence": [],
         "matched_location_alias": null,
         "location_language": "en",
-        "is_african": false
+        "is_african": false,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "remote_global",
       "seniority": "mid",
@@ -625,14 +708,15 @@
         "technology"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.78,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "remote_global_or_worldwide"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -701,6 +785,30 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "global_access_unconfirmed",
+        "confidence": 0.64,
+        "evidence": [
+          "global_or_remote_scope",
+          "african_access_not_confirmed"
+        ],
+        "certification_level": "unverified",
+        "default_visible": false,
+        "known_country_code": null,
+        "known_country_name": null
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -739,7 +847,9 @@
         ],
         "matched_location_alias": "Nairobi",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "onsite",
       "seniority": "mid",
@@ -788,14 +898,15 @@
         "people"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.86,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -869,6 +980,29 @@
           "Nairobi",
           "Addis Ababa"
         ]
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -907,7 +1041,9 @@
         ],
         "matched_location_alias": "Mombasa",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "onsite",
       "seniority": "entry",
@@ -954,14 +1090,15 @@
         "hospitality"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.86,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -1030,6 +1167,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -1052,17 +1212,21 @@
         "scope": "international",
         "relocation_country": "United States",
         "city": null,
-        "country_code": null,
+        "country_code": "US",
         "country_canonical": "United States",
-        "region_canonical": null,
-        "normalisation_confidence": 0.0,
-        "country_iso3": null,
+        "region_canonical": "Non-Africa",
+        "normalisation_confidence": 0.96,
+        "country_iso3": "USA",
         "admin_area": null,
         "coordinates": null,
         "normalisation_evidence": [],
         "matched_location_alias": null,
         "location_language": "en",
-        "is_african": false
+        "is_african": false,
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
       },
       "work_mode": "onsite",
       "seniority": "mid",
@@ -1112,13 +1276,14 @@
       ],
       "eligibility": {
         "status": "uncertain",
-        "confidence": 0.35,
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "insufficient_eligibility_evidence"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -1189,6 +1354,30 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_remit_non_african_location",
+        "confidence": 0.9,
+        "evidence": [
+          "known_non_african_duty_station",
+          "explicit_africa_remit"
+        ],
+        "certification_level": "conditional",
+        "default_visible": true,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -1227,7 +1416,9 @@
         ],
         "matched_location_alias": "Nairobi",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "hybrid",
       "seniority": "mid",
@@ -1279,14 +1470,15 @@
         "climate"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.86,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -1357,6 +1549,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -1395,7 +1610,9 @@
         ],
         "matched_location_alias": "Nakuru",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "onsite",
       "seniority": "entry",
@@ -1444,14 +1661,15 @@
         "retail"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.86,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "duty_station_in_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -1520,6 +1738,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     },
     {
@@ -1554,7 +1795,9 @@
         ],
         "matched_location_alias": "Kenya",
         "location_language": "en",
-        "is_african": true
+        "is_african": true,
+        "known_non_african": false,
+        "global_location_evidence": []
       },
       "work_mode": "remote_kenya",
       "seniority": "entry",
@@ -1602,14 +1845,15 @@
         "customer_operations"
       ],
       "eligibility": {
-        "status": "likely_eligible",
-        "confidence": 0.92,
+        "status": "uncertain",
+        "confidence": 0.25,
         "citizenship_required": null,
         "eligible_nationalities": [],
         "work_authorisation_required": null,
         "evidence": [
-          "remote_from_kenya"
+          "applicant_access_not_stated"
         ],
+        "evidence_strength": "none",
         "detected_language": "en"
       },
       "investment_profile": {
@@ -1678,6 +1922,29 @@
         "source_pack": null,
         "phase11_priority_employer": false,
         "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "KE",
+        "known_country_name": "Kenya"
+      },
+      "african_applicant_access": {
+        "status": "unknown",
+        "confidence": 0.25,
+        "evidence": [
+          "applicant_access_not_stated"
+        ],
+        "evidence_strength": "none",
+        "eligible_nationalities": [],
+        "citizenship_required": null,
+        "work_authorisation_required": null,
+        "certification_level": "unverified"
       }
     }
   ]

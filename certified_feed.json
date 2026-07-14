@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "feed_version": "3.8",
+    "generated_at": "2026-07-13T06:14:27.704608Z",
+    "next_expected_update": "2026-07-13T12:14:27.704608Z",
+    "opportunity_count": 0,
+    "source_count": 0,
+    "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
+    "is_sample_data": false,
+    "supported_languages": [
+      "en",
+      "fr",
+      "pt",
+      "ar",
+      "sw"
+    ],
+    "location_registry_version": "2.0",
+    "source_expansion_version": "1.0",
+    "deduplication_version": "2.0",
+    "investment_taxonomy_version": "1.0",
+    "investment_classifier_version": "1.0",
+    "dfi_source_pack_version": "1.0",
+    "enterprise_adapter_version": "1.1",
+    "ngo_source_pack_version": "1.0",
+    "ngo_taxonomy_version": "1.0",
+    "ngo_classifier_version": "1.1",
+    "official_vacancy_quality_version": "1.1",
+    "government_source_pack_version": "1.0",
+    "government_schema_version": "1.0",
+    "kenya_public_institutions_version": "1.0",
+    "multinational_source_pack_version": "1.0",
+    "multinational_adapter_version": "1.0",
+    "publication_repair_version": "1.0",
+    "africa_access_certification_version": "1.0",
+    "government_deduplication_version": "3.0",
+    "eligibility_evidence_version": "2.0",
+    "certified_subset": true,
+    "parent_opportunity_count": 204
+  },
+  "opportunities": []
+}

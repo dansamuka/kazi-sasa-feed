@@ -18,6 +18,7 @@ def build_registry_report(root: Path) -> dict:
     organisations = load_json(config / "organisations.json")
     sources = load_json(config / "source_registry.json")
     locations = load_json(config / "african_locations.json")
+    global_countries = load_json(config / "global_country_codes.json")
     roles = load_json(config / "role_taxonomy.json")
     portals = load_json(config / "public_portals.json")
     investment = load_json(config / "investment_taxonomy.json")
@@ -33,8 +34,8 @@ def build_registry_report(root: Path) -> dict:
     errors = validate_all(root)
 
     return {
-        "report_version": "11.0",
-        "phase": "11",
+        "report_version": "12.0",
+        "phase": "Africa and Eligibility Certification Hardening",
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "validation_errors": errors,
         "summary": {
@@ -44,6 +45,8 @@ def build_registry_report(root: Path) -> dict:
             "verified_ats_connections": sum(1 for row in connections if row.get("verified")),
             "source_registry_count": len(sources["sources"]),
             "african_country_count": len(countries),
+            "global_country_count": len(global_countries.get("countries", [])),
+            "global_african_flag_count": sum(1 for row in global_countries.get("countries", []) if row.get("is_african")),
             "registered_city_count": sum(len(country.get("cities", [])) for country in countries),
             "registered_admin_area_count": sum(len(country.get("admin_areas", [])) for country in countries),
             "city_coordinate_count": sum(1 for country in countries for city in country.get("cities", []) if city.get("coordinates")),
@@ -97,6 +100,7 @@ def build_registry_report(root: Path) -> dict:
             "kenya_public_institutions_by_category": dict(sorted(Counter(row.get("category") for row in kenya_public.get("institutions", [])).items())),
             "multinational_targets_by_sector": dict(sorted(Counter(row.get("sector") for row in multinationals.get("employers", [])).items())),
             "multinational_targets_by_adapter": dict(sorted(Counter(row.get("adapter") for row in multinationals.get("employers", [])).items())),
+            "global_countries_by_africa_flag": dict(sorted(Counter("african" if row.get("is_african") else "non_african" for row in global_countries.get("countries", [])).items())),
             "multinational_registry_city_footprint": dict(sorted(Counter(city for row in multinationals.get("employers", []) for city in row.get("cities", [])).items())),
         },
         "organisations": [

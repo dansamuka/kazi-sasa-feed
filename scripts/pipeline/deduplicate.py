@@ -41,6 +41,37 @@ def _usable_organisation_name(opp: dict) -> str | None:
     return org
 
 
+def _is_government_opportunity(opp: dict) -> bool:
+    profile = opp.get("government_profile") or {}
+    source = opp.get("source") or {}
+    return bool(profile.get("is_government_or_public_service") or source.get("kind") == "government_official")
+
+
+def _government_key(opp: dict) -> str | None:
+    if not _is_government_opportunity(opp):
+        return None
+    profile = opp.get("government_profile") or {}
+    fields = opp.get("government_fields") or {}
+    organisation = opp.get("organisation") or {}
+    location = opp.get("location") or {}
+    nationalities = profile.get("eligible_nationalities") or fields.get("eligible_nationalities") or []
+    country = _norm(
+        location.get("country_code") or location.get("country")
+        or (nationalities[0] if len(nationalities) == 1 else None)
+        or (opp.get("public_institution_profile") or {}).get("country_code")
+    )
+    registry = _norm(profile.get("registry_id") or organisation.get("id") or organisation.get("name"))
+    reference = _norm(profile.get("advert_reference") or fields.get("advert_reference"))
+    title = _norm(opp.get("title"))
+    if not country or not registry or not title:
+        return None
+    if reference:
+        return f"government:{country}|{registry}|{reference}|{title}"
+    grade = _norm(profile.get("public_service_grade") or fields.get("public_service_grade"))
+    city = _norm(location.get("city") or location.get("admin_area"))
+    return f"government:{country}|{registry}|{title}|{grade}|{city}"
+
+
 def _semantic_key(opp: dict) -> str | None:
     org = _usable_organisation_name(opp)
     title = _norm(opp.get("title"))
@@ -66,10 +97,16 @@ def _description_hash(opp: dict) -> str | None:
 
 def _keys(opp: dict) -> list[str]:
     keys = [f"id:{opp.get('id')}"]
-    for field in ("apply_url", "raw_description_url"):
-        value = canonical_url(opp.get(field))
-        if value:
-            keys.append(f"url:{value}")
+    government_key = _government_key(opp)
+    if government_key:
+        # Government vacancies commonly share one portal URL or parent circular
+        # PDF. URL-only deduplication would collapse hundreds of distinct posts.
+        keys.append(government_key)
+    else:
+        for field in ("apply_url", "raw_description_url"):
+            value = canonical_url(opp.get(field))
+            if value:
+                keys.append(f"url:{value}")
     semantic = _semantic_key(opp)
     if semantic:
         keys.append(semantic)
@@ -144,11 +181,18 @@ def deduplicate_opportunities(opportunities: list[dict]) -> tuple[list[dict], di
             "matched_by": sorted(matched_keys)[:8],
         })
 
+    government_input = sum(1 for row in opportunities if _is_government_opportunity(row))
+    government_published = sum(1 for row in kept if _is_government_opportunity(row))
+    government_removed = government_input - government_published
     report = {
         "input_count": len(opportunities),
         "published_count": len(kept),
         "removed_count": len(opportunities) - len(kept),
         "official_replacements": sum(1 for row in events if row["replaced_existing"]),
+        "government_input_count": government_input,
+        "government_published_count": government_published,
+        "government_removed_count": government_removed,
+        "government_loss_percent": round((government_removed / government_input * 100), 1) if government_input else 0.0,
         "events": events,
     }
     return kept, report

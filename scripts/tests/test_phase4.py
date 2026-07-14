@@ -228,7 +228,7 @@ def test_phase4_publication_guard_passes_packaged_feed():
 def test_workflow_requires_phase4_publication_fields():
     workflow = (REPO / ".github/workflows/refresh-feed.yml").read_text(encoding="utf-8")
     assert workflow.count("--require-phase4") == 2
-    assert "Validate Phase 1-11 registries and schema" in workflow
+    assert "Validate Phase 1-12 registries and schema" in workflow
 
 
 def test_all_description_collectors_attempt_multilingual_deadline_extraction():
