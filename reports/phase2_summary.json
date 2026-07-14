@@ -1,0 +1,78 @@
+{
+  "report_version": "1.0",
+  "phase": "2",
+  "status": "complete",
+  "feed_version_before": "3.0",
+  "feed_version_after": "3.1",
+  "implementation_scope": "Additive schema enrichment only; no new live collectors or opportunities added.",
+  "artifacts": {
+    "feed.json": {
+      "opportunity_count": 204,
+      "organisation_registry_id_count": 54,
+      "source_registry_id_count": 204,
+      "country_code_count": 198,
+      "city_count": 139,
+      "role_family_count": 201,
+      "thematic_sector_count": 166,
+      "eligibility_object_count": 204
+    },
+    "seed.json": {
+      "opportunity_count": 10,
+      "organisation_registry_id_count": 1,
+      "source_registry_id_count": 6,
+      "country_code_count": 8,
+      "city_count": 6,
+      "role_family_count": 10,
+      "thematic_sector_count": 10,
+      "eligibility_object_count": 10
+    }
+  },
+  "compatibility": {
+    "feed.json": {
+      "stable_id_sha256": "8f10da989a13304af96d18d317ec4a1227f178123be50dc4cf8a983f10c49e86",
+      "legacy_android_dto_projection_sha256": "9091a81b364025ea9d61c9b961231bdd6187fc0d025532297da761469419637c",
+      "legacy_projection_preserved": true
+    },
+    "seed.json": {
+      "stable_id_sha256": "c21bcf6630c7302ffd7da10f3428707c4adcd9b6b30f4b8e33d79b09897a76be",
+      "legacy_android_dto_projection_sha256": "5d881af69edd21e0e983dddc0b2ed0f5c4ba958130baac7536fbb97d99cd75fe",
+      "legacy_projection_preserved": true
+    }
+  },
+  "validation": {
+    "feed.json": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "seed.json": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "tests": {
+    "passed": 105,
+    "failed": 0
+  },
+  "registries": {
+    "organisation_type_values": 20,
+    "role_families": 33,
+    "industry_role_mappings": 30,
+    "specialisation_role_mappings": 134,
+    "thematic_sector_values": 35,
+    "eligibility_status_values": 7
+  },
+  "known_limitations": [
+    "Eligibility status is evidence-based and not a guarantee of applicant eligibility.",
+    "Organisation IDs remain null for employers not yet present in the organisation registry.",
+    "City values remain null when the Phase 1 location registry does not contain a verified city match.",
+    "No new source adapters or live opportunities were added in Phase 2."
+  ],
+  "deployment_hardening": {
+    "status": "complete",
+    "workflow_runs_from_repository_root": true,
+    "root_feed_freshness_gate": true,
+    "phase2_field_gate": true,
+    "site_feed_consistency_gate": true,
+    "verification_script": "scripts/verify_published_output.py"
+  }
+}

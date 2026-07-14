@@ -1,0 +1,335 @@
+{
+  "registry_version": "4.0",
+  "_comment": "Authoritative source governance registry. Phase 11 adds public Workday, SmartRecruiters, Workable and controlled official-page source families.",
+  "default_for_unknown_source": "unverified",
+  "sources": [
+    {
+      "name": "ReliefWeb",
+      "domain": "reliefweb.int",
+      "default_confidence": "aggregated",
+      "notes": "UN OCHA institutional aggregator. Listings are curated and trusted, but employer-official records take precedence when the same vacancy is available directly.",
+      "id": "reliefweb",
+      "enabled": true,
+      "collector": "reliefweb",
+      "source_kind": "institutional_aggregator"
+    },
+    {
+      "name": "Greenhouse-hosted employer board",
+      "domain": "greenhouse.io",
+      "default_confidence": "official",
+      "notes": "Each Greenhouse board (boards.greenhouse.io/<company>) is the employer's own ATS-hosted posting and apply flow - not a third-party repost. Treated as official for the same reason a company's /careers page is: the fetch target IS the employer's own hiring system.",
+      "id": "greenhouse-hosted-employer-board",
+      "enabled": true,
+      "collector": "greenhouse",
+      "source_kind": "employer_ats"
+    },
+    {
+      "name": "Lever-hosted employer board",
+      "domain": "lever.co",
+      "default_confidence": "official",
+      "notes": "Same logic as Greenhouse. jobs.lever.co/<company> is the employer's own ATS-hosted posting; applyUrl points back to the same board's apply endpoint.",
+      "id": "lever-hosted-employer-board",
+      "enabled": true,
+      "collector": "lever",
+      "source_kind": "employer_ats"
+    },
+    {
+      "name": "Adzuna",
+      "domain": "adzuna.com",
+      "default_confidence": "aggregated",
+      "notes": "Job aggregator, not the employer's own channel - redirect_url points at Adzuna's own tracked link, not directly at the employer. South Africa coverage only within Africa; see collectors/adzuna.py for why.",
+      "id": "adzuna",
+      "enabled": true,
+      "collector": "adzuna",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Ashby-hosted employer board",
+      "domain": "ashbyhq.com",
+      "default_confidence": "official",
+      "notes": "Same logic as Greenhouse/Lever - jobs.ashbyhq.com/<company> is the employer's own ATS-hosted posting and apply flow.",
+      "id": "ashby-hosted-employer-board",
+      "enabled": true,
+      "collector": "ashby",
+      "source_kind": "employer_ats"
+    },
+    {
+      "name": "Pinpoint-hosted employer board",
+      "domain": "pinpointhq.com",
+      "default_confidence": "official",
+      "notes": "Same logic as Greenhouse/Lever/Ashby - {subdomain}.pinpointhq.com/postings.json is the employer's own ATS-hosted posting, explicitly documented by Pinpoint for third-party listing use. Added after Sun King (originally guessed as Lever) turned out to be on Pinpoint instead.",
+      "id": "pinpoint-hosted-employer-board",
+      "enabled": true,
+      "collector": "pinpoint",
+      "source_kind": "employer_ats"
+    },
+    {
+      "name": "Himalayas",
+      "domain": "himalayas.app",
+      "default_confidence": "aggregated",
+      "notes": "Global remote-jobs board, not the employer's own channel - genuinely free public API, verified directly against Himalayas's own docs before adding.",
+      "id": "himalayas",
+      "enabled": true,
+      "collector": "himalayas",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Remotive",
+      "domain": "remotive.com",
+      "default_confidence": "aggregated",
+      "notes": "Global remote-jobs board - genuinely free public API per Remotive's own GitHub docs, 24h publication delay on their side.",
+      "id": "remotive",
+      "enabled": true,
+      "collector": "remotive",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Jobicy",
+      "domain": "jobicy.com",
+      "default_confidence": "aggregated",
+      "notes": "Global remote-jobs board, skews Americas/Europe-EMEA per Jobicy's own docs - genuinely free public API, 6h publication delay on their side.",
+      "id": "jobicy",
+      "enabled": true,
+      "collector": "jobicy",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "RemoteOK",
+      "domain": "remoteok.com",
+      "default_confidence": "aggregated",
+      "notes": "Global remote-jobs board, tech-skewed - long-established genuinely free public API.",
+      "id": "remoteok",
+      "enabled": true,
+      "collector": "remoteok",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Arbeitnow",
+      "domain": "arbeitnow.com",
+      "default_confidence": "aggregated",
+      "notes": "Europe/DACH-focused job board with visa-sponsorship as a core theme - genuinely free public API, CORS-enabled.",
+      "id": "arbeitnow",
+      "enabled": true,
+      "collector": "arbeitnow",
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "YALI Network",
+      "domain": "yali.state.gov",
+      "default_confidence": "official",
+      "notes": "U.S. Department of State's own fellowship platform.",
+      "id": "yali-network",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "direct_or_manual"
+    },
+    {
+      "name": "Employer career page",
+      "domain": null,
+      "default_confidence": "official",
+      "notes": "Any listing fetched directly from an organisation's own /careers or /jobs page - confidence comes from the fetch target, not a fixed domain list.",
+      "id": "employer-career-page",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "direct_or_manual"
+    },
+    {
+      "name": "BrighterMonday",
+      "domain": "brightermonday.co.ke",
+      "default_confidence": "aggregated",
+      "notes": "Reputable Kenyan job board, but a third-party repost - never the employer's own page.",
+      "id": "brightermonday",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "MyJobMag",
+      "domain": "myjobmag.co.ke",
+      "default_confidence": "aggregated",
+      "id": "myjobmag",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Fuzu",
+      "domain": "fuzu.com",
+      "default_confidence": "aggregated",
+      "id": "fuzu",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "commercial_aggregator"
+    },
+    {
+      "name": "Newsletter or WhatsApp forward",
+      "domain": null,
+      "default_confidence": "community",
+      "notes": "No independent way to verify the original poster - mark community, never aggregated or official, regardless of how the content reads.",
+      "id": "newsletter-or-whatsapp-forward",
+      "enabled": true,
+      "collector": null,
+      "source_kind": "direct_or_manual"
+    },
+    {
+      "name": "Recruitee-hosted employer board",
+      "domain": "recruitee.com",
+      "default_confidence": "official",
+      "notes": "Public Careers Site API hosted for the employer; application flow is employer-controlled.",
+      "id": "recruitee-hosted-employer-board",
+      "enabled": true,
+      "collector": "recruitee",
+      "source_kind": "employer_ats"
+    },
+    {
+      "name": "UN Talent",
+      "domain": "untalent.org",
+      "default_confidence": "aggregated",
+      "notes": "Institutional UN vacancy discovery feed. Direct employer application links are preferred when supplied.",
+      "id": "un-talent",
+      "enabled": true,
+      "collector": "untalent",
+      "source_kind": "institutional_aggregator"
+    },
+    {
+      "id": "cornerstone-institutional-board",
+      "name": "Cornerstone-hosted institutional board",
+      "domain": "csod.com",
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "cornerstone",
+      "source_kind": "institution_official",
+      "notes": "Public employer-controlled Cornerstone career site."
+    },
+    {
+      "id": "successfactors-institutional-board",
+      "name": "SuccessFactors-hosted institutional board",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "successfactors",
+      "source_kind": "institution_official",
+      "notes": "Public employer-controlled SAP SuccessFactors career site."
+    },
+    {
+      "id": "oracle-cx-institutional-board",
+      "name": "Oracle Candidate Experience institutional board",
+      "domain": "oraclecloud.com",
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "oracle_cx",
+      "source_kind": "institution_official",
+      "notes": "Public employer-controlled Oracle Candidate Experience career site."
+    },
+    {
+      "id": "dfi-multilateral-official-career-page",
+      "name": "DFI and multilateral official career page",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "official_html",
+      "source_kind": "institution_official",
+      "notes": "Official institution careers page or vacancy archive."
+    },
+    {
+      "id": "pageup-institutional-board",
+      "name": "PageUp-hosted institutional board",
+      "domain": "pageuppeople.com",
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "pageup",
+      "source_kind": "institution_official",
+      "notes": "Public employer-controlled PageUp careers site."
+    },
+    {
+      "id": "ngo-un-official-career-page",
+      "name": "NGO and UN official career page",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "official_html",
+      "source_kind": "institution_official",
+      "notes": "Official NGO, UN agency, development implementer or regional-body careers page."
+    },
+    {
+      "id": "government-official-html",
+      "name": "Official government vacancy portal",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "government_html",
+      "source_kind": "government_official",
+      "notes": "Official public-service vacancy portal."
+    },
+    {
+      "id": "government-official-pdf",
+      "name": "Official government vacancy document",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "government_pdf",
+      "source_kind": "government_official",
+      "notes": "Official government PDF vacancy advertisement."
+    },
+    {
+      "id": "government-official-circular",
+      "name": "Official government vacancy circular",
+      "domain": null,
+      "default_confidence": "official",
+      "enabled": true,
+      "collector": "government_circular",
+      "source_kind": "government_official",
+      "notes": "Official public-service circular or advertisement index."
+    },
+    {
+      "id": "workday-hosted-employer-site",
+      "name": "Workday-hosted employer career site",
+      "domain": "myworkdayjobs.com",
+      "default_confidence": "official",
+      "collector": "workday",
+      "source_kind": "employer_ats",
+      "enabled": true,
+      "notes": "Public employer-controlled Workday Candidate Experience search endpoints."
+    },
+    {
+      "id": "smartrecruiters-hosted-employer-board",
+      "name": "SmartRecruiters-hosted employer board",
+      "domain": "smartrecruiters.com",
+      "default_confidence": "official",
+      "collector": "smartrecruiters",
+      "source_kind": "employer_ats",
+      "enabled": true,
+      "notes": "Public employer postings exposed through SmartRecruiters company boards."
+    },
+    {
+      "id": "workable-hosted-employer-board",
+      "name": "Workable-hosted employer board",
+      "domain": "workable.com",
+      "default_confidence": "official",
+      "collector": "workable",
+      "source_kind": "employer_ats",
+      "enabled": true,
+      "notes": "Public employer postings exposed through Workable apply sites."
+    },
+    {
+      "id": "multinational-official-careers",
+      "name": "Multinational employer official careers",
+      "domain": "multinational-careers.local",
+      "default_confidence": "official",
+      "collector": "multinational_html",
+      "source_kind": "employer_official",
+      "enabled": true,
+      "notes": "Registry-driven official employer career pages; domain is a governance label because each target has its own official domain."
+    },
+    {
+      "id": "kenya-public-institution-official-careers",
+      "name": "Kenya public institution official careers",
+      "domain": "kenya-public-institutions.local",
+      "default_confidence": "official",
+      "collector": "public_institution_html",
+      "source_kind": "government_official",
+      "enabled": true,
+      "notes": "Registry-driven official careers and vacancy pages for Kenyan regulators, universities, utilities and state corporations."
+    }
+  ]
+}

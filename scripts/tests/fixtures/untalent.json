@@ -1,0 +1,16 @@
+{
+  "jobs": [
+    {
+      "id": "un-9001",
+      "title": "Programme Management Officer",
+      "organization": "United Nations Development Programme",
+      "location": "Accra, Ghana",
+      "areas": ["Program Management"],
+      "contract_type": "Fixed term",
+      "published_at": "2026-07-11T09:00:00Z",
+      "deadline": "2026-07-31T23:59:59Z",
+      "description": "Lead development programmes in Ghana. At least 5 years of experience. Master's degree preferred.",
+      "apply_url": "https://jobs.undp.org/cj_view_job.cfm?job_id=9001"
+    }
+  ]
+}

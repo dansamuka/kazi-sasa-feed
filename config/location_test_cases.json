@@ -1,0 +1,3499 @@
+{
+  "corpus_version": "1.0",
+  "description": "Phase 4 multilingual African location regression corpus generated from the authoritative registry using realistic duty-station labels.",
+  "case_count": 582,
+  "cases": [
+    {
+      "raw": "Location: Algeria",
+      "country_code": "DZ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Algérie",
+      "country_code": "DZ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Argélia",
+      "country_code": "DZ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الجزائر",
+      "country_code": "DZ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Aljeria",
+      "country_code": "DZ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Algiers, Algeria",
+      "country_code": "DZ",
+      "city": "Algiers",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Alger / DZA",
+      "country_code": "DZ",
+      "city": "Algiers",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Oran, Algeria",
+      "country_code": "DZ",
+      "city": "Oran",
+      "language": "en"
+    },
+    {
+      "raw": "Office — وهران / DZA",
+      "country_code": "DZ",
+      "city": "Oran",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Constantine, Algeria",
+      "country_code": "DZ",
+      "city": "Constantine",
+      "language": "en"
+    },
+    {
+      "raw": "Office — قسنطينة / DZA",
+      "country_code": "DZ",
+      "city": "Constantine",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Annaba, Algeria",
+      "country_code": "DZ",
+      "city": "Annaba",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Angola",
+      "country_code": "AO",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Angola",
+      "country_code": "AO",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Angola",
+      "country_code": "AO",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: أنغولا",
+      "country_code": "AO",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Angola",
+      "country_code": "AO",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Luanda, Angola",
+      "country_code": "AO",
+      "city": "Luanda",
+      "language": "en"
+    },
+    {
+      "raw": "Office — São Paulo de Luanda / AGO",
+      "country_code": "AO",
+      "city": "Luanda",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Lobito, Angola",
+      "country_code": "AO",
+      "city": "Lobito",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Benguela, Angola",
+      "country_code": "AO",
+      "city": "Benguela",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Huambo, Angola",
+      "country_code": "AO",
+      "city": "Huambo",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Benin",
+      "country_code": "BJ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Bénin",
+      "country_code": "BJ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Benin",
+      "country_code": "BJ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: بنين",
+      "country_code": "BJ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Benin",
+      "country_code": "BJ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Cotonou, Benin",
+      "country_code": "BJ",
+      "city": "Cotonou",
+      "language": "en"
+    },
+    {
+      "raw": "Office — كوتونو / BEN",
+      "country_code": "BJ",
+      "city": "Cotonou",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Porto-Novo, Benin",
+      "country_code": "BJ",
+      "city": "Porto-Novo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Porto Novo / BEN",
+      "country_code": "BJ",
+      "city": "Porto-Novo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Parakou, Benin",
+      "country_code": "BJ",
+      "city": "Parakou",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Botswana",
+      "country_code": "BW",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Botswana",
+      "country_code": "BW",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Botsuana",
+      "country_code": "BW",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: بوتسوانا",
+      "country_code": "BW",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Botswana",
+      "country_code": "BW",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Gaborone, Botswana",
+      "country_code": "BW",
+      "city": "Gaborone",
+      "language": "en"
+    },
+    {
+      "raw": "Office — غابورون / BWA",
+      "country_code": "BW",
+      "city": "Gaborone",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Francistown, Botswana",
+      "country_code": "BW",
+      "city": "Francistown",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Maun, Botswana",
+      "country_code": "BW",
+      "city": "Maun",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Burkina Faso",
+      "country_code": "BF",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Burkina Faso",
+      "country_code": "BF",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Burquina Faso",
+      "country_code": "BF",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: بوركينا فاسو",
+      "country_code": "BF",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Bukinafaso",
+      "country_code": "BF",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Ouagadougou, Burkina Faso",
+      "country_code": "BF",
+      "city": "Ouagadougou",
+      "language": "en"
+    },
+    {
+      "raw": "Office — واغادوغو / BFA",
+      "country_code": "BF",
+      "city": "Ouagadougou",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bobo-Dioulasso, Burkina Faso",
+      "country_code": "BF",
+      "city": "Bobo-Dioulasso",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Burundi",
+      "country_code": "BI",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Burundi",
+      "country_code": "BI",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Burundi",
+      "country_code": "BI",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: بوروندي",
+      "country_code": "BI",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Burundi",
+      "country_code": "BI",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Bujumbura, Burundi",
+      "country_code": "BI",
+      "city": "Bujumbura",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بوجومبورا / BDI",
+      "country_code": "BI",
+      "city": "Bujumbura",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Gitega, Burundi",
+      "country_code": "BI",
+      "city": "Gitega",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Cape Verde",
+      "country_code": "CV",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Cap-Vert",
+      "country_code": "CV",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Cabo Verde",
+      "country_code": "CV",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الرأس الأخضر",
+      "country_code": "CV",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Cape Verde",
+      "country_code": "CV",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Praia, Cabo Verde",
+      "country_code": "CV",
+      "city": "Praia",
+      "language": "en"
+    },
+    {
+      "raw": "Office — برايا / CPV",
+      "country_code": "CV",
+      "city": "Praia",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mindelo, Cabo Verde",
+      "country_code": "CV",
+      "city": "Mindelo",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Cameroon",
+      "country_code": "CM",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Cameroun",
+      "country_code": "CM",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Camarões",
+      "country_code": "CM",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الكاميرون",
+      "country_code": "CM",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Kameruni",
+      "country_code": "CM",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Douala, Cameroon",
+      "country_code": "CM",
+      "city": "Douala",
+      "language": "en"
+    },
+    {
+      "raw": "Office — دوالا / CMR",
+      "country_code": "CM",
+      "city": "Douala",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Yaoundé, Cameroon",
+      "country_code": "CM",
+      "city": "Yaoundé",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Yaounde / CMR",
+      "country_code": "CM",
+      "city": "Yaoundé",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Garoua, Cameroon",
+      "country_code": "CM",
+      "city": "Garoua",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Bafoussam, Cameroon",
+      "country_code": "CM",
+      "city": "Bafoussam",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Centre Region, Cameroon",
+      "country_code": "CM",
+      "admin_area": "Centre Region",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Littoral Region, Cameroon",
+      "country_code": "CM",
+      "admin_area": "Littoral Region",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Central African Republic",
+      "country_code": "CF",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: République centrafricaine",
+      "country_code": "CF",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: República Centro-Africana",
+      "country_code": "CF",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: جمهورية أفريقيا الوسطى",
+      "country_code": "CF",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Jamhuri ya Afrika ya Kati",
+      "country_code": "CF",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Bangui, Central African Republic",
+      "country_code": "CF",
+      "city": "Bangui",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بانغي / CAF",
+      "country_code": "CF",
+      "city": "Bangui",
+      "language": null
+    },
+    {
+      "raw": "Location: Chad",
+      "country_code": "TD",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Tchad",
+      "country_code": "TD",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Chade",
+      "country_code": "TD",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: تشاد",
+      "country_code": "TD",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Chad",
+      "country_code": "TD",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: N’Djamena, Chad",
+      "country_code": "TD",
+      "city": "N’Djamena",
+      "language": "en"
+    },
+    {
+      "raw": "Office — N'Djamena / TCD",
+      "country_code": "TD",
+      "city": "N’Djamena",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Moundou, Chad",
+      "country_code": "TD",
+      "city": "Moundou",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Comoros",
+      "country_code": "KM",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Comores",
+      "country_code": "KM",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Comores",
+      "country_code": "KM",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: جزر القمر",
+      "country_code": "KM",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Komoro",
+      "country_code": "KM",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Moroni, Comoros",
+      "country_code": "KM",
+      "city": "Moroni",
+      "language": "en"
+    },
+    {
+      "raw": "Office — موروني / COM",
+      "country_code": "KM",
+      "city": "Moroni",
+      "language": null
+    },
+    {
+      "raw": "Location: Congo - Kinshasa",
+      "country_code": "CD",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Congo-Kinshasa",
+      "country_code": "CD",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Congo - Kinshasa",
+      "country_code": "CD",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الكونغو - كينشاسا",
+      "country_code": "CD",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Jamhuri ya Kidemokrasia ya Kongo",
+      "country_code": "CD",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Kinshasa, Democratic Republic of the Congo",
+      "country_code": "CD",
+      "city": "Kinshasa",
+      "language": "en"
+    },
+    {
+      "raw": "Office — كينشاسا / COD",
+      "country_code": "CD",
+      "city": "Kinshasa",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Lubumbashi, Democratic Republic of the Congo",
+      "country_code": "CD",
+      "city": "Lubumbashi",
+      "language": "en"
+    },
+    {
+      "raw": "Office — لوبومباشي / COD",
+      "country_code": "CD",
+      "city": "Lubumbashi",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Goma, Democratic Republic of the Congo",
+      "country_code": "CD",
+      "city": "Goma",
+      "language": "en"
+    },
+    {
+      "raw": "Office — غوما / COD",
+      "country_code": "CD",
+      "city": "Goma",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kisangani, Democratic Republic of the Congo",
+      "country_code": "CD",
+      "city": "Kisangani",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Bukavu, Democratic Republic of the Congo",
+      "country_code": "CD",
+      "city": "Bukavu",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Congo - Brazzaville",
+      "country_code": "CG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Congo-Brazzaville",
+      "country_code": "CG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: República do Congo",
+      "country_code": "CG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الكونغو - برازافيل",
+      "country_code": "CG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Kongo - Brazzaville",
+      "country_code": "CG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Brazzaville, Republic of the Congo",
+      "country_code": "CG",
+      "city": "Brazzaville",
+      "language": "en"
+    },
+    {
+      "raw": "Office — برازافيل / COG",
+      "country_code": "CG",
+      "city": "Brazzaville",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Pointe-Noire, Republic of the Congo",
+      "country_code": "CG",
+      "city": "Pointe-Noire",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Pointe Noire / COG",
+      "country_code": "CG",
+      "city": "Pointe-Noire",
+      "language": null
+    },
+    {
+      "raw": "Location: Côte d’Ivoire",
+      "country_code": "CI",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Côte d’Ivoire",
+      "country_code": "CI",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Costa do Marfim",
+      "country_code": "CI",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ساحل العاج",
+      "country_code": "CI",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Cote d’Ivoire",
+      "country_code": "CI",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Abidjan, Côte d’Ivoire",
+      "country_code": "CI",
+      "city": "Abidjan",
+      "language": "en"
+    },
+    {
+      "raw": "Office — أبيدجان / CIV",
+      "country_code": "CI",
+      "city": "Abidjan",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Yamoussoukro, Côte d’Ivoire",
+      "country_code": "CI",
+      "city": "Yamoussoukro",
+      "language": "en"
+    },
+    {
+      "raw": "Office — ياموسوكرو / CIV",
+      "country_code": "CI",
+      "city": "Yamoussoukro",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bouaké, Côte d’Ivoire",
+      "country_code": "CI",
+      "city": "Bouaké",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Bouake / CIV",
+      "country_code": "CI",
+      "city": "Bouaké",
+      "language": null
+    },
+    {
+      "raw": "Duty station: San-Pédro, Côte d’Ivoire",
+      "country_code": "CI",
+      "city": "San-Pédro",
+      "language": "en"
+    },
+    {
+      "raw": "Office — San Pedro / CIV",
+      "country_code": "CI",
+      "city": "San-Pédro",
+      "language": null
+    },
+    {
+      "raw": "Based in District Autonome d’Abidjan, Côte d’Ivoire",
+      "country_code": "CI",
+      "admin_area": "District Autonome d’Abidjan",
+      "language": "en"
+    },
+    {
+      "raw": "Based in District Autonome de Yamoussoukro, Côte d’Ivoire",
+      "country_code": "CI",
+      "admin_area": "District Autonome de Yamoussoukro",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Djibouti",
+      "country_code": "DJ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Djibouti",
+      "country_code": "DJ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Djibuti",
+      "country_code": "DJ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: جيبوتي",
+      "country_code": "DJ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Jibuti",
+      "country_code": "DJ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Djibouti City, Djibouti",
+      "country_code": "DJ",
+      "city": "Djibouti City",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Djibouti / DJI",
+      "country_code": "DJ",
+      "city": "Djibouti City",
+      "language": null
+    },
+    {
+      "raw": "Location: Egypt",
+      "country_code": "EG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Égypte",
+      "country_code": "EG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Egito",
+      "country_code": "EG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: مصر",
+      "country_code": "EG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Misri",
+      "country_code": "EG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Cairo, Egypt",
+      "country_code": "EG",
+      "city": "Cairo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Le Caire / EGY",
+      "country_code": "EG",
+      "city": "Cairo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Alexandria, Egypt",
+      "country_code": "EG",
+      "city": "Alexandria",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Alexandrie / EGY",
+      "country_code": "EG",
+      "city": "Alexandria",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Giza, Egypt",
+      "country_code": "EG",
+      "city": "Giza",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Gizeh / EGY",
+      "country_code": "EG",
+      "city": "Giza",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Port Said, Egypt",
+      "country_code": "EG",
+      "city": "Port Said",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Cairo Governorate, Egypt",
+      "country_code": "EG",
+      "admin_area": "Cairo Governorate",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Alexandria Governorate, Egypt",
+      "country_code": "EG",
+      "admin_area": "Alexandria Governorate",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Equatorial Guinea",
+      "country_code": "GQ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Guinée équatoriale",
+      "country_code": "GQ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Guiné Equatorial",
+      "country_code": "GQ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: غينيا الاستوائية",
+      "country_code": "GQ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Guinea ya Ikweta",
+      "country_code": "GQ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Malabo, Equatorial Guinea",
+      "country_code": "GQ",
+      "city": "Malabo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — مالابو / GNQ",
+      "country_code": "GQ",
+      "city": "Malabo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bata, Equatorial Guinea",
+      "country_code": "GQ",
+      "city": "Bata",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Eritrea",
+      "country_code": "ER",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Érythrée",
+      "country_code": "ER",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Eritreia",
+      "country_code": "ER",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: إريتريا",
+      "country_code": "ER",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Eritrea",
+      "country_code": "ER",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Asmara, Eritrea",
+      "country_code": "ER",
+      "city": "Asmara",
+      "language": "en"
+    },
+    {
+      "raw": "Office — أسمرة / ERI",
+      "country_code": "ER",
+      "city": "Asmara",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Massawa, Eritrea",
+      "country_code": "ER",
+      "city": "Massawa",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Eswatini",
+      "country_code": "SZ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Eswatini",
+      "country_code": "SZ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Essuatíni",
+      "country_code": "SZ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: إسواتيني",
+      "country_code": "SZ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Eswatini",
+      "country_code": "SZ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Mbabane, Eswatini",
+      "country_code": "SZ",
+      "city": "Mbabane",
+      "language": "en"
+    },
+    {
+      "raw": "Office — مبابان / SWZ",
+      "country_code": "SZ",
+      "city": "Mbabane",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Manzini, Eswatini",
+      "country_code": "SZ",
+      "city": "Manzini",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Ethiopia",
+      "country_code": "ET",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Éthiopie",
+      "country_code": "ET",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Etiópia",
+      "country_code": "ET",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: إثيوبيا",
+      "country_code": "ET",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Ethiopia",
+      "country_code": "ET",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Addis Ababa, Ethiopia",
+      "country_code": "ET",
+      "city": "Addis Ababa",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Addis Abeba / ETH",
+      "country_code": "ET",
+      "city": "Addis Ababa",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Dire Dawa, Ethiopia",
+      "country_code": "ET",
+      "city": "Dire Dawa",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Dire-Dawa / ETH",
+      "country_code": "ET",
+      "city": "Dire Dawa",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Hawassa, Ethiopia",
+      "country_code": "ET",
+      "city": "Hawassa",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Mekelle, Ethiopia",
+      "country_code": "ET",
+      "city": "Mekelle",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Addis Ababa, Ethiopia",
+      "country_code": "ET",
+      "admin_area": "Addis Ababa",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Oromia, Ethiopia",
+      "country_code": "ET",
+      "admin_area": "Oromia",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Gabon",
+      "country_code": "GA",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Gabon",
+      "country_code": "GA",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Gabão",
+      "country_code": "GA",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الغابون",
+      "country_code": "GA",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Gabon",
+      "country_code": "GA",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Libreville, Gabon",
+      "country_code": "GA",
+      "city": "Libreville",
+      "language": "en"
+    },
+    {
+      "raw": "Office — ليبرفيل / GAB",
+      "country_code": "GA",
+      "city": "Libreville",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Port-Gentil, Gabon",
+      "country_code": "GA",
+      "city": "Port-Gentil",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Gambia",
+      "country_code": "GM",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Gambie",
+      "country_code": "GM",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Gâmbia",
+      "country_code": "GM",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: غامبيا",
+      "country_code": "GM",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Gambia",
+      "country_code": "GM",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Banjul, Gambia",
+      "country_code": "GM",
+      "city": "Banjul",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بانجول / GMB",
+      "country_code": "GM",
+      "city": "Banjul",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Serekunda, Gambia",
+      "country_code": "GM",
+      "city": "Serekunda",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Ghana",
+      "country_code": "GH",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Ghana",
+      "country_code": "GH",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Gana",
+      "country_code": "GH",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: غانا",
+      "country_code": "GH",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Ghana",
+      "country_code": "GH",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Accra, Ghana",
+      "country_code": "GH",
+      "city": "Accra",
+      "language": "en"
+    },
+    {
+      "raw": "Office — أكرا / GHA",
+      "country_code": "GH",
+      "city": "Accra",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kumasi, Ghana",
+      "country_code": "GH",
+      "city": "Kumasi",
+      "language": "en"
+    },
+    {
+      "raw": "Office — كوماسي / GHA",
+      "country_code": "GH",
+      "city": "Kumasi",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Takoradi, Ghana",
+      "country_code": "GH",
+      "city": "Takoradi",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Sekondi-Takoradi / GHA",
+      "country_code": "GH",
+      "city": "Takoradi",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Tamale, Ghana",
+      "country_code": "GH",
+      "city": "Tamale",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Greater Accra Region, Ghana",
+      "country_code": "GH",
+      "admin_area": "Greater Accra Region",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Ashanti Region, Ghana",
+      "country_code": "GH",
+      "admin_area": "Ashanti Region",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Guinea",
+      "country_code": "GN",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Guinée",
+      "country_code": "GN",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Guiné",
+      "country_code": "GN",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: غينيا",
+      "country_code": "GN",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Gine",
+      "country_code": "GN",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Conakry, Guinea",
+      "country_code": "GN",
+      "city": "Conakry",
+      "language": "en"
+    },
+    {
+      "raw": "Office — كوناكري / GIN",
+      "country_code": "GN",
+      "city": "Conakry",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kankan, Guinea",
+      "country_code": "GN",
+      "city": "Kankan",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Guinea-Bissau",
+      "country_code": "GW",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Guinée-Bissau",
+      "country_code": "GW",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Guiné-Bissau",
+      "country_code": "GW",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: غينيا بيساو",
+      "country_code": "GW",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Ginebisau",
+      "country_code": "GW",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Bissau, Guinea-Bissau",
+      "country_code": "GW",
+      "city": "Bissau",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بيساو / GNB",
+      "country_code": "GW",
+      "city": "Bissau",
+      "language": null
+    },
+    {
+      "raw": "Location: Kenya",
+      "country_code": "KE",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Kenya",
+      "country_code": "KE",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Quênia",
+      "country_code": "KE",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: كينيا",
+      "country_code": "KE",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Kenya",
+      "country_code": "KE",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Nairobi, Kenya",
+      "country_code": "KE",
+      "city": "Nairobi",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Nairobi County / KEN",
+      "country_code": "KE",
+      "city": "Nairobi",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mombasa, Kenya",
+      "country_code": "KE",
+      "city": "Mombasa",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Mombasa County / KEN",
+      "country_code": "KE",
+      "city": "Mombasa",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kisumu, Kenya",
+      "country_code": "KE",
+      "city": "Kisumu",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Kisumu County / KEN",
+      "country_code": "KE",
+      "city": "Kisumu",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Nakuru, Kenya",
+      "country_code": "KE",
+      "city": "Nakuru",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Nakuru County / KEN",
+      "country_code": "KE",
+      "city": "Nakuru",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Eldoret, Kenya",
+      "country_code": "KE",
+      "city": "Eldoret",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Uasin Gishu / KEN",
+      "country_code": "KE",
+      "city": "Eldoret",
+      "language": null
+    },
+    {
+      "raw": "Based in Nairobi County, Kenya",
+      "country_code": "KE",
+      "admin_area": "Nairobi County",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Mombasa County, Kenya",
+      "country_code": "KE",
+      "admin_area": "Mombasa County",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Lesotho",
+      "country_code": "LS",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Lesotho",
+      "country_code": "LS",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Lesoto",
+      "country_code": "LS",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ليسوتو",
+      "country_code": "LS",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Lesoto",
+      "country_code": "LS",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Maseru, Lesotho",
+      "country_code": "LS",
+      "city": "Maseru",
+      "language": "en"
+    },
+    {
+      "raw": "Office — ماسيرو / LSO",
+      "country_code": "LS",
+      "city": "Maseru",
+      "language": null
+    },
+    {
+      "raw": "Location: Liberia",
+      "country_code": "LR",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Liberia",
+      "country_code": "LR",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Libéria",
+      "country_code": "LR",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ليبيريا",
+      "country_code": "LR",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Liberia",
+      "country_code": "LR",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Monrovia, Liberia",
+      "country_code": "LR",
+      "city": "Monrovia",
+      "language": "en"
+    },
+    {
+      "raw": "Office — مونروفيا / LBR",
+      "country_code": "LR",
+      "city": "Monrovia",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Gbarnga, Liberia",
+      "country_code": "LR",
+      "city": "Gbarnga",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Libya",
+      "country_code": "LY",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Libye",
+      "country_code": "LY",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Líbia",
+      "country_code": "LY",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ليبيا",
+      "country_code": "LY",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Libya",
+      "country_code": "LY",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Tripoli, Libya",
+      "country_code": "LY",
+      "city": "Tripoli",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Tripoli, Libya / LBY",
+      "country_code": "LY",
+      "city": "Tripoli",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Benghazi, Libya",
+      "country_code": "LY",
+      "city": "Benghazi",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بنغازي / LBY",
+      "country_code": "LY",
+      "city": "Benghazi",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Misrata, Libya",
+      "country_code": "LY",
+      "city": "Misrata",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Madagascar",
+      "country_code": "MG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Madagascar",
+      "country_code": "MG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Madagascar",
+      "country_code": "MG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: مدغشقر",
+      "country_code": "MG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Madagaska",
+      "country_code": "MG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Antananarivo, Madagascar",
+      "country_code": "MG",
+      "city": "Antananarivo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Tana / MDG",
+      "country_code": "MG",
+      "city": "Antananarivo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Toamasina, Madagascar",
+      "country_code": "MG",
+      "city": "Toamasina",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Tamatave / MDG",
+      "country_code": "MG",
+      "city": "Toamasina",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Antsirabe, Madagascar",
+      "country_code": "MG",
+      "city": "Antsirabe",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Malawi",
+      "country_code": "MW",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Malawi",
+      "country_code": "MW",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Malaui",
+      "country_code": "MW",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ملاوي",
+      "country_code": "MW",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Malawi",
+      "country_code": "MW",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Lilongwe, Malawi",
+      "country_code": "MW",
+      "city": "Lilongwe",
+      "language": "en"
+    },
+    {
+      "raw": "Office — ليلونغوي / MWI",
+      "country_code": "MW",
+      "city": "Lilongwe",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Blantyre, Malawi",
+      "country_code": "MW",
+      "city": "Blantyre",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بلانتير / MWI",
+      "country_code": "MW",
+      "city": "Blantyre",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mzuzu, Malawi",
+      "country_code": "MW",
+      "city": "Mzuzu",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Mali",
+      "country_code": "ML",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Mali",
+      "country_code": "ML",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Mali",
+      "country_code": "ML",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: مالي",
+      "country_code": "ML",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Mali",
+      "country_code": "ML",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Bamako, Mali",
+      "country_code": "ML",
+      "city": "Bamako",
+      "language": "en"
+    },
+    {
+      "raw": "Office — باماكو / MLI",
+      "country_code": "ML",
+      "city": "Bamako",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Sikasso, Mali",
+      "country_code": "ML",
+      "city": "Sikasso",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Mopti, Mali",
+      "country_code": "ML",
+      "city": "Mopti",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Mauritania",
+      "country_code": "MR",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Mauritanie",
+      "country_code": "MR",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Mauritânia",
+      "country_code": "MR",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: موريتانيا",
+      "country_code": "MR",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Moritania",
+      "country_code": "MR",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Nouakchott, Mauritania",
+      "country_code": "MR",
+      "city": "Nouakchott",
+      "language": "en"
+    },
+    {
+      "raw": "Office — نواكشوط / MRT",
+      "country_code": "MR",
+      "city": "Nouakchott",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Nouadhibou, Mauritania",
+      "country_code": "MR",
+      "city": "Nouadhibou",
+      "language": "en"
+    },
+    {
+      "raw": "Office — نواذيبو / MRT",
+      "country_code": "MR",
+      "city": "Nouadhibou",
+      "language": null
+    },
+    {
+      "raw": "Location: Mauritius",
+      "country_code": "MU",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Maurice",
+      "country_code": "MU",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Maurício",
+      "country_code": "MU",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: موريشيوس",
+      "country_code": "MU",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Morisi",
+      "country_code": "MU",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Port Louis, Mauritius",
+      "country_code": "MU",
+      "city": "Port Louis",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Port-Louis / MUS",
+      "country_code": "MU",
+      "city": "Port Louis",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Ebene, Mauritius",
+      "country_code": "MU",
+      "city": "Ebene",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Ébène / MUS",
+      "country_code": "MU",
+      "city": "Ebene",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Curepipe, Mauritius",
+      "country_code": "MU",
+      "city": "Curepipe",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Morocco",
+      "country_code": "MA",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Maroc",
+      "country_code": "MA",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Marrocos",
+      "country_code": "MA",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: المغرب",
+      "country_code": "MA",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Morocco",
+      "country_code": "MA",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Casablanca, Morocco",
+      "country_code": "MA",
+      "city": "Casablanca",
+      "language": "en"
+    },
+    {
+      "raw": "Office — الدار البيضاء / MAR",
+      "country_code": "MA",
+      "city": "Casablanca",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Rabat, Morocco",
+      "country_code": "MA",
+      "city": "Rabat",
+      "language": "en"
+    },
+    {
+      "raw": "Office — الرباط / MAR",
+      "country_code": "MA",
+      "city": "Rabat",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Marrakesh, Morocco",
+      "country_code": "MA",
+      "city": "Marrakesh",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Marrakech / MAR",
+      "country_code": "MA",
+      "city": "Marrakesh",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Tangier, Morocco",
+      "country_code": "MA",
+      "city": "Tangier",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Tanger / MAR",
+      "country_code": "MA",
+      "city": "Tangier",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Agadir, Morocco",
+      "country_code": "MA",
+      "city": "Agadir",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Casablanca-Settat, Morocco",
+      "country_code": "MA",
+      "admin_area": "Casablanca-Settat",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Rabat-Salé-Kénitra, Morocco",
+      "country_code": "MA",
+      "admin_area": "Rabat-Salé-Kénitra",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Mozambique",
+      "country_code": "MZ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Mozambique",
+      "country_code": "MZ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Moçambique",
+      "country_code": "MZ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: موزمبيق",
+      "country_code": "MZ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Msumbiji",
+      "country_code": "MZ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Maputo, Mozambique",
+      "country_code": "MZ",
+      "city": "Maputo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Lourenço Marques / MOZ",
+      "country_code": "MZ",
+      "city": "Maputo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Beira, Mozambique",
+      "country_code": "MZ",
+      "city": "Beira",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Nampula, Mozambique",
+      "country_code": "MZ",
+      "city": "Nampula",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Pemba, Mozambique",
+      "country_code": "MZ",
+      "city": "Pemba",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Namibia",
+      "country_code": "NA",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Namibie",
+      "country_code": "NA",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Namíbia",
+      "country_code": "NA",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ناميبيا",
+      "country_code": "NA",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Namibia",
+      "country_code": "NA",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Windhoek, Namibia",
+      "country_code": "NA",
+      "city": "Windhoek",
+      "language": "en"
+    },
+    {
+      "raw": "Office — ويندهوك / NAM",
+      "country_code": "NA",
+      "city": "Windhoek",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Walvis Bay, Namibia",
+      "country_code": "NA",
+      "city": "Walvis Bay",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Walvisbaai / NAM",
+      "country_code": "NA",
+      "city": "Walvis Bay",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Swakopmund, Namibia",
+      "country_code": "NA",
+      "city": "Swakopmund",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Niger",
+      "country_code": "NE",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Niger",
+      "country_code": "NE",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Níger",
+      "country_code": "NE",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: النيجر",
+      "country_code": "NE",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Niger",
+      "country_code": "NE",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Niamey, Niger",
+      "country_code": "NE",
+      "city": "Niamey",
+      "language": "en"
+    },
+    {
+      "raw": "Office — نيامي / NER",
+      "country_code": "NE",
+      "city": "Niamey",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Agadez, Niger",
+      "country_code": "NE",
+      "city": "Agadez",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Zinder, Niger",
+      "country_code": "NE",
+      "city": "Zinder",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Nigeria",
+      "country_code": "NG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Nigeria",
+      "country_code": "NG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Nigéria",
+      "country_code": "NG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: نيجيريا",
+      "country_code": "NG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Nigeria",
+      "country_code": "NG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Lagos, Nigeria",
+      "country_code": "NG",
+      "city": "Lagos",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Lagos State / NGA",
+      "country_code": "NG",
+      "city": "Lagos",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Abuja, Nigeria",
+      "country_code": "NG",
+      "city": "Abuja",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Federal Capital Territory / NGA",
+      "country_code": "NG",
+      "city": "Abuja",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Port Harcourt, Nigeria",
+      "country_code": "NG",
+      "city": "Port Harcourt",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Port-Harcourt / NGA",
+      "country_code": "NG",
+      "city": "Port Harcourt",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kano, Nigeria",
+      "country_code": "NG",
+      "city": "Kano",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Kano State / NGA",
+      "country_code": "NG",
+      "city": "Kano",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Ibadan, Nigeria",
+      "country_code": "NG",
+      "city": "Ibadan",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Oyo State / NGA",
+      "country_code": "NG",
+      "city": "Ibadan",
+      "language": null
+    },
+    {
+      "raw": "Based in Lagos State, Nigeria",
+      "country_code": "NG",
+      "admin_area": "Lagos State",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Federal Capital Territory, Nigeria",
+      "country_code": "NG",
+      "admin_area": "Federal Capital Territory",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Rwanda",
+      "country_code": "RW",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Rwanda",
+      "country_code": "RW",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Ruanda",
+      "country_code": "RW",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: رواندا",
+      "country_code": "RW",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Rwanda",
+      "country_code": "RW",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Kigali, Rwanda",
+      "country_code": "RW",
+      "city": "Kigali",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Kigali City / RWA",
+      "country_code": "RW",
+      "city": "Kigali",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Huye, Rwanda",
+      "country_code": "RW",
+      "city": "Huye",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Musanze, Rwanda",
+      "country_code": "RW",
+      "city": "Musanze",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Kigali City, Rwanda",
+      "country_code": "RW",
+      "admin_area": "Kigali City",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Northern Province, Rwanda",
+      "country_code": "RW",
+      "admin_area": "Northern Province",
+      "language": "en"
+    },
+    {
+      "raw": "Location: São Tomé & Príncipe",
+      "country_code": "ST",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Sao Tomé-et-Principe",
+      "country_code": "ST",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: São Tomé e Príncipe",
+      "country_code": "ST",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: ساو تومي وبرينسيبي",
+      "country_code": "ST",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Sao Tome na Principe",
+      "country_code": "ST",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: São Tomé, São Tomé and Príncipe",
+      "country_code": "ST",
+      "city": "São Tomé",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Sao Tome / STP",
+      "country_code": "ST",
+      "city": "São Tomé",
+      "language": null
+    },
+    {
+      "raw": "Location: Senegal",
+      "country_code": "SN",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Sénégal",
+      "country_code": "SN",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Senegal",
+      "country_code": "SN",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: السنغال",
+      "country_code": "SN",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Senegali",
+      "country_code": "SN",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Dakar, Senegal",
+      "country_code": "SN",
+      "city": "Dakar",
+      "language": "en"
+    },
+    {
+      "raw": "Office — داكار / SEN",
+      "country_code": "SN",
+      "city": "Dakar",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Saint-Louis, Senegal",
+      "country_code": "SN",
+      "city": "Saint-Louis",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Saint Louis / SEN",
+      "country_code": "SN",
+      "city": "Saint-Louis",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Thiès, Senegal",
+      "country_code": "SN",
+      "city": "Thiès",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Thies / SEN",
+      "country_code": "SN",
+      "city": "Thiès",
+      "language": null
+    },
+    {
+      "raw": "Based in Dakar Region, Senegal",
+      "country_code": "SN",
+      "admin_area": "Dakar Region",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Thiès Region, Senegal",
+      "country_code": "SN",
+      "admin_area": "Thiès Region",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Seychelles",
+      "country_code": "SC",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Seychelles",
+      "country_code": "SC",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Seicheles",
+      "country_code": "SC",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: سيشل",
+      "country_code": "SC",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Ushelisheli",
+      "country_code": "SC",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Victoria, Seychelles",
+      "country_code": "SC",
+      "city": "Victoria",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Victoria, Seychelles / SYC",
+      "country_code": "SC",
+      "city": "Victoria",
+      "language": null
+    },
+    {
+      "raw": "Location: Sierra Leone",
+      "country_code": "SL",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Sierra Leone",
+      "country_code": "SL",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Serra Leoa",
+      "country_code": "SL",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: سيراليون",
+      "country_code": "SL",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Siera Leoni",
+      "country_code": "SL",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Freetown, Sierra Leone",
+      "country_code": "SL",
+      "city": "Freetown",
+      "language": "en"
+    },
+    {
+      "raw": "Office — فريتاون / SLE",
+      "country_code": "SL",
+      "city": "Freetown",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bo, Sierra Leone",
+      "country_code": "SL",
+      "city": "Bo",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Somalia",
+      "country_code": "SO",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Somalie",
+      "country_code": "SO",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Somália",
+      "country_code": "SO",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: الصومال",
+      "country_code": "SO",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Somalia",
+      "country_code": "SO",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Mogadishu, Somalia",
+      "country_code": "SO",
+      "city": "Mogadishu",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Mogadiscio / SOM",
+      "country_code": "SO",
+      "city": "Mogadishu",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Hargeisa, Somalia",
+      "country_code": "SO",
+      "city": "Hargeisa",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Hargeysa / SOM",
+      "country_code": "SO",
+      "city": "Hargeisa",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kismayo, Somalia",
+      "country_code": "SO",
+      "city": "Kismayo",
+      "language": "en"
+    },
+    {
+      "raw": "Location: South Africa",
+      "country_code": "ZA",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Afrique du Sud",
+      "country_code": "ZA",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: África do Sul",
+      "country_code": "ZA",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: جنوب أفريقيا",
+      "country_code": "ZA",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Afrika Kusini",
+      "country_code": "ZA",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Johannesburg, South Africa",
+      "country_code": "ZA",
+      "city": "Johannesburg",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Joburg / ZAF",
+      "country_code": "ZA",
+      "city": "Johannesburg",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Cape Town, South Africa",
+      "country_code": "ZA",
+      "city": "Cape Town",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Cape Town City Centre / ZAF",
+      "country_code": "ZA",
+      "city": "Cape Town",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Pretoria, South Africa",
+      "country_code": "ZA",
+      "city": "Pretoria",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Tshwane / ZAF",
+      "country_code": "ZA",
+      "city": "Pretoria",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Durban, South Africa",
+      "country_code": "ZA",
+      "city": "Durban",
+      "language": "en"
+    },
+    {
+      "raw": "Office — eThekwini / ZAF",
+      "country_code": "ZA",
+      "city": "Durban",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Gqeberha, South Africa",
+      "country_code": "ZA",
+      "city": "Gqeberha",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Port Elizabeth / ZAF",
+      "country_code": "ZA",
+      "city": "Gqeberha",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bloemfontein, South Africa",
+      "country_code": "ZA",
+      "city": "Bloemfontein",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Mangaung / ZAF",
+      "country_code": "ZA",
+      "city": "Bloemfontein",
+      "language": null
+    },
+    {
+      "raw": "Based in Gauteng, South Africa",
+      "country_code": "ZA",
+      "admin_area": "Gauteng",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Western Cape, South Africa",
+      "country_code": "ZA",
+      "admin_area": "Western Cape",
+      "language": "en"
+    },
+    {
+      "raw": "Location: South Sudan",
+      "country_code": "SS",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Soudan du Sud",
+      "country_code": "SS",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Sudão do Sul",
+      "country_code": "SS",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: جنوب السودان",
+      "country_code": "SS",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Sudan Kusini",
+      "country_code": "SS",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Juba, South Sudan",
+      "country_code": "SS",
+      "city": "Juba",
+      "language": "en"
+    },
+    {
+      "raw": "Office — جوبا / SSD",
+      "country_code": "SS",
+      "city": "Juba",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Wau, South Sudan",
+      "country_code": "SS",
+      "city": "Wau",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Sudan",
+      "country_code": "SD",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Soudan",
+      "country_code": "SD",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Sudão",
+      "country_code": "SD",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: السودان",
+      "country_code": "SD",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Sudan",
+      "country_code": "SD",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Khartoum, Sudan",
+      "country_code": "SD",
+      "city": "Khartoum",
+      "language": "en"
+    },
+    {
+      "raw": "Office — الخرطوم / SDN",
+      "country_code": "SD",
+      "city": "Khartoum",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Port Sudan, Sudan",
+      "country_code": "SD",
+      "city": "Port Sudan",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بورتسودان / SDN",
+      "country_code": "SD",
+      "city": "Port Sudan",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Omdurman, Sudan",
+      "country_code": "SD",
+      "city": "Omdurman",
+      "language": "en"
+    },
+    {
+      "raw": "Office — أم درمان / SDN",
+      "country_code": "SD",
+      "city": "Omdurman",
+      "language": null
+    },
+    {
+      "raw": "Location: Tanzania",
+      "country_code": "TZ",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Tanzanie",
+      "country_code": "TZ",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Tanzânia",
+      "country_code": "TZ",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: تنزانيا",
+      "country_code": "TZ",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Tanzania",
+      "country_code": "TZ",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Dar es Salaam, Tanzania",
+      "country_code": "TZ",
+      "city": "Dar es Salaam",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Dar-es-Salaam / TZA",
+      "country_code": "TZ",
+      "city": "Dar es Salaam",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Dodoma, Tanzania",
+      "country_code": "TZ",
+      "city": "Dodoma",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Jiji la Dodoma / TZA",
+      "country_code": "TZ",
+      "city": "Dodoma",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Arusha, Tanzania",
+      "country_code": "TZ",
+      "city": "Arusha",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Jiji la Arusha / TZA",
+      "country_code": "TZ",
+      "city": "Arusha",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mwanza, Tanzania",
+      "country_code": "TZ",
+      "city": "Mwanza",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Jiji la Mwanza / TZA",
+      "country_code": "TZ",
+      "city": "Mwanza",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Zanzibar City, Tanzania",
+      "country_code": "TZ",
+      "city": "Zanzibar City",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Zanzibar / TZA",
+      "country_code": "TZ",
+      "city": "Zanzibar City",
+      "language": null
+    },
+    {
+      "raw": "Based in Dar es Salaam Region, Tanzania",
+      "country_code": "TZ",
+      "admin_area": "Dar es Salaam Region",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Dodoma Region, Tanzania",
+      "country_code": "TZ",
+      "admin_area": "Dodoma Region",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Togo",
+      "country_code": "TG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Togo",
+      "country_code": "TG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Togo",
+      "country_code": "TG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: توغو",
+      "country_code": "TG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Togo",
+      "country_code": "TG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Lomé, Togo",
+      "country_code": "TG",
+      "city": "Lomé",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Lome / TGO",
+      "country_code": "TG",
+      "city": "Lomé",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Sokodé, Togo",
+      "country_code": "TG",
+      "city": "Sokodé",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Tunisia",
+      "country_code": "TN",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Tunisie",
+      "country_code": "TN",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Tunísia",
+      "country_code": "TN",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: تونس",
+      "country_code": "TN",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Tunisia",
+      "country_code": "TN",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Tunis, Tunisia",
+      "country_code": "TN",
+      "city": "Tunis",
+      "language": "en"
+    },
+    {
+      "raw": "Office — تونس العاصمة / TUN",
+      "country_code": "TN",
+      "city": "Tunis",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Sfax, Tunisia",
+      "country_code": "TN",
+      "city": "Sfax",
+      "language": "en"
+    },
+    {
+      "raw": "Office — صفاقس / TUN",
+      "country_code": "TN",
+      "city": "Sfax",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Sousse, Tunisia",
+      "country_code": "TN",
+      "city": "Sousse",
+      "language": "en"
+    },
+    {
+      "raw": "Office — سوسة / TUN",
+      "country_code": "TN",
+      "city": "Sousse",
+      "language": null
+    },
+    {
+      "raw": "Location: Uganda",
+      "country_code": "UG",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Ouganda",
+      "country_code": "UG",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Uganda",
+      "country_code": "UG",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: أوغندا",
+      "country_code": "UG",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Uganda",
+      "country_code": "UG",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Kampala, Uganda",
+      "country_code": "UG",
+      "city": "Kampala",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Kampala Capital City / UGA",
+      "country_code": "UG",
+      "city": "Kampala",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Entebbe, Uganda",
+      "country_code": "UG",
+      "city": "Entebbe",
+      "language": "en"
+    },
+    {
+      "raw": "Office — عنتيبي / UGA",
+      "country_code": "UG",
+      "city": "Entebbe",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Jinja, Uganda",
+      "country_code": "UG",
+      "city": "Jinja",
+      "language": "en"
+    },
+    {
+      "raw": "Office — جينجا / UGA",
+      "country_code": "UG",
+      "city": "Jinja",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mbarara, Uganda",
+      "country_code": "UG",
+      "city": "Mbarara",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Central Region, Uganda",
+      "country_code": "UG",
+      "admin_area": "Central Region",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Eastern Region, Uganda",
+      "country_code": "UG",
+      "admin_area": "Eastern Region",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Zambia",
+      "country_code": "ZM",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Zambie",
+      "country_code": "ZM",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Zâmbia",
+      "country_code": "ZM",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: زامبيا",
+      "country_code": "ZM",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Zambia",
+      "country_code": "ZM",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Lusaka, Zambia",
+      "country_code": "ZM",
+      "city": "Lusaka",
+      "language": "en"
+    },
+    {
+      "raw": "Office — لوساكا / ZMB",
+      "country_code": "ZM",
+      "city": "Lusaka",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Kitwe, Zambia",
+      "country_code": "ZM",
+      "city": "Kitwe",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Ndola, Zambia",
+      "country_code": "ZM",
+      "city": "Ndola",
+      "language": "en"
+    },
+    {
+      "raw": "Duty station: Livingstone, Zambia",
+      "country_code": "ZM",
+      "city": "Livingstone",
+      "language": "en"
+    },
+    {
+      "raw": "Office — Maramba / ZMB",
+      "country_code": "ZM",
+      "city": "Livingstone",
+      "language": null
+    },
+    {
+      "raw": "Based in Lusaka Province, Zambia",
+      "country_code": "ZM",
+      "admin_area": "Lusaka Province",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Copperbelt Province, Zambia",
+      "country_code": "ZM",
+      "admin_area": "Copperbelt Province",
+      "language": "en"
+    },
+    {
+      "raw": "Location: Zimbabwe",
+      "country_code": "ZW",
+      "city": null,
+      "language": "en"
+    },
+    {
+      "raw": "Lieu d’affectation: Zimbabwe",
+      "country_code": "ZW",
+      "city": null,
+      "language": "fr"
+    },
+    {
+      "raw": "Localização: Zimbábue",
+      "country_code": "ZW",
+      "city": null,
+      "language": "pt"
+    },
+    {
+      "raw": "مكان العمل: زيمبابوي",
+      "country_code": "ZW",
+      "city": null,
+      "language": "ar"
+    },
+    {
+      "raw": "Mahali pa kazi: Zimbabwe",
+      "country_code": "ZW",
+      "city": null,
+      "language": "sw"
+    },
+    {
+      "raw": "Duty station: Harare, Zimbabwe",
+      "country_code": "ZW",
+      "city": "Harare",
+      "language": "en"
+    },
+    {
+      "raw": "Office — هراري / ZWE",
+      "country_code": "ZW",
+      "city": "Harare",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Bulawayo, Zimbabwe",
+      "country_code": "ZW",
+      "city": "Bulawayo",
+      "language": "en"
+    },
+    {
+      "raw": "Office — بولاوايو / ZWE",
+      "country_code": "ZW",
+      "city": "Bulawayo",
+      "language": null
+    },
+    {
+      "raw": "Duty station: Mutare, Zimbabwe",
+      "country_code": "ZW",
+      "city": "Mutare",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Harare Province, Zimbabwe",
+      "country_code": "ZW",
+      "admin_area": "Harare Province",
+      "language": "en"
+    },
+    {
+      "raw": "Based in Bulawayo Province, Zimbabwe",
+      "country_code": "ZW",
+      "admin_area": "Bulawayo Province",
+      "language": "en"
+    },
+    {
+      "raw": "Remote — North Africa",
+      "region": "North Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Northern Africa",
+      "region": "North Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique du Nord",
+      "region": "North Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — West Africa",
+      "region": "West Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Western Africa",
+      "region": "West Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique de l’Ouest",
+      "region": "West Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Central Africa",
+      "region": "Central Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Middle Africa",
+      "region": "Central Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique centrale",
+      "region": "Central Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — East Africa",
+      "region": "East Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Eastern Africa",
+      "region": "East Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique de l’Est",
+      "region": "East Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Southern Africa",
+      "region": "Southern Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique australe",
+      "region": "Southern Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — África Austral",
+      "region": "Southern Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Sub-Saharan Africa",
+      "region": "Sub-Saharan Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — SSA",
+      "region": "Sub-Saharan Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Sub Saharan Africa",
+      "region": "Sub-Saharan Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Africa",
+      "region": "Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — Afrique",
+      "region": "Africa",
+      "country_code": null,
+      "language": null
+    },
+    {
+      "raw": "Remote — África",
+      "region": "Africa",
+      "country_code": null,
+      "language": null
+    }
+  ]
+}

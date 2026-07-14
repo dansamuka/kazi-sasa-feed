@@ -1,0 +1,639 @@
+{
+  "registry_version": "1.0",
+  "_comment": "Kenya-only public institutions requested for the Phase 10 subset. Source execution remains controlled by organisations.json.",
+  "required_categories": [
+    "capital_markets_regulator",
+    "central_bank",
+    "competition_authority",
+    "electricity_utility",
+    "insurance_regulator",
+    "investment_promotion_agency",
+    "judicial_service",
+    "national_development_bank",
+    "parliamentary_service",
+    "pensions_regulator",
+    "ports",
+    "public_university",
+    "railways",
+    "revenue_authority",
+    "sovereign_infrastructure_fund",
+    "state_owned_enterprise",
+    "water_utility"
+  ],
+  "institutions": [
+    {
+      "organisation_id": "central-bank-of-kenya",
+      "name": "Central Bank of Kenya",
+      "category": "central_bank",
+      "enabled": true,
+      "career_url": "https://www.centralbank.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-revenue-authority",
+      "name": "Kenya Revenue Authority",
+      "category": "revenue_authority",
+      "enabled": true,
+      "career_url": "https://www.kra.go.ke/careers",
+      "cities": [
+        "Nairobi",
+        "Mombasa",
+        "Kisumu",
+        "Nakuru",
+        "Eldoret"
+      ]
+    },
+    {
+      "organisation_id": "capital-markets-authority-kenya",
+      "name": "Capital Markets Authority Kenya",
+      "category": "capital_markets_regulator",
+      "enabled": true,
+      "career_url": "https://www.cma.or.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "insurance-regulatory-authority-kenya",
+      "name": "Insurance Regulatory Authority Kenya",
+      "category": "insurance_regulator",
+      "enabled": true,
+      "career_url": "https://www.ira.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "retirement-benefits-authority-kenya",
+      "name": "Retirement Benefits Authority Kenya",
+      "category": "pensions_regulator",
+      "enabled": true,
+      "career_url": "https://www.rba.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "competition-authority-of-kenya",
+      "name": "Competition Authority of Kenya",
+      "category": "competition_authority",
+      "enabled": true,
+      "career_url": "https://www.cak.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-investment-authority",
+      "name": "Kenya Investment Authority",
+      "category": "investment_promotion_agency",
+      "enabled": true,
+      "career_url": "https://www.invest.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-development-corporation",
+      "name": "Kenya Development Corporation",
+      "category": "national_development_bank",
+      "enabled": true,
+      "career_url": "https://www.kdc.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "development-bank-of-kenya",
+      "name": "Development Bank of Kenya",
+      "category": "national_development_bank",
+      "enabled": true,
+      "career_url": "https://www.devbank.com/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "agricultural-finance-corporation-kenya",
+      "name": "Agricultural Finance Corporation Kenya",
+      "category": "national_development_bank",
+      "enabled": true,
+      "career_url": "https://www.agrifinance.org/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-industrial-estates",
+      "name": "Kenya Industrial Estates",
+      "category": "national_development_bank",
+      "enabled": true,
+      "career_url": "https://www.kie.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-mortgage-refinance-company",
+      "name": "Kenya Mortgage Refinance Company",
+      "category": "national_development_bank",
+      "enabled": true,
+      "career_url": "https://www.kmrc.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "national-social-security-fund-kenya",
+      "name": "National Social Security Fund Kenya",
+      "category": "sovereign_infrastructure_fund",
+      "enabled": true,
+      "career_url": "https://www.nssf.or.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-national-infrastructure-fund",
+      "name": "Kenya National Infrastructure Fund",
+      "category": "sovereign_infrastructure_fund",
+      "enabled": false,
+      "career_url": "https://www.treasury.go.ke/",
+      "cities": [
+        "Nairobi"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "university-of-nairobi",
+      "name": "University of Nairobi",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.uonbi.ac.ke/jobs",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenyatta-university",
+      "name": "Kenyatta University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.ku.ac.ke/job-opportunities",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "jomo-kenyatta-university-agriculture-technology",
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.jkuat.ac.ke/jobs/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "moi-university",
+      "name": "Moi University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.mu.ac.ke/index.php/en/careers",
+      "cities": [
+        "Eldoret"
+      ]
+    },
+    {
+      "organisation_id": "egerton-university",
+      "name": "Egerton University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.egerton.ac.ke/careers",
+      "cities": [
+        "Nakuru"
+      ]
+    },
+    {
+      "organisation_id": "maseno-university",
+      "name": "Maseno University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.maseno.ac.ke/vacancies",
+      "cities": [
+        "Kisumu"
+      ]
+    },
+    {
+      "organisation_id": "masinde-muliro-university-science-technology",
+      "name": "Masinde Muliro University of Science and Technology",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.mmust.ac.ke/careers",
+      "cities": [
+        "Kakamega"
+      ]
+    },
+    {
+      "organisation_id": "technical-university-of-kenya",
+      "name": "Technical University of Kenya",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://tukenya.ac.ke/vacancies",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "technical-university-of-mombasa",
+      "name": "Technical University of Mombasa",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.tum.ac.ke/vacancies",
+      "cities": [
+        "Mombasa"
+      ]
+    },
+    {
+      "organisation_id": "dedan-kimathi-university-technology",
+      "name": "Dedan Kimathi University of Technology",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.dkut.ac.ke/index.php/careers",
+      "cities": [
+        "Nyeri"
+      ]
+    },
+    {
+      "organisation_id": "pwani-university",
+      "name": "Pwani University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.pu.ac.ke/index.php/jobs",
+      "cities": [
+        "Kilifi"
+      ]
+    },
+    {
+      "organisation_id": "machakos-university",
+      "name": "Machakos University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.mksu.ac.ke/careers/",
+      "cities": [
+        "Machakos"
+      ]
+    },
+    {
+      "organisation_id": "chuka-university",
+      "name": "Chuka University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.chuka.ac.ke/vacancies/",
+      "cities": [
+        "Chuka"
+      ]
+    },
+    {
+      "organisation_id": "kisii-university",
+      "name": "Kisii University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.kisiiuniversity.ac.ke/careers/",
+      "cities": [
+        "Kisii"
+      ]
+    },
+    {
+      "organisation_id": "karatina-university",
+      "name": "Karatina University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://karu.ac.ke/careers/",
+      "cities": [
+        "Nyeri"
+      ]
+    },
+    {
+      "organisation_id": "meru-university-science-technology",
+      "name": "Meru University of Science and Technology",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.must.ac.ke/careers/",
+      "cities": [
+        "Meru"
+      ]
+    },
+    {
+      "organisation_id": "university-of-eldoret",
+      "name": "University of Eldoret",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.uoeld.ac.ke/careers",
+      "cities": [
+        "Eldoret"
+      ]
+    },
+    {
+      "organisation_id": "south-eastern-kenya-university",
+      "name": "South Eastern Kenya University",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.seku.ac.ke/careers",
+      "cities": [
+        "Kitui"
+      ]
+    },
+    {
+      "organisation_id": "multimedia-university-of-kenya",
+      "name": "Multimedia University of Kenya",
+      "category": "public_university",
+      "enabled": true,
+      "career_url": "https://www.mmu.ac.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "judicial-service-commission-kenya",
+      "name": "Judicial Service Commission Kenya",
+      "category": "judicial_service",
+      "enabled": true,
+      "career_url": "https://jsc.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "parliamentary-service-commission-kenya",
+      "name": "Parliamentary Service Commission Kenya",
+      "category": "parliamentary_service",
+      "enabled": true,
+      "career_url": "https://www.parliament.go.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-ports-authority",
+      "name": "Kenya Ports Authority",
+      "category": "ports",
+      "enabled": true,
+      "career_url": "https://www.kpa.co.ke/Careers",
+      "cities": [
+        "Mombasa"
+      ]
+    },
+    {
+      "organisation_id": "kenya-railways-corporation",
+      "name": "Kenya Railways Corporation",
+      "category": "railways",
+      "enabled": true,
+      "career_url": "https://krc.co.ke/careers/",
+      "cities": [
+        "Nairobi",
+        "Mombasa"
+      ]
+    },
+    {
+      "organisation_id": "kenya-power",
+      "name": "Kenya Power",
+      "category": "electricity_utility",
+      "enabled": true,
+      "career_url": "https://www.kplc.co.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-electricity-generating-company",
+      "name": "Kenya Electricity Generating Company",
+      "category": "electricity_utility",
+      "enabled": true,
+      "career_url": "https://www.kengen.co.ke/careers",
+      "cities": [
+        "Nairobi",
+        "Naivasha"
+      ]
+    },
+    {
+      "organisation_id": "kenya-electricity-transmission-company",
+      "name": "Kenya Electricity Transmission Company",
+      "category": "electricity_utility",
+      "enabled": true,
+      "career_url": "https://www.ketraco.co.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "geothermal-development-company-kenya",
+      "name": "Geothermal Development Company Kenya",
+      "category": "electricity_utility",
+      "enabled": true,
+      "career_url": "https://www.gdc.co.ke/careers",
+      "cities": [
+        "Nairobi",
+        "Naivasha"
+      ]
+    },
+    {
+      "organisation_id": "rural-electrification-renewable-energy-corporation",
+      "name": "Rural Electrification and Renewable Energy Corporation",
+      "category": "electricity_utility",
+      "enabled": true,
+      "career_url": "https://www.rerec.co.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "water-services-regulatory-board-kenya",
+      "name": "Water Services Regulatory Board Kenya",
+      "category": "water_utility",
+      "enabled": true,
+      "career_url": "https://wasreb.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "athi-water-works-development-agency",
+      "name": "Athi Water Works Development Agency",
+      "category": "water_utility",
+      "enabled": true,
+      "career_url": "https://www.awwda.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "nairobi-city-water-sewerage-company",
+      "name": "Nairobi City Water and Sewerage Company",
+      "category": "water_utility",
+      "enabled": true,
+      "career_url": "https://www.nairobiwater.co.ke/careers",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-airports-authority",
+      "name": "Kenya Airports Authority",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kaa.go.ke/careers/",
+      "cities": [
+        "Nairobi",
+        "Mombasa",
+        "Kisumu",
+        "Eldoret"
+      ]
+    },
+    {
+      "organisation_id": "kenya-pipeline-company",
+      "name": "Kenya Pipeline Company",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kpc.co.ke/careers/",
+      "cities": [
+        "Nairobi",
+        "Mombasa",
+        "Kisumu",
+        "Eldoret"
+      ]
+    },
+    {
+      "organisation_id": "kenya-airways",
+      "name": "Kenya Airways",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://careers.kenya-airways.com/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-medical-supplies-authority",
+      "name": "Kenya Medical Supplies Authority",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kemsa.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-reinsurance-corporation",
+      "name": "Kenya Reinsurance Corporation",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kenyare.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-broadcasting-corporation",
+      "name": "Kenya Broadcasting Corporation",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kbc.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "postal-corporation-of-kenya",
+      "name": "Postal Corporation of Kenya",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://posta.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "new-kenya-cooperative-creameries",
+      "name": "New Kenya Cooperative Creameries",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.newkcc.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "national-cereals-produce-board",
+      "name": "National Cereals and Produce Board",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.ncpb.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-seed-company",
+      "name": "Kenya Seed Company",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://kenyaseed.com/careers/",
+      "cities": [
+        "Kitale"
+      ]
+    },
+    {
+      "organisation_id": "national-oil-corporation-kenya",
+      "name": "National Oil Corporation of Kenya",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://nationaloil.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenyatta-international-convention-centre",
+      "name": "Kenyatta International Convention Centre",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://kicc.co.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-tourism-board",
+      "name": "Kenya Tourism Board",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://ktb.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "kenya-bureau-of-standards",
+      "name": "Kenya Bureau of Standards",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.kebs.org/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    },
+    {
+      "organisation_id": "national-transport-safety-authority",
+      "name": "National Transport and Safety Authority",
+      "category": "state_owned_enterprise",
+      "enabled": true,
+      "career_url": "https://www.ntsa.go.ke/careers/",
+      "cities": [
+        "Nairobi"
+      ]
+    }
+  ]
+}

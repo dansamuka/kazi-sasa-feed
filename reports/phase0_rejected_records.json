@@ -1,0 +1,2842 @@
+{
+  "report_version": "1.0",
+  "generated_at": "2026-07-13T06:14:27.704608Z",
+  "rejected_count": 405,
+  "records": [
+    {
+      "id": "greenhouse-givedirectly-4714132005",
+      "title": "Director, Global Talent Acquisition (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4706119005",
+      "title": "Director of Engineering (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4129255005",
+      "title": "General Interest",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4673881005",
+      "title": "Head of Strategic Partnerships & Influence  (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4685803005",
+      "title": "Senior Manager, Accounting (Remote - US)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4695154005",
+      "title": "Senior Manager, Business Operations (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4707837005",
+      "title": "Senior Manager, Strategic Finance (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4558344005",
+      "title": "Senior Software Engineer (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-givedirectly-4696894005",
+      "title": "Targeting Analyst, Emergency Cash (Remote)",
+      "source": "GiveDirectly",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7993151",
+      "title": "Account Executive - Enterprise, Grower",
+      "source": "Stripe",
+      "location_raw": "US-Remote, US-San Francisco, US-Chicago, US-New York, US-Seattle, US-Texas",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7961609",
+      "title": "Account Executive, Enterprise Platforms, Hunter",
+      "source": "Stripe",
+      "location_raw": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Denver, CO; Austin, TX; US-West Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7298935",
+      "title": "Account Executive, Platforms (New Business) ",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7456716",
+      "title": "Account Executive, Product Sales (BaaS)",
+      "source": "Stripe",
+      "location_raw": "SF, NYC, remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8012497",
+      "title": "Analyst Relations Manager",
+      "source": "Stripe",
+      "location_raw": "Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-6567253",
+      "title": "Backend Engineer, Core Tech, Canada",
+      "source": "Stripe",
+      "location_raw": "Toronto, CAN-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-6042172",
+      "title": "Backend Engineer, Core Technology",
+      "source": "Stripe",
+      "location_raw": "US-Remote, Chicago, Seattle, San Francisco",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7584016",
+      "title": "Campaign Operations Manager",
+      "source": "Stripe",
+      "location_raw": "San Francisco, Seattle, New York, Chicago, Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7206336",
+      "title": "Commercial Solutions Program Manager",
+      "source": "Stripe",
+      "location_raw": "Chicago, IL , Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-5956522",
+      "title": "Company Strategy & Operations",
+      "source": "Stripe",
+      "location_raw": "San Francisco, Seattle, Chicago, US-remote, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7947510",
+      "title": "Consumer Product Marketing Lead, Link",
+      "source": "Stripe",
+      "location_raw": "San Fransisco, New York, Seattle, Chicago, Remote US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8004035",
+      "title": "Copy Editor",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7736482",
+      "title": "Corporate Network Engineering Manager",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8010009",
+      "title": "Counsel, Leasing & Operational Professional Services",
+      "source": "Stripe",
+      "location_raw": "Chicago, Atlanta, US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8044686",
+      "title": "Credit Risk Strategy and Analytics",
+      "source": "Stripe",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7440963",
+      "title": "Data Science Manager, Finance and Strategy",
+      "source": "Stripe",
+      "location_raw": "Seattle, WA OR New York, NY OR Remote North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7685049",
+      "title": "Deal Pricing",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7736943",
+      "title": "Engineering Manager, Developer Productivity AI",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8027651",
+      "title": "Executive Engagement Lead, Office of the CRO",
+      "source": "Stripe",
+      "location_raw": "NYC, SF, SEA, CHI, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7932062",
+      "title": "Executive Lifecycle Marketing Manager",
+      "source": "Stripe",
+      "location_raw": "San Francisco or New York or US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7979885",
+      "title": "Finance & Strategy Partner, Central Engineering",
+      "source": "Stripe",
+      "location_raw": "Remote US, SF, SEA, NYC, CHI",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7913410",
+      "title": "Fraud Patterns Analyst",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8039729",
+      "title": "Fraud Strategy Manager ",
+      "source": "Stripe",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7091959",
+      "title": "Fullstack Engineer, Privy",
+      "source": "Stripe",
+      "location_raw": "NYC-Privy, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7997545",
+      "title": "Global Filing Specialist, Tax",
+      "source": "Stripe",
+      "location_raw": "US Remote,Toronto, CA-Remote-Ontario",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7993682",
+      "title": "Global Sales Enablement Systems Administrator",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7993610",
+      "title": "GTM Operations Process Architect",
+      "source": "Stripe",
+      "location_raw": "US Remote National",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7942216",
+      "title": "GTM Recruiter, AMER (Fixed Term)",
+      "source": "Stripe",
+      "location_raw": "Chicago, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8036235",
+      "title": "Head of Market Intelligence, Product Marketing",
+      "source": "Stripe",
+      "location_raw": "SF, Seattle, NYC, Chicago, Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7950653",
+      "title": "Indirect Tax (VAT/GST) Advisory Consultant",
+      "source": "Stripe",
+      "location_raw": "NYC, SF, SEA, US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7587812",
+      "title": "Integrated Campaigns Manager, Startups and AI",
+      "source": "Stripe",
+      "location_raw": "San Francisco, New York, Seattle, Chicago, Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7978019",
+      "title": "Integrated Campaigns Manager, Treasury",
+      "source": "Stripe",
+      "location_raw": "Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7997542",
+      "title": "Operations Insights, Tax",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7978017",
+      "title": "Paid Social Marketing Manager, Americas",
+      "source": "Stripe",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8027577",
+      "title": "Partner Development Manager, Financial Connections",
+      "source": "Stripe",
+      "location_raw": "New York, San Francisco, Seattle, Chicago, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8027573",
+      "title": "Partner Development Manager, Financial Connections",
+      "source": "Stripe",
+      "location_raw": "New York, San Francisco, Seattle, Chicago, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7697672",
+      "title": "Partner Development Manager, Strategic Partnerships",
+      "source": "Stripe",
+      "location_raw": "US-San Francisco; US-New York City; US-Seattle; US-Remote; US-Chicago; CA-Toronto; CA-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7973002",
+      "title": "Partner Development Manager, Strategic Partnerships",
+      "source": "Stripe",
+      "location_raw": "US-San Francisco; US-New York City; US-Seattle; US-Remote; US-Chicago; CA-Toronto; CA-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7913406",
+      "title": "Payments Fraud Investigator",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8004054",
+      "title": "Payments Performance Strategist, Card Authorization",
+      "source": "Stripe",
+      "location_raw": "San Francisco, CA; Seattle, WA; Chicago, IL; New York, NY; Atlanta, GA; US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7953899",
+      "title": "People Project Manager",
+      "source": "Stripe",
+      "location_raw": "US-Remote, Atlanta, Chicago",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7594208",
+      "title": "People Solutions Program Manager",
+      "source": "Stripe",
+      "location_raw": "US-Remote; US-Chicago; US-Atlanta; CA-Toronto",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7858811",
+      "title": "Portfolio Pricing Strategist",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7930151",
+      "title": "Product Counsel, Data Products",
+      "source": "Stripe",
+      "location_raw": "US remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7558757",
+      "title": "Product Counsel, Terminal",
+      "source": "Stripe",
+      "location_raw": "US-Remote, Toronto",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7819759",
+      "title": "Product Lead, Connect",
+      "source": "Stripe",
+      "location_raw": "San Francisco, New York City, Seattle, US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7979422",
+      "title": "Product Manager - Compliance, Bridge",
+      "source": "Stripe",
+      "location_raw": "New York, San Francisco or Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7984866",
+      "title": "Product Manager, Ecosystem Risk",
+      "source": "Stripe",
+      "location_raw": "New-York, Atlanta, Remote, Toronto",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7392697",
+      "title": "Product Manager, Link - Consumer",
+      "source": "Stripe",
+      "location_raw": "SF, SEA, NY, Remote-US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7176530",
+      "title": "Product Manager, Payments",
+      "source": "Stripe",
+      "location_raw": "SF, NY, SEA, Remote-US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-6348471",
+      "title": "Product Marketing Manager",
+      "source": "Stripe",
+      "location_raw": "San Francisco, New York, Seattle, Chicago, Remote, Toronto",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7914005",
+      "title": "Product Marketing Manager, Growth",
+      "source": "Stripe",
+      "location_raw": "Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8014761",
+      "title": "Product Marketing Manager, Market Intelligence",
+      "source": "Stripe",
+      "location_raw": "SF, Seattle, NYC, Chicago, Toronto, Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7961101",
+      "title": "Product Marketing Manager, Radar",
+      "source": "Stripe",
+      "location_raw": "SF, NYC, Seattle, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7656504",
+      "title": "Program Manager, GTM Planning",
+      "source": "Stripe",
+      "location_raw": "US-Chicago, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7569678",
+      "title": "Program Manager, Intake & Portfolio Management",
+      "source": "Stripe",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7214197",
+      "title": "Program Manager, Risk Ops Enablement",
+      "source": "Stripe",
+      "location_raw": "US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7917252",
+      "title": "Program Manager, Security Business Enablement",
+      "source": "Stripe",
+      "location_raw": "US - Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7966641",
+      "title": "Program Manager, Security Business Enablement",
+      "source": "Stripe",
+      "location_raw": "US-REMOTE",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7470827",
+      "title": "Program Manager, Solutions Architecture (GTM Transformation)",
+      "source": "Stripe",
+      "location_raw": "Chicago, Atlanta, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8036325",
+      "title": "Project Manager, Global Expansion",
+      "source": "Stripe",
+      "location_raw": "SF, SEA, NYC, CHI, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7430296",
+      "title": "Risk Operations Analyst, Financial Crimes Programs",
+      "source": "Stripe",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7697973",
+      "title": "Risk Strategist, Onboarding and Compliance",
+      "source": "Stripe",
+      "location_raw": "Chicago, US-Remote, Toronto",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7594866",
+      "title": "Risk Strategist, User Risk Strategy",
+      "source": "Stripe",
+      "location_raw": "Chicago, SEA, SF, NYC, US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7739207",
+      "title": "Sales Compensation Analytics & Systems Specialist",
+      "source": "Stripe",
+      "location_raw": "CHI, SF, NYC, SEA, US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8011418",
+      "title": "Sales Excellence Manager, Global Sales Vendors",
+      "source": "Stripe",
+      "location_raw": "Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7979393",
+      "title": "Security Analyst, Bug Bounty",
+      "source": "Stripe",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7923191",
+      "title": "Security Engineer",
+      "source": "Stripe",
+      "location_raw": "South San Francisco, CA and US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8031782",
+      "title": "Senior Staff Product Designer, Risk",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7826761",
+      "title": "Software Engineer, Security Analytics Infrastructure",
+      "source": "Stripe",
+      "location_raw": "US - Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7827184",
+      "title": "Solutions Architect, Enterprise (Pre-sales)",
+      "source": "Stripe",
+      "location_raw": "Chicago, IL or New York City, NY OR US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7370967",
+      "title": "Specialist Solution Architect, Money Management",
+      "source": "Stripe",
+      "location_raw": "NYC, SF, Chi, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7728618",
+      "title": "Specialist Solutions Architect, Billing",
+      "source": "Stripe",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7380371",
+      "title": "Specialist Solutions Architect, Money Management",
+      "source": "Stripe",
+      "location_raw": "NY, SF, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7895467",
+      "title": "Staff Full Stack Engineer, Identity",
+      "source": "Stripe",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7980498",
+      "title": "Staff Product Manager, Cards Monetization",
+      "source": "Stripe",
+      "location_raw": "Seattle, San Francisco, New York, US - Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7913702",
+      "title": "Staff Product Manager, Dashboard",
+      "source": "Stripe",
+      "location_raw": "San Francisco, Seattle, NYC, Chicago, Atlanta, US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7812856",
+      "title": "Staff Product Manager, Enterprise",
+      "source": "Stripe",
+      "location_raw": "San Francisco, Seattle, New York, Chicago, Atlanta, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7517535",
+      "title": "Staff Product Manager, ML Foundations and GenAI",
+      "source": "Stripe",
+      "location_raw": "Seattle, San Francisco, New York, US - Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7819059",
+      "title": "Staff Product Manager, Payments",
+      "source": "Stripe",
+      "location_raw": "SF, SEA, NYC, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7366283",
+      "title": "Technical Account Manager, Terminal",
+      "source": "Stripe",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7976987",
+      "title": "Technical Partner Manager",
+      "source": "Stripe",
+      "location_raw": "US-Atlanta; US-Chicago; US-Remote; CA-Toronto; CA-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7589234",
+      "title": "Technical Program Manager, Core Infrastructure",
+      "source": "Stripe",
+      "location_raw": "Seattle, SF, Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7778643",
+      "title": "Technical Program Manager,  Extensibility Programs",
+      "source": "Stripe",
+      "location_raw": "Remote in the US, Chicago, Atlanta",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7417090",
+      "title": "Technical Program Manager,  Identity and Access Management Programs",
+      "source": "Stripe",
+      "location_raw": "Remote in the US, Chicago, Atlanta",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8042055",
+      "title": "Technical Program Manager, Money-as-a-Service",
+      "source": "Stripe",
+      "location_raw": "Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7685855",
+      "title": "Technical Program Manager, Risk",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7985196",
+      "title": "Technical Program Manager, Service Infrastructure",
+      "source": "Stripe",
+      "location_raw": "Seattle, San Francisco, Remote in the US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7377101",
+      "title": "Technical Solutions Engineer",
+      "source": "Stripe",
+      "location_raw": "Remote - California, Remote - Colorado, Remote - Oregon, Remote - Washington",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-8036155",
+      "title": "Technical Writer, Docs Content",
+      "source": "Stripe",
+      "location_raw": "US Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7977981",
+      "title": "User Risk Strategist, Ecosystem Risk Strategy",
+      "source": "Stripe",
+      "location_raw": "US-Chicago; US-Atlanta; US-Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-stripe-7587814",
+      "title": "Writer, Content Marketing",
+      "source": "Stripe",
+      "location_raw": "Remote US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-cloudflare-8024889",
+      "title": "Principal Partner Solutions Engineer, SAARC (Based in Bangalore)",
+      "source": "Cloudflare",
+      "location_raw": "Hybrid or Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8565469002",
+      "title": "AI Engineer",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8532272002",
+      "title": "Business Development Representative ",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8528922002",
+      "title": "Commercial Account Executive - Greece/Malta ",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8534549002",
+      "title": "Commercial Account Executive - Mid-Market, US West",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8535897002",
+      "title": "Commercial Account Executive - Named, US East",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8543383002",
+      "title": "Commercial Account Executive - Named, US West",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8562593002",
+      "title": "Commercial Legal Counsel",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8533016002",
+      "title": "Customer Success Manager",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8608483002",
+      "title": "Customer Success Manager- Public Sector ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8628537002",
+      "title": "Director, Customer Experience Strategy",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8510488002",
+      "title": "Director, Enterprise Architecture & Intelligent Automation",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8615811002",
+      "title": "Director, Strategic Partnerships",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8467462002",
+      "title": "Engagement Manager - EMEA",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8615946002",
+      "title": "Engineering Manager, Cell Infrastructure",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8592950002",
+      "title": "Engineering Manager, Data Foundations",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8523640002",
+      "title": "Executive Assistant ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8626198002",
+      "title": "FP&A Manager, R&D",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8604633002",
+      "title": "High Velocity Enablement Lead ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8614683002",
+      "title": "Manager, Business Development   ",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8604996002",
+      "title": "Manager, Customer Success Operations",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8589197002",
+      "title": "Manager, Public Sector Solutions Architects",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8535048002",
+      "title": "Manager, Security Incident Response Team (USA)",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8396674002",
+      "title": "Manager, Solutions Architects",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8503972002",
+      "title": "Manager, Solutions Architects - Commercial",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8610803002",
+      "title": "New Business Account Executive - SLED",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8615797002",
+      "title": "New Business Account Executive - Southern California ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8574978002",
+      "title": "Principal HRIS Analyst, People Technology - Workday",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8341795002",
+      "title": "Principal Solutions Architect, AI / Core DevOps SME",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8579044002",
+      "title": "Professional Services Engagement Manager",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8617252002",
+      "title": "Professional Services Program Manager",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8498707002",
+      "title": "Public Sector Strategic Account Executive, DoD",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8589192002",
+      "title": "Public Sector Strategic Account Executive, Federal Civilian",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8596778002",
+      "title": "Public Sector Strategic Account Executive, FSI",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8611813002",
+      "title": "Renewals Manager",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8556658002",
+      "title": "Senior AI Engineer",
+      "source": "GitLab",
+      "location_raw": "Remote, Bangalore",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8548545002",
+      "title": "Senior AI Engineer",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8599261002",
+      "title": "Senior Customer Success Engineer- Public Sector",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8616005002",
+      "title": "Senior Customer Success Manager- Public Sector ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8592663002",
+      "title": "Senior Director, Deal Desk",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8609650002",
+      "title": "Senior Director, Field CTOs",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8592710002",
+      "title": "Senior Director, People Business Partner",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8539908002",
+      "title": "Senior Director, Procurement",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8561219002",
+      "title": "Senior Director, Solution Architecture - North America",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8609688002",
+      "title": "Senior Executive Assistant",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8599175002",
+      "title": "Senior Manager, Customer Trust & Security Governance ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8561194002",
+      "title": "Senior Manager, CX Services Operations",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8597889002",
+      "title": "Senior Manager, End User Services",
+      "source": "GitLab",
+      "location_raw": "Remote, North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8612148002",
+      "title": "Senior Manager, Security Compliance ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8597847002",
+      "title": "Senior Professional Services Partners Manager, Subcontractor Partner Solutions",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8584282002",
+      "title": "Senior Program Manager, Enterprise Technology & AI",
+      "source": "GitLab",
+      "location_raw": "Remote, Bangalore",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8627228002",
+      "title": "Senior Public Sector Solutions Architect",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8589176002",
+      "title": "Senior Solutions Architect, Financial Services - NYC area",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8591221002",
+      "title": "Senior Solutions Architect, Global SI (India)",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8589195002",
+      "title": "Senior Solutions Architect - Northeast",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8589178002",
+      "title": "Senior Solutions Architect - SF Bay area",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8588547002",
+      "title": "Senior TA Operations Specialist",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8515080002",
+      "title": "Site Reliability Engineer, Cloud Cost Utilization",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8623389002",
+      "title": "Site Reliability Engineer, Intermediate to Senior Staff — Infrastructure Platforms",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8610402002",
+      "title": "Solutions Architect, LATAM",
+      "source": "GitLab",
+      "location_raw": "Remote, Mexico",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8514960002",
+      "title": "Staff Infrastructure Security Engineer (APAC, EMEA, or US)",
+      "source": "GitLab",
+      "location_raw": "Remote, APAC; Remote, EMEA; Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8612937002",
+      "title": "Staff Product Manager,  RevOps & Finance Systems",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8604630002",
+      "title": "Strategic Account Executive, San Francisco ",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8555134002",
+      "title": "Strategic Account Executive - South Africa",
+      "source": "GitLab",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8510676002",
+      "title": "Vice President, Data & Insights",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8467198002",
+      "title": "Vice President, Finance Strategy & Operations",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "greenhouse-gitlab-8499647002",
+      "title": "Vice President, Legal Commercial",
+      "source": "GitLab",
+      "location_raw": "Remote, US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-03e2d4e1-73ad-4f09-a058-2eb9ce34c2bc",
+      "title": "Technical Consultant, Mid-Market",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-0907ae2a-5334-4d64-9a76-cc9428224546",
+      "title": "Director, Performance Marketing",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-09a9381c-677b-40a5-9ff1-027bd4302c13",
+      "title": "Customer Activation Manager | Enterprise",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-0d731586-3626-48fb-9dc5-3061ae5fd240",
+      "title": "Customer Experience Associate - London",
+      "source": "Ramp",
+      "location_raw": "London",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-0ed80a29-6cca-42d7-b7e0-066d4fa7b37f",
+      "title": "Staff Software Engineer | iOS",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-13fe8467-b624-4f30-8aad-af441dfb1797",
+      "title": "Technical Consultant, Oracle Fusion",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-1540a41f-d88f-4c89-9b08-5b9fade1ee81",
+      "title": "Senior Software Engineer | GTM Platform, Frontend",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-1588aaad-37b1-4080-a662-e284ad29e338",
+      "title": "Senior Lead, Tech and Product Communications",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-17ded8ac-6a17-4311-8353-9aa5d20072a5",
+      "title": "Senior Partner Field Marketing Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-198150d6-789a-4ef8-999f-93a49656d4f1",
+      "title": "Software Engineer, Engineering Platform",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-1c8e2b03-fcb3-4949-9113-07812f138eb6",
+      "title": "Employee Lifecycle Analyst",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-1db75064-e38c-4b21-8310-21471943d0be",
+      "title": "Technical Program Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-218e3fef-0fa7-4ad4-b401-9ba0c76c0ff0",
+      "title": "Technical Consultant, S/4HANA",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-2888b101-b1da-4e53-a02e-1bb9b1b5a951",
+      "title": "Senior Applied Scientist, Credit Risk",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-29b679a8-9990-48c1-b91e-001c566ced27",
+      "title": "Solutions Consultant | Enterprise ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-2a4968ae-220c-471b-b890-a011de570bbb",
+      "title": "Software Engineer, Bill Pay & Procurement",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-2c3c860b-4598-4bc3-a36b-e9f40b39768c",
+      "title": "Associate Creative Director, Customer Stories",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-2f332a16-5fa6-4971-8a96-39bebf46c23d",
+      "title": "Senior Channel Partner Manager | Strategic Technology Partners",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-30323399-3039-499d-a0b6-a891ced89e1e",
+      "title": "Head of Brand",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+      "title": " Security Engineer, Cloud",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-36c24531-5ab8-4b30-982f-588f033c21c0",
+      "title": "Senior Marketing Media Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-3ce8d76b-0cfb-4dd5-b36b-de22c4bd85e9",
+      "title": "Channel Partner Manager | Venture Capital & Growth Equity",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-41696f51-7b29-4e12-b528-46c2f6c4f5f7",
+      "title": "Senior Data Scientist, Growth ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-42527ca9-03b9-499e-a5c4-18e4245af138",
+      "title": "Software Engineer, Developer API",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-428f41e2-48e8-409d-b5e3-8053f7fc7a27",
+      "title": "Senior Software Engineer | GTM Platform, Backend",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-453fc2eb-3eba-42a1-8dd1-36689875b583",
+      "title": "Senior Growth Operator, Partner",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-4859cd5e-f2a9-44d7-81f7-8bfc0e62369f",
+      "title": "Mobile Engineer, iOS",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-4904547a-e2ca-407c-b113-8aae2be0790c",
+      "title": "Customer Activation | Partnerships ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-492823d8-9651-46cf-9d33-a632ef706879",
+      "title": "Solutions Consultant, Post Sales, Mid-Market",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-4e0b7179-4ce3-4ad8-89f1-68e322652606",
+      "title": "Senior Manager, ERP Partnerships",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-4e64ab86-4e30-403b-b1b9-41dc052570ce",
+      "title": "Software Engineer, Frontend",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-504e34ff-dbd9-49a7-8f68-327092672164",
+      "title": "Sales Enablement | SDR",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-5598f7b8-4ae2-4105-a2b4-2d0f55c54c40",
+      "title": "Software Engineer, Credit",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-5cc4e600-1b28-4083-8a70-90f790112f89",
+      "title": "Senior Associate, Strategic Finance",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-5fe4c64e-9336-4384-9e6f-ff32eeb3fdae",
+      "title": "Software Engineer, Core Product",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-606475af-b74f-42c4-978a-dde138a86ac7",
+      "title": "Associate, Strategic Finance",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-60ed4fac-3833-4495-9b0f-75e6dfe4b36c",
+      "title": "Manager, Account Executive | Mid-Market",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-624cd0cc-7471-4c9a-99be-56b90809d2ce",
+      "title": "Technical Recruiter | Engineering ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-63df0ffc-bdc6-40ba-906f-fe03378536b0",
+      "title": "AI Operations Specialist | Agentic Workflows",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-67fadb77-43d8-4449-954b-d4cf2c6d3b8b",
+      "title": "Software Engineer Internship, Android ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-6a7e382f-240a-4952-b9e5-7fe2b3856bc9",
+      "title": "Applied AI Engineer, Fullstack",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-6c3cbaf3-33ad-453f-8b91-0d0b2c4f897d",
+      "title": "Filmmaker, Customer Stories",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-713e0345-7576-45dc-8073-35d9833237ba",
+      "title": "Enterprise Marketing Manager, Strategic Accounts",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-71e5c2bf-6014-499e-92b5-c4b3241bbbcd",
+      "title": "Social Media Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-72ba7873-254f-45dc-9e7b-595c9d1f8acf",
+      "title": "Senior Recruiter | Business / GTM",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-77578727-0710-43dd-a294-ac3cbb6b52a7",
+      "title": "Virtual Events Associate",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-77c4bead-5399-4631-91bb-d80c467191ba",
+      "title": "Executive Assistant, Finance",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-78b98c66-af59-4fa8-a5ae-d8af8d737976",
+      "title": "Director, Product Design",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-7bfa613e-151c-469b-9973-c89ee3d14838",
+      "title": "Backend Engineer, Ops",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-7c26780b-7923-42d5-8111-9825ff996966",
+      "title": "Security Engineer, Product",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-803e8ace-6c1d-4807-99d3-e35fe45b2fc9",
+      "title": "Senior Manager, Equity Administration",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8086c65e-b4cc-4bdd-8f1f-5bdf03130ff4",
+      "title": "Customer Activation Manager | Mid-Market",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-80a2e918-1b21-44c3-92f9-a6da507130ef",
+      "title": "Growth Manager, Verticalization & Startups GM",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-832ec6d9-580f-48b1-9b76-cbf854590f46",
+      "title": "Indirect Tax Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-85bb97ba-b1fe-4a3b-be35-df4d40b7455e",
+      "title": "Technical Consultant, Workday",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8c004352-f162-4d89-858f-75a649e77ec4",
+      "title": "Account Executive | Commercial",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8ca5c32b-e6c7-47e3-af23-291f122fa0f8",
+      "title": "Solutions Consultant, Post Sales, Commercial",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8d61885c-0f08-4267-8ace-69e28b1d3f38",
+      "title": "Senior Software Engineer | Web + Design",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8db155ca-7e13-4eed-9813-1b6b65d66158",
+      "title": "Senior Channel Partner Manager | Venture Capital & Growth Equity",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8e91631a-7e69-4d76-a73b-de2f09d7de9f",
+      "title": "Growth Manager, Website CRO",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-8fa367de-71ba-409e-befd-175a163acb1b",
+      "title": "Software Engineer, Fraud & Identity",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-9226150c-47df-42f4-8626-7a0aea6b9991",
+      "title": "Product Operations Specialist | Bill Pay",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-924ad606-e32a-4bb9-967c-f609cdaebaa7",
+      "title": "Risk Operations, Collections",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-9320454f-f2ca-4c19-82d2-b51b8d75fd3a",
+      "title": "Software Engineer, Argentina",
+      "source": "Ramp",
+      "location_raw": "Remote (Buenos Aires, Argentina)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-94d79eed-34db-42c8-b47c-5edef335b7f2",
+      "title": "Scaled Customer Activation Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-95f450a1-0d38-4d58-9aac-9d7e655adc36",
+      "title": "Security Engineer, Privacy",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-971abc99-f20b-43f0-91d6-90bcbfa2c8d9",
+      "title": "Solutions Consultant, Post Sales, Enterprise",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-97898101-f97b-47c8-a991-267afc517ae5",
+      "title": "Senior Customer Activation Manager | Partnerships ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-9caa3f21-84fb-44aa-b69b-2104e89021c6",
+      "title": "Manager, 3P Event Marketing",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-9d165e64-bf63-4b16-878f-b46188563ca2",
+      "title": "Director, Technical Consultant",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-a3afd259-ba6b-4eb0-a1b6-05d01dddacd8",
+      "title": "Product Manager | Agentic CX",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-a4ecdd59-e379-4841-9bd3-c3f1f86da008",
+      "title": "Customer Activation Manager, Commercial ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-aef46cd3-e2b6-440c-9283-39a22b1a621c",
+      "title": "Manager, Commercial Customer Activation",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-afe866c3-3725-4416-9e5f-530ed89b295d",
+      "title": "Manager, Scaled Customer Success",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-b42cce4b-8fa9-4e8d-892d-3a29a7afb909",
+      "title": "Software Engineer, AI DevX",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-b4cbb19e-8249-4339-8eac-20e3806d7999",
+      "title": "Enterprise Account Executive, Juno",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-b55447c0-4adc-42eb-9ca2-f88fd44e0e5b",
+      "title": "Partner Development Representative | Accounting ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+      "title": "Design Engineer",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-b9568fb8-a47e-4738-87fb-a6d88c3a505f",
+      "title": "Account Manager | Commercial",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-baf0a4d2-e07e-4f76-af85-d85c91f479a4",
+      "title": "Manager, Account Manager | Mid-Market",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-bca0346c-b843-4795-96df-6091f51e421b",
+      "title": "Software Engineer, Data Platform ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-bdd28c40-f95b-43df-bebe-3b8a25c8f602",
+      "title": "Senior Manager, Head of Talent Operations",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-be496b52-cfbf-494e-b862-61fb4a188b24",
+      "title": "Software Engineer, Production Engineering",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-be75224c-854c-4a55-9da5-62ca2dcc09df",
+      "title": "Software Engineer, International",
+      "source": "Ramp",
+      "location_raw": "London",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-bf7064e1-3eb3-4d03-ac81-0e52b71661a4",
+      "title": "Channel Partner Manager, Juno",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-c0fe115a-6251-4608-af07-d222ab6a0f42",
+      "title": "Senior Product Partnerships Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-c48fddbc-6063-4cae-8bfc-cf17642f11ae",
+      "title": "Viral Creative Producer",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-c63ba7d7-5290-4d9b-b002-40b2873b66f6",
+      "title": "Partner Consultant",
+      "source": "Ramp",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-ca9a8794-b40c-44bc-8f8a-d85182c62c6e",
+      "title": "Senior Channel Partner Manager | Franchise  ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-cbdf2857-1675-4b68-8cb5-2f92a20faa75",
+      "title": "AI Solutions Strategist",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-cc0af88a-2a19-493d-93cf-c5090f986f1f",
+      "title": "AI Partnerships Manager",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-cce684de-191d-4a8a-bc42-7ded3ccd47af",
+      "title": "Sales Development Representative | Ontario, Canada",
+      "source": "Ramp",
+      "location_raw": "Toronto, ON",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-cf3516f6-4d6b-4872-831f-c8ef4a3078ee",
+      "title": "Product Manager | Vendor Intelligence & Marketplace",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d1183b00-6590-4fe4-a585-28d84e578fe3",
+      "title": "Software Engineer, Stablecoin",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d204e136-2749-42de-82b4-88a0dd352090",
+      "title": "Applied AI Engineer",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d238a056-3a1f-4dcc-99de-fadc95b9f31c",
+      "title": "Manager, Procurement Product Activation",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d2d32a6d-5f29-4708-83d0-03b4e44c031d",
+      "title": "Sales Development Representative",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d818443f-d4c5-4eab-892d-3715a935c165",
+      "title": "Software Engineer, Banking",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-d84bbf19-572a-499c-9c87-0c154ce85caf",
+      "title": "Account Manager | Mid-Market",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-deca582c-a1d0-4705-9975-60aed81ba89f",
+      "title": "Software Engineer, AI Forward Deployed",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e32364c2-a952-44c3-b2dc-a1c6204ddb8a",
+      "title": "Technical Accounting Manager",
+      "source": "Ramp",
+      "location_raw": "San Francisco, CA",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e5232cce-a23a-4f03-b12e-dac510d08cd3",
+      "title": "Senior Security Engineer, Endpoint",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e542c73a-332e-457b-aed6-29f3d1a0ac75",
+      "title": "Recruiting Operations Associate, GTM (Contract) ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e577622f-6657-4e53-8941-b3a774b04448",
+      "title": "Data Scientist",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e5c809a6-7ea8-4470-9b42-a0c99e81dd31",
+      "title": "Head of Enterprise & Strategic Activations (Customer Success)",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-e9b80522-bda3-4fd0-915e-1e76d77b29b3",
+      "title": "Growth Creative Designer, Paid Advertising (Contract)",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-eca54d0e-232a-4c3e-bfcc-d6c6add393f5",
+      "title": "Product Designer",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-ecbd340c-f7ca-43ef-9d0e-f562494c4078",
+      "title": "Channel Partner Manager | Franchise  ",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-ed2e9a94-f58e-4ff8-8853-afd977850d43",
+      "title": "Software Engineer, Accounting",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-ee493d8f-c75e-4ca4-b665-1576e835f522",
+      "title": "Senior Recruiter | Design",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f0918978-d6da-4cd7-b248-055aaa108426",
+      "title": "Detection & Response, Lead",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f0e3a8bb-5f86-4ce1-b345-80d8912f9ddc",
+      "title": "Procurement Product Activation Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f0f95d20-fb64-4c06-86ff-6142e937fe0b",
+      "title": "Senior Scaled Customer Activation Manager",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f1b3ca8d-d55f-4159-9a3b-f69ad0d981bc",
+      "title": "Software Engineer, Onboarding",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f2ad6068-02e7-4986-967e-804ecef9e043",
+      "title": "Financial Partnerships Manager, International",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f330ccd7-59f5-4032-82b0-4448482769e4",
+      "title": "Customer Activation Manager | Strategic Enterprise",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f564dcf9-9390-4a3f-896f-8047a5086040",
+      "title": "Mobile Engineer, Android",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f5b60cf1-c0ec-42c1-89db-ece853e998ab",
+      "title": "Software Engineer, Growth Platform",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-f7c4de3c-1d64-42e9-8111-f38e265327d8",
+      "title": " Account Executive | Mid-Market",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-ramp-fbc42a9a-6fc2-4061-9511-502ee4f2a60a",
+      "title": "Risk Operations Specialist, Payments",
+      "source": "Ramp",
+      "location_raw": "New York, NY (HQ)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-d3bc1ced-3ce4-4086-a050-555055dbb1ff",
+      "title": "Senior / Staff Fullstack Engineer",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-cd5ae036-0223-427a-b038-ba16ef9dcb32",
+      "title": "Senior / Staff Fullstack Engineer",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-069c4628-88d7-4e4d-b393-c996fc7f3076",
+      "title": "Senior / Staff Product Engineer",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-12f8f208-0b9c-4569-bb3d-41c8a197029e",
+      "title": "Senior / Staff Product Engineer",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-0c7c2e26-0a98-42cf-a47c-9a3999fb513b",
+      "title": "Product Engineer",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-b7669c4b-eeca-421d-ba9a-d90203f6fcb2",
+      "title": "Product Manager",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-86abcce0-04b2-405c-9a8e-e0ca84813914",
+      "title": "Product Manager",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-d062065e-05bb-42ce-a430-ec205695cc2e",
+      "title": "Product Support Specialist, Pacific/Mountain Time",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-c21af93e-210f-4969-8eaa-90fb16a5b720",
+      "title": "Account Executive, Startups",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
+      "title": "Senior / Staff Product Engineer, AI",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-a264869e-f058-487c-ab7f-9b77dffa427c",
+      "title": "Senior / Staff Product Designer",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+      "title": "Principal Product Designer",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-3d95000c-5631-4ea6-a614-78910bb3f199",
+      "title": "Senior Counsel",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-d37b3d76-3080-47f9-8a19-60505573112c",
+      "title": "Solutions Engineer, Europe",
+      "source": "Linear",
+      "location_raw": "London",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-1d652292-04d9-405c-8101-578efd020e94",
+      "title": "Developer Relations",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-62a4524c-75da-499e-b150-7f68ce9f2da3",
+      "title": "Developer Relations",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-4fe443c5-379d-4b1e-bf16-0d4f91918a5f",
+      "title": "Product Support Specialist, Eastern/Central Time",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-820d0d5a-0930-475c-b494-23e18ad2aa68",
+      "title": "Product Support Specialist, Europe",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-4a371b6f-c050-4044-9318-775adcc13e84",
+      "title": "Compliance & Trust Lead",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-370d9605-f02f-44f9-97fa-ebf769bed93d",
+      "title": "Customer Success Manager",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-c0abc97e-b4d7-4ad7-bd13-bc40f4023227",
+      "title": "Product Marketing Manager",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-b3346acf-44be-4565-b1c0-10d482d3ad4e",
+      "title": "Product Marketing Manager",
+      "source": "Linear",
+      "location_raw": "Europe",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-2ef60eea-7cff-45c2-abf2-eaedc4ea89bd",
+      "title": "Recruiting & HR Operations Specialist",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-linear-cec84487-60f2-4216-a514-dcf190c86c1e",
+      "title": "Implementation Manager",
+      "source": "Linear",
+      "location_raw": "North America",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-05e14247-17c4-4e98-9a13-53828a4e2f13",
+      "title": "Outbound Business Development Representative, AMER",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-b21fef72-4864-4a3e-a627-91557a0f8a36",
+      "title": "Outbound Business Development Representative, AMER ",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-d177d052-ef57-4900-acf2-d58e9eded620",
+      "title": "Product Designer",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-1ecf717b-264d-4557-ab7d-d00cd670d33d",
+      "title": "Enterprise Customer Success Manager, AMER",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-9e218bad-575b-4044-8c30-20319be39208",
+      "title": "Mid-Market Customer Success Manager, AMER",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-10437426-14c8-4c45-8075-67959ce80393",
+      "title": "Forward Deployed Engineer, GTM",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-cb4f5e1a-88e4-4259-b73c-ac975dbcde5f",
+      "title": "Sales Operations Lead, AMER",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-7f02bc74-65e8-4b62-a2dc-aee2fa8a3894",
+      "title": "Enterprise Sales Leader",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-5546e570-aa17-4e88-a877-f62d0d56f378",
+      "title": "People Partner, EPD",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-4bbfad88-0830-46c5-8d05-d95d17d583ca",
+      "title": "Model Behavior Engineer",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-d41b635b-c17b-4efd-89fd-fdb2ddb62e9a",
+      "title": "Software Engineer, Product Infrastructure",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-801ab5f3-ccd7-43dd-96ac-6e59f7ab3b56",
+      "title": "Engineering Manager, Context (Agentic Search)",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-bc9a9573-e963-48a7-b7b9-a32017f28916",
+      "title": "AI Applications Engineer",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-3979a6f5-2abb-447b-bd3a-0565b06bae24",
+      "title": "Engineering Manager, Mobile AI",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-3c0141de-06fb-4186-9cd4-75395f0b5488",
+      "title": "Manager, Solutions Engineering, Mid-Market",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-83c8907b-e05e-401a-a5de-9ebe0b1a800f",
+      "title": "People Strategy & Operations, Early Career",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-4895df6c-fc12-4bd5-8c2f-07a8877a2468",
+      "title": "Scaled Customer Success Manager, AMER",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-a6311f97-4850-4674-a5f3-d9fe5f6f2555",
+      "title": "Software Engineer, New Grad",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-44b0bcb8-3574-4bf8-b13b-ee2fc57346e9",
+      "title": "Commercial Sales Manager, Korea",
+      "source": "Notion",
+      "location_raw": "Seoul, South Korea",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-869be97b-30d6-4612-a22b-2101a8b2a190",
+      "title": "Customer Success Manager, Korea",
+      "source": "Notion",
+      "location_raw": "Seoul, South Korea",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-8b82e596-e828-45db-94d5-b76acc89e749",
+      "title": "Product Operations Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-fede5201-c97f-4492-bfa6-66da7afbb068",
+      "title": "Solutions Engineer, Commercial",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-6f5d0bc7-dd9e-48fd-9a1d-733ad391e151",
+      "title": "Senior Treasury Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-35785e61-c4c3-44ec-a401-6741d89dd16a",
+      "title": "Product Manager, Workspaces",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-759a9c5a-cdd6-4d05-8eaf-e78eabc34293",
+      "title": "Sales Development Representative, Korea",
+      "source": "Notion",
+      "location_raw": "Seoul, South Korea",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-753883ee-23a9-4150-804f-342d32743d56",
+      "title": "AI Conversation Designer, Customer Support",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-e38a39fd-6b9d-4d1e-b22b-a86d006e44eb",
+      "title": "Scaled Partner Manager Consultants & Agencies",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-f603aedb-1454-4a75-b2f0-a3afb2a8f973",
+      "title": "Business Development Manager, Product & Platform",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-5b15697c-fa91-4511-9482-c98a6ff29f90",
+      "title": "Software Engineer Intern (Fall 2026)",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-17330e14-83db-49a4-ae31-411690d97dba",
+      "title": "Software Engineer, AI Workflows",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-a1216dba-e175-4a3d-b712-401c9fbdcd92",
+      "title": "Data Engineer, People Analytics ",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-85e7823f-073c-4fef-9b51-7fc7b725686d",
+      "title": "Revenue Marketer",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-b31ce253-4238-4ed6-a5a2-73b63cbf1709",
+      "title": "Software Engineer, AI Capture",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-5d8c1ec6-e9ea-416b-9715-880bf5037abc",
+      "title": "Software Engineer, Collections Experience",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-3ef42bb6-d2e3-4687-b7bc-89fd62a4b096",
+      "title": "Account Executive - Enterprise, Korea",
+      "source": "Notion",
+      "location_raw": "Seoul, South Korea",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9",
+      "title": "Software Engineer, New Grad (AI)",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-15f37b73-d217-469a-adfc-2e50cc9e2374",
+      "title": "Enterprise Technical Support Engineer",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-66236b7e-2905-4a93-84a5-ed036a1a6581",
+      "title": "Software Engineer, Trust",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-83ef2eda-2f8b-42e9-a0ae-fa55c5628b26",
+      "title": "Head of GTM Operations",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-3c365b9b-fbcb-4f8c-bdb5-b6b4bc90b588",
+      "title": "Head of Technical Recruiting",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-85947779-6b87-466a-98bc-30a640448c28",
+      "title": "Software Engineer, Early Career (AI)",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-ad93efa3-4caf-4a8c-9e99-b1d86de92e93",
+      "title": "Head of Total Rewards",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-0cc39c60-4c89-4213-954e-d77ced4cb7e7",
+      "title": "Developer Advocate",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-c35370d3-ac9c-4ad7-947b-77ad6e9e176c",
+      "title": "Startup Program & Experience Lead",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-6895adad-5031-4dce-9e8e-b9361d3a2850",
+      "title": "Software Engineer, Web Infrastructure",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-1bdc92f7-8624-4fb8-b746-158b56882c9a",
+      "title": "International Tax Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-c0fcf37b-e00f-4aae-a2e0-b008f9939a7e",
+      "title": "Security Engineer, Detection and Response",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-c2299d80-c3a5-45fa-bf49-29372a4d9aec",
+      "title": "Employee Experience Program Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-e4229ca4-8210-4282-98ed-2071478f72aa",
+      "title": "People Analytics & Operations (Rotational Program)",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-07021c98-7b93-4748-ae7c-b83b3daa7ecd",
+      "title": "Finance Business Partner, GTM",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-477768e1-37af-49bc-a4de-6564e0a4ec54",
+      "title": "Security Engineer, Corporate Security",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-b6353219-97e3-4efe-83f9-b9fbdd9164b7",
+      "title": "Sales Partner Manager — North America",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-def3f337-5593-491c-b34d-e0b53f2a5cac",
+      "title": "AI Software Engineer, Security",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-c8be09c6-f664-473a-85cc-537a4d10025a",
+      "title": "Lead, Internal Audit and SOX Compliance",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-6597b600-7781-46e6-b70a-a9af4fb2b61b",
+      "title": "People Analytics Lead - Recruiting",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-eb46a31c-a258-4b19-afe6-f2c65eaa2dcc",
+      "title": "Engineering Manager, Search & Context Platform",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-4c7683fa-fe37-44d9-aa3f-2f57a37c11f8",
+      "title": "CX Knowledge Architect",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-f0e6202b-b16e-44ca-889a-c07271798467",
+      "title": "Technical Enablement Manager, Customer Experience",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-8bb5da67-0b4d-4894-83eb-56d31e9bc662",
+      "title": "Customer Experience Strategy & Operations Lead",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-d2760449-5e2d-4403-be84-fa286a9bafa1",
+      "title": "International Payroll Analyst",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-bc27f7a6-7572-4b7c-bb31-710aa5c7f54a",
+      "title": "Corporate Accounting Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-0e9114bd-4603-4bdf-a86f-a7a4f390fae8",
+      "title": "User Researcher, AI Evaluations",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-f3faba46-776a-4938-8c9b-5aebb495aa39",
+      "title": "Rapid User Researcher",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-60fb9e2e-ad8c-4269-9f51-d78ad4c96654",
+      "title": "Business Recruiter",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-876c69a9-be0a-4a71-bf4a-04cbc9c6328e",
+      "title": "Software Engineer, Developer Experience (Go Lead)",
+      "source": "Notion",
+      "location_raw": "New York, New York",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-076371b1-e9b0-4ad7-b67b-ae9e4572f65a",
+      "title": "Head of Early Career Recruiting",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-671ea859-ae45-46fb-9421-97d401cb987a",
+      "title": "Country Manager, Taiwan",
+      "source": "Notion",
+      "location_raw": "Taiwan",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-e84f6113-2118-4698-a22a-d1701669ce4f",
+      "title": "The Notion Sales Agent Build Challenge [SDR/BDR]",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-39c352a7-3f90-4704-b2ff-92df50b4ca02",
+      "title": "Revenue Accountant",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-855748b0-4452-4331-bdec-d2aa0dbc782f",
+      "title": "Lead, IT Audit and Technology Risk",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-e3e0c9e9-4c9a-4390-b713-27d465bce2f1",
+      "title": "Technical Recruiter, Early Career",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-6b9d5c16-450a-42e4-af2a-d492460ca811",
+      "title": "Recruiting Program Manager",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-892ed5b8-a654-49ac-a55b-fabea1b236c1",
+      "title": "Revenue Transformation Analyst",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-b58ad3ae-5fdd-4a9f-9ef5-0c0f3ebce147",
+      "title": "Product Marketing Manager, Core Product",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-3129e7bd-f717-47d3-9fdd-c4df026bbf20",
+      "title": "Startup Market Lead, AMER",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-notion-70298bd7-a136-4549-8e14-b19b06c764ea",
+      "title": "Lifecycle Marketing Lead",
+      "source": "Notion",
+      "location_raw": "San Francisco, California",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-3a7e914b-a993-46e6-9029-6a0f54652497",
+      "title": "Technical Ex-Founder",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-f8af3807-3595-4580-a65c-dad2e268ace5",
+      "title": "Technical Account Executive",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-43dbf072-0fc1-48c9-8c1e-7416db7d4a14",
+      "title": "ClickHouse Operations Engineer ",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-1803b1de-d33b-4542-8e38-b6c4954cb789",
+      "title": "Backend Engineer",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-1464036f-94d5-4dbd-aef8-fe99246a26d4",
+      "title": "Site Reliability Engineer (Pacific timezone)",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-068ba58d-0143-4263-b83a-7b389c4d77e6",
+      "title": "Developer Marketer (Agents)",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-05f1bb57-979a-4326-b65c-d6cd6c4ef937",
+      "title": "Growth Technical Account Manager",
+      "source": "PostHog",
+      "location_raw": "Remote (US)",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-af00b414-fdb3-41b5-8843-828b4a0e373a",
+      "title": "Backend Engineer (EST timezone)",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-ddb7032a-f85f-4029-b17f-790c612fec6d",
+      "title": "Revenue Ops Manager (sales focused)",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-c539d9f2-ea48-47f1-a45b-414b49fe5c15",
+      "title": "Developer who connects with other developers",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-8854fb74-8457-40cd-bc10-60125a0c0cd4",
+      "title": "Technical Customer Success Manager - Americas",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-a4074bc0-a7c5-444c-9b81-f78284eb45ae",
+      "title": "Developer who loves teaching",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-b4bc11c6-49a8-48e1-9815-950ce7eef84d",
+      "title": "Context Engineer",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "ashby-posthog-84de4a11-ad69-4b1d-abf9-c7d7b46152d9",
+      "title": "BDR Team Lead",
+      "source": "PostHog",
+      "location_raw": "Remote",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "lever-tala-057f421c-0bec-49fa-8810-cca42031d0a5",
+      "title": "Communications Manager",
+      "source": "Tala",
+      "location_raw": "Remote-US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "lever-tala-dfdc74a9-14b6-4f5f-a51c-662a8572c874",
+      "title": "Director of Strategic Finance",
+      "source": "Tala",
+      "location_raw": "Remote-US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    },
+    {
+      "id": "lever-tala-18fc6204-f117-40ca-927b-5b039d2433a6",
+      "title": "Legal Director, Corporate and Capital Markets",
+      "source": "Tala",
+      "location_raw": "Remote-US",
+      "reason": "no verified African/global location or role-specific international mobility evidence"
+    }
+  ]
+}

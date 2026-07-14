@@ -1,0 +1,2461 @@
+{
+  "registry_version": "2.0",
+  "_comment": "Phase 4 multilingual African location registry: 54 countries, major cities, selected administrative areas, coordinates and aliases in English, French, Portuguese, Arabic and Swahili.",
+  "supported_languages": [
+    "en",
+    "fr",
+    "pt",
+    "ar",
+    "sw"
+  ],
+  "region_aliases": {
+    "North Africa": [
+      "Northern Africa",
+      "Afrique du Nord",
+      "Norte de África",
+      "شمال أفريقيا",
+      "Afrika Kaskazini"
+    ],
+    "West Africa": [
+      "Western Africa",
+      "Afrique de l’Ouest",
+      "Afrique de l Ouest",
+      "África Ocidental",
+      "غرب أفريقيا",
+      "Afrika Magharibi"
+    ],
+    "Central Africa": [
+      "Middle Africa",
+      "Afrique centrale",
+      "África Central",
+      "وسط أفريقيا",
+      "Afrika ya Kati"
+    ],
+    "East Africa": [
+      "Eastern Africa",
+      "Afrique de l’Est",
+      "Afrique de l Est",
+      "África Oriental",
+      "شرق أفريقيا",
+      "Afrika Mashariki"
+    ],
+    "Southern Africa": [
+      "Afrique australe",
+      "África Austral",
+      "الجنوب الأفريقي",
+      "Afrika Kusini"
+    ],
+    "Sub-Saharan Africa": [
+      "SSA",
+      "Sub Saharan Africa",
+      "Afrique subsaharienne",
+      "África Subsaariana",
+      "أفريقيا جنوب الصحراء",
+      "Afrika Kusini mwa Jangwa la Sahara"
+    ],
+    "Africa": [
+      "Afrique",
+      "África",
+      "افريقيا",
+      "أفريقيا",
+      "Afrika"
+    ]
+  },
+  "countries": [
+    {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "name": "Algeria",
+      "aliases": [
+        "Algérie",
+        "Al Jaza'ir",
+        "Argélia",
+        "الجزائر",
+        "Aljeria"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Algiers",
+          "aliases": [
+            "Alger",
+            "الجزائر"
+          ]
+        },
+        {
+          "name": "Oran",
+          "aliases": [
+            "وهران"
+          ],
+          "coordinates": {
+            "lat": 35.75,
+            "lon": -0.6333
+          }
+        },
+        {
+          "name": "Constantine",
+          "aliases": [
+            "قسنطينة"
+          ],
+          "coordinates": {
+            "lat": 36.3667,
+            "lon": 6.6667
+          }
+        },
+        {
+          "name": "Annaba",
+          "aliases": [],
+          "coordinates": {
+            "lat": 36.9167,
+            "lon": 7.7833
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "name": "Angola",
+      "aliases": [
+        "أنغولا"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Luanda",
+          "aliases": [
+            "São Paulo de Luanda"
+          ],
+          "coordinates": {
+            "lat": -8.8333,
+            "lon": 13.25
+          }
+        },
+        {
+          "name": "Lobito",
+          "aliases": []
+        },
+        {
+          "name": "Benguela",
+          "aliases": []
+        },
+        {
+          "name": "Huambo",
+          "aliases": [],
+          "coordinates": {
+            "lat": -12.7333,
+            "lon": 15.7833
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "name": "Benin",
+      "aliases": [
+        "Bénin",
+        "بنين"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Cotonou",
+          "aliases": [
+            "كوتونو"
+          ],
+          "coordinates": {
+            "lat": 6.4,
+            "lon": 2.5167
+          }
+        },
+        {
+          "name": "Porto-Novo",
+          "aliases": [
+            "Porto Novo"
+          ],
+          "coordinates": {
+            "lat": 6.5,
+            "lon": 2.7833
+          }
+        },
+        {
+          "name": "Parakou",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "name": "Botswana",
+      "aliases": [
+        "Botsuana",
+        "بوتسوانا"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Gaborone",
+          "aliases": [
+            "غابورون"
+          ],
+          "coordinates": {
+            "lat": -24.75,
+            "lon": 25.9167
+          }
+        },
+        {
+          "name": "Francistown",
+          "aliases": [],
+          "coordinates": {
+            "lat": -21.1167,
+            "lon": 27.5333
+          }
+        },
+        {
+          "name": "Maun",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burquina Faso",
+        "بوركينا فاسو",
+        "Bukinafaso"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Ouagadougou",
+          "aliases": [
+            "واغادوغو"
+          ],
+          "coordinates": {
+            "lat": 12.3667,
+            "lon": -1.5167
+          }
+        },
+        {
+          "name": "Bobo-Dioulasso",
+          "aliases": [],
+          "coordinates": {
+            "lat": 11.1833,
+            "lon": -4.3
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "name": "Burundi",
+      "aliases": [
+        "بوروندي"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Bujumbura",
+          "aliases": [
+            "بوجومبورا"
+          ],
+          "coordinates": {
+            "lat": -3.3667,
+            "lon": 29.3167
+          }
+        },
+        {
+          "name": "Gitega",
+          "aliases": [],
+          "coordinates": {
+            "lat": -3.4264,
+            "lon": 29.9308
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "name": "Cabo Verde",
+      "aliases": [
+        "Cape Verde",
+        "Cap-Vert",
+        "الرأس الأخضر"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Praia",
+          "aliases": [
+            "برايا"
+          ],
+          "coordinates": {
+            "lat": 14.9167,
+            "lon": -23.5
+          }
+        },
+        {
+          "name": "Mindelo",
+          "aliases": [],
+          "coordinates": {
+            "lat": 16.9,
+            "lon": -25.0
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "aliases": [
+        "Cameroun",
+        "Camarões",
+        "الكاميرون",
+        "Kameruni"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Douala",
+          "aliases": [
+            "دوالا"
+          ],
+          "coordinates": {
+            "lat": 4.0667,
+            "lon": 9.7167
+          }
+        },
+        {
+          "name": "Yaoundé",
+          "aliases": [
+            "Yaounde",
+            "ياوندي"
+          ],
+          "coordinates": {
+            "lat": 3.85,
+            "lon": 11.5167
+          }
+        },
+        {
+          "name": "Garoua",
+          "aliases": []
+        },
+        {
+          "name": "Bafoussam",
+          "aliases": []
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Centre Region",
+          "aliases": []
+        },
+        {
+          "name": "Littoral Region",
+          "aliases": []
+        },
+        {
+          "name": "West Region",
+          "aliases": []
+        },
+        {
+          "name": "North Region",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "name": "Central African Republic",
+      "aliases": [
+        "CAR",
+        "République centrafricaine",
+        "República Centro-Africana",
+        "جمهورية أفريقيا الوسطى",
+        "Jamhuri ya Afrika ya Kati",
+        "RCA"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Bangui",
+          "aliases": [
+            "بانغي"
+          ],
+          "coordinates": {
+            "lat": 4.3833,
+            "lon": 18.6167
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "name": "Chad",
+      "aliases": [
+        "Tchad",
+        "Chade",
+        "تشاد"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "N’Djamena",
+          "aliases": [
+            "N'Djamena",
+            "Ndjamena",
+            "نجامينا"
+          ],
+          "coordinates": {
+            "lat": 12.1348,
+            "lon": 15.0557
+          }
+        },
+        {
+          "name": "Moundou",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "KM",
+      "iso3": "COM",
+      "name": "Comoros",
+      "aliases": [
+        "Comores",
+        "جزر القمر",
+        "Komoro"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Moroni",
+          "aliases": [
+            "موروني"
+          ],
+          "coordinates": {
+            "lat": -11.6667,
+            "lon": 43.2667
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "CD",
+      "iso3": "COD",
+      "name": "Democratic Republic of the Congo",
+      "aliases": [
+        "DRC",
+        "Congo-Kinshasa",
+        "Congo - Kinshasa",
+        "الكونغو - كينشاسا",
+        "Jamhuri ya Kidemokrasia ya Kongo",
+        "DR Congo",
+        "Democratic Republic of Congo",
+        "RDC",
+        "République démocratique du Congo"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Kinshasa",
+          "aliases": [
+            "كينشاسا"
+          ],
+          "coordinates": {
+            "lat": -4.3,
+            "lon": 15.3
+          }
+        },
+        {
+          "name": "Lubumbashi",
+          "aliases": [
+            "لوبومباشي"
+          ],
+          "coordinates": {
+            "lat": -11.6833,
+            "lon": 27.4833
+          }
+        },
+        {
+          "name": "Goma",
+          "aliases": [
+            "غوما"
+          ]
+        },
+        {
+          "name": "Kisangani",
+          "aliases": [],
+          "coordinates": {
+            "lat": 0.55,
+            "lon": 25.2333
+          }
+        },
+        {
+          "name": "Bukavu",
+          "aliases": [],
+          "coordinates": {
+            "lat": -2.5,
+            "lon": 28.8333
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "CG",
+      "iso3": "COG",
+      "name": "Republic of the Congo",
+      "aliases": [
+        "Congo-Brazzaville",
+        "Congo - Brazzaville",
+        "República do Congo",
+        "الكونغو - برازافيل",
+        "Kongo - Brazzaville",
+        "Republic of Congo"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Brazzaville",
+          "aliases": [
+            "برازافيل"
+          ],
+          "coordinates": {
+            "lat": -4.2333,
+            "lon": 15.2333
+          }
+        },
+        {
+          "name": "Pointe-Noire",
+          "aliases": [
+            "Pointe Noire"
+          ],
+          "coordinates": {
+            "lat": -4.7667,
+            "lon": 11.8833
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "name": "Côte d’Ivoire",
+      "aliases": [
+        "Ivory Coast",
+        "Cote d Ivoire",
+        "Costa do Marfim",
+        "ساحل العاج",
+        "Cote d’Ivoire"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Abidjan",
+          "aliases": [
+            "أبيدجان"
+          ],
+          "coordinates": {
+            "lat": 5.3167,
+            "lon": -4.0333
+          }
+        },
+        {
+          "name": "Yamoussoukro",
+          "aliases": [
+            "ياموسوكرو"
+          ]
+        },
+        {
+          "name": "Bouaké",
+          "aliases": [
+            "Bouake"
+          ]
+        },
+        {
+          "name": "San-Pédro",
+          "aliases": [
+            "San Pedro"
+          ]
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "District Autonome d’Abidjan",
+          "aliases": []
+        },
+        {
+          "name": "District Autonome de Yamoussoukro",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "aliases": [
+        "Djibuti",
+        "جيبوتي",
+        "Jibuti"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Djibouti City",
+          "aliases": [
+            "Djibouti",
+            "Ville de Djibouti",
+            "جيبوتي"
+          ],
+          "coordinates": {
+            "lat": 11.5721,
+            "lon": 43.1456
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "name": "Egypt",
+      "aliases": [
+        "Misr",
+        "Égypte",
+        "Egito",
+        "مصر",
+        "Misri",
+        "Arab Republic of Egypt"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Cairo",
+          "aliases": [
+            "Le Caire",
+            "Cairo Governorate",
+            "القاهرة"
+          ]
+        },
+        {
+          "name": "Alexandria",
+          "aliases": [
+            "Alexandrie",
+            "الإسكندرية"
+          ],
+          "coordinates": {
+            "lat": 31.2167,
+            "lon": 29.9167
+          }
+        },
+        {
+          "name": "Giza",
+          "aliases": [
+            "Gizeh",
+            "الجيزة"
+          ]
+        },
+        {
+          "name": "Port Said",
+          "aliases": [],
+          "coordinates": {
+            "lat": 31.2833,
+            "lon": 32.3
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Cairo Governorate",
+          "aliases": []
+        },
+        {
+          "name": "Alexandria Governorate",
+          "aliases": []
+        },
+        {
+          "name": "Giza Governorate",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "Guinée équatoriale",
+        "Guiné Equatorial",
+        "غينيا الاستوائية",
+        "Guinea ya Ikweta"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Malabo",
+          "aliases": [
+            "مالابو"
+          ],
+          "coordinates": {
+            "lat": 3.75,
+            "lon": 8.8
+          }
+        },
+        {
+          "name": "Bata",
+          "aliases": [],
+          "coordinates": {
+            "lat": 1.8639,
+            "lon": 9.7658
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "aliases": [
+        "Érythrée",
+        "Eritreia",
+        "إريتريا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Asmara",
+          "aliases": [
+            "أسمرة"
+          ],
+          "coordinates": {
+            "lat": 15.3333,
+            "lon": 38.9667
+          }
+        },
+        {
+          "name": "Massawa",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "name": "Eswatini",
+      "aliases": [
+        "Swaziland",
+        "Essuatíni",
+        "إسواتيني"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Mbabane",
+          "aliases": [
+            "مبابان"
+          ],
+          "coordinates": {
+            "lat": -26.3333,
+            "lon": 31.1333
+          }
+        },
+        {
+          "name": "Manzini",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "aliases": [
+        "Éthiopie",
+        "Etiópia",
+        "إثيوبيا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Addis Ababa",
+          "aliases": [
+            "Addis Abeba",
+            "አዲስ አበባ",
+            "أديس أبابا"
+          ],
+          "coordinates": {
+            "lat": 9.0333,
+            "lon": 38.7833
+          }
+        },
+        {
+          "name": "Dire Dawa",
+          "aliases": [
+            "Dire-Dawa"
+          ]
+        },
+        {
+          "name": "Hawassa",
+          "aliases": [],
+          "coordinates": {
+            "lat": 7.0504,
+            "lon": 38.4955
+          }
+        },
+        {
+          "name": "Mekelle",
+          "aliases": []
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Addis Ababa",
+          "aliases": []
+        },
+        {
+          "name": "Oromia",
+          "aliases": []
+        },
+        {
+          "name": "Amhara",
+          "aliases": []
+        },
+        {
+          "name": "Tigray",
+          "aliases": []
+        },
+        {
+          "name": "Somali Region",
+          "aliases": []
+        },
+        {
+          "name": "Sidama",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "name": "Gabon",
+      "aliases": [
+        "Gabão",
+        "الغابون"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "Libreville",
+          "aliases": [
+            "ليبرفيل"
+          ],
+          "coordinates": {
+            "lat": 0.5,
+            "lon": 9.4167
+          }
+        },
+        {
+          "name": "Port-Gentil",
+          "aliases": [],
+          "coordinates": {
+            "lat": -0.6667,
+            "lon": 8.8333
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "name": "Gambia",
+      "aliases": [
+        "The Gambia",
+        "Gambie",
+        "Gâmbia",
+        "غامبيا"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Banjul",
+          "aliases": [
+            "بانجول"
+          ],
+          "coordinates": {
+            "lat": 13.4667,
+            "lon": -16.65
+          }
+        },
+        {
+          "name": "Serekunda",
+          "aliases": [],
+          "coordinates": {
+            "lat": 13.4383,
+            "lon": -16.6781
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "name": "Ghana",
+      "aliases": [
+        "Gana",
+        "غانا"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Accra",
+          "aliases": [
+            "أكرا"
+          ],
+          "coordinates": {
+            "lat": 5.55,
+            "lon": -0.25
+          }
+        },
+        {
+          "name": "Kumasi",
+          "aliases": [
+            "كوماسي"
+          ],
+          "coordinates": {
+            "lat": 6.75,
+            "lon": -1.5833
+          }
+        },
+        {
+          "name": "Takoradi",
+          "aliases": [
+            "Sekondi-Takoradi"
+          ]
+        },
+        {
+          "name": "Tamale",
+          "aliases": [],
+          "coordinates": {
+            "lat": 9.4333,
+            "lon": -0.8167
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Greater Accra Region",
+          "aliases": []
+        },
+        {
+          "name": "Ashanti Region",
+          "aliases": []
+        },
+        {
+          "name": "Western Region",
+          "aliases": []
+        },
+        {
+          "name": "Northern Region",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "name": "Guinea",
+      "aliases": [
+        "Guinée",
+        "Guiné",
+        "غينيا",
+        "Gine"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Conakry",
+          "aliases": [
+            "كوناكري"
+          ],
+          "coordinates": {
+            "lat": 9.5167,
+            "lon": -13.7167
+          }
+        },
+        {
+          "name": "Kankan",
+          "aliases": [],
+          "coordinates": {
+            "lat": 10.3833,
+            "lon": -9.3
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Guinée-Bissau",
+        "Guiné-Bissau",
+        "غينيا بيساو",
+        "Ginebisau",
+        "Guinea Bissau"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Bissau",
+          "aliases": [
+            "بيساو"
+          ],
+          "coordinates": {
+            "lat": 11.8667,
+            "lon": -15.65
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "name": "Kenya",
+      "aliases": [
+        "Quênia",
+        "كينيا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Nairobi",
+          "aliases": [
+            "Nairobi County",
+            "Nairobi City",
+            "Jiji la Nairobi",
+            "نيروبي"
+          ],
+          "coordinates": {
+            "lat": -1.2833,
+            "lon": 36.8167
+          }
+        },
+        {
+          "name": "Mombasa",
+          "aliases": [
+            "Mombasa County",
+            "مومباسا"
+          ],
+          "coordinates": {
+            "lat": -4.0667,
+            "lon": 39.6667
+          }
+        },
+        {
+          "name": "Kisumu",
+          "aliases": [
+            "Kisumu County"
+          ],
+          "coordinates": {
+            "lat": -0.1333,
+            "lon": 34.7833
+          }
+        },
+        {
+          "name": "Nakuru",
+          "aliases": [
+            "Nakuru County"
+          ],
+          "coordinates": {
+            "lat": -0.2667,
+            "lon": 36.0667
+          }
+        },
+        {
+          "name": "Eldoret",
+          "aliases": [
+            "Uasin Gishu"
+          ]
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Nairobi County",
+          "aliases": []
+        },
+        {
+          "name": "Mombasa County",
+          "aliases": []
+        },
+        {
+          "name": "Kisumu County",
+          "aliases": []
+        },
+        {
+          "name": "Nakuru County",
+          "aliases": []
+        },
+        {
+          "name": "Kiambu County",
+          "aliases": []
+        },
+        {
+          "name": "Uasin Gishu County",
+          "aliases": []
+        },
+        {
+          "name": "Machakos County",
+          "aliases": []
+        },
+        {
+          "name": "Kajiado County",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "aliases": [
+        "Lesoto",
+        "ليسوتو"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Maseru",
+          "aliases": [
+            "ماسيرو"
+          ],
+          "coordinates": {
+            "lat": -29.3167,
+            "lon": 27.4833
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "name": "Liberia",
+      "aliases": [
+        "Libéria",
+        "ليبيريا"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Monrovia",
+          "aliases": [
+            "مونروفيا"
+          ],
+          "coordinates": {
+            "lat": 6.3333,
+            "lon": -10.7667
+          }
+        },
+        {
+          "name": "Gbarnga",
+          "aliases": [],
+          "coordinates": {
+            "lat": 6.9956,
+            "lon": -9.4722
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "name": "Libya",
+      "aliases": [
+        "Libye",
+        "Líbia",
+        "ليبيا",
+        "Libyan Arab Jamahiriya"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Tripoli",
+          "aliases": [
+            "Tripoli, Libya",
+            "طرابلس"
+          ],
+          "coordinates": {
+            "lat": 34.45,
+            "lon": 35.8333
+          }
+        },
+        {
+          "name": "Benghazi",
+          "aliases": [
+            "بنغازي"
+          ]
+        },
+        {
+          "name": "Misrata",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "aliases": [
+        "مدغشقر",
+        "Madagaska"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Antananarivo",
+          "aliases": [
+            "Tana",
+            "أنتاناناريفو"
+          ],
+          "coordinates": {
+            "lat": -18.8667,
+            "lon": 47.5
+          }
+        },
+        {
+          "name": "Toamasina",
+          "aliases": [
+            "Tamatave"
+          ],
+          "coordinates": {
+            "lat": -18.1667,
+            "lon": 49.3833
+          }
+        },
+        {
+          "name": "Antsirabe",
+          "aliases": [],
+          "coordinates": {
+            "lat": -19.85,
+            "lon": 47.0167
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "name": "Malawi",
+      "aliases": [
+        "Malaui",
+        "ملاوي"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Lilongwe",
+          "aliases": [
+            "ليلونغوي"
+          ],
+          "coordinates": {
+            "lat": -13.9667,
+            "lon": 33.8167
+          }
+        },
+        {
+          "name": "Blantyre",
+          "aliases": [
+            "بلانتير"
+          ],
+          "coordinates": {
+            "lat": -15.7667,
+            "lon": 35.0
+          }
+        },
+        {
+          "name": "Mzuzu",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "name": "Mali",
+      "aliases": [
+        "مالي"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Bamako",
+          "aliases": [
+            "باماكو"
+          ],
+          "coordinates": {
+            "lat": 12.6667,
+            "lon": -7.9833
+          }
+        },
+        {
+          "name": "Sikasso",
+          "aliases": [],
+          "coordinates": {
+            "lat": 11.3,
+            "lon": -5.6333
+          }
+        },
+        {
+          "name": "Mopti",
+          "aliases": [],
+          "coordinates": {
+            "lat": 14.4833,
+            "lon": -4.1667
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "aliases": [
+        "Mauritanie",
+        "Mauritânia",
+        "موريتانيا",
+        "Moritania"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Nouakchott",
+          "aliases": [
+            "نواكشوط"
+          ],
+          "coordinates": {
+            "lat": 18.15,
+            "lon": -15.9667
+          }
+        },
+        {
+          "name": "Nouadhibou",
+          "aliases": [
+            "نواذيبو"
+          ],
+          "coordinates": {
+            "lat": 20.9,
+            "lon": -17.0167
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "name": "Mauritius",
+      "aliases": [
+        "Maurice",
+        "Maurício",
+        "موريشيوس",
+        "Morisi"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Port Louis",
+          "aliases": [
+            "Port-Louis",
+            "بورت لويس"
+          ],
+          "coordinates": {
+            "lat": -20.1667,
+            "lon": 57.5
+          }
+        },
+        {
+          "name": "Ebene",
+          "aliases": [
+            "Ébène",
+            "Ebène Cybercity"
+          ],
+          "coordinates": {
+            "lat": -20.2428,
+            "lon": 57.4896
+          }
+        },
+        {
+          "name": "Curepipe",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "name": "Morocco",
+      "aliases": [
+        "Maroc",
+        "Marrocos",
+        "المغرب",
+        "Kingdom of Morocco"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Casablanca",
+          "aliases": [
+            "الدار البيضاء"
+          ],
+          "coordinates": {
+            "lat": 33.6,
+            "lon": -7.6167
+          }
+        },
+        {
+          "name": "Rabat",
+          "aliases": [
+            "الرباط"
+          ],
+          "coordinates": {
+            "lat": 34.0333,
+            "lon": -6.85
+          }
+        },
+        {
+          "name": "Marrakesh",
+          "aliases": [
+            "Marrakech",
+            "مراكش"
+          ]
+        },
+        {
+          "name": "Tangier",
+          "aliases": [
+            "Tanger",
+            "طنجة"
+          ],
+          "coordinates": {
+            "lat": 35.8,
+            "lon": -5.8333
+          }
+        },
+        {
+          "name": "Agadir",
+          "aliases": [],
+          "coordinates": {
+            "lat": 30.5,
+            "lon": -9.6667
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Casablanca-Settat",
+          "aliases": []
+        },
+        {
+          "name": "Rabat-Salé-Kénitra",
+          "aliases": []
+        },
+        {
+          "name": "Marrakesh-Safi",
+          "aliases": []
+        },
+        {
+          "name": "Tanger-Tétouan-Al Hoceïma",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "aliases": [
+        "Moçambique",
+        "موزمبيق",
+        "Msumbiji"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Maputo",
+          "aliases": [
+            "Lourenço Marques",
+            "مابوتو"
+          ],
+          "coordinates": {
+            "lat": -25.9667,
+            "lon": 32.5833
+          }
+        },
+        {
+          "name": "Beira",
+          "aliases": [],
+          "coordinates": {
+            "lat": -19.8167,
+            "lon": 34.8667
+          }
+        },
+        {
+          "name": "Nampula",
+          "aliases": []
+        },
+        {
+          "name": "Pemba",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "name": "Namibia",
+      "aliases": [
+        "Namibie",
+        "Namíbia",
+        "ناميبيا"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Windhoek",
+          "aliases": [
+            "ويندهوك"
+          ]
+        },
+        {
+          "name": "Walvis Bay",
+          "aliases": [
+            "Walvisbaai"
+          ]
+        },
+        {
+          "name": "Swakopmund",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "NE",
+      "iso3": "NER",
+      "name": "Niger",
+      "aliases": [
+        "Níger",
+        "النيجر"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Niamey",
+          "aliases": [
+            "نيامي"
+          ],
+          "coordinates": {
+            "lat": 13.5333,
+            "lon": 2.0833
+          }
+        },
+        {
+          "name": "Agadez",
+          "aliases": [],
+          "coordinates": {
+            "lat": 17.0,
+            "lon": 7.9333
+          }
+        },
+        {
+          "name": "Zinder",
+          "aliases": [],
+          "coordinates": {
+            "lat": 13.7667,
+            "lon": 8.9667
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "aliases": [
+        "Nigéria",
+        "نيجيريا"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Lagos",
+          "aliases": [
+            "Lagos State",
+            "لاغوس"
+          ],
+          "coordinates": {
+            "lat": 6.4333,
+            "lon": 3.5333
+          }
+        },
+        {
+          "name": "Abuja",
+          "aliases": [
+            "Federal Capital Territory",
+            "FCT Abuja",
+            "أبوجا"
+          ]
+        },
+        {
+          "name": "Port Harcourt",
+          "aliases": [
+            "Port-Harcourt"
+          ]
+        },
+        {
+          "name": "Kano",
+          "aliases": [
+            "Kano State"
+          ],
+          "coordinates": {
+            "lat": 12.0,
+            "lon": 8.5
+          }
+        },
+        {
+          "name": "Ibadan",
+          "aliases": [
+            "Oyo State"
+          ],
+          "coordinates": {
+            "lat": 7.3833,
+            "lon": 3.9333
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Lagos State",
+          "aliases": []
+        },
+        {
+          "name": "Federal Capital Territory",
+          "aliases": []
+        },
+        {
+          "name": "Rivers State",
+          "aliases": []
+        },
+        {
+          "name": "Kano State",
+          "aliases": []
+        },
+        {
+          "name": "Oyo State",
+          "aliases": []
+        },
+        {
+          "name": "Kaduna State",
+          "aliases": []
+        },
+        {
+          "name": "Enugu State",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "aliases": [
+        "Ruanda",
+        "رواندا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Kigali",
+          "aliases": [
+            "Kigali City",
+            "Ville de Kigali",
+            "كيغالي"
+          ],
+          "coordinates": {
+            "lat": -1.9333,
+            "lon": 30.0667
+          }
+        },
+        {
+          "name": "Huye",
+          "aliases": [],
+          "coordinates": {
+            "lat": -2.5967,
+            "lon": 29.7394
+          }
+        },
+        {
+          "name": "Musanze",
+          "aliases": [],
+          "coordinates": {
+            "lat": -1.4998,
+            "lon": 29.6349
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Kigali City",
+          "aliases": []
+        },
+        {
+          "name": "Northern Province",
+          "aliases": []
+        },
+        {
+          "name": "Southern Province",
+          "aliases": []
+        },
+        {
+          "name": "Eastern Province",
+          "aliases": []
+        },
+        {
+          "name": "Western Province",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "ST",
+      "iso3": "STP",
+      "name": "São Tomé and Príncipe",
+      "aliases": [
+        "Sao Tome and Principe",
+        "São Tomé & Príncipe",
+        "Sao Tomé-et-Principe",
+        "São Tomé e Príncipe",
+        "ساو تومي وبرينسيبي",
+        "Sao Tome na Principe"
+      ],
+      "region": "Central Africa",
+      "cities": [
+        {
+          "name": "São Tomé",
+          "aliases": [
+            "Sao Tome",
+            "ساو تومي"
+          ],
+          "coordinates": {
+            "lat": 0.3365,
+            "lon": 6.7273
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "name": "Senegal",
+      "aliases": [
+        "Sénégal",
+        "السنغال",
+        "Senegali"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Dakar",
+          "aliases": [
+            "داكار"
+          ],
+          "coordinates": {
+            "lat": 14.6667,
+            "lon": -17.4333
+          }
+        },
+        {
+          "name": "Saint-Louis",
+          "aliases": [
+            "Saint Louis"
+          ],
+          "coordinates": {
+            "lat": 16.0167,
+            "lon": -16.5
+          }
+        },
+        {
+          "name": "Thiès",
+          "aliases": [
+            "Thies"
+          ],
+          "coordinates": {
+            "lat": 14.8167,
+            "lon": -16.8667
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Dakar Region",
+          "aliases": []
+        },
+        {
+          "name": "Thiès Region",
+          "aliases": []
+        },
+        {
+          "name": "Saint-Louis Region",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "name": "Seychelles",
+      "aliases": [
+        "Seicheles",
+        "سيشل",
+        "Ushelisheli"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Victoria",
+          "aliases": [
+            "Victoria, Seychelles"
+          ],
+          "coordinates": {
+            "lat": 22.2667,
+            "lon": 114.2167
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "aliases": [
+        "Serra Leoa",
+        "سيراليون",
+        "Siera Leoni"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Freetown",
+          "aliases": [
+            "فريتاون"
+          ],
+          "coordinates": {
+            "lat": 8.4833,
+            "lon": -13.2167
+          }
+        },
+        {
+          "name": "Bo",
+          "aliases": [],
+          "coordinates": {
+            "lat": 7.9667,
+            "lon": -11.75
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "name": "Somalia",
+      "aliases": [
+        "Somalie",
+        "Somália",
+        "الصومال"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Mogadishu",
+          "aliases": [
+            "Mogadiscio",
+            "Muqdisho",
+            "مقديشو"
+          ]
+        },
+        {
+          "name": "Hargeisa",
+          "aliases": [
+            "Hargeysa",
+            "هرجيسا"
+          ],
+          "coordinates": {
+            "lat": 9.5624,
+            "lon": 44.077
+          }
+        },
+        {
+          "name": "Kismayo",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "aliases": [
+        "Afrique du Sud",
+        "África do Sul",
+        "جنوب أفريقيا",
+        "Afrika Kusini",
+        "RSA",
+        "Republic of South Africa"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Johannesburg",
+          "aliases": [
+            "Joburg",
+            "Jozi",
+            "Johannesburg, Gauteng",
+            "جوهانسبرغ"
+          ],
+          "coordinates": {
+            "lat": -26.1667,
+            "lon": 28.0333
+          }
+        },
+        {
+          "name": "Cape Town",
+          "aliases": [
+            "Cape Town City Centre",
+            "Cape Town Region",
+            "Kaapstad",
+            "Le Cap",
+            "كيب تاون"
+          ]
+        },
+        {
+          "name": "Pretoria",
+          "aliases": [
+            "Tshwane",
+            "بريتوريا"
+          ],
+          "coordinates": {
+            "lat": -25.75,
+            "lon": 28.2
+          }
+        },
+        {
+          "name": "Durban",
+          "aliases": [
+            "eThekwini",
+            "ديربان"
+          ],
+          "coordinates": {
+            "lat": -29.8833,
+            "lon": 31.0
+          }
+        },
+        {
+          "name": "Gqeberha",
+          "aliases": [
+            "Port Elizabeth",
+            "Nelson Mandela Bay"
+          ],
+          "coordinates": {
+            "lat": -33.9608,
+            "lon": 25.6022
+          }
+        },
+        {
+          "name": "Bloemfontein",
+          "aliases": [
+            "Mangaung"
+          ]
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Gauteng",
+          "aliases": []
+        },
+        {
+          "name": "Western Cape",
+          "aliases": []
+        },
+        {
+          "name": "Eastern Cape",
+          "aliases": []
+        },
+        {
+          "name": "KwaZulu-Natal",
+          "aliases": []
+        },
+        {
+          "name": "Free State",
+          "aliases": []
+        },
+        {
+          "name": "Limpopo",
+          "aliases": []
+        },
+        {
+          "name": "Mpumalanga",
+          "aliases": []
+        },
+        {
+          "name": "North West",
+          "aliases": []
+        },
+        {
+          "name": "Northern Cape",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "name": "South Sudan",
+      "aliases": [
+        "Soudan du Sud",
+        "Sudão do Sul",
+        "جنوب السودان",
+        "Sudan Kusini",
+        "Republic of South Sudan"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Juba",
+          "aliases": [
+            "جوبا"
+          ]
+        },
+        {
+          "name": "Wau",
+          "aliases": [],
+          "coordinates": {
+            "lat": 7.7029,
+            "lon": 27.9953
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "name": "Sudan",
+      "aliases": [
+        "Soudan",
+        "Sudão",
+        "السودان",
+        "Republic of the Sudan"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Khartoum",
+          "aliases": [
+            "الخرطوم"
+          ]
+        },
+        {
+          "name": "Port Sudan",
+          "aliases": [
+            "بورتسودان"
+          ],
+          "coordinates": {
+            "lat": 19.6333,
+            "lon": 37.1167
+          }
+        },
+        {
+          "name": "Omdurman",
+          "aliases": [
+            "أم درمان"
+          ],
+          "coordinates": {
+            "lat": 15.6167,
+            "lon": 32.4833
+          }
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "name": "Tanzania",
+      "aliases": [
+        "United Republic of Tanzania",
+        "Tanzanie",
+        "Tanzânia",
+        "تنزانيا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Dar es Salaam",
+          "aliases": [
+            "Dar-es-Salaam",
+            "Dar es Salam",
+            "Daresalaam",
+            "Jiji la Dar es Salaam",
+            "دار السلام"
+          ]
+        },
+        {
+          "name": "Dodoma",
+          "aliases": [
+            "Jiji la Dodoma"
+          ],
+          "coordinates": {
+            "lat": -6.1667,
+            "lon": 35.6667
+          }
+        },
+        {
+          "name": "Arusha",
+          "aliases": [
+            "Jiji la Arusha"
+          ],
+          "coordinates": {
+            "lat": -3.3833,
+            "lon": 36.6667
+          }
+        },
+        {
+          "name": "Mwanza",
+          "aliases": [
+            "Jiji la Mwanza"
+          ],
+          "coordinates": {
+            "lat": -2.5167,
+            "lon": 32.9333
+          }
+        },
+        {
+          "name": "Zanzibar City",
+          "aliases": [
+            "Zanzibar",
+            "Stone Town",
+            "Mji wa Zanzibar"
+          ],
+          "coordinates": {
+            "lat": -6.1659,
+            "lon": 39.2026
+          }
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Dar es Salaam Region",
+          "aliases": []
+        },
+        {
+          "name": "Dodoma Region",
+          "aliases": []
+        },
+        {
+          "name": "Arusha Region",
+          "aliases": []
+        },
+        {
+          "name": "Mwanza Region",
+          "aliases": []
+        },
+        {
+          "name": "Zanzibar",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "name": "Togo",
+      "aliases": [
+        "توغو"
+      ],
+      "region": "West Africa",
+      "cities": [
+        {
+          "name": "Lomé",
+          "aliases": [
+            "Lome",
+            "لومي"
+          ],
+          "coordinates": {
+            "lat": 6.1333,
+            "lon": 1.2167
+          }
+        },
+        {
+          "name": "Sokodé",
+          "aliases": []
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "aliases": [
+        "Tunisie",
+        "Tunísia",
+        "تونس"
+      ],
+      "region": "North Africa",
+      "cities": [
+        {
+          "name": "Tunis",
+          "aliases": [
+            "تونس العاصمة",
+            "تونس"
+          ],
+          "coordinates": {
+            "lat": 36.8,
+            "lon": 10.2
+          }
+        },
+        {
+          "name": "Sfax",
+          "aliases": [
+            "صفاقس"
+          ],
+          "coordinates": {
+            "lat": 34.75,
+            "lon": 10.7167
+          }
+        },
+        {
+          "name": "Sousse",
+          "aliases": [
+            "سوسة"
+          ]
+        }
+      ],
+      "admin_areas": []
+    },
+    {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "name": "Uganda",
+      "aliases": [
+        "Ouganda",
+        "أوغندا"
+      ],
+      "region": "East Africa",
+      "cities": [
+        {
+          "name": "Kampala",
+          "aliases": [
+            "Kampala Capital City",
+            "كمبالا"
+          ],
+          "coordinates": {
+            "lat": 0.3333,
+            "lon": 32.5833
+          }
+        },
+        {
+          "name": "Entebbe",
+          "aliases": [
+            "عنتيبي"
+          ],
+          "coordinates": {
+            "lat": 0.0667,
+            "lon": 32.45
+          }
+        },
+        {
+          "name": "Jinja",
+          "aliases": [
+            "جينجا"
+          ],
+          "coordinates": {
+            "lat": 0.45,
+            "lon": 33.2333
+          }
+        },
+        {
+          "name": "Mbarara",
+          "aliases": []
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Central Region",
+          "aliases": []
+        },
+        {
+          "name": "Eastern Region",
+          "aliases": []
+        },
+        {
+          "name": "Northern Region",
+          "aliases": []
+        },
+        {
+          "name": "Western Region",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "aliases": [
+        "Zambie",
+        "Zâmbia",
+        "زامبيا"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Lusaka",
+          "aliases": [
+            "لوساكا"
+          ],
+          "coordinates": {
+            "lat": -15.4167,
+            "lon": 28.2833
+          }
+        },
+        {
+          "name": "Kitwe",
+          "aliases": [],
+          "coordinates": {
+            "lat": -12.8333,
+            "lon": 28.1833
+          }
+        },
+        {
+          "name": "Ndola",
+          "aliases": [],
+          "coordinates": {
+            "lat": -13.0,
+            "lon": 28.65
+          }
+        },
+        {
+          "name": "Livingstone",
+          "aliases": [
+            "Maramba"
+          ]
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Lusaka Province",
+          "aliases": []
+        },
+        {
+          "name": "Copperbelt Province",
+          "aliases": []
+        },
+        {
+          "name": "Southern Province",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "aliases": [
+        "Zimbábue",
+        "زيمبابوي"
+      ],
+      "region": "Southern Africa",
+      "cities": [
+        {
+          "name": "Harare",
+          "aliases": [
+            "هراري"
+          ],
+          "coordinates": {
+            "lat": -17.8333,
+            "lon": 31.05
+          }
+        },
+        {
+          "name": "Bulawayo",
+          "aliases": [
+            "بولاوايو"
+          ],
+          "coordinates": {
+            "lat": -20.1667,
+            "lon": 28.7167
+          }
+        },
+        {
+          "name": "Mutare",
+          "aliases": []
+        }
+      ],
+      "admin_areas": [
+        {
+          "name": "Harare Province",
+          "aliases": []
+        },
+        {
+          "name": "Bulawayo Province",
+          "aliases": []
+        },
+        {
+          "name": "Manicaland",
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

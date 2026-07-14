@@ -1,0 +1,25 @@
+{
+  "phase": "0",
+  "implemented_at": "2026-07-13T06:14:27.704608Z",
+  "feed_version_before": "2.0",
+  "feed_version_after": "3.0",
+  "opportunities_before": 609,
+  "opportunities_after": 204,
+  "opportunities_rejected": 405,
+  "new_ids_not_in_original": 0,
+  "retained_ids_changed": 0,
+  "validation_errors_before": 0,
+  "validation_warnings_before": 322,
+  "validation_errors_after": 0,
+  "validation_warnings_after": 0,
+  "tests_before_real_execution": 48,
+  "tests_after": 72,
+  "collector_fixture_tests": 11,
+  "source_registry_entries_before": 18,
+  "source_registry_entries_after": 17,
+  "duplicate_source_entries_removed": 1,
+  "notes": [
+    "The packaged feed was normalised from the supplied snapshot; it was not freshly downloaded from live sources in this environment.",
+    "GitHub secret values cannot be verified from a ZIP. CI now reports whether ReliefWeb and Adzuna configuration is present without exposing values."
+  ]
+}

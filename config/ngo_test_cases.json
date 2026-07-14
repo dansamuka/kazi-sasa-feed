@@ -1,0 +1,237 @@
+{
+  "version": "1.0",
+  "cases": [
+    {
+      "title": "Humanitarian Response",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "humanitarian_response",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Programme Manager",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "programme_management",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Monitoring Evaluation And Learning",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "monitoring_evaluation_learning",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Grants Manager",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "grants_and_compliance",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Safeguarding",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "safeguarding_protection",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Public Health",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "technical_programme",
+      "expected_track": "public_health",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Nutrition Specialist",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "technical_programme",
+      "expected_track": "nutrition_food_security",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Livelihoods",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "livelihoods_economic_inclusion",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Education Specialist",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "technical_programme",
+      "expected_track": "education_programmes",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Advocacy Adviser",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "advocacy_policy",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Field Coordinator",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "field_operations",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Humanitarian Logistics",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "humanitarian_logistics",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Wash Officer",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "wash_shelter",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Climate Resilience",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "technical_programme",
+      "expected_track": "climate_resilience",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Migration Officer",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "humanitarian",
+      "expected_track": "migration_displacement",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Peacebuilding",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "peacebuilding_governance",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Gender Adviser",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "technical_programme",
+      "expected_track": "gender_inclusion",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Research Manager",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "research_learning",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Partnerships Manager",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "partnerships_resource_mobilisation",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Community Engagement",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "community_engagement",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Software Engineer",
+      "organisation_type": "un_agency",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null,
+      "expected_programme_role": false
+    },
+    {
+      "title": "Financial Accountant",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null,
+      "expected_programme_role": false
+    },
+    {
+      "title": "HR Business Partner",
+      "organisation_type": "ngo",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null,
+      "expected_programme_role": false
+    },
+    {
+      "title": "Investment Officer",
+      "organisation_type": "development_bank",
+      "specialisations": [
+        "investment_operations"
+      ],
+      "expected_classification": "not_ngo_un",
+      "expected_track": null,
+      "expected_programme_role": false
+    },
+    {
+      "title": "Monitoring and Evaluation Officer",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "development",
+      "expected_track": "monitoring_evaluation_learning",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Responsable Suivi Evaluation et Apprentissage",
+      "organisation_type": "ngo",
+      "specialisations": [
+        "monitoring_evaluation"
+      ],
+      "expected_classification": "development",
+      "expected_track": "monitoring_evaluation_learning",
+      "expected_programme_role": true
+    },
+    {
+      "title": "Especialista em Saúde Pública",
+      "organisation_type": "un_agency",
+      "specialisations": [
+        "public_health"
+      ],
+      "expected_classification": "technical_programme",
+      "expected_track": "public_health",
+      "expected_programme_role": true
+    },
+    {
+      "title": "مسؤول حماية الطفل",
+      "organisation_type": "ngo",
+      "specialisations": [
+        "safeguarding"
+      ],
+      "expected_classification": "humanitarian",
+      "expected_track": "safeguarding_protection",
+      "expected_programme_role": true
+    }
+  ]
+}

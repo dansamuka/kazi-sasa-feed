@@ -1,0 +1,16 @@
+{
+  "data": {
+    "totalCount": 1,
+    "requisitions": [
+      {
+        "requisitionId": 101,
+        "displayJobTitle": "Senior Investment Officer",
+        "externalDescription": "Originate and execute infrastructure investments. At least 7 years experience.",
+        "locations": [{"city":"Nairobi","country":"Kenya"}],
+        "postedDate": "2026-07-10T09:00:00Z",
+        "applicationDeadline": "2026-08-20T23:59:59Z",
+        "jobUrl": "https://institution.example/job/101"
+      }
+    ]
+  }
+}

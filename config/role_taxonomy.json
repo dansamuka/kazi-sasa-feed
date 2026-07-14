@@ -1,0 +1,814 @@
+{
+  "registry_version": "3.2",
+  "_comment": "Phase 6 authoritative role, organisation-type, thematic-sector and investment-classification registry. taxonomy.json remains authoritative for legacy industries, specialisations and skills.",
+  "legacy_taxonomy_file": "taxonomy.json",
+  "role_families": [
+    {
+      "id": "technology",
+      "label": "Technology",
+      "enabled": true
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "enabled": true
+    },
+    {
+      "id": "investment",
+      "label": "Investment",
+      "enabled": true
+    },
+    {
+      "id": "banking_and_finance",
+      "label": "Banking and Finance",
+      "enabled": true
+    },
+    {
+      "id": "development_programmes",
+      "label": "Development Programmes",
+      "enabled": true
+    },
+    {
+      "id": "humanitarian",
+      "label": "Humanitarian",
+      "enabled": true
+    },
+    {
+      "id": "economics_and_research",
+      "label": "Economics and Research",
+      "enabled": true
+    },
+    {
+      "id": "public_policy",
+      "label": "Public Policy",
+      "enabled": true
+    },
+    {
+      "id": "government_administration",
+      "label": "Government Administration",
+      "enabled": true
+    },
+    {
+      "id": "legal",
+      "label": "Legal",
+      "enabled": true
+    },
+    {
+      "id": "risk_and_compliance",
+      "label": "Risk and Compliance",
+      "enabled": true
+    },
+    {
+      "id": "esg_and_safeguards",
+      "label": "ESG and Safeguards",
+      "enabled": true
+    },
+    {
+      "id": "monitoring_evaluation_and_learning",
+      "label": "Monitoring, Evaluation and Learning",
+      "enabled": true
+    },
+    {
+      "id": "operations",
+      "label": "Operations",
+      "enabled": true
+    },
+    {
+      "id": "sales_business_development",
+      "label": "Sales and Business Development",
+      "enabled": true
+    },
+    {
+      "id": "marketing_communications",
+      "label": "Marketing and Communications",
+      "enabled": true
+    },
+    {
+      "id": "human_resources",
+      "label": "Human Resources",
+      "enabled": true
+    },
+    {
+      "id": "procurement",
+      "label": "Procurement",
+      "enabled": true
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "enabled": true
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "enabled": true
+    },
+    {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "enabled": true
+    },
+    {
+      "id": "energy",
+      "label": "Energy and Climate",
+      "enabled": true
+    },
+    {
+      "id": "consulting",
+      "label": "Consulting",
+      "enabled": true
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "enabled": true
+    },
+    {
+      "id": "administration",
+      "label": "Administration",
+      "enabled": true
+    },
+    {
+      "id": "hospitality",
+      "label": "Hospitality and Tourism",
+      "enabled": true
+    },
+    {
+      "id": "logistics",
+      "label": "Transport and Logistics",
+      "enabled": true
+    },
+    {
+      "id": "real_estate",
+      "label": "Real Estate",
+      "enabled": true
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "enabled": true
+    },
+    {
+      "id": "customer_operations",
+      "label": "Customer Operations",
+      "enabled": true
+    },
+    {
+      "id": "skilled_trades",
+      "label": "Skilled Trades",
+      "enabled": true
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "enabled": true
+    },
+    {
+      "id": "media",
+      "label": "Media and Entertainment",
+      "enabled": true
+    }
+  ],
+  "organisation_type_values": [
+    "employer",
+    "private",
+    "ngo",
+    "multilateral",
+    "unverified",
+    "dfi",
+    "development_bank",
+    "commercial_bank",
+    "investment_firm",
+    "asset_manager",
+    "private_equity",
+    "venture_capital",
+    "multinational",
+    "un_agency",
+    "government",
+    "regulator",
+    "state_owned_enterprise",
+    "university",
+    "foundation",
+    "consulting_firm"
+  ],
+  "eligibility_status_values": [
+    "eligible",
+    "likely_eligible",
+    "uncertain",
+    "local_only",
+    "citizenship_restricted",
+    "internal_only",
+    "ineligible"
+  ],
+  "thematic_sector_values": [
+    "administration",
+    "advisory",
+    "agriculture",
+    "capital_markets",
+    "climate",
+    "communications",
+    "customer_operations",
+    "design",
+    "development",
+    "digital_connectivity",
+    "education",
+    "energy",
+    "finance",
+    "financial_inclusion",
+    "food_systems",
+    "governance",
+    "health",
+    "hospitality",
+    "humanitarian",
+    "industry",
+    "infrastructure",
+    "international_relations",
+    "logistics",
+    "operations",
+    "people",
+    "private_sector",
+    "public_policy",
+    "public_sector",
+    "real_estate",
+    "research",
+    "retail",
+    "security",
+    "skilled_trades",
+    "technology",
+    "water_sanitation"
+  ],
+  "industry_role_family_map": {
+    "technology": "technology",
+    "engineering": "engineering",
+    "financial_services": "banking_and_finance",
+    "healthcare": "health",
+    "education": "education",
+    "development_humanitarian": "development_programmes",
+    "agriculture_food": "agriculture",
+    "energy_environment": "energy",
+    "legal": "legal",
+    "marketing_communications": "marketing_communications",
+    "sales_business_development": "sales_business_development",
+    "operations_supply_chain": "operations",
+    "human_resources": "human_resources",
+    "consulting": "consulting",
+    "media_entertainment": "media",
+    "hospitality_tourism": "hospitality",
+    "manufacturing": "manufacturing",
+    "construction": "engineering",
+    "public_sector": "government_administration",
+    "research": "economics_and_research",
+    "design_creative": "design",
+    "transport_logistics": "logistics",
+    "retail": "sales_business_development",
+    "nonprofit_operations": "development_programmes",
+    "real_estate": "real_estate",
+    "security": "security",
+    "telecommunications": "technology",
+    "administration": "administration",
+    "customer_operations": "customer_operations",
+    "skilled_trades": "skilled_trades"
+  },
+  "specialisation_role_family_map": {
+    "backend": "technology",
+    "frontend": "technology",
+    "mobile_dev": "technology",
+    "devops": "technology",
+    "sre": "technology",
+    "data_engineering": "technology",
+    "data_science": "technology",
+    "ml_engineering": "technology",
+    "product_management": "technology",
+    "cybersecurity": "technology",
+    "qa_testing": "technology",
+    "technical_writing": "technology",
+    "it_support": "technology",
+    "ux_ui_design": "design",
+    "civil_engineering": "engineering",
+    "mechanical_engineering": "engineering",
+    "electrical_engineering": "engineering",
+    "industrial_engineering": "engineering",
+    "environmental_engineering": "engineering",
+    "water_engineering": "engineering",
+    "credit_analysis": "banking_and_finance",
+    "treasury": "banking_and_finance",
+    "risk_management": "risk_and_compliance",
+    "wealth_management": "banking_and_finance",
+    "investment_banking": "investment",
+    "asset_management": "investment",
+    "insurance": "banking_and_finance",
+    "fintech_product": "banking_and_finance",
+    "corporate_finance": "investment",
+    "climate_finance": "investment",
+    "agri_finance": "investment",
+    "microfinance": "banking_and_finance",
+    "auditing": "risk_and_compliance",
+    "tax": "risk_and_compliance",
+    "clinical_medicine": "health",
+    "public_health": "health",
+    "health_administration": "health",
+    "pharmacy": "health",
+    "mental_health": "health",
+    "nutrition": "health",
+    "teaching": "education",
+    "curriculum_design": "education",
+    "education_administration": "education",
+    "edtech": "education",
+    "higher_education": "education",
+    "programme_management": "development_programmes",
+    "monitoring_evaluation": "monitoring_evaluation_and_learning",
+    "grants_management": "development_programmes",
+    "safeguarding": "humanitarian",
+    "community_engagement": "development_programmes",
+    "policy_research": "economics_and_research",
+    "advocacy": "public_policy",
+    "shelter_wash": "humanitarian",
+    "logistics_humanitarian": "humanitarian",
+    "gender_inclusion": "development_programmes",
+    "climate_adaptation": "esg_and_safeguards",
+    "agronomy": "agriculture",
+    "agribusiness": "agriculture",
+    "livestock": "agriculture",
+    "food_processing": "agriculture",
+    "fisheries": "agriculture",
+    "agri_extension": "agriculture",
+    "solar_paygo": "energy",
+    "renewables": "energy",
+    "energy_access": "energy",
+    "environmental_conservation": "esg_and_safeguards",
+    "carbon_markets": "investment",
+    "waste_management": "energy",
+    "corporate_law": "legal",
+    "compliance": "risk_and_compliance",
+    "human_rights_law": "legal",
+    "contracts": "legal",
+    "content_marketing": "marketing_communications",
+    "digital_marketing": "marketing_communications",
+    "brand_management": "marketing_communications",
+    "pr_comms": "marketing_communications",
+    "journalism": "marketing_communications",
+    "b2b_sales": "sales_business_development",
+    "account_management": "sales_business_development",
+    "business_development": "sales_business_development",
+    "retail_sales": "sales_business_development",
+    "supply_chain_mgmt": "operations",
+    "procurement": "procurement",
+    "warehousing": "operations",
+    "quality_assurance_ops": "operations",
+    "field_operations": "operations",
+    "talent_acquisition": "human_resources",
+    "employee_relations": "human_resources",
+    "compensation_benefits": "human_resources",
+    "learning_development": "human_resources",
+    "hr_business_partner": "human_resources",
+    "management_consulting": "consulting",
+    "technical_assistance": "consulting",
+    "hotel_operations": "hospitality",
+    "food_beverage": "hospitality",
+    "tourism_management": "hospitality",
+    "civil_service": "government_administration",
+    "public_policy": "public_policy",
+    "diplomacy": "public_policy",
+    "graphic_design": "design",
+    "industrial_design": "design",
+    "architecture": "design",
+    "freight_forwarding": "logistics",
+    "fleet_management": "logistics",
+    "customs_clearance": "logistics",
+    "store_management": "sales_business_development",
+    "merchandising": "sales_business_development",
+    "ecommerce": "sales_business_development",
+    "property_management": "real_estate",
+    "real_estate_development": "real_estate",
+    "physical_security": "security",
+    "information_security": "technology",
+    "network_engineering": "technology",
+    "telecom_operations": "technology",
+    "executive_assistant": "administration",
+    "office_management": "administration",
+    "data_entry": "administration",
+    "call_centre": "customer_operations",
+    "customer_success": "customer_operations",
+    "electrician": "skilled_trades",
+    "plumbing": "skilled_trades",
+    "welding": "skilled_trades",
+    "solar_installation": "skilled_trades",
+    "general_engineering": "engineering",
+    "general_sales": "sales_business_development",
+    "general_marketing": "marketing_communications",
+    "general_finance": "banking_and_finance",
+    "general_people_ops": "human_resources",
+    "general_gtm": "sales_business_development",
+    "general_business_development": "sales_business_development",
+    "general_risk": "risk_and_compliance",
+    "general_trade_construction": "engineering",
+    "general_maintenance": "skilled_trades",
+    "general_programmes": "development_programmes",
+    "investment_analysis": "investment",
+    "investment_operations": "investment",
+    "portfolio_management": "investment",
+    "portfolio_operations": "investment",
+    "private_equity": "investment",
+    "venture_capital": "investment",
+    "project_finance": "investment",
+    "infrastructure_finance": "investment",
+    "blended_finance": "investment",
+    "trade_finance": "investment",
+    "structured_finance": "investment",
+    "capital_markets": "investment",
+    "transaction_advisory": "investment",
+    "deal_origination": "investment",
+    "syndications": "investment",
+    "guarantees_risk_insurance": "investment",
+    "upstream_project_development": "investment",
+    "financial_institutions": "investment",
+    "impact_measurement": "monitoring_evaluation_and_learning",
+    "esg_safeguards": "esg_and_safeguards",
+    "resource_mobilisation": "investment",
+    "development_finance": "development_programmes",
+    "humanitarian_response": "development_programmes",
+    "livelihoods_economic_inclusion": "development_programmes",
+    "education_programmes": "education",
+    "migration_displacement": "development_programmes",
+    "peacebuilding_governance": "public_policy",
+    "research_learning": "economics_and_research"
+  },
+  "thematic_sector_map": {
+    "technology": [
+      "technology"
+    ],
+    "engineering": [
+      "infrastructure"
+    ],
+    "financial_services": [
+      "finance"
+    ],
+    "healthcare": [
+      "health"
+    ],
+    "education": [
+      "education"
+    ],
+    "development_humanitarian": [
+      "development"
+    ],
+    "agriculture_food": [
+      "agriculture",
+      "food_systems"
+    ],
+    "energy_environment": [
+      "energy",
+      "climate"
+    ],
+    "legal": [
+      "governance"
+    ],
+    "marketing_communications": [
+      "communications"
+    ],
+    "sales_business_development": [
+      "private_sector"
+    ],
+    "operations_supply_chain": [
+      "operations"
+    ],
+    "human_resources": [
+      "people"
+    ],
+    "consulting": [
+      "advisory"
+    ],
+    "media_entertainment": [
+      "communications"
+    ],
+    "hospitality_tourism": [
+      "hospitality"
+    ],
+    "manufacturing": [
+      "industry"
+    ],
+    "construction": [
+      "infrastructure"
+    ],
+    "public_sector": [
+      "public_sector"
+    ],
+    "research": [
+      "research"
+    ],
+    "design_creative": [
+      "design"
+    ],
+    "transport_logistics": [
+      "logistics"
+    ],
+    "retail": [
+      "retail"
+    ],
+    "nonprofit_operations": [
+      "development"
+    ],
+    "real_estate": [
+      "real_estate"
+    ],
+    "security": [
+      "security"
+    ],
+    "telecommunications": [
+      "digital_connectivity"
+    ],
+    "administration": [
+      "administration"
+    ],
+    "customer_operations": [
+      "customer_operations"
+    ],
+    "skilled_trades": [
+      "skilled_trades"
+    ],
+    "climate_finance": [
+      "finance",
+      "climate"
+    ],
+    "agri_finance": [
+      "finance",
+      "agriculture"
+    ],
+    "investment_banking": [
+      "finance",
+      "capital_markets"
+    ],
+    "asset_management": [
+      "finance",
+      "capital_markets"
+    ],
+    "microfinance": [
+      "finance",
+      "financial_inclusion"
+    ],
+    "fintech_product": [
+      "finance",
+      "technology",
+      "financial_inclusion"
+    ],
+    "public_health": [
+      "health",
+      "development"
+    ],
+    "climate_adaptation": [
+      "climate",
+      "development"
+    ],
+    "carbon_markets": [
+      "climate",
+      "finance"
+    ],
+    "renewables": [
+      "energy",
+      "climate"
+    ],
+    "solar_paygo": [
+      "energy",
+      "financial_inclusion"
+    ],
+    "energy_access": [
+      "energy",
+      "development"
+    ],
+    "shelter_wash": [
+      "humanitarian",
+      "water_sanitation"
+    ],
+    "logistics_humanitarian": [
+      "humanitarian",
+      "logistics"
+    ],
+    "monitoring_evaluation": [
+      "development",
+      "research"
+    ],
+    "policy_research": [
+      "public_policy",
+      "research"
+    ],
+    "civil_service": [
+      "public_sector"
+    ],
+    "public_policy": [
+      "public_sector",
+      "public_policy"
+    ],
+    "diplomacy": [
+      "public_sector",
+      "international_relations"
+    ],
+    "agronomy": [
+      "agriculture"
+    ],
+    "agribusiness": [
+      "agriculture",
+      "private_sector"
+    ],
+    "agri_extension": [
+      "agriculture",
+      "development"
+    ],
+    "investment_analysis": [
+      "finance",
+      "private_sector"
+    ],
+    "investment_operations": [
+      "finance",
+      "private_sector"
+    ],
+    "portfolio_management": [
+      "finance",
+      "private_sector"
+    ],
+    "portfolio_operations": [
+      "finance",
+      "operations",
+      "private_sector"
+    ],
+    "private_equity": [
+      "finance",
+      "private_sector",
+      "capital_markets"
+    ],
+    "venture_capital": [
+      "finance",
+      "private_sector",
+      "technology"
+    ],
+    "project_finance": [
+      "finance",
+      "infrastructure"
+    ],
+    "infrastructure_finance": [
+      "finance",
+      "infrastructure"
+    ],
+    "blended_finance": [
+      "finance",
+      "development",
+      "private_sector"
+    ],
+    "trade_finance": [
+      "finance",
+      "private_sector"
+    ],
+    "structured_finance": [
+      "finance",
+      "capital_markets"
+    ],
+    "capital_markets": [
+      "finance",
+      "capital_markets"
+    ],
+    "transaction_advisory": [
+      "finance",
+      "advisory"
+    ],
+    "deal_origination": [
+      "finance",
+      "private_sector"
+    ],
+    "syndications": [
+      "finance",
+      "capital_markets"
+    ],
+    "guarantees_risk_insurance": [
+      "finance",
+      "private_sector"
+    ],
+    "upstream_project_development": [
+      "finance",
+      "infrastructure",
+      "development"
+    ],
+    "financial_institutions": [
+      "finance",
+      "financial_inclusion"
+    ],
+    "impact_measurement": [
+      "development",
+      "research"
+    ],
+    "esg_safeguards": [
+      "climate",
+      "governance"
+    ],
+    "resource_mobilisation": [
+      "finance",
+      "development"
+    ],
+    "development_finance": [
+      "finance",
+      "development",
+      "public_sector"
+    ],
+    "humanitarian_response": [
+      "humanitarian",
+      "operations"
+    ],
+    "livelihoods_economic_inclusion": [
+      "development",
+      "financial_inclusion"
+    ],
+    "education_programmes": [
+      "education",
+      "development"
+    ],
+    "migration_displacement": [
+      "humanitarian",
+      "development"
+    ],
+    "peacebuilding_governance": [
+      "governance",
+      "international_relations"
+    ],
+    "research_learning": [
+      "research",
+      "development"
+    ]
+  },
+  "migration_status": {
+    "phase2_schema": "complete",
+    "phase4_location_multilingual": "complete",
+    "phase5_source_expansion": "complete",
+    "phase6_investment_dfi_taxonomy": "complete",
+    "legacy_industry_count": 30,
+    "legacy_specialisation_count": 155,
+    "mapped_industry_count": 30,
+    "mapped_specialisation_count": 155
+  },
+  "investment_classification_values": [
+    "core_investment",
+    "investment_adjacent",
+    "institutional_support",
+    "not_investment"
+  ],
+  "dfi_relevance_values": [
+    "direct_investment",
+    "institutional_role",
+    "adjacent_experience",
+    "none"
+  ],
+  "investment_track_values": [
+    "investment_analysis",
+    "investment_operations",
+    "portfolio_management",
+    "portfolio_operations",
+    "private_equity",
+    "venture_capital",
+    "project_finance",
+    "infrastructure_finance",
+    "climate_finance",
+    "blended_finance",
+    "trade_finance",
+    "structured_finance",
+    "capital_markets",
+    "asset_management",
+    "corporate_finance",
+    "transaction_advisory",
+    "deal_origination",
+    "syndications",
+    "guarantees_risk_insurance",
+    "upstream_project_development",
+    "financial_institutions",
+    "credit",
+    "treasury",
+    "impact_measurement",
+    "esg_safeguards",
+    "resource_mobilisation"
+  ],
+  "ngo_classification_values": [
+    "humanitarian",
+    "development",
+    "technical_programme",
+    "institutional_support",
+    "not_ngo_un"
+  ],
+  "ngo_track_values": [
+    "humanitarian_response",
+    "programme_management",
+    "monitoring_evaluation_learning",
+    "grants_and_compliance",
+    "safeguarding_protection",
+    "public_health",
+    "nutrition_food_security",
+    "livelihoods_economic_inclusion",
+    "education_programmes",
+    "advocacy_policy",
+    "field_operations",
+    "humanitarian_logistics",
+    "wash_shelter",
+    "climate_resilience",
+    "migration_displacement",
+    "peacebuilding_governance",
+    "gender_inclusion",
+    "research_learning",
+    "partnerships_resource_mobilisation",
+    "community_engagement"
+  ]
+}

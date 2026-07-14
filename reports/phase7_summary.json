@@ -1,0 +1,73 @@
+{
+  "phase": 7,
+  "status": "implemented",
+  "feed_version": "3.5",
+  "dfi_source_pack_version": "1.0",
+  "enterprise_adapter_version": "1.0",
+  "priority_institution_count": 25,
+  "organisation_count": 51,
+  "source_connection_count": 52,
+  "source_registry_count": 23,
+  "collector_count": 17,
+  "new_adapter_count": 4,
+  "new_adapters": [
+    "cornerstone",
+    "successfactors",
+    "oracle_cx",
+    "official_html"
+  ],
+  "offline_test_count": 223,
+  "offline_tests_passed": 223,
+  "packaged_feed_opportunity_count": 204,
+  "packaged_seed_opportunity_count": 10,
+  "packaged_dfi_summary": {
+    "opportunity_count": 204,
+    "dfi_or_multilateral_opportunity_count": 0,
+    "phase7_priority_institution_opportunity_count": 0,
+    "dfi_investment_role_count": 0,
+    "represented_institutions": 0,
+    "represented_countries": 0,
+    "official_application_count": 0,
+    "official_application_percent": 0.0
+  },
+  "stable_ids_preserved": true,
+  "android_legacy_projection_preserved": true,
+  "validation": {
+    "registry_errors": 0,
+    "feed_errors": 0,
+    "feed_warnings": 0,
+    "seed_errors": 0,
+    "seed_warnings": 0,
+    "workflow_yaml_valid": true,
+    "site_javascript_valid": true,
+    "publication_guard_passed": true
+  },
+  "website_filters": [
+    "dfi_or_multilateral",
+    "dfi_relevance"
+  ],
+  "new_artifacts": [
+    "scripts/collectors/cornerstone.py",
+    "scripts/collectors/successfactors.py",
+    "scripts/collectors/oracle_cx.py",
+    "scripts/collectors/official_html.py",
+    "scripts/collectors/official_common.py",
+    "scripts/migrate_phase7.py",
+    "reports/dfi_coverage_report.json",
+    "PHASE7_IMPLEMENTATION.md"
+  ],
+  "scope_note": "The packaged feed is the existing 204-record offline snapshot. New DFI and multilateral vacancies populate during live GitHub Actions refreshes.",
+  "canonical_specialisation_count": 156,
+  "hotfixes": [
+    {
+      "name": "run27_taxonomy_hotfix",
+      "status": "implemented",
+      "issues_fixed": [
+        "development_finance canonicalisation",
+        "invalid Phase 7 registry defaults",
+        "Himalayas run #27 taxonomy warnings"
+      ],
+      "regression_test_file": "scripts/tests/test_phase7_run27_hotfix.py"
+    }
+  ]
+}

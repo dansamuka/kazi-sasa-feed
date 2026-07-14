@@ -1,0 +1,9 @@
+{
+  "report_version": "1.0",
+  "input_count": 204,
+  "published_count": 204,
+  "removed_count": 0,
+  "official_replacements": 0,
+  "events": [],
+  "note": "Snapshot audit; live refresh reports pre-publication cross-source removals."
+}

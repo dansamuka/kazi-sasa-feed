@@ -1,0 +1,47 @@
+{
+  "phase": "1",
+  "implemented_at": "2026-07-13T06:26:46.187396Z",
+  "objective": "Introduce authoritative organisation, source, location, role and public-portal registries without changing the published feed or existing collector targets.",
+  "organisation_count": 21,
+  "ats_connection_count": 22,
+  "ats_connections_by_adapter": {
+    "greenhouse": 7,
+    "lever": 3,
+    "ashby": 7,
+    "pinpoint": 5
+  },
+  "source_registry_count": 17,
+  "african_country_count": 54,
+  "initial_city_count": 46,
+  "role_family_count": 25,
+  "planned_public_portal_count": 5,
+  "published_opportunity_count": 204,
+  "ordered_opportunity_id_sha256": "8f10da989a13304af96d18d317ec4a1227f178123be50dc4cf8a983f10c49e86",
+  "feed_changed_from_phase0": false,
+  "seed_changed_from_phase0": false,
+  "legacy_ats_board_payloads_changed_from_phase0": false,
+  "registry_validation_errors": 0,
+  "feed_validation_errors": 0,
+  "feed_validation_warnings": 0,
+  "offline_tests_passed": 84,
+  "authoritative_files": [
+    "config/organisations.json",
+    "config/source_registry.json",
+    "config/public_portals.json",
+    "config/african_locations.json",
+    "config/role_taxonomy.json",
+    "config/source_policies.json"
+  ],
+  "generated_compatibility_files": [
+    "config/greenhouse_boards.json",
+    "config/lever_boards.json",
+    "config/ashby_boards.json",
+    "config/pinpoint_boards.json",
+    "sources.json"
+  ],
+  "notes": [
+    "This phase reorganises and validates configuration; it does not add live sources or refresh the feed from the internet.",
+    "Public-service portal targets remain disabled until their collectors and fixture tests are implemented.",
+    "Rich feed schema fields remain deferred to Phase 2."
+  ]
+}

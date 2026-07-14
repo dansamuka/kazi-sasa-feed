@@ -1,0 +1,165 @@
+name: Refresh feed
+
+# Runs every command from the repository root. This is deliberate: the files
+# staged and published by GitHub Pages must be the same root artifacts that the
+# collectors, validators, and deployment guard inspect.
+
+on:
+  schedule:
+    - cron: "0 6,12,18 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-feed-main
+  cancel-in-progress: false
+
+jobs:
+  refresh-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate Phase 1-11 registries and schema
+        run: python3 scripts/validate_registry.py
+
+      - name: Check generated compatibility files
+        run: python3 scripts/generate_legacy_configs.py --check
+
+      - name: Validate generated source compatibility registry
+        run: python3 scripts/validate_sources.py sources.json
+
+      - name: Run offline tests
+        run: python3 -m pytest scripts/tests -q
+
+      - name: Validate collector registry manifest
+        run: python3 scripts/refresh_feed.py --list-collectors > /tmp/collector-manifest.json
+
+      - name: Generate registry coverage report
+        run: python3 scripts/generate_registry_report.py
+
+      - name: Check optional collector configuration
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          UNTALENT_FEED_URL: ${{ secrets.UNTALENT_FEED_URL }}
+          UNTALENT_API_TOKEN: ${{ secrets.UNTALENT_API_TOKEN }}
+        run: python3 scripts/check_runtime_config.py
+
+      - name: Refresh FX rates
+        continue-on-error: true
+        run: python3 scripts/refresh_fx.py --out currency_rates.json
+
+      - name: Refresh repository-root feed and reports
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          UNTALENT_FEED_URL: ${{ secrets.UNTALENT_FEED_URL }}
+          UNTALENT_API_TOKEN: ${{ secrets.UNTALENT_API_TOKEN }}
+        run: >-
+          python3 scripts/refresh_feed.py
+          --out feed.json
+          --coverage-report reports/coverage_report.json
+          --source-health reports/source_health.json
+          --collector-manifest reports/collector_manifest.json
+          --collector-errors reports/collector_errors.json
+          --deduplication-report reports/deduplication_report.json
+          --coverage-gate-report reports/coverage_gate_report.json
+          --investment-coverage-report reports/investment_coverage_report.json
+          --dfi-coverage-report reports/dfi_coverage_report.json
+          --ngo-coverage-report reports/ngo_coverage_report.json
+          --government-coverage-report reports/government_coverage_report.json
+          --public-institution-coverage-report reports/kenya_public_institutions_report.json
+          --multinational-coverage-report reports/multinational_coverage_report.json
+
+      - name: Validate repository-root feed
+        run: >-
+          python3 scripts/validate_feed.py feed.json
+          --taxonomy taxonomy.json
+          --role-taxonomy config/role_taxonomy.json
+          --fail-on-warnings
+
+      - name: Enforce regional and location-quality regression gates
+        run: >-
+          python3 scripts/coverage_gates.py
+          --feed feed.json
+          --config config/coverage_gates.json
+          --out reports/coverage_gate_report.json
+          --fail-on-errors
+
+      - name: Verify freshly generated Phase 11 root output
+        run: >-
+          python3 scripts/verify_published_output.py
+          --feed feed.json
+          --expected-version 3.8
+          --require-phase2
+          --require-phase4
+          --require-phase5
+          --require-phase6
+          --require-phase7
+          --require-phase8
+          --require-phase9
+          --require-phase11
+          --max-age-minutes 30
+
+      - name: Build repository-root GitHub Pages site
+        run: python3 scripts/site/build_site.py --feed feed.json --out docs/index.html
+
+      - name: Verify site was built from the current root feed
+        run: >-
+          python3 scripts/verify_published_output.py
+          --feed feed.json
+          --site docs/index.html
+          --expected-version 3.8
+          --require-phase2
+          --require-phase4
+          --require-phase3-site
+          --require-phase6
+          --require-phase6-site
+          --require-phase7
+          --require-phase7-site
+          --require-phase8
+          --require-phase8-site
+          --require-phase9
+          --require-phase9-site
+          --require-phase11
+          --require-phase11-site
+          --max-age-minutes 30
+
+      - name: Show publishable changes
+        run: git status --short -- feed.json currency_rates.json reports docs/index.html
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "kazi-sasa-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed.json
+          [ -f currency_rates.json ] && git add currency_rates.json
+          [ -f reports/coverage_report.json ] && git add reports/coverage_report.json
+          [ -f reports/source_health.json ] && git add reports/source_health.json
+          [ -f reports/collector_manifest.json ] && git add reports/collector_manifest.json
+          [ -f reports/collector_errors.json ] && git add reports/collector_errors.json
+          [ -f reports/deduplication_report.json ] && git add reports/deduplication_report.json
+          [ -f reports/coverage_gate_report.json ] && git add reports/coverage_gate_report.json
+          [ -f reports/investment_coverage_report.json ] && git add reports/investment_coverage_report.json
+          [ -f reports/dfi_coverage_report.json ] && git add reports/dfi_coverage_report.json
+          [ -f reports/ngo_coverage_report.json ] && git add reports/ngo_coverage_report.json
+          [ -f reports/government_coverage_report.json ] && git add reports/government_coverage_report.json
+          [ -f reports/kenya_public_institutions_report.json ] && git add reports/kenya_public_institutions_report.json
+          [ -f reports/multinational_coverage_report.json ] && git add reports/multinational_coverage_report.json
+          [ -f reports/registry_report.json ] && git add reports/registry_report.json
+          [ -f docs/index.html ] && git add docs/index.html
+          [ -f docs/.nojekyll ] && git add docs/.nojekyll
+          git diff --staged --quiet || git commit -m "Refresh feed, reports, FX rates, and site [automated]"
+          git push

@@ -1,0 +1,163 @@
+{
+  "policy_version": "5.0",
+  "_comment": "Central source and collection policies. Collectors may be stricter but must not weaken these defaults.",
+  "source_precedence": [
+    "official",
+    "aggregated",
+    "community",
+    "unverified"
+  ],
+  "access": {
+    "public_only": true,
+    "respect_robots_and_terms": true,
+    "default_timeout_seconds": 30,
+    "default_max_retries": 2,
+    "default_requests_per_second": 1
+  },
+  "publication": {
+    "fail_on_validation_errors": true,
+    "fail_on_taxonomy_warnings": true,
+    "preserve_stable_ids": true,
+    "refuse_empty_overwrite": true,
+    "enrich_phase2_metadata": true,
+    "enrich_phase4_metadata": true,
+    "enforce_phase5_regression_coverage_gates": true,
+    "prefer_official_duplicates": true,
+    "publish_deduplication_report": true,
+    "enrich_phase6_investment_metadata": true,
+    "publish_investment_coverage_report": true,
+    "enrich_phase7_institution_metadata": true,
+    "publish_dfi_coverage_report": true,
+    "enrich_phase8_metadata": true,
+    "publish_ngo_coverage_report": true,
+    "enrich_phase9_government_metadata": true,
+    "publish_government_coverage_report": true,
+    "official_vacancy_title_gate": true
+  },
+  "eligibility": {
+    "generic_company_sponsorship_is_not_role_evidence": true,
+    "require_role_specific_mobility_signal_for_non_african_locations": true,
+    "ambiguous_remote_is_not_kenya_accessible": true
+  },
+  "registry": {
+    "organisations_authoritative": true,
+    "legacy_ats_configs_generated": true,
+    "source_registry_authoritative": true,
+    "legacy_sources_json_generated": true
+  },
+  "schema_evolution": {
+    "current_feed_version": "3.8",
+    "phase2_additive_only": true,
+    "preserve_legacy_fields": true,
+    "android_unknown_keys_are_ignored": true,
+    "phase2_fields_optional_for_older_snapshots": true,
+    "phase4_additive_only": true,
+    "phase4_fields_optional_for_older_snapshots": true,
+    "phase5_additive_only": true,
+    "phase5_fields_optional_for_older_snapshots": true,
+    "phase6_additive_only": true,
+    "phase6_fields_optional_for_older_snapshots": true,
+    "phase7_additive_only": true,
+    "phase7_fields_optional_for_older_snapshots": true,
+    "phase8_additive_only": true,
+    "phase8_fields_optional_for_older_snapshots": true,
+    "phase9_additive_only": true,
+    "phase9_fields_optional_for_older_snapshots": true,
+    "phase10_kenya_additive_only": true,
+    "phase10_kenya_fields_optional_for_older_snapshots": true,
+    "phase11_additive_only": true,
+    "phase11_fields_optional_for_older_snapshots": true
+  },
+  "location_normalisation": {
+    "registry_authoritative": true,
+    "supported_languages": [
+      "en",
+      "fr",
+      "pt",
+      "ar",
+      "sw"
+    ],
+    "unicode_preserving_matching": true,
+    "confidence_and_evidence_required": true,
+    "do_not_guess_without_evidence": true
+  },
+  "source_expansion": {
+    "recruitee_public_api": true,
+    "reliefweb_all_africa": true,
+    "untalent_json_or_rss": true,
+    "adzuna_priority_search_portfolio": true,
+    "official_source_precedence": true,
+    "cross_source_semantic_deduplication": true,
+    "regional_regression_gates": true
+  },
+  "investment_classification": {
+    "taxonomy_authoritative": true,
+    "title_evidence_outweighs_description": true,
+    "institution_type_is_context_not_role_proof": true,
+    "accounting_and_control_false_positive_guard": true,
+    "multilingual_title_phrases": true,
+    "reviewed_regression_corpus_required": true
+  },
+  "dfi_source_pack": {
+    "registry_backed_priority_institutions": true,
+    "official_sources_only": true,
+    "enterprise_adapters_public_career_sites_only": true,
+    "institution_type_is_separate_from_role_classification": true,
+    "source_health_required": true,
+    "official_apply_links_preferred": true
+  },
+  "ngo_un_source_pack": {
+    "version": "1.1",
+    "official_source_preferred": true,
+    "aggregator_discovery_sources": [
+      "reliefweb",
+      "untalent"
+    ],
+    "role_and_institution_separated": true,
+    "priority_source_pack": "phase8_ngo_un_development",
+    "required_profile_fields": [
+      "is_ngo_or_un",
+      "classification",
+      "track",
+      "confidence",
+      "is_programme_role",
+      "source_pack"
+    ],
+    "generic_multilaterals_excluded_from_ngo_filter": true,
+    "listing_title_preserved_when_detail_title_invalid": true,
+    "vacancy_specific_evidence_required": true,
+    "registry_defaults_are_context_only": true
+  },
+  "government_source_pack": {
+    "version": "1.0",
+    "wave1_countries": [
+      "KE",
+      "UG",
+      "RW",
+      "TZ",
+      "ZA"
+    ],
+    "official_sources_only": true,
+    "individual_vacancy_records": true,
+    "government_specific_fields": true,
+    "disabled_sources_must_explain_reason": true,
+    "pdf_parsing_is_text_based_no_ocr": true
+  },
+  "kenya_public_institutions": {
+    "registry_authoritative": true,
+    "kenya_only": true,
+    "official_sources_only": true,
+    "citizenship_context_is_not_role_classification": true,
+    "required_category_coverage": true
+  },
+  "multinational_source_pack": {
+    "target_employer_count": 100,
+    "official_sources_only": true,
+    "employer_context_is_not_role_proof": true,
+    "workday_public_search": true,
+    "smartrecruiters_public_postings": true,
+    "workable_public_postings": true,
+    "city_coverage_reporting": true,
+    "disabled_sources_must_have_reason": true
+  }
+}

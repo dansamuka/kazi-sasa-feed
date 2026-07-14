@@ -1,0 +1,2468 @@
+{
+  "_comment": "v3 taxonomy. Two-level structure: `industries` is a single-select controlled vocabulary (one per opportunity), `specialisations` is multi-select and nested under an industry via its `industry` field, `skills` remains cross-cutting (unchanged shape from v2, just expanded). scripts/refresh_feed.py collectors should map source terms onto these ids via aliases - never write a raw source term straight into feed.json. classify_industry() in _common.py does best-effort automatic classification; specialisations are matched via alias lookup same as v2's map_category did for the old flat categories list. This list is deliberately not exhaustive - it's sized to cover the sources actually wired up in Phase 1/2 (ReliefWeb, Greenhouse, Lever, Adzuna, UN RSS) plus headroom for a general audience. Extend via alias addition, not by minting new ids for things that already have a home.",
+  "source_specialisation_aliases": {
+    "adzuna": {
+      "Legal Jobs": "corporate_law",
+      "Healthcare & Nursing Jobs": "clinical_medicine"
+    },
+    "greenhouse:oneacrefund": {
+      "FIR - Business Operations": "field_operations"
+    },
+    "greenhouse:givedirectly": {
+      "Program Tech": "programme_management"
+    },
+    "greenhouse:jumo": {
+      "COO": "field_operations",
+      "Portfolio & Prediction": "risk_management"
+    },
+    "greenhouse:stripe": {
+      "1175 Enterprise - Account Executives (NA)": "b2b_sales",
+      "1652 Platforms - Account Executives (NA)": "b2b_sales",
+      "1642 Product Sales - MaaS": "b2b_sales",
+      "2317 Marketing - PMM": "general_marketing",
+      "8127 Core Infrastructure": "devops",
+      "2323 Campaigns and Strategy": "digital_marketing",
+      "1510 GTM Business Operations": "general_gtm",
+      "6490 BizOps and Compass": "management_consulting",
+      "7312 CorpTech Customer Success": "customer_success",
+      "6320 Commercial Legal": "corporate_law",
+      "3130 Risk & Reward": "general_risk",
+      "7112 Data Science": "data_science",
+      "8126 Developer Infrastructure": "devops",
+      "1540 Global Sales & Business Ops HQ": "general_gtm",
+      "2325 Exec Marketing": "general_marketing",
+      "6449 CTO Finance & Strategy": "corporate_finance",
+      "4896 Fraud Operations": "risk_management",
+      "9001 Privy - R&D": "general_engineering",
+      "5902 Tax Autofile": "tax",
+      "1512 Global Sales Enablement": "general_sales",
+      "1520 Sales Operations (SS&O)": "general_gtm",
+      "6520 Recruiting": "talent_acquisition",
+      "6430 Tax": "tax",
+      "2314 Performance Marketing": "digital_marketing",
+      "3513 Core Product Partnerships": "business_development",
+      "1342 Payment Performance": "product_management",
+      "6513 People Systems & Solutions": "general_people_ops",
+      "6447 Product Pricing": "product_management",
+      "6360 Product & Partnering Legal": "corporate_law",
+      "8250 Connect - PM": "product_management",
+      "8504 Bridge - R&D": "general_engineering",
+      "8260 Risk and Compliance Platform PM": "product_management",
+      "8570 Consumer Network - Eng": "general_engineering",
+      "8554 Payments Experiences - PM": "product_management",
+      "6511 People Strategy & Enablement": "general_people_ops",
+      "4892 Risk Operations Enablement": "general_risk",
+      "8614 Office of the CISO & Partnership": "information_security",
+      "1150 Solutions Architecture": "general_engineering",
+      "6532 Benefits": "compensation_benefits",
+      "3313 SDC - Financial Crimes": "compliance",
+      "3133 Risk Onboarding Strategy": "general_risk",
+      "3131 Risk Supportability Strategy": "general_risk",
+      "6452 Sales Comp": "compensation_benefits",
+      "1131 Vendor Mgmt and SD PM": "procurement",
+      "8611 Security Analytics": "cybersecurity",
+      "Global Operations": "field_operations",
+      "8811 Product Design": "ux_ui_design",
+      "8217 Risk Engineering": "general_risk",
+      "8552 PayIntel - PM": "product_management",
+      "8569 MerchantXP - PM": "product_management",
+      "8712 Enterprise Engine": "backend",
+      "8212 ML Foundations": "ml_engineering",
+      "4149 Technical Account Management, Support & Services - S&S": "account_management",
+      "8548 Payins - Eng": "general_engineering",
+      "8910 Technical Program Management": "programme_management",
+      "8414 MerchantXP - Eng": "general_engineering",
+      "8539 MMS Product - Eng": "general_engineering",
+      "8259 Risk Tech Program Management & Other": "programme_management",
+      "4150 Technical Support": "it_support",
+      "8568 Docs": "technical_writing"
+    },
+    "greenhouse:cloudflare": {
+      "Solution Engineering": "general_engineering"
+    },
+    "greenhouse:gitlab": {
+      "Enterprise Applications": "it_support",
+      "EMEA - Commercial": "general_sales",
+      "AMER - Commercial": "general_sales",
+      "Customer Success - PubSec": "customer_success",
+      "Strategy": "management_consulting",
+      "Practice Management": "management_consulting",
+      "Enablement": "learning_development",
+      "Solutions Architecture - PubSec": "general_engineering",
+      "Security Operations": "cybersecurity",
+      "SA": "general_engineering",
+      "Consulting Delivery": "management_consulting",
+      "PubSec - FED": "general_sales",
+      "Renewals": "account_management",
+      "Field CTO": "general_engineering",
+      "Security Assurance": "information_security",
+      "Product Security": "cybersecurity",
+      "AMER - Enterprise": "general_sales",
+      "EMEA - Enterprise": "general_sales"
+    },
+    "ashby:notion": {
+      "User Research and Product Operations": "product_management"
+    },
+    "*": {
+      "development": "general_programmes",
+      "credit_risk": "risk_management",
+      "ai_evaluation": "data_science",
+      "hr": "general_people_ops",
+      "hospitality": "hotel_operations",
+      "retail": "store_management",
+      "customer_ops": "customer_success"
+    },
+    "jobicy": {
+      "Legal & Compliance": "compliance",
+      "Product & Operations": "product_management",
+      "Finance & Accounting": "general_finance",
+      "HR & Recruiting": "talent_acquisition"
+    },
+    "remoteok": {
+      "dev": "general_engineering",
+      "photoshop": "graphic_design"
+    },
+    "himalayas": {
+      "Corporate-Development": "corporate_finance",
+      "Strategy": "management_consulting",
+      "Business-Development": "business_development",
+      "M&A-Advisory": "investment_banking",
+      "Operations-Associate": "field_operations",
+      "Project-Coordinator": "programme_management",
+      "Operations-Management": "field_operations",
+      "Project-Management": "programme_management",
+      "Business-Operations": "field_operations",
+      "Supply-Chain-Management": "supply_chain_mgmt",
+      "Sourcing": "procurement",
+      "OPS-SC": "supply_chain_mgmt",
+      "UX-Design": "ux_ui_design",
+      "UI-Design": "ux_ui_design",
+      "Senior-UX-Design": "ux_ui_design",
+      "Digital-Design": "graphic_design",
+      "Marketing-Design": "graphic_design",
+      "Media-Buying": "digital_marketing",
+      "Digital-Advertising": "digital_marketing",
+      "Creative-Production": "graphic_design",
+      "Paid-Social": "digital_marketing",
+      "Graphic-Design": "graphic_design",
+      "Case-Management": "health_administration",
+      "Care-Coordination": "health_administration",
+      "Patient-Advocacy": "health_administration",
+      "Medical-Case-Management": "health_administration",
+      "Enterprise-Architecture": "general_engineering",
+      "Solution-Architecture": "general_engineering",
+      "IT-Architecture": "general_engineering",
+      "Technical-Architecture": "general_engineering",
+      "Project-Leadership": "programme_management",
+      "Banking-Technical-Consultant": "technical_assistance",
+      "SAP-Consulting": "technical_assistance",
+      "Banking": "general_finance",
+      "Information-Technology-And-Services": "general_engineering",
+      "Technical-Consulting": "technical_assistance",
+      "&-Customer-Success": "customer_success",
+      "Hospital-&-Health-Care": "health_administration",
+      "French-Customer-Service": "call_centre",
+      "Healthcare-Customer-Support": "call_centre",
+      "Bilingual-Customer-Support": "call_centre",
+      "Senior-Data-Engineer-Positions": "data_engineering",
+      "Senior-Data-Analytics-Engineer": "data_engineering",
+      "Senior-Data-Management-Engineer": "data_engineering",
+      "Data-Engineer": "data_engineering",
+      "Data-Entry": "data_entry",
+      "Data-Entry-Associate": "data_entry",
+      "Data-Entry-Agent": "data_entry",
+      "Data-Entry-Clerk": "data_entry",
+      "Data-Entry-Operator": "data_entry",
+      "Data-Entry-Specialist": "data_entry",
+      "Data-Entry-Executive": "data_entry",
+      "Data-Entry-Coordinator": "data_entry",
+      "Data-Entry-Jobs": "data_entry",
+      "Data-Entry-&-Administrative": "data_entry",
+      "Integrated-Designer": "graphic_design",
+      "Motion-Graphics-Designer": "graphic_design",
+      "Digital-Designer": "graphic_design",
+      "Graphic-Designer": "graphic_design",
+      "Social-Media-Designer": "graphic_design",
+      "Senior-Full-Stack-Engineer": "general_engineering",
+      "Senior-Full-Stack-Engineer-(TypeScript-Angular-Node)": "general_engineering",
+      "Brand-Director": "brand_management",
+      "Brand-Creative-Director": "brand_management",
+      "Brand-Design-Lead": "brand_management",
+      "Brand-Design-Manager": "brand_management",
+      "Design-Director": "graphic_design",
+      "Graphic-Design-Director": "graphic_design",
+      "Data-Engineering": "data_engineering",
+      "Data-Platform-Engineering": "data_engineering",
+      "Analytics-Engineering": "data_engineering",
+      "Senior-Data-Engineer": "data_engineering",
+      "Senior-Data-Engineering": "data_engineering",
+      "Data-Senior-Engineer": "data_engineering",
+      "Data-Engineer-Senior": "data_engineering",
+      "Senior-Staff-Data-Engineer": "data_engineering",
+      "Senior-Data-Engineer-Jobs": "data_engineering",
+      "Senior-Principal-Data-Engineer": "data_engineering",
+      "Healthcare-Sales-Leadership": "general_sales",
+      "Virtual-Sales-Manager": "general_sales",
+      "Healthcare-Administration": "health_administration",
+      "Referral-Management": "health_administration",
+      "E-Referral-Specialist": "health_administration",
+      "Healthcare-Coordination": "health_administration",
+      "Home-Health-Services": "health_administration",
+      "Home-Health-Care-Specialist": "health_administration",
+      "Referral-Specialist": "health_administration",
+      "Patient-Referral-Specialist": "health_administration",
+      "Healthcare-Referral-Coordinator": "health_administration",
+      "Home-Health-Coordinator": "health_administration",
+      "Home-Health-Liaison": "health_administration"
+    },
+    "remotive": {
+      "Writing": "content_marketing",
+      "Customer Service": "customer_success",
+      "Software Development": "general_engineering"
+    }
+  },
+  "ignored_specialisation_terms": {
+    "*": [
+      "Other/General Jobs",
+      "remote_work",
+      "leadership",
+      "fellowship"
+    ],
+    "adzuna": [
+      "Manufacturing Jobs"
+    ],
+    "greenhouse:jumo": [
+      "Technology"
+    ],
+    "remoteok": [
+      "digital nomad",
+      "education"
+    ],
+    "himalayas": [
+      "Executive-Leadership",
+      "Healthcare",
+      "&-Administration",
+      "Administrative-Support",
+      "Data-Management",
+      "Tech",
+      "Automotive"
+    ],
+    "jobicy": [
+      "Healthcare & Medical"
+    ]
+  },
+  "industries": [
+    {
+      "id": "technology",
+      "label": "Technology",
+      "aliases": [
+        "tech",
+        "software",
+        "it",
+        "information technology",
+        "computers, software development and services",
+        "it jobs"
+      ]
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "aliases": [
+        "engineering, architecture",
+        "electrical engineering",
+        "mechanical engineering",
+        "civil engineering"
+      ]
+    },
+    {
+      "id": "financial_services",
+      "label": "Financial Services & Banking",
+      "aliases": [
+        "banking",
+        "finance",
+        "fintech",
+        "banking, microfinance, insurance",
+        "finance & fintech",
+        "accounting, finance, banking, insurance"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare & Medicine",
+      "aliases": [
+        "health care, medical",
+        "medical, health",
+        "public health",
+        "clinical",
+        "healthcare & medical",
+        "healthcare and medical"
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education & Academia",
+      "aliases": [
+        "education, academic",
+        "teaching, training",
+        "academia"
+      ]
+    },
+    {
+      "id": "development_humanitarian",
+      "label": "Development & Humanitarian",
+      "aliases": [
+        "international development",
+        "humanitarian",
+        "ngo programmes",
+        "non-profit, social work",
+        "development sector"
+      ]
+    },
+    {
+      "id": "agriculture_food",
+      "label": "Agriculture & Food Systems",
+      "aliases": [
+        "agriculture, fishing, forestry",
+        "agribusiness",
+        "farming",
+        "food, nutrition",
+        "agriculture, fishing, forestry, wildlife"
+      ]
+    },
+    {
+      "id": "energy_environment",
+      "label": "Energy & Environment",
+      "aliases": [
+        "energy, power",
+        "energy, utilities, environment",
+        "climate",
+        "renewables",
+        "solar"
+      ]
+    },
+    {
+      "id": "legal",
+      "label": "Legal",
+      "aliases": [
+        "law",
+        "compliance",
+        "regulatory affairs"
+      ]
+    },
+    {
+      "id": "marketing_communications",
+      "label": "Marketing & Communications",
+      "aliases": [
+        "media, communications, languages",
+        "marketing, advertising",
+        "pr",
+        "public relations"
+      ]
+    },
+    {
+      "id": "sales_business_development",
+      "label": "Sales & Business Development",
+      "aliases": [
+        "sales, marketing, promotion",
+        "business development",
+        "account management"
+      ]
+    },
+    {
+      "id": "operations_supply_chain",
+      "label": "Operations & Supply Chain",
+      "aliases": [
+        "manufacturing, operations, quality",
+        "logistics",
+        "transportation, logistics, driving",
+        "supply chain"
+      ]
+    },
+    {
+      "id": "human_resources",
+      "label": "Human Resources",
+      "aliases": [
+        "hr",
+        "people operations",
+        "talent acquisition"
+      ]
+    },
+    {
+      "id": "consulting",
+      "label": "Consulting",
+      "aliases": [
+        "consulting, business support, auditing",
+        "management consulting",
+        "advisory"
+      ]
+    },
+    {
+      "id": "media_entertainment",
+      "label": "Media & Entertainment",
+      "aliases": [
+        "journalism",
+        "broadcasting",
+        "content"
+      ]
+    },
+    {
+      "id": "hospitality_tourism",
+      "label": "Hospitality & Tourism",
+      "aliases": [
+        "restaurant, hospitality, travel",
+        "hotel",
+        "tourism"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "aliases": [
+        "manufacturing, operations, quality",
+        "industrial production"
+      ]
+    },
+    {
+      "id": "construction",
+      "label": "Construction",
+      "aliases": [
+        "construction, renovation, maintenance",
+        "building",
+        "civil works"
+      ]
+    },
+    {
+      "id": "public_sector",
+      "label": "Public Sector",
+      "aliases": [
+        "government, community development, public services",
+        "civil service",
+        "government"
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "aliases": [
+        "research, academy",
+        "data/research",
+        "policy research"
+      ]
+    },
+    {
+      "id": "design_creative",
+      "label": "Design & Creative",
+      "aliases": [
+        "design, arts",
+        "graphic design",
+        "ux design",
+        "creative"
+      ]
+    },
+    {
+      "id": "transport_logistics",
+      "label": "Transport & Logistics",
+      "aliases": [
+        "transportation, logistics, driving, aeronautics",
+        "freight",
+        "shipping"
+      ]
+    },
+    {
+      "id": "retail",
+      "label": "Retail",
+      "aliases": [
+        "retail, wholesale, fmcg",
+        "merchandising",
+        "store operations"
+      ]
+    },
+    {
+      "id": "nonprofit_operations",
+      "label": "Non-Profit Operations",
+      "aliases": [
+        "charity operations",
+        "third sector"
+      ]
+    },
+    {
+      "id": "real_estate",
+      "label": "Real Estate",
+      "aliases": [
+        "property",
+        "property management",
+        "real estate development"
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "aliases": [
+        "safety and security",
+        "risk and security"
+      ]
+    },
+    {
+      "id": "telecommunications",
+      "label": "Telecommunications",
+      "aliases": [
+        "telecoms",
+        "mobile networks"
+      ]
+    },
+    {
+      "id": "administration",
+      "label": "Administration",
+      "aliases": [
+        "administrative, clerical",
+        "office administration",
+        "executive assistant"
+      ]
+    },
+    {
+      "id": "customer_operations",
+      "label": "Customer Operations",
+      "aliases": [
+        "customer support, client care",
+        "customer service",
+        "contact centre"
+      ]
+    },
+    {
+      "id": "skilled_trades",
+      "label": "Skilled Trades & Manual Labour",
+      "aliases": [
+        "skilled, manual labor",
+        "installation, maintenance, repair"
+      ]
+    }
+  ],
+  "specialisations": [
+    {
+      "id": "backend",
+      "label": "Backend Engineering",
+      "industry": "technology",
+      "aliases": [
+        "backend development",
+        "server-side"
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend Engineering",
+      "industry": "technology",
+      "aliases": [
+        "frontend development",
+        "client-side",
+        "web ui"
+      ]
+    },
+    {
+      "id": "mobile_dev",
+      "label": "Mobile Development",
+      "industry": "technology",
+      "aliases": [
+        "android development",
+        "ios development",
+        "app development"
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "industry": "technology",
+      "aliases": [
+        "dev ops",
+        "platform engineering",
+        "infrastructure engineering"
+      ]
+    },
+    {
+      "id": "sre",
+      "label": "Site Reliability Engineering",
+      "industry": "technology",
+      "aliases": [
+        "sre",
+        "reliability engineering"
+      ]
+    },
+    {
+      "id": "data_engineering",
+      "label": "Data Engineering",
+      "industry": "technology",
+      "aliases": [
+        "data pipelines",
+        "etl"
+      ]
+    },
+    {
+      "id": "data_science",
+      "label": "Data Science",
+      "industry": "technology",
+      "aliases": [
+        "data analytics",
+        "data analysis",
+        "data"
+      ]
+    },
+    {
+      "id": "ml_engineering",
+      "label": "Machine Learning Engineering",
+      "industry": "technology",
+      "aliases": [
+        "ml",
+        "ai engineering",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "id": "product_management",
+      "label": "Product Management",
+      "industry": "technology",
+      "aliases": [
+        "product owner",
+        "product lead",
+        "product",
+        "product management"
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "industry": "technology",
+      "aliases": [
+        "information security",
+        "infosec",
+        "security engineering"
+      ]
+    },
+    {
+      "id": "qa_testing",
+      "label": "QA & Testing",
+      "industry": "technology",
+      "aliases": [
+        "quality assurance",
+        "software testing",
+        "test automation"
+      ]
+    },
+    {
+      "id": "technical_writing",
+      "label": "Technical Writing",
+      "industry": "technology",
+      "aliases": [
+        "documentation",
+        "developer docs"
+      ]
+    },
+    {
+      "id": "it_support",
+      "label": "IT Support",
+      "industry": "technology",
+      "aliases": [
+        "helpdesk",
+        "desktop support",
+        "systems administration",
+        "it jobs",
+        "information technology jobs"
+      ]
+    },
+    {
+      "id": "ux_ui_design",
+      "label": "UX/UI Design",
+      "industry": "technology",
+      "aliases": [
+        "product design",
+        "user experience"
+      ]
+    },
+    {
+      "id": "civil_engineering",
+      "label": "Civil Engineering",
+      "industry": "engineering",
+      "aliases": [
+        "structural engineering"
+      ]
+    },
+    {
+      "id": "mechanical_engineering",
+      "label": "Mechanical Engineering",
+      "industry": "engineering",
+      "aliases": []
+    },
+    {
+      "id": "electrical_engineering",
+      "label": "Electrical Engineering",
+      "industry": "engineering",
+      "aliases": [
+        "power engineering"
+      ]
+    },
+    {
+      "id": "industrial_engineering",
+      "label": "Industrial Engineering",
+      "industry": "engineering",
+      "aliases": [
+        "process engineering"
+      ]
+    },
+    {
+      "id": "environmental_engineering",
+      "label": "Environmental Engineering",
+      "industry": "engineering",
+      "aliases": []
+    },
+    {
+      "id": "water_engineering",
+      "label": "Water & Sanitation Engineering",
+      "industry": "engineering",
+      "aliases": [
+        "wash engineering"
+      ]
+    },
+    {
+      "id": "credit_analysis",
+      "label": "Credit Analysis",
+      "industry": "financial_services",
+      "aliases": [
+        "credit assessment",
+        "loan analysis"
+      ]
+    },
+    {
+      "id": "treasury",
+      "label": "Treasury",
+      "industry": "financial_services",
+      "aliases": [
+        "treasury management"
+      ]
+    },
+    {
+      "id": "risk_management",
+      "label": "Risk Management",
+      "industry": "financial_services",
+      "aliases": [
+        "credit risk",
+        "lending risk"
+      ]
+    },
+    {
+      "id": "wealth_management",
+      "label": "Wealth Management",
+      "industry": "financial_services",
+      "aliases": [
+        "private banking"
+      ]
+    },
+    {
+      "id": "investment_banking",
+      "label": "Investment Banking",
+      "industry": "financial_services",
+      "aliases": []
+    },
+    {
+      "id": "asset_management",
+      "label": "Asset Management",
+      "industry": "financial_services",
+      "aliases": [
+        "fund management",
+        "portfolio management"
+      ]
+    },
+    {
+      "id": "insurance",
+      "label": "Insurance",
+      "industry": "financial_services",
+      "aliases": [
+        "underwriting",
+        "actuarial"
+      ]
+    },
+    {
+      "id": "fintech_product",
+      "label": "Fintech Product",
+      "industry": "financial_services",
+      "aliases": [
+        "digital banking"
+      ]
+    },
+    {
+      "id": "corporate_finance",
+      "label": "Corporate Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "fp&a",
+        "financial planning and analysis"
+      ]
+    },
+    {
+      "id": "climate_finance",
+      "label": "Climate Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "green finance",
+        "climate investment",
+        "sustainable finance"
+      ]
+    },
+    {
+      "id": "agri_finance",
+      "label": "Agricultural Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "agri-finance",
+        "farm finance"
+      ]
+    },
+    {
+      "id": "development_finance",
+      "label": "Development Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "development-finance",
+        "development banking",
+        "development bank finance",
+        "finance for development"
+      ]
+    },
+    {
+      "id": "microfinance",
+      "label": "Microfinance",
+      "industry": "financial_services",
+      "aliases": [
+        "financial inclusion"
+      ]
+    },
+    {
+      "id": "auditing",
+      "label": "Auditing",
+      "industry": "financial_services",
+      "aliases": [
+        "internal audit",
+        "external audit"
+      ]
+    },
+    {
+      "id": "tax",
+      "label": "Tax",
+      "industry": "financial_services",
+      "aliases": [
+        "taxation"
+      ]
+    },
+    {
+      "id": "clinical_medicine",
+      "label": "Clinical Medicine",
+      "industry": "healthcare",
+      "aliases": [
+        "nursing",
+        "physician"
+      ]
+    },
+    {
+      "id": "public_health",
+      "label": "Public Health",
+      "industry": "healthcare",
+      "aliases": [
+        "epidemiology",
+        "health systems"
+      ]
+    },
+    {
+      "id": "health_administration",
+      "label": "Health Administration",
+      "industry": "healthcare",
+      "aliases": [
+        "hospital administration"
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "label": "Pharmacy",
+      "industry": "healthcare",
+      "aliases": [
+        "pharmaceutical"
+      ]
+    },
+    {
+      "id": "mental_health",
+      "label": "Mental Health",
+      "industry": "healthcare",
+      "aliases": [
+        "psychology",
+        "psychosocial support"
+      ]
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "industry": "healthcare",
+      "aliases": [
+        "dietetics",
+        "food, nutrition"
+      ]
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching",
+      "industry": "education",
+      "aliases": [
+        "classroom teaching",
+        "instruction"
+      ]
+    },
+    {
+      "id": "curriculum_design",
+      "label": "Curriculum Design",
+      "industry": "education",
+      "aliases": [
+        "instructional design"
+      ]
+    },
+    {
+      "id": "education_administration",
+      "label": "Education Administration",
+      "industry": "education",
+      "aliases": [
+        "school administration"
+      ]
+    },
+    {
+      "id": "edtech",
+      "label": "EdTech",
+      "industry": "education",
+      "aliases": [
+        "education technology"
+      ]
+    },
+    {
+      "id": "higher_education",
+      "label": "Higher Education",
+      "industry": "education",
+      "aliases": [
+        "university administration"
+      ]
+    },
+    {
+      "id": "programme_management",
+      "label": "Programme Management",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "project management",
+        "program management",
+        "project delivery",
+        "exc - executive"
+      ]
+    },
+    {
+      "id": "monitoring_evaluation",
+      "label": "Monitoring, Evaluation & Learning",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "m&e",
+        "mel",
+        "monitoring and evaluation",
+        "impact assessment",
+        "mne - monitoring, evaluation, & learning"
+      ]
+    },
+    {
+      "id": "grants_management",
+      "label": "Grants Management",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "grants and compliance",
+        "sub-grants"
+      ]
+    },
+    {
+      "id": "safeguarding",
+      "label": "Safeguarding",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "protection",
+        "psea"
+      ]
+    },
+    {
+      "id": "community_engagement",
+      "label": "Community Engagement",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "community mobilisation",
+        "civic leadership"
+      ]
+    },
+    {
+      "id": "policy_research",
+      "label": "Policy & Research",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "policy analysis"
+      ]
+    },
+    {
+      "id": "advocacy",
+      "label": "Advocacy",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "campaigning"
+      ]
+    },
+    {
+      "id": "shelter_wash",
+      "label": "Shelter & WASH",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "water sanitation hygiene"
+      ]
+    },
+    {
+      "id": "logistics_humanitarian",
+      "label": "Humanitarian Logistics",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "supply chain (humanitarian)",
+        "log - logistics"
+      ]
+    },
+    {
+      "id": "gender_inclusion",
+      "label": "Gender & Inclusion",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "gender equality",
+        "diversity and inclusion"
+      ]
+    },
+    {
+      "id": "climate_adaptation",
+      "label": "Climate Adaptation",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "adaptation",
+        "resilience programming"
+      ]
+    },
+    {
+      "id": "agronomy",
+      "label": "Agronomy",
+      "industry": "agriculture_food",
+      "aliases": [
+        "crop science"
+      ]
+    },
+    {
+      "id": "agribusiness",
+      "label": "Agribusiness",
+      "industry": "agriculture_food",
+      "aliases": [
+        "agri-enterprise",
+        "sin - scale innovations",
+        "mkt - market access"
+      ]
+    },
+    {
+      "id": "livestock",
+      "label": "Livestock & Veterinary",
+      "industry": "agriculture_food",
+      "aliases": [
+        "animal husbandry",
+        "veterinary"
+      ]
+    },
+    {
+      "id": "food_processing",
+      "label": "Food Processing",
+      "industry": "agriculture_food",
+      "aliases": []
+    },
+    {
+      "id": "fisheries",
+      "label": "Fisheries",
+      "industry": "agriculture_food",
+      "aliases": [
+        "aquaculture"
+      ]
+    },
+    {
+      "id": "agri_extension",
+      "label": "Agricultural Extension",
+      "industry": "agriculture_food",
+      "aliases": [
+        "farmer training",
+        "inn - product innovations",
+        "tre - trees",
+        "sic - seed innovation center"
+      ]
+    },
+    {
+      "id": "solar_paygo",
+      "label": "Solar / PAYGo Energy",
+      "industry": "energy_environment",
+      "aliases": [
+        "off-grid solar",
+        "solar home systems"
+      ]
+    },
+    {
+      "id": "renewables",
+      "label": "Renewables (Wind, Hydro)",
+      "industry": "energy_environment",
+      "aliases": [
+        "renewable energy"
+      ]
+    },
+    {
+      "id": "energy_access",
+      "label": "Energy Access",
+      "industry": "energy_environment",
+      "aliases": [
+        "last-mile energy",
+        "energy, oil & gas jobs"
+      ]
+    },
+    {
+      "id": "environmental_conservation",
+      "label": "Environmental Conservation",
+      "industry": "energy_environment",
+      "aliases": [
+        "conservation",
+        "wildlife"
+      ]
+    },
+    {
+      "id": "carbon_markets",
+      "label": "Carbon Markets",
+      "industry": "energy_environment",
+      "aliases": [
+        "carbon credits",
+        "carbon offsets"
+      ]
+    },
+    {
+      "id": "waste_management",
+      "label": "Waste Management",
+      "industry": "energy_environment",
+      "aliases": [
+        "recycling",
+        "circular economy"
+      ]
+    },
+    {
+      "id": "corporate_law",
+      "label": "Corporate Law",
+      "industry": "legal",
+      "aliases": [
+        "legal"
+      ]
+    },
+    {
+      "id": "compliance",
+      "label": "Compliance",
+      "industry": "legal",
+      "aliases": [
+        "regulatory compliance"
+      ]
+    },
+    {
+      "id": "human_rights_law",
+      "label": "Human Rights Law",
+      "industry": "legal",
+      "aliases": []
+    },
+    {
+      "id": "contracts",
+      "label": "Contracts & Procurement Law",
+      "industry": "legal",
+      "aliases": [
+        "procurement law"
+      ]
+    },
+    {
+      "id": "content_marketing",
+      "label": "Content Marketing",
+      "industry": "marketing_communications",
+      "aliases": [
+        "copywriting",
+        "content strategy"
+      ]
+    },
+    {
+      "id": "digital_marketing",
+      "label": "Digital Marketing",
+      "industry": "marketing_communications",
+      "aliases": [
+        "social media marketing",
+        "performance marketing"
+      ]
+    },
+    {
+      "id": "brand_management",
+      "label": "Brand Management",
+      "industry": "marketing_communications",
+      "aliases": []
+    },
+    {
+      "id": "pr_comms",
+      "label": "PR & Communications",
+      "industry": "marketing_communications",
+      "aliases": [
+        "public relations",
+        "corporate communications"
+      ]
+    },
+    {
+      "id": "journalism",
+      "label": "Journalism",
+      "industry": "marketing_communications",
+      "aliases": [
+        "broadcast journalism"
+      ]
+    },
+    {
+      "id": "b2b_sales",
+      "label": "B2B Sales",
+      "industry": "sales_business_development",
+      "aliases": [
+        "enterprise sales"
+      ]
+    },
+    {
+      "id": "account_management",
+      "label": "Account Management",
+      "industry": "sales_business_development",
+      "aliases": [
+        "client relationship management"
+      ]
+    },
+    {
+      "id": "business_development",
+      "label": "Business Development",
+      "industry": "sales_business_development",
+      "aliases": [
+        "partnerships"
+      ]
+    },
+    {
+      "id": "retail_sales",
+      "label": "Retail Sales",
+      "industry": "sales_business_development",
+      "aliases": []
+    },
+    {
+      "id": "supply_chain_mgmt",
+      "label": "Supply Chain Management",
+      "industry": "operations_supply_chain",
+      "aliases": []
+    },
+    {
+      "id": "procurement",
+      "label": "Procurement",
+      "industry": "operations_supply_chain",
+      "aliases": [
+        "purchasing",
+        "pro - sourcing"
+      ]
+    },
+    {
+      "id": "warehousing",
+      "label": "Warehousing & Inventory",
+      "industry": "operations_supply_chain",
+      "aliases": [
+        "inventory management",
+        "stock control",
+        "logistics & warehouse jobs"
+      ]
+    },
+    {
+      "id": "quality_assurance_ops",
+      "label": "Quality Assurance (Operations)",
+      "industry": "operations_supply_chain",
+      "aliases": [
+        "quality control"
+      ]
+    },
+    {
+      "id": "field_operations",
+      "label": "Field Operations",
+      "industry": "operations_supply_chain",
+      "aliases": [
+        "operations",
+        "field operations",
+        "fop - field operations"
+      ]
+    },
+    {
+      "id": "talent_acquisition",
+      "label": "Talent Acquisition",
+      "industry": "human_resources",
+      "aliases": [
+        "recruitment",
+        "recruiting",
+        "hr & recruitment jobs",
+        "people & talent",
+        "people",
+        "early career",
+        "graduate jobs",
+        "hur - human resources",
+        "pop - recruitment"
+      ]
+    },
+    {
+      "id": "employee_relations",
+      "label": "Employee Relations",
+      "industry": "human_resources",
+      "aliases": [
+        "industrial relations"
+      ]
+    },
+    {
+      "id": "compensation_benefits",
+      "label": "Compensation & Benefits",
+      "industry": "human_resources",
+      "aliases": [
+        "comp & benefits",
+        "reward management"
+      ]
+    },
+    {
+      "id": "learning_development",
+      "label": "Learning & Development",
+      "industry": "human_resources",
+      "aliases": [
+        "training and development"
+      ]
+    },
+    {
+      "id": "hr_business_partner",
+      "label": "HR Business Partnering",
+      "industry": "human_resources",
+      "aliases": [
+        "hrbp"
+      ]
+    },
+    {
+      "id": "management_consulting",
+      "label": "Management Consulting",
+      "industry": "consulting",
+      "aliases": [
+        "strategy consulting",
+        "consultancy jobs"
+      ]
+    },
+    {
+      "id": "technical_assistance",
+      "label": "Technical Assistance",
+      "industry": "consulting",
+      "aliases": [
+        "ta provision"
+      ]
+    },
+    {
+      "id": "hotel_operations",
+      "label": "Hotel Operations",
+      "industry": "hospitality_tourism",
+      "aliases": [
+        "front office",
+        "guest services",
+        "hospitality & catering jobs"
+      ]
+    },
+    {
+      "id": "food_beverage",
+      "label": "Food & Beverage",
+      "industry": "hospitality_tourism",
+      "aliases": [
+        "restaurant operations"
+      ]
+    },
+    {
+      "id": "tourism_management",
+      "label": "Tourism Management",
+      "industry": "hospitality_tourism",
+      "aliases": [
+        "tour operations"
+      ]
+    },
+    {
+      "id": "civil_service",
+      "label": "Civil Service",
+      "industry": "public_sector",
+      "aliases": [
+        "government administration",
+        "admin jobs"
+      ]
+    },
+    {
+      "id": "public_policy",
+      "label": "Public Policy",
+      "industry": "public_sector",
+      "aliases": []
+    },
+    {
+      "id": "diplomacy",
+      "label": "Diplomacy & Foreign Affairs",
+      "industry": "public_sector",
+      "aliases": []
+    },
+    {
+      "id": "graphic_design",
+      "label": "Graphic Design",
+      "industry": "design_creative",
+      "aliases": [
+        "design",
+        "creative & design jobs"
+      ]
+    },
+    {
+      "id": "industrial_design",
+      "label": "Industrial Design",
+      "industry": "design_creative",
+      "aliases": [
+        "product design (physical)"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "industry": "design_creative",
+      "aliases": []
+    },
+    {
+      "id": "freight_forwarding",
+      "label": "Freight Forwarding",
+      "industry": "transport_logistics",
+      "aliases": []
+    },
+    {
+      "id": "fleet_management",
+      "label": "Fleet Management",
+      "industry": "transport_logistics",
+      "aliases": []
+    },
+    {
+      "id": "customs_clearance",
+      "label": "Customs & Clearance",
+      "industry": "transport_logistics",
+      "aliases": []
+    },
+    {
+      "id": "store_management",
+      "label": "Store Management",
+      "industry": "retail",
+      "aliases": [
+        "retail operations",
+        "retail jobs"
+      ]
+    },
+    {
+      "id": "merchandising",
+      "label": "Merchandising",
+      "industry": "retail",
+      "aliases": []
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-Commerce",
+      "industry": "retail",
+      "aliases": [
+        "online retail"
+      ]
+    },
+    {
+      "id": "property_management",
+      "label": "Property Management",
+      "industry": "real_estate",
+      "aliases": []
+    },
+    {
+      "id": "real_estate_development",
+      "label": "Real Estate Development",
+      "industry": "real_estate",
+      "aliases": [
+        "property jobs"
+      ]
+    },
+    {
+      "id": "physical_security",
+      "label": "Physical Security",
+      "industry": "security",
+      "aliases": [
+        "guarding"
+      ]
+    },
+    {
+      "id": "information_security",
+      "label": "Information Security",
+      "industry": "security",
+      "aliases": [
+        "cyber risk",
+        "security"
+      ]
+    },
+    {
+      "id": "network_engineering",
+      "label": "Network Engineering",
+      "industry": "telecommunications",
+      "aliases": []
+    },
+    {
+      "id": "telecom_operations",
+      "label": "Telecom Operations",
+      "industry": "telecommunications",
+      "aliases": []
+    },
+    {
+      "id": "executive_assistant",
+      "label": "Executive Assistant",
+      "industry": "administration",
+      "aliases": [
+        "office administration"
+      ]
+    },
+    {
+      "id": "office_management",
+      "label": "Office Management",
+      "industry": "administration",
+      "aliases": [
+        "bos - back office systems"
+      ]
+    },
+    {
+      "id": "data_entry",
+      "label": "Data Entry",
+      "industry": "administration",
+      "aliases": []
+    },
+    {
+      "id": "call_centre",
+      "label": "Call Centre / Contact Centre",
+      "industry": "customer_operations",
+      "aliases": [
+        "contact centre"
+      ]
+    },
+    {
+      "id": "customer_success",
+      "label": "Customer Success",
+      "industry": "customer_operations",
+      "aliases": [
+        "client success",
+        "customer success",
+        "customer experience",
+        "customer services jobs",
+        "customer support"
+      ]
+    },
+    {
+      "id": "electrician",
+      "label": "Electrician",
+      "industry": "skilled_trades",
+      "aliases": []
+    },
+    {
+      "id": "plumbing",
+      "label": "Plumbing",
+      "industry": "skilled_trades",
+      "aliases": []
+    },
+    {
+      "id": "welding",
+      "label": "Welding & Fabrication",
+      "industry": "skilled_trades",
+      "aliases": []
+    },
+    {
+      "id": "solar_installation",
+      "label": "Solar Installation & Maintenance",
+      "industry": "skilled_trades",
+      "aliases": [
+        "paygo field technician"
+      ]
+    },
+    {
+      "id": "general_engineering",
+      "label": "Engineering (General)",
+      "industry": "engineering",
+      "aliases": [
+        "engineering jobs",
+        "engineering",
+        "platforms engineering",
+        "tenant scale engineering"
+      ]
+    },
+    {
+      "id": "general_sales",
+      "label": "Sales (General)",
+      "industry": "sales_business_development",
+      "aliases": [
+        "sales jobs",
+        "sales",
+        "sales & customer success",
+        "sales development",
+        "new business - amer",
+        "new business - pubsec"
+      ]
+    },
+    {
+      "id": "general_marketing",
+      "label": "Marketing (General)",
+      "industry": "marketing_communications",
+      "aliases": [
+        "marketing jobs",
+        "marketing",
+        "pr, advertising & marketing jobs",
+        "regional marketing",
+        "brand & communications",
+        "exec marketing"
+      ]
+    },
+    {
+      "id": "general_finance",
+      "label": "Finance (General)",
+      "industry": "financial_services",
+      "aliases": [
+        "accounting & finance jobs",
+        "finance",
+        "finance strategy analytics",
+        "office of cfo",
+        "accounting"
+      ]
+    },
+    {
+      "id": "general_people_ops",
+      "label": "People Operations (General)",
+      "industry": "human_resources",
+      "aliases": [
+        "people operations",
+        "people business partners",
+        "global shared services"
+      ]
+    },
+    {
+      "id": "general_gtm",
+      "label": "Go-To-Market (General)",
+      "industry": "sales_business_development",
+      "aliases": [
+        "gtm",
+        "revenue operations & strategy",
+        "growth",
+        "growth and new markets"
+      ]
+    },
+    {
+      "id": "general_business_development",
+      "label": "Business Development (General)",
+      "industry": "sales_business_development",
+      "aliases": [
+        "business development",
+        "vst - venture studio"
+      ]
+    },
+    {
+      "id": "general_risk",
+      "label": "Risk (General)",
+      "industry": "financial_services",
+      "aliases": [
+        "risk",
+        "risk & reward",
+        "risk engineering"
+      ]
+    },
+    {
+      "id": "general_trade_construction",
+      "label": "Trade & Construction (General)",
+      "industry": "construction",
+      "aliases": [
+        "trade & construction jobs"
+      ]
+    },
+    {
+      "id": "general_maintenance",
+      "label": "Maintenance (General)",
+      "industry": "skilled_trades",
+      "aliases": [
+        "maintenance jobs"
+      ]
+    },
+    {
+      "id": "general_programmes",
+      "label": "Country/Regional Programmes (General)",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "programs",
+        "uganda programs",
+        "mozambique programs",
+        "malawi programs",
+        "acumen academy"
+      ]
+    },
+    {
+      "id": "investment_analysis",
+      "label": "Investment Analysis",
+      "industry": "financial_services",
+      "aliases": [
+        "investment analyst",
+        "investment research",
+        "investment appraisal"
+      ]
+    },
+    {
+      "id": "investment_operations",
+      "label": "Investment Operations",
+      "industry": "financial_services",
+      "aliases": [
+        "investment officer",
+        "investment management",
+        "investment execution"
+      ]
+    },
+    {
+      "id": "portfolio_management",
+      "label": "Portfolio Management",
+      "industry": "financial_services",
+      "aliases": [
+        "portfolio manager",
+        "portfolio monitoring",
+        "investment portfolio"
+      ]
+    },
+    {
+      "id": "portfolio_operations",
+      "label": "Portfolio Operations",
+      "industry": "financial_services",
+      "aliases": [
+        "portfolio value creation",
+        "portfolio support",
+        "operating partner"
+      ]
+    },
+    {
+      "id": "private_equity",
+      "label": "Private Equity",
+      "industry": "financial_services",
+      "aliases": [
+        "private equity investments",
+        "buyouts",
+        "growth equity"
+      ]
+    },
+    {
+      "id": "venture_capital",
+      "label": "Venture Capital",
+      "industry": "financial_services",
+      "aliases": [
+        "venture investments",
+        "vc investing",
+        "startup investing"
+      ]
+    },
+    {
+      "id": "project_finance",
+      "label": "Project Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "financement de projets",
+        "financiamento de projetos",
+        "non-recourse finance"
+      ]
+    },
+    {
+      "id": "infrastructure_finance",
+      "label": "Infrastructure Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "infrastructure investment",
+        "infrastructure fund",
+        "financement des infrastructures"
+      ]
+    },
+    {
+      "id": "blended_finance",
+      "label": "Blended Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "catalytic finance",
+        "concessional capital",
+        "financement mixte"
+      ]
+    },
+    {
+      "id": "trade_finance",
+      "label": "Trade Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "trade financing",
+        "export finance",
+        "financement du commerce"
+      ]
+    },
+    {
+      "id": "structured_finance",
+      "label": "Structured Finance",
+      "industry": "financial_services",
+      "aliases": [
+        "structured credit",
+        "securitisation",
+        "securitization"
+      ]
+    },
+    {
+      "id": "capital_markets",
+      "label": "Capital Markets",
+      "industry": "financial_services",
+      "aliases": [
+        "debt capital markets",
+        "equity capital markets",
+        "marchés de capitaux"
+      ]
+    },
+    {
+      "id": "transaction_advisory",
+      "label": "Transaction Advisory",
+      "industry": "financial_services",
+      "aliases": [
+        "deal advisory",
+        "transaction services",
+        "conseil en transactions"
+      ]
+    },
+    {
+      "id": "deal_origination",
+      "label": "Deal Origination",
+      "industry": "financial_services",
+      "aliases": [
+        "investment origination",
+        "deal sourcing",
+        "origination des investissements"
+      ]
+    },
+    {
+      "id": "syndications",
+      "label": "Syndications",
+      "industry": "financial_services",
+      "aliases": [
+        "loan syndication",
+        "syndicated finance",
+        "syndication de prêts"
+      ]
+    },
+    {
+      "id": "guarantees_risk_insurance",
+      "label": "Guarantees & Political Risk Insurance",
+      "industry": "financial_services",
+      "aliases": [
+        "investment guarantees",
+        "political risk insurance",
+        "credit enhancement"
+      ]
+    },
+    {
+      "id": "upstream_project_development",
+      "label": "Upstream & Project Development",
+      "industry": "financial_services",
+      "aliases": [
+        "upstream investment",
+        "project preparation",
+        "early-stage project development"
+      ]
+    },
+    {
+      "id": "financial_institutions",
+      "label": "Financial Institutions",
+      "industry": "financial_services",
+      "aliases": [
+        "financial institutions group",
+        "FIG investments",
+        "bank investments"
+      ]
+    },
+    {
+      "id": "impact_measurement",
+      "label": "Impact Measurement",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "impact management",
+        "impact investing metrics",
+        "mesure d impact"
+      ]
+    },
+    {
+      "id": "esg_safeguards",
+      "label": "ESG & Safeguards",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "environmental and social safeguards",
+        "esg due diligence",
+        "environmental and social due diligence"
+      ]
+    },
+    {
+      "id": "resource_mobilisation",
+      "label": "Resource Mobilisation",
+      "industry": "financial_services",
+      "aliases": [
+        "resource mobilization",
+        "capital mobilisation",
+        "capital mobilization"
+      ]
+    },
+    {
+      "id": "humanitarian_response",
+      "label": "Humanitarian Response",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "emergency response",
+        "humanitarian affairs",
+        "crisis response"
+      ]
+    },
+    {
+      "id": "livelihoods_economic_inclusion",
+      "label": "Livelihoods & Economic Inclusion",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "livelihoods",
+        "economic inclusion",
+        "market systems development"
+      ]
+    },
+    {
+      "id": "education_programmes",
+      "label": "Education Programmes",
+      "industry": "education",
+      "aliases": [
+        "education programme",
+        "education program",
+        "education in emergencies"
+      ]
+    },
+    {
+      "id": "migration_displacement",
+      "label": "Migration & Displacement",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "forced displacement",
+        "refugee programming",
+        "durable solutions"
+      ]
+    },
+    {
+      "id": "peacebuilding_governance",
+      "label": "Peacebuilding & Governance",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "peacebuilding",
+        "conflict prevention",
+        "stabilisation"
+      ]
+    },
+    {
+      "id": "research_learning",
+      "label": "Research & Learning",
+      "industry": "development_humanitarian",
+      "aliases": [
+        "evidence generation",
+        "operational research",
+        "knowledge management"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "financial_modelling",
+      "label": "Financial Modelling",
+      "aliases": [
+        "financial modeling",
+        "model building"
+      ]
+    },
+    {
+      "id": "credit_analysis_skill",
+      "label": "Credit Analysis",
+      "aliases": [
+        "credit assessment",
+        "loan analysis",
+        "credit_analysis"
+      ]
+    },
+    {
+      "id": "excel",
+      "label": "Excel",
+      "aliases": [
+        "microsoft excel",
+        "spreadsheets",
+        "advanced excel"
+      ]
+    },
+    {
+      "id": "ms_office",
+      "label": "Microsoft Office",
+      "aliases": [
+        "office suite",
+        "word/excel/powerpoint"
+      ]
+    },
+    {
+      "id": "impact_measurement",
+      "label": "Impact Measurement",
+      "aliases": [
+        "m&e",
+        "monitoring and evaluation",
+        "impact assessment"
+      ]
+    },
+    {
+      "id": "agri_finance_skill",
+      "label": "Agricultural Finance",
+      "aliases": [
+        "agri-finance",
+        "farm finance",
+        "agri_finance"
+      ]
+    },
+    {
+      "id": "programme_management_skill",
+      "label": "Programme Management",
+      "aliases": [
+        "project management skills",
+        "programme delivery",
+        "programme_management"
+      ]
+    },
+    {
+      "id": "stakeholder_management",
+      "label": "Stakeholder Management",
+      "aliases": [
+        "stakeholder engagement",
+        "partner relations"
+      ]
+    },
+    {
+      "id": "civic_leadership",
+      "label": "Civic Leadership",
+      "aliases": [
+        "community leadership"
+      ]
+    },
+    {
+      "id": "employee_relations_skill",
+      "label": "Employee Relations",
+      "aliases": [
+        "industrial relations",
+        "workplace relations",
+        "employee_relations"
+      ]
+    },
+    {
+      "id": "compensation_management_skill",
+      "label": "Compensation Management",
+      "aliases": [
+        "comp & benefits",
+        "reward management",
+        "compensation_management"
+      ]
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "aliases": [
+        "written and verbal communication",
+        "interpersonal skills"
+      ]
+    },
+    {
+      "id": "written_english",
+      "label": "Written English",
+      "aliases": [
+        "business writing",
+        "english proficiency"
+      ]
+    },
+    {
+      "id": "french",
+      "label": "French",
+      "aliases": [
+        "french language",
+        "francophone"
+      ]
+    },
+    {
+      "id": "customer_service_skill",
+      "label": "Customer Service",
+      "aliases": [
+        "client service",
+        "customer care",
+        "customer_service"
+      ]
+    },
+    {
+      "id": "scheduling",
+      "label": "Scheduling",
+      "aliases": [
+        "rostering",
+        "shift planning"
+      ]
+    },
+    {
+      "id": "team_supervision",
+      "label": "Team Supervision",
+      "aliases": [
+        "staff supervision",
+        "people management"
+      ]
+    },
+    {
+      "id": "inventory_management_skill",
+      "label": "Inventory Management",
+      "aliases": [
+        "stock management",
+        "stock control",
+        "inventory_management"
+      ]
+    },
+    {
+      "id": "cash_reconciliation",
+      "label": "Cash Reconciliation",
+      "aliases": [
+        "cash balancing",
+        "cash drawer balancing",
+        "end-of-day reconciliation"
+      ]
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "aliases": [
+        "python programming"
+      ]
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript",
+      "aliases": [
+        "js",
+        "typescript"
+      ]
+    },
+    {
+      "id": "java",
+      "label": "Java",
+      "aliases": []
+    },
+    {
+      "id": "kotlin",
+      "label": "Kotlin",
+      "aliases": []
+    },
+    {
+      "id": "swift",
+      "label": "Swift",
+      "aliases": [
+        "ios development"
+      ]
+    },
+    {
+      "id": "sql",
+      "label": "SQL",
+      "aliases": [
+        "database querying"
+      ]
+    },
+    {
+      "id": "react",
+      "label": "React",
+      "aliases": [
+        "reactjs",
+        "react.js"
+      ]
+    },
+    {
+      "id": "aws",
+      "label": "AWS",
+      "aliases": [
+        "amazon web services"
+      ]
+    },
+    {
+      "id": "azure",
+      "label": "Azure",
+      "aliases": [
+        "microsoft azure"
+      ]
+    },
+    {
+      "id": "gcp",
+      "label": "Google Cloud Platform",
+      "aliases": [
+        "gcp",
+        "google cloud"
+      ]
+    },
+    {
+      "id": "docker_kubernetes",
+      "label": "Docker & Kubernetes",
+      "aliases": [
+        "containerisation",
+        "k8s"
+      ]
+    },
+    {
+      "id": "ci_cd",
+      "label": "CI/CD",
+      "aliases": [
+        "continuous integration",
+        "continuous deployment"
+      ]
+    },
+    {
+      "id": "data_visualisation",
+      "label": "Data Visualisation",
+      "aliases": [
+        "tableau",
+        "power bi",
+        "dashboarding"
+      ]
+    },
+    {
+      "id": "machine_learning",
+      "label": "Machine Learning",
+      "aliases": [
+        "ml",
+        "deep learning"
+      ]
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "aliases": [
+        "ui design tools"
+      ]
+    },
+    {
+      "id": "grant_writing",
+      "label": "Grant Writing",
+      "aliases": [
+        "proposal writing",
+        "fundraising writing"
+      ]
+    },
+    {
+      "id": "donor_reporting",
+      "label": "Donor Reporting",
+      "aliases": [
+        "report writing (donor)"
+      ]
+    },
+    {
+      "id": "logframe_design",
+      "label": "Logframe / Theory of Change Design",
+      "aliases": [
+        "results framework"
+      ]
+    },
+    {
+      "id": "survey_design",
+      "label": "Survey Design",
+      "aliases": [
+        "questionnaire design"
+      ]
+    },
+    {
+      "id": "statistical_analysis",
+      "label": "Statistical Analysis",
+      "aliases": [
+        "stata",
+        "spss",
+        "r programming"
+      ]
+    },
+    {
+      "id": "gis",
+      "label": "GIS / Mapping",
+      "aliases": [
+        "geographic information systems"
+      ]
+    },
+    {
+      "id": "clinical_skills",
+      "label": "Clinical Skills",
+      "aliases": [
+        "patient care"
+      ]
+    },
+    {
+      "id": "public_health_skill",
+      "label": "Public Health Programming",
+      "aliases": [
+        "epidemiological surveillance"
+      ]
+    },
+    {
+      "id": "first_aid",
+      "label": "First Aid / Emergency Response",
+      "aliases": []
+    },
+    {
+      "id": "curriculum_development",
+      "label": "Curriculum Development",
+      "aliases": [
+        "instructional design skill"
+      ]
+    },
+    {
+      "id": "classroom_management",
+      "label": "Classroom Management",
+      "aliases": []
+    },
+    {
+      "id": "supply_chain_skill",
+      "label": "Supply Chain Management",
+      "aliases": [
+        "logistics coordination"
+      ]
+    },
+    {
+      "id": "procurement_skill",
+      "label": "Procurement",
+      "aliases": [
+        "purchasing skill"
+      ]
+    },
+    {
+      "id": "fleet_management_skill",
+      "label": "Fleet Management",
+      "aliases": []
+    },
+    {
+      "id": "quality_control",
+      "label": "Quality Control",
+      "aliases": [
+        "qa/qc"
+      ]
+    },
+    {
+      "id": "negotiation",
+      "label": "Negotiation",
+      "aliases": [
+        "contract negotiation"
+      ]
+    },
+    {
+      "id": "sales_skill",
+      "label": "Sales",
+      "aliases": [
+        "business development skill",
+        "b2b selling"
+      ]
+    },
+    {
+      "id": "crm_tools",
+      "label": "CRM Tools",
+      "aliases": [
+        "salesforce",
+        "hubspot"
+      ]
+    },
+    {
+      "id": "digital_marketing_skill",
+      "label": "Digital Marketing",
+      "aliases": [
+        "seo",
+        "sem",
+        "social media management"
+      ]
+    },
+    {
+      "id": "copywriting",
+      "label": "Copywriting",
+      "aliases": [
+        "content writing"
+      ]
+    },
+    {
+      "id": "graphic_design_skill",
+      "label": "Graphic Design",
+      "aliases": [
+        "adobe creative suite",
+        "photoshop",
+        "illustrator"
+      ]
+    },
+    {
+      "id": "video_editing",
+      "label": "Video Editing",
+      "aliases": [
+        "premiere pro",
+        "final cut"
+      ]
+    },
+    {
+      "id": "legal_drafting",
+      "label": "Legal Drafting",
+      "aliases": [
+        "contract drafting"
+      ]
+    },
+    {
+      "id": "regulatory_compliance_skill",
+      "label": "Regulatory Compliance",
+      "aliases": [
+        "compliance monitoring"
+      ]
+    },
+    {
+      "id": "swahili",
+      "label": "Swahili",
+      "aliases": [
+        "kiswahili"
+      ]
+    },
+    {
+      "id": "arabic",
+      "label": "Arabic",
+      "aliases": []
+    },
+    {
+      "id": "portuguese",
+      "label": "Portuguese",
+      "aliases": []
+    },
+    {
+      "id": "amharic",
+      "label": "Amharic",
+      "aliases": []
+    },
+    {
+      "id": "electrical_skills",
+      "label": "Electrical Installation",
+      "aliases": [
+        "wiring",
+        "electrical maintenance"
+      ]
+    },
+    {
+      "id": "solar_pv_installation",
+      "label": "Solar PV Installation",
+      "aliases": [
+        "paygo installation",
+        "solar technician skills"
+      ]
+    },
+    {
+      "id": "welding_skill",
+      "label": "Welding",
+      "aliases": [
+        "fabrication skill"
+      ]
+    },
+    {
+      "id": "driving_license",
+      "label": "Driving License",
+      "aliases": [
+        "valid driver's license"
+      ]
+    }
+  ]
+}

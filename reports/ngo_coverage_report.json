@@ -1,0 +1,68 @@
+{
+  "report_version": "1.0",
+  "generated_at": "2026-07-13T13:23:19.554761Z",
+  "feed_generated_at": "2026-07-13T06:14:27.704608Z",
+  "feed_version": "3.8",
+  "summary": {
+    "opportunity_count": 204,
+    "ngo_or_un_opportunity_count": 38,
+    "phase8_priority_opportunity_count": 36,
+    "programme_role_count": 13,
+    "represented_organisations": 3,
+    "represented_countries": 11,
+    "official_application_count": 38,
+    "official_application_percent": 100.0
+  },
+  "coverage": {
+    "by_organisation": {
+      "One Acre Fund": 31,
+      "GiveDirectly": 5,
+      "Acumen": 2
+    },
+    "by_organisation_group": {
+      "ngo": 38
+    },
+    "by_classification": {
+      "not_ngo_un": 162,
+      "institutional_support": 29,
+      "humanitarian": 7,
+      "development": 6
+    },
+    "by_track": {
+      "field_operations": 6,
+      "programme_management": 4,
+      "monitoring_evaluation_learning": 2,
+      "humanitarian_logistics": 1
+    },
+    "by_country": {
+      "Rwanda": 12,
+      "Burundi": 5,
+      "Kenya": 5,
+      "Nigeria": 5,
+      "Uganda": 3,
+      "Ethiopia": 2,
+      "Malawi": 2,
+      "Democratic Republic of the Congo": 1,
+      "Mozambique": 1,
+      "Tanzania": 1,
+      "Zambia": 1
+    },
+    "by_source": {
+      "One Acre Fund": 31,
+      "GiveDirectly": 5,
+      "Acumen": 2
+    },
+    "by_role_family": {
+      "agriculture": 12,
+      "development_programmes": 8,
+      "human_resources": 4,
+      "administration": 3,
+      "operations": 3,
+      "procurement": 3,
+      "monitoring_evaluation_and_learning": 2,
+      "banking_and_finance": 1,
+      "humanitarian": 1,
+      "sales_business_development": 1
+    }
+  }
+}

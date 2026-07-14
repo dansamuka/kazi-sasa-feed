@@ -1,0 +1,19 @@
+{
+  "report_version": "1.0",
+  "generated_at": "2026-07-13T13:23:19.557309Z",
+  "feed_generated_at": "2026-07-13T06:14:27.704608Z",
+  "feed_version": "3.8",
+  "summary": {
+    "configured_institution_count": 60,
+    "enabled_institution_count": 59,
+    "opportunity_count": 0,
+    "represented_institutions": 0,
+    "represented_categories": 0
+  },
+  "coverage": {
+    "by_category": {},
+    "by_institution": {},
+    "by_role_family": {},
+    "by_city": {}
+  }
+}

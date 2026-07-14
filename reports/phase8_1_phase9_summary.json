@@ -1,0 +1,46 @@
+{
+  "report_version": "1.0",
+  "phase": "8.1+9",
+  "generated_at": "2026-07-13T12:38:06.811721Z",
+  "feed_version": "3.7",
+  "packaged_opportunity_count": 204,
+  "test_count": 255,
+  "validation": {
+    "registry_errors": 0,
+    "feed_errors": 0,
+    "feed_warnings": 0,
+    "seed_errors": 0,
+    "seed_warnings": 0
+  },
+  "phase8_1": {
+    "official_title_guard": true,
+    "vacancy_evidence_gate": true,
+    "listing_title_preservation": true,
+    "institution_function_separation": true,
+    "generic_multilateral_excluded_from_ngo_un": true,
+    "non_african_official_scope_filter": true
+  },
+  "phase9": {
+    "registered_portals": 5,
+    "enabled_portals": 3,
+    "disabled_portals": 2,
+    "enabled_country_codes": [
+      "KE",
+      "TZ",
+      "ZA"
+    ],
+    "disabled": [
+      {
+        "country_code": "UG",
+        "reason": "Public site returns HTTP 403 to automated clients; enable after a stable permitted endpoint is verified."
+      },
+      {
+        "country_code": "RW",
+        "reason": "JavaScript application; public vacancy API endpoint not verified offline."
+      }
+    ],
+    "government_collector_count": 3,
+    "government_report": "reports/government_coverage_report.json"
+  },
+  "snapshot_note": "The packaged feed was migrated offline. The first successful live workflow refresh will populate enabled government portals."
+}

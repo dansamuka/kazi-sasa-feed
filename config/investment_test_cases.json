@@ -1,0 +1,808 @@
+{
+  "corpus_version": "1.0",
+  "case_count": 99,
+  "cases": [
+    {
+      "title": "Investment Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_analysis"
+    },
+    {
+      "title": "Analyste en investissement",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_analysis"
+    },
+    {
+      "title": "Senior Investment Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_operations"
+    },
+    {
+      "title": "Gestor de Investimentos",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_operations"
+    },
+    {
+      "title": "Portfolio Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "portfolio_management"
+    },
+    {
+      "title": "Gestionnaire de portefeuille",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "portfolio_management"
+    },
+    {
+      "title": "Portfolio Operations Lead",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "portfolio_operations"
+    },
+    {
+      "title": "Operating Partner, Africa Fund",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "portfolio_operations"
+    },
+    {
+      "title": "Private Equity Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "private_equity"
+    },
+    {
+      "title": "Growth Equity Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "private_equity"
+    },
+    {
+      "title": "Venture Capital Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "venture_capital"
+    },
+    {
+      "title": "VC Analyst, Africa",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "venture_capital"
+    },
+    {
+      "title": "Project Finance Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "project_finance"
+    },
+    {
+      "title": "Responsable Financement de Projets",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "project_finance"
+    },
+    {
+      "title": "Infrastructure Finance Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "infrastructure_finance"
+    },
+    {
+      "title": "Infrastructure Investment Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "infrastructure_finance"
+    },
+    {
+      "title": "Climate Finance Specialist",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "climate_finance"
+    },
+    {
+      "title": "Analyste Finance Climat",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "climate_finance"
+    },
+    {
+      "title": "Blended Finance Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "blended_finance"
+    },
+    {
+      "title": "Spécialiste Financement Mixte",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "blended_finance"
+    },
+    {
+      "title": "Trade Finance Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "trade_finance"
+    },
+    {
+      "title": "Head of Financiamento ao Comércio",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "trade_finance"
+    },
+    {
+      "title": "Structured Finance Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "structured_finance"
+    },
+    {
+      "title": "Directeur Financement Structuré",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "structured_finance"
+    },
+    {
+      "title": "Capital Markets Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "capital_markets"
+    },
+    {
+      "title": "Debt Capital Markets Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "capital_markets"
+    },
+    {
+      "title": "Asset Management Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "asset_management"
+    },
+    {
+      "title": "Fund Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "asset_management"
+    },
+    {
+      "title": "Corporate Finance Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "corporate_finance"
+    },
+    {
+      "title": "M&A Advisory Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "corporate_finance"
+    },
+    {
+      "title": "Transaction Advisory Senior Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "transaction_advisory"
+    },
+    {
+      "title": "Deal Advisory Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "transaction_advisory"
+    },
+    {
+      "title": "Deal Origination Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "deal_origination"
+    },
+    {
+      "title": "Investment Origination Lead",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "deal_origination"
+    },
+    {
+      "title": "Syndications Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "syndications"
+    },
+    {
+      "title": "Loan Syndication Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "syndications"
+    },
+    {
+      "title": "Political Risk Insurance Underwriter",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "guarantees_risk_insurance"
+    },
+    {
+      "title": "Investment Guarantees Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "guarantees_risk_insurance"
+    },
+    {
+      "title": "Upstream Investment Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "upstream_project_development"
+    },
+    {
+      "title": "Project Development Specialist",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "upstream_project_development"
+    },
+    {
+      "title": "Financial Institutions Investment Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "financial_institutions"
+    },
+    {
+      "title": "Financial Institutions Group Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "financial_institutions"
+    },
+    {
+      "title": "Credit Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "credit"
+    },
+    {
+      "title": "Analyste Crédit",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "credit"
+    },
+    {
+      "title": "Treasury Analyst",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "treasury"
+    },
+    {
+      "title": "Head of Treasury",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "treasury"
+    },
+    {
+      "title": "Impact Measurement Manager",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "impact_measurement"
+    },
+    {
+      "title": "Impact Investing Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "impact_measurement"
+    },
+    {
+      "title": "ESG Specialist",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "esg_safeguards"
+    },
+    {
+      "title": "Environmental and Social Specialist",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "esg_safeguards"
+    },
+    {
+      "title": "Resource Mobilisation Officer",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "resource_mobilisation"
+    },
+    {
+      "title": "Capital Mobilization Lead",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "resource_mobilisation"
+    },
+    {
+      "title": "Associate, Infrastructure",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [
+        "infrastructure_finance"
+      ],
+      "expected_classification": "core_investment",
+      "expected_track": "infrastructure_finance"
+    },
+    {
+      "title": "Senior Associate",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [
+        "private_equity"
+      ],
+      "expected_classification": "core_investment",
+      "expected_track": "private_equity"
+    },
+    {
+      "title": "Officer, Operations",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [
+        "investment_operations"
+      ],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_operations"
+    },
+    {
+      "title": "Senior Specialist",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [
+        "esg_safeguards"
+      ],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "esg_safeguards"
+    },
+    {
+      "title": "Associate, Energy",
+      "summary": "Lead non recourse financing and project finance modelling.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "project_finance"
+    },
+    {
+      "title": "Principal, Digital Infrastructure",
+      "summary": "Execute infrastructure transactions and manage an infrastructure portfolio.",
+      "organisation_type": "private_equity",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "infrastructure_finance"
+    },
+    {
+      "title": "Senior Officer, Funds",
+      "summary": "Manage fund performance and investment mandates.",
+      "organisation_type": "asset_manager",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "asset_management"
+    },
+    {
+      "title": "Software Engineer",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Human Resources Business Partner",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Legal Counsel",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Procurement Officer",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Executive Assistant",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Communications Officer",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "IT Support Specialist",
+      "summary": "Support the investment institution across Africa.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Financial Accountant",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Finance Manager",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Chief Financial Officer",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Financial Controller",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Accounts Payable Officer",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Payroll Manager",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Tax Manager",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Internal Auditor",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Commission Administrator",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Bookkeeper",
+      "summary": "Company provides investment services to clients.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Finance Manager",
+      "summary": "Work for a development finance institution.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Financial Controller",
+      "summary": "Work for a development finance institution.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Internal Auditor",
+      "summary": "Work for a development finance institution.",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "Backend Engineer",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Product Manager",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Recruitment Specialist",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Office Manager",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Graphic Designer",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Customer Support Agent",
+      "summary": "Our company is a leading investment and portfolio management business.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "FP&A Manager",
+      "summary": "Financial planning and budgeting.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Insurance Claims Officer",
+      "summary": "Process insurance claims.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Microfinance Branch Manager",
+      "summary": "Manage branch operations.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Risk and Compliance Manager",
+      "summary": "Enterprise risk and compliance oversight.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Investment Officer, Infrastructure",
+      "summary": "",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_analysis"
+    },
+    {
+      "title": "Environmental and Social Specialist",
+      "summary": "",
+      "organisation_type": "dfi",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "esg_safeguards"
+    },
+    {
+      "title": "Cybersecurity Analyst",
+      "summary": "",
+      "organisation_type": "development_bank",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    },
+    {
+      "title": "محلل استثمار",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_analysis"
+    },
+    {
+      "title": "مسؤول استثمار أول",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "core_investment",
+      "expected_track": "investment_operations"
+    },
+    {
+      "title": "محلل ائتمان",
+      "summary": "",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "credit"
+    },
+    {
+      "title": "Credit Risk Associate, Energy Access",
+      "summary": "Assess credit risk for energy transactions.",
+      "organisation_type": "private",
+      "specialisations": [
+        "climate_finance"
+      ],
+      "expected_classification": "investment_adjacent",
+      "expected_track": "credit"
+    },
+    {
+      "title": "Technical Portfolio Analyst",
+      "summary": "Manage the technology project portfolio and systems roadmap.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Project Finance Accountant",
+      "summary": "Maintain accounting records for project finance transactions.",
+      "organisation_type": "private",
+      "specialisations": [],
+      "expected_classification": "not_investment",
+      "expected_track": null
+    },
+    {
+      "title": "Investment Fund Accountant",
+      "summary": "Prepare NAV and fund accounting reports.",
+      "organisation_type": "asset_manager",
+      "specialisations": [],
+      "expected_classification": "institutional_support",
+      "expected_track": null
+    }
+  ]
+}

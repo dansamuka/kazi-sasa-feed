@@ -1,0 +1,30 @@
+{
+  "phase": 8,
+  "hotfix": "run29",
+  "status": "implemented",
+  "feed_version": "3.6",
+  "offline_test_count": 239,
+  "offline_tests_passed": 239,
+  "registry_errors": 0,
+  "feed_errors": 0,
+  "feed_warnings": 0,
+  "seed_errors": 0,
+  "seed_warnings": 0,
+  "location_quality": {
+    "max_unresolved_location_percent": 10,
+    "max_official_location_pending_percent": 25,
+    "target_official_location_pending_percent": 15
+  },
+  "changes": [
+    "added targeted multilingual location extraction for official vacancy pages",
+    "introduced a separately capped official_location_pending quality bucket",
+    "kept ambiguous aggregator records inside the strict unresolved bucket",
+    "mapped or intentionally ignored all Himalayas terms observed in run #29",
+    "added seven run #29 regression tests"
+  ],
+  "compatibility": {
+    "feed_version_unchanged": true,
+    "android_contract_unchanged": true,
+    "packaged_ids_preserved": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "phase": "5",
+  "feed_version": "3.3",
+  "implementation_status": "complete",
+  "tests": {
+    "passed": 187,
+    "failed": 0
+  },
+  "source_expansion": {
+    "collector_count": 13,
+    "recruitee_boards": 5,
+    "reliefweb_country_scope": 54,
+    "untalent_optional_feed": true,
+    "adzuna_search_lanes": 7
+  },
+  "quality_controls": {
+    "deduplication_version": "2.0",
+    "official_source_precedence": true,
+    "generic_employer_semantic_merge_disabled": true,
+    "coverage_regression_status": "passed",
+    "coverage_regression_errors": 0,
+    "phase5_target_warnings": 6
+  },
+  "packaged_artifacts": {
+    "feed_opportunities": 204,
+    "stable_ids_unchanged": true,
+    "android_projection_unchanged": true,
+    "live_refresh_performed": false
+  },
+  "features": [
+    "recruitee_public_careers_api",
+    "africa_wide_reliefweb_batches",
+    "optional_untalent_json_rss",
+    "adzuna_priority_role_portfolio",
+    "official_source_precedence",
+    "cross_source_deduplication",
+    "regional_coverage_regression_gates",
+    "source_and_country_concentration_monitoring",
+    "third_party_timestamp_normalisation",
+    "impossible_deadline_reconciliation",
+    "html_entity_taxonomy_normalisation"
+  ],
+  "ci_hotfix": {
+    "status": "complete",
+    "github_actions_run": "23",
+    "recruitee_timestamp_fix": true,
+    "impossible_deadline_fix": true,
+    "jobicy_html_taxonomy_fix": true,
+    "remoteok_live_tag_fix": true
+  }
+}

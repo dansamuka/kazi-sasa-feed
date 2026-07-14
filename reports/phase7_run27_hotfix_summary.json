@@ -1,0 +1,27 @@
+{
+  "phase": 7,
+  "hotfix": "run27",
+  "status": "implemented",
+  "feed_version": "3.5",
+  "canonical_specialisation_count": 156,
+  "offline_test_count": 223,
+  "offline_tests_passed": 223,
+  "registry_errors": 0,
+  "feed_errors": 0,
+  "feed_warnings": 0,
+  "seed_errors": 0,
+  "seed_warnings": 0,
+  "changes": [
+    "registered development_finance as a canonical specialisation",
+    "mapped broad DFI defaults outside automatic core-investment classification",
+    "migrated guarantees_political_risk to guarantees_risk_insurance",
+    "migrated project_development to upstream_project_development",
+    "validated every registry default_specialisations value",
+    "mapped or intentionally ignored all Himalayas terms observed in run #27"
+  ],
+  "compatibility": {
+    "feed_version_unchanged": true,
+    "android_contract_unchanged": true,
+    "packaged_ids_preserved": true
+  }
+}

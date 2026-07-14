@@ -1,0 +1,31 @@
+{
+  "gate_version": "1.0",
+  "_comment": "Regression floors protect existing breadth. Explicit global/regional roles, verified official vacancies with a pending duty station, and genuinely unresolved locations are tracked separately. Phase 5 targets remain warnings until later source packs make them achievable.",
+  "regression_gates": {
+    "minimum_by_region": {
+      "East Africa": 10,
+      "Southern Africa": 100,
+      "West Africa": 1,
+      "Central Africa": 1,
+      "North Africa": 0
+    },
+    "max_single_country_percent": 85,
+    "max_single_source_percent": 80,
+    "minimum_official_apply_records": 40,
+    "max_unresolved_location_percent": 10,
+    "max_official_location_pending_percent": 25
+  },
+  "phase5_targets": {
+    "minimum_by_region": {
+      "East Africa": 25,
+      "Southern Africa": 100,
+      "West Africa": 15,
+      "Central Africa": 10,
+      "North Africa": 10
+    },
+    "max_single_country_percent": 55,
+    "max_single_source_percent": 50,
+    "minimum_official_apply_records": 100,
+    "max_official_location_pending_percent": 15
+  }
+}

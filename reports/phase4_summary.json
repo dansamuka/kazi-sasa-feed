@@ -1,0 +1,53 @@
+{
+  "phase": "4",
+  "feed_version": "3.2",
+  "implementation_status": "complete",
+  "tests": {
+    "passed": 170,
+    "failed": 0,
+    "location_regression_cases": 582
+  },
+  "registry": {
+    "african_countries": 54,
+    "major_cities": 155,
+    "selected_admin_areas": 70,
+    "cities_with_coordinates": 111,
+    "supported_languages": [
+      "en",
+      "fr",
+      "pt",
+      "ar",
+      "sw"
+    ]
+  },
+  "packaged_artifacts": {
+    "feed_opportunities": 204,
+    "seed_opportunities": 10,
+    "feed_validation_errors": 0,
+    "feed_validation_warnings": 0,
+    "seed_validation_errors": 0,
+    "seed_validation_warnings": 0,
+    "stable_ids_unchanged": true,
+    "android_projection_unchanged": true
+  },
+  "feed_phase4_coverage": {
+    "country_codes": 198,
+    "canonical_cities": 145,
+    "admin_areas": 35,
+    "coordinates": 65,
+    "location_evidence": 198
+  },
+  "features": [
+    "unicode_preserving_location_matching",
+    "multilingual_country_city_region_aliases",
+    "location_confidence_and_evidence",
+    "multilingual_experience_extraction",
+    "multilingual_contract_extraction",
+    "multilingual_required_language_extraction",
+    "multilingual_deadline_extraction",
+    "multilingual_eligibility_extraction",
+    "multilingual_remote_hybrid_detection",
+    "phase4_publication_guard"
+  ],
+  "scope_note": "No new live sources were added and the packaged snapshot was not freshly downloaded from upstream APIs."
+}

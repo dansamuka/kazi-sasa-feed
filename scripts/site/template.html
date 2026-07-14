@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kazi Sasa — Jobs, Now</title>
+<meta name="description" content="Live opportunities across Africa and beyond — pulled directly from employer job boards, refreshed three times a day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #12162A;
+    --navy-raised: #1A2038;
+    --card: #1F2544;
+    --border: #313A63;
+    --border-soft: #262C4E;
+    --cream: #F5F1E6;
+    --slate: #8C93B8;
+    --slate-dim: #5C628A;
+    --gold: #F0A857;
+    --gold-dim: #C4874A;
+    --coral: #E8735C;
+    --sage: #7FB08A;
+    --display: 'Fraunces', serif;
+    --body: 'Inter', sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--navy);
+    color: var(--cream);
+    font-family: var(--body);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  a { color: inherit; }
+
+  /* ============ DAWN BAR — signature element ============ */
+  .dawn-bar {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(90deg, #2A3363 0%, var(--coral) 45%, var(--gold) 100%);
+    position: relative;
+  }
+
+  .dawn-marker {
+    position: absolute;
+    top: -3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 0 12px 2px rgba(240, 168, 87, 0.7);
+    transform: translateX(-50%);
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 64px 32px 40px;
+    position: relative;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(240,168,87,0.08) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: rgba(240, 168, 87, 0.08);
+    border: 1px solid rgba(240, 168, 87, 0.25);
+    padding: 6px 14px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .live-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--sage);
+    animation: pulse 2.4s infinite;
+  }
+
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(127, 176, 138, 0.6); }
+    70% { box-shadow: 0 0 0 6px rgba(127, 176, 138, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(127, 176, 138, 0); }
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(38px, 6vw, 68px);
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    margin: 0 0 20px;
+    max-width: 820px;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--gold);
+  }
+
+  .hero-sub {
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--slate);
+    max-width: 560px;
+    margin: 0 0 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-stat .num {
+    font-family: var(--display);
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--cream);
+    line-height: 1;
+  }
+
+  .hero-stat .num span { color: var(--gold); }
+
+  .hero-stat .lbl {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--slate-dim);
+    margin-top: 8px;
+  }
+
+  /* ============ SOURCE STRIP ============ */
+  .source-strip {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 22px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--slate-dim);
+  }
+
+  .source-strip .tag {
+    color: var(--slate);
+  }
+
+  /* ============ SEARCH HERO (LinkedIn-style: keyword+location bar, then filter pills) ============ */
+  .search-hero {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(18, 22, 42, 0.96);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+    padding: 16px 32px;
+  }
+
+  /* Two-box keyword+location search, mirroring the layout everyone already
+     knows from LinkedIn/Indeed-style job search - familiar shape, not a
+     copy of their visual skin (kept in this site's own navy/gold identity). */
+  .li-searchbar {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .li-box {
+    flex: 1 1 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .li-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 13px 16px 13px 40px;
+    color: var(--cream);
+    font-family: var(--body);
+    font-size: 14.5px;
+    outline: none;
+  }
+
+  .li-box input::placeholder { color: var(--slate-dim); }
+
+  .li-icon {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--slate-dim); pointer-events: none; font-size: 15px;
+  }
+
+  .li-divider { width: 1px; background: var(--border); margin: 8px 0; }
+
+  .li-search-btn {
+    flex-shrink: 0;
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    font-family: var(--body);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 26px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .li-search-btn:hover { opacity: 0.87; }
+
+  /* Filter pill row - each pill is a button that reveals a small dropdown
+     panel directly below it, same interaction pattern as LinkedIn's job-
+     search filter row (Date posted / Experience level / Job type / Remote /
+     Company / Industry are LinkedIn's own filter categories - mirrored here
+     because they're genuinely the categories people already expect on a job
+     board, not because they're proprietary to any one site). */
+  .li-pill-row {
+    max-width: 900px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+
+  .li-pill-wrap { position: relative; }
+
+  .li-pill {
+    background: var(--bg-card, var(--card));
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 8px 16px;
+    color: var(--slate);
+    font-family: var(--body);
+    font-size: 13px;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+    white-space: nowrap;
+  }
+
+  .li-pill:hover { border-color: var(--gold-dim); color: var(--cream); }
+  .li-pill.active { background: rgba(240, 168, 87, 0.14); border-color: var(--gold-dim); color: var(--gold); }
+
+  .li-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    min-width: 220px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px;
+    z-index: 30;
+    max-height: min(420px, 58vh);
+    overflow-y: auto;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+  }
+
+  .li-dropdown.open { display: block; }
+
+  .li-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13.5px;
+    color: var(--cream);
+  }
+
+  .li-dropdown-item:hover { background: var(--navy-raised); }
+
+  .li-dropdown-item input[type="checkbox"],
+  .li-dropdown-item input[type="radio"] {
+    accent-color: var(--gold);
+    width: 15px; height: 15px; flex-shrink: 0;
+  }
+
+  .filter-count {
+    color: var(--slate-dim);
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 11px;
+  }
+
+  .li-dropdown-empty {
+    padding: 10px;
+    font-size: 12.5px;
+    color: var(--slate-dim);
+    font-style: italic;
+  }
+
+  .li-clear-btn {
+    background: none;
+    border: none;
+    color: var(--slate-dim);
+    font-family: var(--mono);
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px 6px;
+    text-decoration: underline;
+  }
+
+  .li-clear-btn:hover { color: var(--coral); }
+
+  .result-count {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--slate-dim);
+    white-space: nowrap;
+    margin-left: auto;
+    padding-left: 4px;
+  }
+
+  .result-count b { color: var(--gold); font-weight: 500; }
+
+  /* ============ LIST ============ */
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 32px 100px;
+  }
+
+  /* LinkedIn-style results header: count on the left, sort control on the
+     right, sitting directly above the list - same structural convention as
+     LinkedIn's job search results page, in our own visual language. */
+  .results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+
+  .results-header-count {
+    font-family: var(--display);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--cream);
+  }
+
+  .results-header-count b { color: var(--gold); }
+
+  .sort-select {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: var(--slate);
+    font-family: var(--body);
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .sort-select:focus { border-color: var(--gold-dim); }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border-soft);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: border-color 0.18s, transform 0.12s;
+  }
+
+  .card:hover {
+    border-color: var(--gold-dim);
+    transform: translateY(-1px);
+  }
+
+  .card-top {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 16px; margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-family: var(--display);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 5px;
+  }
+
+  /* LinkedIn convention: company, then location, then a muted "posted X ago"
+     - all on one scannable line under the title. */
+  .card-org {
+    font-size: 13.5px;
+    color: var(--slate);
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  }
+
+  .posted-time {
+    color: var(--slate-dim);
+    font-family: var(--mono);
+    font-size: 11.5px;
+  }
+
+  .posted-time.recent { color: var(--sage); }
+
+  .verified-badge { color: var(--sage); font-size: 12px; }
+
+  .confidence-badge {
+    flex-shrink: 0;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+  }
+
+  .conf-official { background: rgba(127, 176, 138, 0.12); color: var(--sage); border-color: rgba(127, 176, 138, 0.28); }
+  .conf-aggregated { background: rgba(240, 168, 87, 0.12); color: var(--gold); border-color: rgba(240, 168, 87, 0.28); }
+  .conf-community { background: rgba(140, 147, 184, 0.12); color: var(--slate); border-color: rgba(140, 147, 184, 0.28); }
+  .conf-unverified { background: rgba(232, 115, 92, 0.12); color: var(--coral); border-color: rgba(232, 115, 92, 0.28); }
+
+  .card-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+  .chip {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--slate);
+    background: var(--navy-raised);
+    border: 1px solid var(--border);
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+
+  .chip.industry { color: var(--gold); border-color: rgba(240, 168, 87, 0.22); }
+  .chip.role-family { color: #C8B6FF; border-color: rgba(200, 182, 255, 0.24); }
+  .chip.eligibility-positive { color: var(--sage); border-color: rgba(127, 176, 138, 0.28); }
+  .chip.eligibility-uncertain { color: var(--gold); border-color: rgba(240, 168, 87, 0.28); }
+  .chip.eligibility-restricted { color: var(--coral); border-color: rgba(232, 115, 92, 0.28); }
+
+  .card-summary {
+    font-size: 13.5px;
+    color: var(--slate-dim);
+    line-height: 1.6;
+    margin-top: 12px;
+    max-width: 90ch;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-detail {
+    display: none;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-soft);
+  }
+
+  .card.expanded .card-detail { display: block; }
+  .card.expanded .card-summary { -webkit-line-clamp: unset; }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .detail-item .label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--slate-dim);
+    margin-bottom: 3px;
+  }
+
+  .detail-item .value { font-size: 13px; color: var(--cream); }
+
+  .apply-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+
+  .apply-link:hover { opacity: 0.87; }
+
+  /* ============ EMPTY STATE ============ */
+  .empty-state { text-align: center; padding: 90px 20px; color: var(--slate-dim); }
+  .empty-state .big { font-family: var(--display); font-size: 21px; color: var(--slate); margin-bottom: 8px; }
+
+  /* ============ PAGER ============ */
+  .pager {
+    display: flex; justify-content: center; align-items: center; gap: 18px;
+    margin-top: 32px; font-family: var(--mono); font-size: 12px; color: var(--slate);
+  }
+
+  .pager button {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--cream);
+    padding: 9px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 12px;
+    transition: border-color 0.15s;
+  }
+
+  .pager button:hover:not(:disabled) { border-color: var(--gold-dim); }
+  .pager button:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  /* ============ FOOTER CTA ============ */
+  footer {
+    border-top: 1px solid var(--border-soft);
+    padding: 56px 32px 64px;
+    text-align: center;
+  }
+
+  footer .cta-title {
+    font-family: var(--display);
+    font-size: clamp(24px, 3.4vw, 34px);
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+
+  footer .cta-sub {
+    color: var(--slate);
+    font-size: 14.5px;
+    max-width: 460px;
+    margin: 0 auto 28px;
+    line-height: 1.6;
+  }
+
+  footer .cta-note {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--slate-dim);
+    margin-top: 28px;
+  }
+
+  @media (max-width: 640px) {
+    .hero { padding: 44px 18px 28px; }
+    .search-hero { padding: 12px 18px; }
+    main { padding: 24px 18px 70px; }
+    .hero-stats { gap: 26px; }
+    .li-searchbar { flex-direction: column; }
+    .li-divider { display: none; }
+    .li-box { border-bottom: 1px solid var(--border); }
+    .li-box:last-of-type { border-bottom: none; }
+    .li-search-btn { padding: 13px; }
+    .result-count { margin-left: 0; width: 100%; order: 99; }
+  }
+
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: var(--navy); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--border-soft); }
+</style>
+</head>
+<body>
+
+<div class="dawn-bar"><div class="dawn-marker" id="dawnMarker" style="left: 50%;"></div></div>
+
+<div class="hero">
+  <div class="eyebrow"><span class="live-dot"></span> LIVE &mdash; refreshed 3&times; daily from employer sites, institutional feeds and verified aggregators</div>
+  <h1>Jobs, now.<br>Not jobs, <em>eventually</em>.</h1>
+  <p class="hero-sub">Kazi Sasa brings together current roles from employer boards, humanitarian feeds and verified aggregators, with structured location, eligibility and specialised investment, DFI, NGO and public-service classification for faster screening.</p>
+
+  <div class="hero-stats" id="heroStats"></div>
+</div>
+
+<div class="source-strip" id="sourceStrip"></div>
+
+<div class="search-hero">
+  <div class="li-searchbar">
+    <div class="li-box li-box-keyword">
+      <span class="li-icon">&#8981;</span>
+      <input type="text" id="keywordInput" placeholder="Search job titles, skills, or companies">
+    </div>
+    <div class="li-divider"></div>
+    <div class="li-box li-box-location">
+      <span class="li-icon">&#128205;</span>
+      <input type="text" id="locationInput" placeholder="Location">
+    </div>
+    <button class="li-search-btn" id="searchBtn">Search</button>
+  </div>
+
+  <div class="li-pill-row" id="pillRow">
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="datePill" data-pill="date">Date posted</button>
+      <div class="li-dropdown" id="dateDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="countryPill" data-pill="country">Country</button>
+      <div class="li-dropdown" id="countryDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="cityPill" data-pill="city">City</button>
+      <div class="li-dropdown" id="cityDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="roleFamilyPill" data-pill="roleFamily">Role family</button>
+      <div class="li-dropdown" id="roleFamilyDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="investmentClassPill" data-pill="investmentClass">Investment relevance</button>
+      <div class="li-dropdown" id="investmentClassDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="dfiInstitutionPill" data-pill="dfiInstitution">DFI / multilateral</button>
+      <div class="li-dropdown" id="dfiInstitutionDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="dfiRelevancePill" data-pill="dfiRelevance">DFI relevance</button>
+      <div class="li-dropdown" id="dfiRelevanceDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="investmentTrackPill" data-pill="investmentTrack">Investment track</button>
+      <div class="li-dropdown" id="investmentTrackDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="ngoInstitutionPill" data-pill="ngoInstitution">NGO / UN</button>
+      <div class="li-dropdown" id="ngoInstitutionDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="ngoTrackPill" data-pill="ngoTrack">NGO / development track</button>
+      <div class="li-dropdown" id="ngoTrackDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="governmentPill" data-pill="government">Government / public service</button>
+      <div class="li-dropdown" id="governmentDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="governmentGradePill" data-pill="governmentGrade">Public-service grade</button>
+      <div class="li-dropdown" id="governmentGradeDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="publicInstitutionPill" data-pill="publicInstitution">Kenya public institutions</button>
+      <div class="li-dropdown" id="publicInstitutionDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="publicInstitutionCategoryPill" data-pill="publicInstitutionCategory">Public institution category</button>
+      <div class="li-dropdown" id="publicInstitutionCategoryDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="multinationalPill" data-pill="multinational">Multinationals</button>
+      <div class="li-dropdown" id="multinationalDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="multinationalSectorPill" data-pill="multinationalSector">Multinational sector</button>
+      <div class="li-dropdown" id="multinationalSectorDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="orgTypePill" data-pill="orgType">Organisation type</button>
+      <div class="li-dropdown" id="orgTypeDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="eligibilityPill" data-pill="eligibility">Eligibility</button>
+      <div class="li-dropdown" id="eligibilityDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="expPill" data-pill="exp">Experience level</button>
+      <div class="li-dropdown" id="expDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="jobTypePill" data-pill="jobType">Job type</button>
+      <div class="li-dropdown" id="jobTypeDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="remotePill" data-pill="remote">On-site/remote</button>
+      <div class="li-dropdown" id="remoteDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="companyPill" data-pill="company">Company</button>
+      <div class="li-dropdown" id="companyDropdown"></div>
+    </div>
+    <div class="li-pill-wrap">
+      <button class="li-pill" id="industryPill" data-pill="industry">Industry</button>
+      <div class="li-dropdown" id="industryDropdown"></div>
+    </div>
+    <button class="li-clear-btn" id="clearAllBtn">Clear all</button>
+  </div>
+</div>
+
+<main>
+  <div class="results-header">
+    <span class="results-header-count" id="resultsHeaderCount"></span>
+    <select class="sort-select" id="sortSelect">
+      <option value="relevance">Default order</option>
+      <option value="recent">Most recent</option>
+    </select>
+  </div>
+  <div id="cardList"></div>
+  <div class="pager" id="pager"></div>
+</main>
+
+<footer>
+  <div class="cta-title">Want this on your phone?</div>
+  <p class="cta-sub">The Kazi Sasa app adds saved searches, fit scoring based on your profile, and alerts &mdash; so you don't have to check back.</p>
+  <div class="cta-note" id="footerMeta"></div>
+</footer>
+
+<script id="feedData" type="application/json">__FEED_DATA__</script>
+<script>
+__APP_JS__
+</script>
+</body>
+</html>

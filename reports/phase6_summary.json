@@ -1,0 +1,46 @@
+{
+  "phase": 6,
+  "status": "implemented",
+  "feed_version": "3.4",
+  "investment_taxonomy_version": "1.0",
+  "investment_classifier_version": "1.0",
+  "investment_track_count": 26,
+  "new_canonical_specialisation_count": 21,
+  "canonical_specialisation_count": 155,
+  "reviewed_regression_case_count": 99,
+  "offline_test_count": 206,
+  "offline_tests_passed": 206,
+  "packaged_feed_opportunity_count": 204,
+  "packaged_seed_opportunity_count": 10,
+  "packaged_investment_summary": {
+    "opportunity_count": 204,
+    "investment_role_count": 1,
+    "institutional_support_role_count": 0,
+    "investment_role_percent": 0.5,
+    "direct_dfi_investment_count": 0,
+    "dfi_institutional_role_count": 0,
+    "false_positive_guarded_count": 27,
+    "represented_investment_tracks": 1
+  },
+  "stable_ids_preserved": true,
+  "android_legacy_projection_preserved": true,
+  "validation": {
+    "registry_errors": 0,
+    "feed_errors": 0,
+    "feed_warnings": 0,
+    "seed_errors": 0,
+    "seed_warnings": 0
+  },
+  "website_filters": [
+    "investment_relevance",
+    "investment_track"
+  ],
+  "new_artifacts": [
+    "config/investment_taxonomy.json",
+    "config/investment_test_cases.json",
+    "scripts/classifiers/investment.py",
+    "scripts/migrate_phase6.py",
+    "reports/investment_coverage_report.json",
+    "PHASE6_IMPLEMENTATION.md"
+  ]
+}

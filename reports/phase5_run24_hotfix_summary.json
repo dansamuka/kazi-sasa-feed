@@ -1,0 +1,23 @@
+{
+  "phase": "5-run24-hotfix",
+  "feed_version": "3.3",
+  "changes": [
+    "distinguish explicit location-neutral roles from unresolved locations",
+    "retain strict unresolved-location gate",
+    "map/ignore live Himalayas taxonomy labels",
+    "map live Remotive labels",
+    "map Jobicy HR & Recruiting",
+    "add regression tests and reporting metrics"
+  ],
+  "tests_passed": 192,
+  "registry_errors": 0,
+  "feed_validation_errors": 0,
+  "feed_validation_warnings": 0,
+  "seed_validation_errors": 0,
+  "seed_validation_warnings": 0,
+  "packaged_opportunity_count": 204,
+  "packaged_ids_changed": 0,
+  "coverage_gate_status": "passed",
+  "packaged_unresolved_location_records": 0,
+  "packaged_location_neutral_records": 6
+}

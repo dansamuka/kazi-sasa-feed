@@ -1,0 +1,19 @@
+{
+  "phase": "8",
+  "status": "implemented",
+  "feed_version": "3.6",
+  "tests_expected_minimum": 232,
+  "organisation_count": 78,
+  "source_connection_count": 79,
+  "phase8_priority_organisation_count": 33,
+  "ngo_track_count": 20,
+  "ngo_regression_case_count": 28,
+  "collector_count": 18,
+  "packaged_opportunity_count": 204,
+  "packaged_ngo_or_un_opportunities": 38,
+  "packaged_programme_roles": 13,
+  "compatibility": {
+    "ids_preserved": true,
+    "android_legacy_projection_preserved": true
+  }
+}

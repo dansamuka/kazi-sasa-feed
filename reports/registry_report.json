@@ -1,0 +1,5133 @@
+{
+  "report_version": "11.0",
+  "phase": "11",
+  "generated_at": "2026-07-14T04:56:02.698161Z",
+  "validation_errors": [],
+  "summary": {
+    "organisation_count": 243,
+    "ats_connection_count": 244,
+    "enabled_ats_connections": 209,
+    "verified_ats_connections": 240,
+    "source_registry_count": 33,
+    "african_country_count": 54,
+    "registered_city_count": 155,
+    "registered_admin_area_count": 70,
+    "city_coordinate_count": 111,
+    "location_supported_language_count": 5,
+    "location_regression_case_count": 582,
+    "role_family_count": 33,
+    "organisation_type_count": 20,
+    "thematic_sector_count": 35,
+    "eligibility_status_count": 7,
+    "industry_role_mapping_count": 30,
+    "specialisation_role_mapping_count": 162,
+    "public_portal_count": 5,
+    "enabled_public_portals": 3,
+    "disabled_public_portals": 2,
+    "public_api_collector_count": 26,
+    "phase7_priority_institution_count": 25,
+    "enterprise_institution_adapter_count": 51,
+    "recruitee_board_count": 5,
+    "investment_track_count": 26,
+    "investment_regression_case_count": 99,
+    "investment_classification_count": 4,
+    "dfi_relevance_value_count": 4,
+    "phase8_priority_organisation_count": 33,
+    "ngo_track_count": 20,
+    "ngo_regression_case_count": 28,
+    "ngo_classification_count": 5,
+    "pageup_board_count": 1,
+    "phase9_priority_portal_count": 5,
+    "phase9_enabled_portal_count": 3,
+    "kenya_public_institution_count": 60,
+    "kenya_public_institution_enabled_count": 59,
+    "kenya_public_institution_category_count": 17,
+    "phase11_multinational_target_count": 100,
+    "phase11_multinational_enabled_count": 68,
+    "phase11_multinational_sector_count": 17,
+    "workday_target_count": 11,
+    "smartrecruiters_target_count": 2,
+    "workable_target_count": 2
+  },
+  "coverage": {
+    "connections_by_adapter": {
+      "ashby": 7,
+      "cornerstone": 1,
+      "government_circular": 2,
+      "government_html": 2,
+      "government_json": 1,
+      "greenhouse": 8,
+      "lever": 3,
+      "multinational_html": 85,
+      "official_html": 44,
+      "oracle_cx": 2,
+      "pageup": 1,
+      "pinpoint": 5,
+      "public_institution_html": 60,
+      "recruitee": 5,
+      "smartrecruiters": 2,
+      "successfactors": 3,
+      "workable": 2,
+      "workday": 11
+    },
+    "organisations_by_type": {
+      "consulting_firm": 5,
+      "development_bank": 12,
+      "dfi": 12,
+      "government": 10,
+      "investment_firm": 4,
+      "multilateral": 3,
+      "multinational": 102,
+      "ngo": 23,
+      "private": 17,
+      "regulator": 6,
+      "state_owned_enterprise": 26,
+      "un_agency": 4,
+      "university": 19
+    },
+    "organisations_by_priority": {
+      "1": 127,
+      "2": 111,
+      "3": 5
+    },
+    "source_confidence": {
+      "aggregated": 11,
+      "community": 1,
+      "official": 21
+    },
+    "countries_by_region": {
+      "Central Africa": 8,
+      "East Africa": 14,
+      "North Africa": 6,
+      "Southern Africa": 10,
+      "West Africa": 16
+    },
+    "location_supported_languages": [
+      "en",
+      "fr",
+      "pt",
+      "ar",
+      "sw"
+    ],
+    "investment_tracks": [
+      "investment_analysis",
+      "investment_operations",
+      "portfolio_management",
+      "portfolio_operations",
+      "private_equity",
+      "venture_capital",
+      "project_finance",
+      "infrastructure_finance",
+      "climate_finance",
+      "blended_finance",
+      "trade_finance",
+      "structured_finance",
+      "capital_markets",
+      "asset_management",
+      "corporate_finance",
+      "transaction_advisory",
+      "deal_origination",
+      "syndications",
+      "guarantees_risk_insurance",
+      "upstream_project_development",
+      "financial_institutions",
+      "credit",
+      "treasury",
+      "impact_measurement",
+      "esg_safeguards",
+      "resource_mobilisation"
+    ],
+    "ngo_tracks": [
+      "humanitarian_response",
+      "programme_management",
+      "monitoring_evaluation_learning",
+      "grants_and_compliance",
+      "safeguarding_protection",
+      "public_health",
+      "nutrition_food_security",
+      "livelihoods_economic_inclusion",
+      "education_programmes",
+      "advocacy_policy",
+      "field_operations",
+      "humanitarian_logistics",
+      "wash_shelter",
+      "climate_resilience",
+      "migration_displacement",
+      "peacebuilding_governance",
+      "gender_inclusion",
+      "research_learning",
+      "partnerships_resource_mobilisation",
+      "community_engagement"
+    ],
+    "government_portals_by_status": {
+      "disabled": 2,
+      "enabled": 3
+    },
+    "government_portals_by_adapter": {
+      "government_circular": 2,
+      "government_html": 2,
+      "government_json": 1
+    },
+    "kenya_public_institutions_by_category": {
+      "capital_markets_regulator": 1,
+      "central_bank": 1,
+      "competition_authority": 1,
+      "electricity_utility": 5,
+      "insurance_regulator": 1,
+      "investment_promotion_agency": 1,
+      "judicial_service": 1,
+      "national_development_bank": 5,
+      "parliamentary_service": 1,
+      "pensions_regulator": 1,
+      "ports": 1,
+      "public_university": 19,
+      "railways": 1,
+      "revenue_authority": 1,
+      "sovereign_infrastructure_fund": 2,
+      "state_owned_enterprise": 15,
+      "water_utility": 3
+    },
+    "multinational_targets_by_sector": {
+      "automotive": 2,
+      "aviation": 2,
+      "banking": 13,
+      "consulting": 6,
+      "energy": 6,
+      "fintech": 2,
+      "fmcg": 15,
+      "hospitality": 3,
+      "industrials": 2,
+      "insurance": 5,
+      "logistics": 5,
+      "medical_devices": 1,
+      "payments": 2,
+      "pharmaceuticals": 9,
+      "professional_services": 4,
+      "technology": 15,
+      "telecommunications": 8
+    },
+    "multinational_targets_by_adapter": {
+      "multinational_html": 85,
+      "smartrecruiters": 2,
+      "workable": 2,
+      "workday": 11
+    },
+    "multinational_registry_city_footprint": {
+      "Abidjan": 6,
+      "Accra": 83,
+      "Addis Ababa": 1,
+      "Bujumbura": 2,
+      "Cairo": 76,
+      "Cape Town": 2,
+      "Casablanca": 75,
+      "Dakar": 3,
+      "Dar es Salaam": 9,
+      "Douala": 3,
+      "Gaborone": 1,
+      "Harare": 2,
+      "Johannesburg": 88,
+      "Juba": 1,
+      "Kampala": 14,
+      "Kigali": 10,
+      "Kinshasa": 1,
+      "Lagos": 86,
+      "Lilongwe": 2,
+      "Lome": 1,
+      "Lusaka": 3,
+      "Nairobi": 97,
+      "Port Louis": 1,
+      "Tunis": 1,
+      "Windhoek": 1
+    }
+  },
+  "organisations": [
+    {
+      "id": "one-acre-fund",
+      "name": "One Acre Fund",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "agriculture"
+      ],
+      "countries": [
+        "KE",
+        "RW",
+        "UG",
+        "TZ",
+        "ZM",
+        "MW",
+        "NG"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "acumen",
+      "name": "Acumen",
+      "organisation_type": "ngo",
+      "career_families": [
+        "investment",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "ZA"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "givedirectly",
+      "name": "GiveDirectly",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "MW",
+        "LR"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jumo",
+      "name": "Jumo",
+      "organisation_type": "private",
+      "career_families": [
+        "banking_and_finance",
+        "technology"
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "organisation_type": "private",
+      "career_families": [
+        "technology",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "NG",
+        "ZA"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "organisation_type": "private",
+      "career_families": [
+        "technology",
+        "sales_business_development"
+      ],
+      "countries": [
+        "NG",
+        "ZA"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "organisation_type": "private",
+      "career_families": [
+        "technology",
+        "operations"
+      ],
+      "countries": [],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "copia-global",
+      "name": "Copia Global",
+      "organisation_type": "private",
+      "career_families": [
+        "operations",
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "UG"
+      ],
+      "adapters": [
+        "lever"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tala",
+      "name": "Tala",
+      "organisation_type": "private",
+      "career_families": [
+        "banking_and_finance",
+        "technology"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "lever"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "idh",
+      "name": "IDH - Sustainable Trade Initiative",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "agriculture"
+      ],
+      "countries": [
+        "KE",
+        "GH",
+        "CI",
+        "NG"
+      ],
+      "adapters": [
+        "lever"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "organisation_type": "private",
+      "career_families": [
+        "banking_and_finance",
+        "technology"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "organisation_type": "private",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "organisation_type": "private",
+      "career_families": [
+        "technology",
+        "sales_business_development"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "organisation_type": "private",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "organisation_type": "private",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "organisation_type": "private",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deel",
+      "name": "Deel",
+      "organisation_type": "private",
+      "career_families": [
+        "technology",
+        "human_resources"
+      ],
+      "countries": [],
+      "adapters": [
+        "ashby"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sun-king",
+      "name": "Sun King",
+      "organisation_type": "private",
+      "career_families": [
+        "energy",
+        "operations",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "UG",
+        "TZ",
+        "ZM",
+        "MW"
+      ],
+      "adapters": [
+        "pinpoint"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bboxx",
+      "name": "BBOXX",
+      "organisation_type": "private",
+      "career_families": [
+        "energy",
+        "operations",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "RW",
+        "KE",
+        "TG",
+        "CD"
+      ],
+      "adapters": [
+        "pinpoint",
+        "pinpoint"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "powergen-renewable-energy",
+      "name": "PowerGen Renewable Energy",
+      "organisation_type": "private",
+      "career_families": [
+        "energy",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "TZ",
+        "NG"
+      ],
+      "adapters": [
+        "pinpoint"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "husk-power-systems",
+      "name": "Husk Power Systems",
+      "organisation_type": "private",
+      "career_families": [
+        "energy",
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "NG",
+        "TZ"
+      ],
+      "adapters": [
+        "pinpoint"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "triple-jump",
+      "name": "Triple Jump",
+      "organisation_type": "investment_firm",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "recruitee"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "msf-international",
+      "name": "Médecins Sans Frontières International",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "health",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "SN"
+      ],
+      "adapters": [
+        "recruitee"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "msf-waca",
+      "name": "Médecins Sans Frontières West and Central Africa",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "health",
+        "development_programmes"
+      ],
+      "countries": [
+        "CI",
+        "SN",
+        "CM"
+      ],
+      "adapters": [
+        "recruitee"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nawiri-group",
+      "name": "Nawiri Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "technology",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "TZ"
+      ],
+      "adapters": [
+        "recruitee"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mcd-global-health",
+      "name": "MCD Global Health",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes",
+        "monitoring_evaluation_and_learning"
+      ],
+      "countries": [],
+      "adapters": [
+        "recruitee"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "world-bank-group",
+      "name": "World Bank Group",
+      "organisation_type": "multilateral",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "economics_and_research"
+      ],
+      "countries": [],
+      "adapters": [
+        "cornerstone"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "african-development-bank",
+      "name": "African Development Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "economics_and_research"
+      ],
+      "countries": [
+        "CI"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "afreximbank",
+      "name": "African Export-Import Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "economics_and_research"
+      ],
+      "countries": [
+        "EG",
+        "NG",
+        "CI",
+        "RW",
+        "ZW"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "africa-finance-corporation",
+      "name": "Africa Finance Corporation",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "NG"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "trade-and-development-bank",
+      "name": "Trade and Development Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "MU",
+        "ZW",
+        "ET"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "africa50",
+      "name": "Africa50",
+      "organisation_type": "investment_firm",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "MA",
+        "CI"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shelter-afrique-development-bank",
+      "name": "Shelter Afrique Development Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "CI"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "african-guarantee-fund",
+      "name": "African Guarantee Fund",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "development-bank-southern-africa",
+      "name": "Development Bank of Southern Africa",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "engineering"
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "industrial-development-corporation-sa",
+      "name": "Industrial Development Corporation of South Africa",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "islamic-development-bank",
+      "name": "Islamic Development Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "economics_and_research"
+      ],
+      "countries": [],
+      "adapters": [
+        "successfactors"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "european-investment-bank",
+      "name": "European Investment Bank",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "economics_and_research"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "european-bank-reconstruction-development",
+      "name": "European Bank for Reconstruction and Development",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "economics_and_research"
+      ],
+      "countries": [
+        "MA",
+        "EG",
+        "TN"
+      ],
+      "adapters": [
+        "successfactors"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "green-climate-fund",
+      "name": "Green Climate Fund",
+      "organisation_type": "multilateral",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "oracle_cx"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "british-international-investment",
+      "name": "British International Investment",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fmo",
+      "name": "FMO",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "proparco",
+      "name": "Proparco",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deg-impulse",
+      "name": "DEG Impulse",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "norfund",
+      "name": "Norfund",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "swedfund",
+      "name": "Swedfund",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "finnfund",
+      "name": "Finnfund",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "us-international-development-finance-corporation",
+      "name": "U.S. International Development Finance Corporation",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "private-infrastructure-development-group",
+      "name": "Private Infrastructure Development Group",
+      "organisation_type": "investment_firm",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "esg_and_safeguards"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "guarantco",
+      "name": "GuarantCo",
+      "organisation_type": "dfi",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "infraco-africa",
+      "name": "InfraCo Africa",
+      "organisation_type": "investment_firm",
+      "career_families": [
+        "investment",
+        "development_programmes",
+        "engineering"
+      ],
+      "countries": [],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "united-nations-secretariat",
+      "name": "United Nations Secretariat",
+      "organisation_type": "un_agency",
+      "career_families": [
+        "development_programmes",
+        "public_policy"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "undp",
+      "name": "United Nations Development Programme",
+      "organisation_type": "un_agency",
+      "career_families": [
+        "development_programmes",
+        "public_policy",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "oracle_cx"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF",
+      "organisation_type": "un_agency",
+      "career_families": [
+        "development_programmes",
+        "health",
+        "education"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "pageup"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "uneca",
+      "name": "United Nations Economic Commission for Africa",
+      "organisation_type": "un_agency",
+      "career_families": [
+        "economics_and_research",
+        "public_policy",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "african-union",
+      "name": "African Union",
+      "organisation_type": "multilateral",
+      "career_families": [
+        "public_policy",
+        "development_programmes",
+        "public_policy"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "successfactors"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "save-the-children-international",
+      "name": "Save the Children International",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "health",
+        "education"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "international-rescue-committee",
+      "name": "International Rescue Committee",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "humanitarian",
+        "health"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "world-vision-international",
+      "name": "World Vision International",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "health",
+        "education"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mercy-corps",
+      "name": "Mercy Corps",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "humanitarian",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "care-international",
+      "name": "CARE International",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "humanitarian",
+        "health"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "norwegian-refugee-council",
+      "name": "Norwegian Refugee Council",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "development_programmes",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "danish-refugee-council",
+      "name": "Danish Refugee Council",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "development_programmes",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "international-committee-red-cross",
+      "name": "International Committee of the Red Cross",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "health",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "international-federation-red-cross-red-crescent",
+      "name": "International Federation of Red Cross and Red Crescent Societies",
+      "organisation_type": "ngo",
+      "career_families": [
+        "humanitarian",
+        "health",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "path-global-health",
+      "name": "PATH",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "ET",
+        "NG",
+        "GH",
+        "SN",
+        "ZA",
+        "ZM",
+        "MZ"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fhi-360",
+      "name": "FHI 360",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jhpiego",
+      "name": "Jhpiego",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "ET",
+        "NG",
+        "ZA",
+        "ZM",
+        "MZ"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "clinton-health-access-initiative",
+      "name": "Clinton Health Access Initiative",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "greenhouse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "population-services-international",
+      "name": "Population Services International",
+      "organisation_type": "ngo",
+      "career_families": [
+        "health",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "palladium-group",
+      "name": "Palladium",
+      "organisation_type": "consulting_firm",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "health"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dai-global",
+      "name": "DAI Global",
+      "organisation_type": "consulting_firm",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "public_policy"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "abt-global",
+      "name": "Abt Global",
+      "organisation_type": "consulting_firm",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "health"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rti-international",
+      "name": "RTI International",
+      "organisation_type": "consulting_firm",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "chemonics-international",
+      "name": "Chemonics International",
+      "organisation_type": "consulting_firm",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "public_policy"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tetra-tech-international-development",
+      "name": "Tetra Tech International Development",
+      "organisation_type": "multinational",
+      "career_families": [
+        "development_programmes",
+        "consulting",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "SO",
+        "SD",
+        "SS",
+        "NG",
+        "GH",
+        "SN",
+        "CI",
+        "CD",
+        "CM",
+        "ZA",
+        "ZM",
+        "ZW",
+        "MW",
+        "MZ",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "trademark-africa",
+      "name": "TradeMark Africa",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "banking_and_finance",
+        "public_policy"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "RW",
+        "TZ",
+        "ET",
+        "ZM",
+        "BI",
+        "CD"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fsd-africa",
+      "name": "FSD Africa",
+      "organisation_type": "ngo",
+      "career_families": [
+        "development_programmes",
+        "banking_and_finance",
+        "investment"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "ZA",
+        "RW",
+        "UG",
+        "TZ",
+        "ZM"
+      ],
+      "adapters": [
+        "official_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-public-service-commission",
+      "name": "Kenya Public Service Commission",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "government_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "uganda-public-service-commission",
+      "name": "Uganda Public Service Commission",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration"
+      ],
+      "countries": [
+        "UG"
+      ],
+      "adapters": [
+        "government_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rwanda-mifotra",
+      "name": "Rwanda MIFOTRA e-Recruitment",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration"
+      ],
+      "countries": [
+        "RW"
+      ],
+      "adapters": [
+        "government_json"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tanzania-ajira",
+      "name": "Tanzania Public Service Recruitment Secretariat",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration"
+      ],
+      "countries": [
+        "TZ"
+      ],
+      "adapters": [
+        "government_circular"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "south-africa-dpsa",
+      "name": "South Africa Department of Public Service and Administration",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration"
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "adapters": [
+        "government_circular"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "central-bank-of-kenya",
+      "name": "Central Bank of Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "economics_and_research",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-revenue-authority",
+      "name": "Kenya Revenue Authority",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "capital-markets-authority-kenya",
+      "name": "Capital Markets Authority Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance",
+        "legal"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "insurance-regulatory-authority-kenya",
+      "name": "Insurance Regulatory Authority Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "retirement-benefits-authority-kenya",
+      "name": "Retirement Benefits Authority Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "competition-authority-of-kenya",
+      "name": "Competition Authority of Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "legal",
+        "public_policy",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-investment-authority",
+      "name": "Kenya Investment Authority",
+      "organisation_type": "government",
+      "career_families": [
+        "investment",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-development-corporation",
+      "name": "Kenya Development Corporation",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "development-bank-of-kenya",
+      "name": "Development Bank of Kenya",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "agricultural-finance-corporation-kenya",
+      "name": "Agricultural Finance Corporation Kenya",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-industrial-estates",
+      "name": "Kenya Industrial Estates",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-mortgage-refinance-company",
+      "name": "Kenya Mortgage Refinance Company",
+      "organisation_type": "development_bank",
+      "career_families": [
+        "investment",
+        "banking_and_finance",
+        "development_programmes"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "national-social-security-fund-kenya",
+      "name": "National Social Security Fund Kenya",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "investment",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-national-infrastructure-fund",
+      "name": "Kenya National Infrastructure Fund",
+      "organisation_type": "government",
+      "career_families": [
+        "investment",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "university-of-nairobi",
+      "name": "University of Nairobi",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenyatta-university",
+      "name": "Kenyatta University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jomo-kenyatta-university-agriculture-technology",
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "moi-university",
+      "name": "Moi University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "egerton-university",
+      "name": "Egerton University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "maseno-university",
+      "name": "Maseno University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "masinde-muliro-university-science-technology",
+      "name": "Masinde Muliro University of Science and Technology",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "technical-university-of-kenya",
+      "name": "Technical University of Kenya",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "technical-university-of-mombasa",
+      "name": "Technical University of Mombasa",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dedan-kimathi-university-technology",
+      "name": "Dedan Kimathi University of Technology",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pwani-university",
+      "name": "Pwani University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "machakos-university",
+      "name": "Machakos University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "chuka-university",
+      "name": "Chuka University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kisii-university",
+      "name": "Kisii University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "karatina-university",
+      "name": "Karatina University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "meru-university-science-technology",
+      "name": "Meru University of Science and Technology",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "university-of-eldoret",
+      "name": "University of Eldoret",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "south-eastern-kenya-university",
+      "name": "South Eastern Kenya University",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "multimedia-university-of-kenya",
+      "name": "Multimedia University of Kenya",
+      "organisation_type": "university",
+      "career_families": [
+        "education",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "judicial-service-commission-kenya",
+      "name": "Judicial Service Commission Kenya",
+      "organisation_type": "government",
+      "career_families": [
+        "legal",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "parliamentary-service-commission-kenya",
+      "name": "Parliamentary Service Commission Kenya",
+      "organisation_type": "government",
+      "career_families": [
+        "government_administration",
+        "public_policy",
+        "legal"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-ports-authority",
+      "name": "Kenya Ports Authority",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "engineering"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-railways-corporation",
+      "name": "Kenya Railways Corporation",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "engineering"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-power",
+      "name": "Kenya Power",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-electricity-generating-company",
+      "name": "Kenya Electricity Generating Company",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-electricity-transmission-company",
+      "name": "Kenya Electricity Transmission Company",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "geothermal-development-company-kenya",
+      "name": "Geothermal Development Company Kenya",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rural-electrification-renewable-energy-corporation",
+      "name": "Rural Electrification and Renewable Energy Corporation",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "water-services-regulatory-board-kenya",
+      "name": "Water Services Regulatory Board Kenya",
+      "organisation_type": "regulator",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "athi-water-works-development-agency",
+      "name": "Athi Water Works Development Agency",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nairobi-city-water-sewerage-company",
+      "name": "Nairobi City Water and Sewerage Company",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-airports-authority",
+      "name": "Kenya Airports Authority",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-pipeline-company",
+      "name": "Kenya Pipeline Company",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-airways",
+      "name": "Kenya Airways",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-medical-supplies-authority",
+      "name": "Kenya Medical Supplies Authority",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-reinsurance-corporation",
+      "name": "Kenya Reinsurance Corporation",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-broadcasting-corporation",
+      "name": "Kenya Broadcasting Corporation",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "postal-corporation-of-kenya",
+      "name": "Postal Corporation of Kenya",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "new-kenya-cooperative-creameries",
+      "name": "New Kenya Cooperative Creameries",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "national-cereals-produce-board",
+      "name": "National Cereals and Produce Board",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-seed-company",
+      "name": "Kenya Seed Company",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "national-oil-corporation-kenya",
+      "name": "National Oil Corporation of Kenya",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenyatta-international-convention-centre",
+      "name": "Kenyatta International Convention Centre",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-tourism-board",
+      "name": "Kenya Tourism Board",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kenya-bureau-of-standards",
+      "name": "Kenya Bureau of Standards",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "national-transport-safety-authority",
+      "name": "National Transport and Safety Authority",
+      "organisation_type": "state_owned_enterprise",
+      "career_families": [
+        "operations",
+        "government_administration"
+      ],
+      "countries": [
+        "KE"
+      ],
+      "adapters": [
+        "public_institution_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "standard-chartered",
+      "name": "Standard Chartered",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "standard-bank-group",
+      "name": "Standard Bank Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "NG",
+        "GH",
+        "UG",
+        "TZ"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "absa-group",
+      "name": "Absa Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "GH",
+        "UG",
+        "TZ",
+        "BW"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "citigroup",
+      "name": "Citigroup",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ecobank-transnational",
+      "name": "Ecobank Transnational",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "CI",
+        "SN",
+        "TG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "united-bank-for-africa",
+      "name": "United Bank for Africa",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "UG",
+        "TZ"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "access-bank-group",
+      "name": "Access Bank Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "ZA",
+        "RW"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "equity-group-holdings",
+      "name": "Equity Group Holdings",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "CD",
+        "SS"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kcb-group",
+      "name": "KCB Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "BI",
+        "SS"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ncba-group",
+      "name": "NCBA Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "CI",
+        "GH"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "im-group",
+      "name": "I&M Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "TZ",
+        "RW",
+        "UG",
+        "MU"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cooperative-bank-kenya",
+      "name": "Co-operative Bank of Kenya",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "SS"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "diamond-trust-bank-group",
+      "name": "Diamond Trust Bank Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "BI"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "old-mutual-africa",
+      "name": "Old Mutual Africa",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "ZW",
+        "MW",
+        "NA",
+        "UG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sanlam",
+      "name": "Sanlam",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "MA",
+        "NG",
+        "GH"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "allianz",
+      "name": "Allianz",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "MA",
+        "CI",
+        "EG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aig",
+      "name": "AIG",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "ZA",
+        "KE",
+        "EG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "prudential",
+      "name": "Prudential",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "risk_and_compliance"
+      ],
+      "countries": [
+        "KE",
+        "GH",
+        "UG",
+        "CI",
+        "CM"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
+      "organisation_type": "multinational",
+      "career_families": [
+        "banking_and_finance",
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "smartrecruiters"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deloitte",
+      "name": "Deloitte",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "legal",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pwc",
+      "name": "PwC",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "legal",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ey",
+      "name": "EY",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "legal",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kpmg",
+      "name": "KPMG",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "legal",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "accenture",
+      "name": "Accenture",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mckinsey-company",
+      "name": "McKinsey & Company",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "boston-consulting-group",
+      "name": "Boston Consulting Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bain-company",
+      "name": "Bain & Company",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dalberg-advisors",
+      "name": "Dalberg Advisors",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "SN",
+        "RW",
+        "NG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "control-risks",
+      "name": "Control Risks",
+      "organisation_type": "multinational",
+      "career_families": [
+        "consulting",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "oracle-corporation",
+      "name": "Oracle",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ericsson",
+      "name": "Ericsson",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nokia",
+      "name": "Nokia",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "glovo",
+      "name": "Glovo",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jumia",
+      "name": "Jumia",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "safaricom",
+      "name": "Safaricom",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ET"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "airtel-africa",
+      "name": "Airtel Africa",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "NG",
+        "UG",
+        "TZ",
+        "ZM",
+        "MW",
+        "RW"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mtn-group",
+      "name": "MTN Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "ZA",
+        "NG",
+        "GH",
+        "UG",
+        "RW",
+        "ZM"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "EG",
+        "MA",
+        "CI",
+        "SN",
+        "CM",
+        "TN"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "liquid-intelligent-technologies",
+      "name": "Liquid Intelligent Technologies",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "ZW",
+        "ZM",
+        "UG",
+        "RW"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ihs-towers",
+      "name": "IHS Towers",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "engineering"
+      ],
+      "countries": [
+        "NG",
+        "ZA",
+        "RW",
+        "CM",
+        "CI"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "africa-data-centres",
+      "name": "Africa Data Centres",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "flutterwave",
+      "name": "Flutterwave",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "NG",
+        "KE",
+        "GH",
+        "ZA"
+      ],
+      "adapters": [
+        "workable"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "m-kopa",
+      "name": "M-KOPA",
+      "organisation_type": "multinational",
+      "career_families": [
+        "technology",
+        "banking_and_finance"
+      ],
+      "countries": [
+        "KE",
+        "UG",
+        "NG",
+        "GH",
+        "ZA"
+      ],
+      "adapters": [
+        "workable"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "unilever",
+      "name": "Unilever",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "procter-gamble",
+      "name": "Procter & Gamble",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nestle",
+      "name": "Nestlé",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "diageo",
+      "name": "Diageo",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "british-american-tobacco",
+      "name": "British American Tobacco",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "coca-cola-company",
+      "name": "The Coca-Cola Company",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "coca-cola-beverages-africa",
+      "name": "Coca-Cola Beverages Africa",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pepsico",
+      "name": "PepsiCo",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mars-incorporated",
+      "name": "Mars Incorporated",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mondelez-international",
+      "name": "Mondelez International",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "danone",
+      "name": "Danone",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "heineken",
+      "name": "HEINEKEN",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ab-inbev",
+      "name": "AB InBev",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "reckitt",
+      "name": "Reckitt",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "loreal",
+      "name": "L’Oréal",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "marketing_communications"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "johnson-johnson",
+      "name": "Johnson & Johnson",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "roche",
+      "name": "Roche",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "novartis",
+      "name": "Novartis",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gsk",
+      "name": "GSK",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pfizer",
+      "name": "Pfizer",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "astrazeneca",
+      "name": "AstraZeneca",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sanofi",
+      "name": "Sanofi",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bayer",
+      "name": "Bayer",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "abbott",
+      "name": "Abbott",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "economics_and_research"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "medtronic",
+      "name": "Medtronic",
+      "organisation_type": "multinational",
+      "career_families": [
+        "health",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "totalenergies",
+      "name": "TotalEnergies",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bp",
+      "name": "bp",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "eni",
+      "name": "Eni",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "engie",
+      "name": "ENGIE",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "siemens",
+      "name": "Siemens",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "schneider-electric",
+      "name": "Schneider Electric",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ge-vernova",
+      "name": "GE Vernova",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "maersk",
+      "name": "Maersk",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "procurement"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dhl-group",
+      "name": "DHL Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "procurement"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dp-world",
+      "name": "DP World",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "procurement"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "africa-global-logistics",
+      "name": "Africa Global Logistics",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "procurement"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fedex",
+      "name": "FedEx",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "procurement"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "emirates-group",
+      "name": "Emirates Group",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "qatar-airways",
+      "name": "Qatar Airways",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "engineering"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "marriott-international",
+      "name": "Marriott International",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "human_resources"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hilton",
+      "name": "Hilton",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "human_resources"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "workday"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "accor",
+      "name": "Accor",
+      "organisation_type": "multinational",
+      "career_families": [
+        "operations",
+        "human_resources"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "smartrecruiters"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cfao",
+      "name": "CFAO",
+      "organisation_type": "multinational",
+      "career_families": [
+        "engineering",
+        "operations"
+      ],
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "adapters": [
+        "multinational_html"
+      ],
+      "enabled": true
+    }
+  ]
+}

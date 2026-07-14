@@ -1,0 +1,19 @@
+{
+  "offers": [
+    {
+      "id": 501,
+      "slug": "investment-analyst-africa",
+      "title": "Investment Analyst",
+      "description": "<p>Support investments across Africa. Minimum 3 years of experience.</p>",
+      "requirements": "<p>Bachelor's degree required. Closing date: 31 July 2026.</p>",
+      "locations": [{"city": "Nairobi", "country": "Kenya", "name": "Nairobi, Kenya"}],
+      "department": "Finance",
+      "employment_type": "Full-time",
+      "workplace_type": "Hybrid",
+      "published_at": "2026-07-10T10:00:00Z",
+      "careers_url": "https://example.recruitee.com/o/investment-analyst-africa",
+      "apply_url": "https://example.recruitee.com/o/investment-analyst-africa/apply",
+      "status": "published"
+    }
+  ]
+}

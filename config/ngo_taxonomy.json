@@ -1,0 +1,425 @@
+{
+  "taxonomy_version": "1.0",
+  "classifier_version": "1.1",
+  "_comment": "Phase 8 NGO, UN and development-programme role taxonomy. Employer context never creates programme relevance without role evidence. Phase 8.1 excludes generic multilaterals from the NGO/UN filter; UN agencies retain un_agency type.",
+  "classification_values": [
+    "humanitarian",
+    "development",
+    "technical_programme",
+    "institutional_support",
+    "not_ngo_un"
+  ],
+  "ngo_or_un_organisation_types": [
+    "ngo",
+    "un_agency",
+    "foundation",
+    "consulting_firm"
+  ],
+  "track_values": [
+    "humanitarian_response",
+    "programme_management",
+    "monitoring_evaluation_learning",
+    "grants_and_compliance",
+    "safeguarding_protection",
+    "public_health",
+    "nutrition_food_security",
+    "livelihoods_economic_inclusion",
+    "education_programmes",
+    "advocacy_policy",
+    "field_operations",
+    "humanitarian_logistics",
+    "wash_shelter",
+    "climate_resilience",
+    "migration_displacement",
+    "peacebuilding_governance",
+    "gender_inclusion",
+    "research_learning",
+    "partnerships_resource_mobilisation",
+    "community_engagement"
+  ],
+  "tracks": [
+    {
+      "id": "humanitarian_response",
+      "label": "Humanitarian Response",
+      "classification": "humanitarian",
+      "canonical_specialisation": "humanitarian_response",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "humanitarian response",
+        "emergency response",
+        "emergency coordinator",
+        "humanitarian affairs",
+        "emergency programme"
+      ],
+      "context_phrases": [
+        "humanitarian emergency",
+        "rapid response",
+        "crisis response"
+      ]
+    },
+    {
+      "id": "programme_management",
+      "label": "Programme Management",
+      "classification": "development",
+      "canonical_specialisation": "programme_management",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "programme manager",
+        "program manager",
+        "programme officer",
+        "program officer",
+        "project manager",
+        "project officer"
+      ],
+      "context_phrases": [
+        "programme delivery",
+        "project implementation"
+      ]
+    },
+    {
+      "id": "monitoring_evaluation_learning",
+      "label": "Monitoring, Evaluation and Learning",
+      "classification": "development",
+      "canonical_specialisation": "monitoring_evaluation",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "monitoring evaluation and learning",
+        "monitoring and evaluation",
+        "mel adviser",
+        "mel officer",
+        "m&e officer",
+        "impact evaluation"
+      ],
+      "context_phrases": [
+        "results framework",
+        "learning agenda",
+        "theory of change"
+      ]
+    },
+    {
+      "id": "grants_and_compliance",
+      "label": "Grants and Compliance",
+      "classification": "development",
+      "canonical_specialisation": "grants_management",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "grants manager",
+        "grants officer",
+        "grant management",
+        "awards manager",
+        "sub grants"
+      ],
+      "context_phrases": [
+        "donor compliance",
+        "grant portfolio"
+      ]
+    },
+    {
+      "id": "safeguarding_protection",
+      "label": "Safeguarding and Protection",
+      "classification": "humanitarian",
+      "canonical_specialisation": "safeguarding",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "safeguarding",
+        "protection officer",
+        "child protection",
+        "gender based violence",
+        "psea"
+      ],
+      "context_phrases": [
+        "protection programming",
+        "survivor centred"
+      ]
+    },
+    {
+      "id": "public_health",
+      "label": "Public Health",
+      "classification": "technical_programme",
+      "canonical_specialisation": "public_health",
+      "role_family": "health",
+      "title_phrases": [
+        "public health",
+        "health programme",
+        "health program",
+        "epidemiologist",
+        "health specialist"
+      ],
+      "context_phrases": [
+        "health systems strengthening",
+        "disease prevention"
+      ]
+    },
+    {
+      "id": "nutrition_food_security",
+      "label": "Nutrition and Food Security",
+      "classification": "technical_programme",
+      "canonical_specialisation": "nutrition",
+      "role_family": "health",
+      "title_phrases": [
+        "nutrition specialist",
+        "nutrition officer",
+        "food security",
+        "food assistance",
+        "food systems"
+      ],
+      "context_phrases": [
+        "malnutrition",
+        "nutrition programming"
+      ]
+    },
+    {
+      "id": "livelihoods_economic_inclusion",
+      "label": "Livelihoods and Economic Inclusion",
+      "classification": "development",
+      "canonical_specialisation": "livelihoods_economic_inclusion",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "livelihoods",
+        "economic inclusion",
+        "cash and livelihoods",
+        "market systems development",
+        "youth employment"
+      ],
+      "context_phrases": [
+        "income generation",
+        "financial inclusion programme"
+      ]
+    },
+    {
+      "id": "education_programmes",
+      "label": "Education Programmes",
+      "classification": "technical_programme",
+      "canonical_specialisation": "education_programmes",
+      "role_family": "education",
+      "title_phrases": [
+        "education specialist",
+        "education officer",
+        "education programme",
+        "education program",
+        "learning specialist"
+      ],
+      "context_phrases": [
+        "education in emergencies",
+        "foundational learning"
+      ]
+    },
+    {
+      "id": "advocacy_policy",
+      "label": "Advocacy and Policy",
+      "classification": "development",
+      "canonical_specialisation": "advocacy",
+      "role_family": "public_policy",
+      "title_phrases": [
+        "advocacy adviser",
+        "advocacy officer",
+        "policy adviser",
+        "policy officer",
+        "campaigns manager"
+      ],
+      "context_phrases": [
+        "policy influence",
+        "government relations"
+      ]
+    },
+    {
+      "id": "field_operations",
+      "label": "Field Operations",
+      "classification": "humanitarian",
+      "canonical_specialisation": "field_operations",
+      "role_family": "operations",
+      "title_phrases": [
+        "field coordinator",
+        "field manager",
+        "area coordinator",
+        "area manager",
+        "country operations"
+      ],
+      "context_phrases": [
+        "field office",
+        "programme operations"
+      ]
+    },
+    {
+      "id": "humanitarian_logistics",
+      "label": "Humanitarian Supply Chain and Logistics",
+      "classification": "humanitarian",
+      "canonical_specialisation": "logistics_humanitarian",
+      "role_family": "logistics",
+      "title_phrases": [
+        "humanitarian logistics",
+        "supply chain coordinator",
+        "logistics coordinator",
+        "emergency supply"
+      ],
+      "context_phrases": [
+        "last mile delivery",
+        "relief supplies"
+      ]
+    },
+    {
+      "id": "wash_shelter",
+      "label": "WASH and Shelter",
+      "classification": "humanitarian",
+      "canonical_specialisation": "shelter_wash",
+      "role_family": "engineering",
+      "title_phrases": [
+        "wash officer",
+        "wash specialist",
+        "water sanitation and hygiene",
+        "shelter officer",
+        "shelter specialist"
+      ],
+      "context_phrases": [
+        "sanitation programming",
+        "water access"
+      ]
+    },
+    {
+      "id": "climate_resilience",
+      "label": "Climate Resilience",
+      "classification": "technical_programme",
+      "canonical_specialisation": "climate_adaptation",
+      "role_family": "energy",
+      "title_phrases": [
+        "climate resilience",
+        "climate adaptation",
+        "resilience adviser",
+        "disaster risk reduction"
+      ],
+      "context_phrases": [
+        "climate programming",
+        "community resilience"
+      ]
+    },
+    {
+      "id": "migration_displacement",
+      "label": "Migration and Displacement",
+      "classification": "humanitarian",
+      "canonical_specialisation": "migration_displacement",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "migration officer",
+        "displacement adviser",
+        "refugee programme",
+        "refugee program",
+        "durable solutions"
+      ],
+      "context_phrases": [
+        "internally displaced",
+        "forced displacement"
+      ]
+    },
+    {
+      "id": "peacebuilding_governance",
+      "label": "Peacebuilding and Governance",
+      "classification": "development",
+      "canonical_specialisation": "peacebuilding_governance",
+      "role_family": "public_policy",
+      "title_phrases": [
+        "peacebuilding",
+        "conflict prevention",
+        "governance adviser",
+        "democracy specialist",
+        "stabilisation adviser"
+      ],
+      "context_phrases": [
+        "social cohesion",
+        "conflict sensitivity"
+      ]
+    },
+    {
+      "id": "gender_inclusion",
+      "label": "Gender and Inclusion",
+      "classification": "technical_programme",
+      "canonical_specialisation": "gender_inclusion",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "gender adviser",
+        "gender specialist",
+        "social inclusion",
+        "disability inclusion",
+        "women empowerment"
+      ],
+      "context_phrases": [
+        "gender equality",
+        "inclusive programming"
+      ]
+    },
+    {
+      "id": "research_learning",
+      "label": "Research and Learning",
+      "classification": "development",
+      "canonical_specialisation": "research_learning",
+      "role_family": "economics_and_research",
+      "title_phrases": [
+        "research manager",
+        "research officer",
+        "learning adviser",
+        "evidence specialist",
+        "knowledge management"
+      ],
+      "context_phrases": [
+        "operational research",
+        "evidence generation"
+      ]
+    },
+    {
+      "id": "partnerships_resource_mobilisation",
+      "label": "Partnerships and Resource Mobilisation",
+      "classification": "development",
+      "canonical_specialisation": "resource_mobilisation",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "partnerships manager",
+        "partnerships officer",
+        "resource mobilisation",
+        "resource mobilization",
+        "fundraising manager"
+      ],
+      "context_phrases": [
+        "donor engagement",
+        "strategic partnerships"
+      ]
+    },
+    {
+      "id": "community_engagement",
+      "label": "Community Engagement",
+      "classification": "development",
+      "canonical_specialisation": "community_engagement",
+      "role_family": "development_programmes",
+      "title_phrases": [
+        "community engagement",
+        "community mobilisation",
+        "community mobilization",
+        "community development officer"
+      ],
+      "context_phrases": [
+        "accountability to affected populations",
+        "localisation"
+      ]
+    }
+  ],
+  "institutional_support_title_phrases": [
+    "software engineer",
+    "data engineer",
+    "accountant",
+    "finance manager",
+    "human resources",
+    "hr business partner",
+    "legal counsel",
+    "procurement officer",
+    "administrative assistant",
+    "executive assistant",
+    "it support",
+    "cybersecurity"
+  ],
+  "negative_title_phrases": [
+    "sales executive",
+    "commercial account executive",
+    "retail manager",
+    "product designer",
+    "frontend engineer",
+    "backend engineer"
+  ]
+}

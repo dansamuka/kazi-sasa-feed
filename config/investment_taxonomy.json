@@ -1,0 +1,617 @@
+{
+  "taxonomy_version": "1.0",
+  "classifier_version": "1.0",
+  "_comment": "Phase 6 reviewed investment and DFI role taxonomy. Title evidence outranks body text; institution type is context, never sufficient by itself to classify a role as investment.",
+  "classification_values": [
+    "core_investment",
+    "investment_adjacent",
+    "institutional_support",
+    "not_investment"
+  ],
+  "dfi_relevance_values": [
+    "direct_investment",
+    "institutional_role",
+    "adjacent_experience",
+    "none"
+  ],
+  "investment_organisation_types": [
+    "dfi",
+    "development_bank",
+    "investment_firm",
+    "asset_manager",
+    "private_equity",
+    "venture_capital"
+  ],
+  "dfi_organisation_types": [
+    "dfi",
+    "development_bank",
+    "multilateral"
+  ],
+  "finance_organisation_types": [
+    "commercial_bank",
+    "regulator"
+  ],
+  "hard_negative_title_phrases": [
+    "accountant",
+    "accounting manager",
+    "accounts payable",
+    "accounts receivable",
+    "bookkeeper",
+    "payroll",
+    "financial controller",
+    "finance controller",
+    "finance administrator",
+    "finance assistant",
+    "finance manager",
+    "head of finance",
+    "chief financial officer",
+    "cfo",
+    "tax manager",
+    "tax accountant",
+    "internal auditor",
+    "external auditor",
+    "audit manager",
+    "billing specialist",
+    "collections agent",
+    "commission administrator"
+  ],
+  "institutional_support_title_phrases": [
+    "software engineer",
+    "data engineer",
+    "product manager",
+    "human resources",
+    "talent acquisition",
+    "legal counsel",
+    "communications officer",
+    "procurement officer",
+    "executive assistant",
+    "administrative assistant",
+    "office manager",
+    "security officer",
+    "it support",
+    "systems administrator"
+  ],
+  "generic_investment_title_phrases": [
+    "investment analyst",
+    "investment associate",
+    "investment officer",
+    "senior investment officer",
+    "investment manager",
+    "investment director",
+    "investment principal",
+    "investment specialist",
+    "investment advisor",
+    "investment adviser",
+    "investment lead",
+    "chief investment officer",
+    "responsable des investissements",
+    "charge d investissement",
+    "chargé d investissement",
+    "analyste en investissement",
+    "analyste en investissements",
+    "gestor de investimentos",
+    "analista de investimentos",
+    "oficial de investimentos",
+    "مسؤول استثمار",
+    "محلل استثمار"
+  ],
+  "adjacent_finance_specialisations": [
+    "credit_analysis",
+    "treasury",
+    "risk_management",
+    "impact_measurement",
+    "esg_safeguards",
+    "resource_mobilisation"
+  ],
+  "non_investment_finance_specialisations": [
+    "general_finance",
+    "auditing",
+    "tax",
+    "insurance",
+    "microfinance"
+  ],
+  "tracks": [
+    {
+      "id": "investment_analysis",
+      "label": "Investment Analysis",
+      "classification": "core_investment",
+      "canonical_specialisation": "investment_analysis",
+      "title_phrases": [
+        "investment analyst",
+        "investment research analyst",
+        "investment associate",
+        "investment officer",
+        "analyste en investissement",
+        "analista de investimentos",
+        "محلل استثمار"
+      ],
+      "context_phrases": [
+        "investment appraisal",
+        "investment due diligence",
+        "investment memo",
+        "investment committee",
+        "financial modelling",
+        "financial modeling"
+      ]
+    },
+    {
+      "id": "investment_operations",
+      "label": "Investment Operations",
+      "classification": "core_investment",
+      "canonical_specialisation": "investment_operations",
+      "title_phrases": [
+        "investment operations",
+        "investment manager",
+        "senior investment officer",
+        "investment director",
+        "investment principal",
+        "chief investment officer",
+        "responsable des investissements",
+        "gestor de investimentos",
+        "مسؤول استثمار"
+      ],
+      "context_phrases": [
+        "manage investment process",
+        "investment execution",
+        "investment approval",
+        "investment pipeline"
+      ]
+    },
+    {
+      "id": "portfolio_management",
+      "label": "Portfolio Management",
+      "classification": "core_investment",
+      "canonical_specialisation": "portfolio_management",
+      "title_phrases": [
+        "portfolio manager",
+        "portfolio officer",
+        "portfolio analyst",
+        "portfolio associate",
+        "portfolio management",
+        "gestionnaire de portefeuille",
+        "gestor de carteira"
+      ],
+      "context_phrases": [
+        "portfolio monitoring",
+        "portfolio performance",
+        "portfolio companies",
+        "investee companies"
+      ]
+    },
+    {
+      "id": "portfolio_operations",
+      "label": "Portfolio Operations",
+      "classification": "core_investment",
+      "canonical_specialisation": "portfolio_operations",
+      "title_phrases": [
+        "portfolio operations",
+        "portfolio value creation",
+        "operating partner",
+        "portfolio support"
+      ],
+      "context_phrases": [
+        "value creation plan",
+        "portfolio company operations",
+        "post investment support"
+      ]
+    },
+    {
+      "id": "private_equity",
+      "label": "Private Equity",
+      "classification": "core_investment",
+      "canonical_specialisation": "private_equity",
+      "title_phrases": [
+        "private equity",
+        "pe investment",
+        "buyout associate",
+        "buyout analyst"
+      ],
+      "context_phrases": [
+        "buyout investments",
+        "growth equity",
+        "management buyout"
+      ]
+    },
+    {
+      "id": "venture_capital",
+      "label": "Venture Capital",
+      "classification": "core_investment",
+      "canonical_specialisation": "venture_capital",
+      "title_phrases": [
+        "venture capital",
+        "vc associate",
+        "vc analyst",
+        "venture partner",
+        "venture investment"
+      ],
+      "context_phrases": [
+        "startup investments",
+        "deal sourcing",
+        "founder diligence"
+      ]
+    },
+    {
+      "id": "project_finance",
+      "label": "Project Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "project_finance",
+      "title_phrases": [
+        "project finance",
+        "financement de projets",
+        "financiamento de projetos",
+        "تمويل المشاريع"
+      ],
+      "context_phrases": [
+        "project finance modelling",
+        "non recourse financing",
+        "limited recourse financing"
+      ]
+    },
+    {
+      "id": "infrastructure_finance",
+      "label": "Infrastructure Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "infrastructure_finance",
+      "title_phrases": [
+        "infrastructure finance",
+        "infrastructure investment",
+        "infrastructure fund",
+        "financement des infrastructures",
+        "financiamento de infraestrutura"
+      ],
+      "context_phrases": [
+        "infrastructure transactions",
+        "infrastructure portfolio",
+        "public private partnership"
+      ]
+    },
+    {
+      "id": "climate_finance",
+      "label": "Climate Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "climate_finance",
+      "title_phrases": [
+        "climate finance",
+        "green finance",
+        "sustainable finance",
+        "climate investment",
+        "finance climat",
+        "financement climatique",
+        "finanças climáticas"
+      ],
+      "context_phrases": [
+        "green investment",
+        "climate fund",
+        "climate financing"
+      ]
+    },
+    {
+      "id": "blended_finance",
+      "label": "Blended Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "blended_finance",
+      "title_phrases": [
+        "blended finance",
+        "blended financing",
+        "financement mixte",
+        "financiamento misto"
+      ],
+      "context_phrases": [
+        "catalytic capital",
+        "concessional capital",
+        "first loss capital"
+      ]
+    },
+    {
+      "id": "trade_finance",
+      "label": "Trade Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "trade_finance",
+      "title_phrases": [
+        "trade finance",
+        "trade financing",
+        "financement du commerce",
+        "financiamento ao comércio",
+        "تمويل التجارة"
+      ],
+      "context_phrases": [
+        "letters of credit",
+        "supply chain finance",
+        "export finance"
+      ]
+    },
+    {
+      "id": "structured_finance",
+      "label": "Structured Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "structured_finance",
+      "title_phrases": [
+        "structured finance",
+        "structured financing",
+        "financement structuré",
+        "financiamento estruturado"
+      ],
+      "context_phrases": [
+        "securitisation",
+        "securitization",
+        "structured credit"
+      ]
+    },
+    {
+      "id": "capital_markets",
+      "label": "Capital Markets",
+      "classification": "core_investment",
+      "canonical_specialisation": "capital_markets",
+      "title_phrases": [
+        "capital markets",
+        "debt capital markets",
+        "equity capital markets",
+        "marchés de capitaux",
+        "mercado de capitais"
+      ],
+      "context_phrases": [
+        "bond issuance",
+        "equity issuance",
+        "capital raising"
+      ]
+    },
+    {
+      "id": "asset_management",
+      "label": "Asset Management",
+      "classification": "core_investment",
+      "canonical_specialisation": "asset_management",
+      "title_phrases": [
+        "asset management",
+        "fund manager",
+        "investment fund manager",
+        "gestion d actifs",
+        "gestão de ativos"
+      ],
+      "context_phrases": [
+        "assets under management",
+        "fund performance",
+        "investment mandate"
+      ]
+    },
+    {
+      "id": "corporate_finance",
+      "label": "Corporate Finance",
+      "classification": "core_investment",
+      "canonical_specialisation": "corporate_finance",
+      "title_phrases": [
+        "corporate finance",
+        "m&a advisory",
+        "mergers and acquisitions",
+        "transaction services",
+        "financement d entreprise",
+        "finanças corporativas"
+      ],
+      "context_phrases": [
+        "business valuation",
+        "deal execution",
+        "transaction due diligence"
+      ]
+    },
+    {
+      "id": "transaction_advisory",
+      "label": "Transaction Advisory",
+      "classification": "core_investment",
+      "canonical_specialisation": "transaction_advisory",
+      "title_phrases": [
+        "transaction advisory",
+        "transaction advisor",
+        "transaction adviser",
+        "deal advisory",
+        "conseil en transactions",
+        "assessoria de transações"
+      ],
+      "context_phrases": [
+        "transaction structuring",
+        "transaction execution",
+        "financial due diligence"
+      ]
+    },
+    {
+      "id": "deal_origination",
+      "label": "Deal Origination",
+      "classification": "core_investment",
+      "canonical_specialisation": "deal_origination",
+      "title_phrases": [
+        "deal origination",
+        "investment origination",
+        "origination officer",
+        "deal sourcing",
+        "origination des investissements"
+      ],
+      "context_phrases": [
+        "originate transactions",
+        "source investment opportunities",
+        "develop deal pipeline"
+      ]
+    },
+    {
+      "id": "syndications",
+      "label": "Syndications",
+      "classification": "core_investment",
+      "canonical_specialisation": "syndications",
+      "title_phrases": [
+        "syndications",
+        "loan syndication",
+        "syndicated finance",
+        "syndication de prêts"
+      ],
+      "context_phrases": [
+        "mobilise lenders",
+        "mobilize lenders",
+        "syndicated loans"
+      ]
+    },
+    {
+      "id": "guarantees_risk_insurance",
+      "label": "Guarantees and Political Risk Insurance",
+      "classification": "core_investment",
+      "canonical_specialisation": "guarantees_risk_insurance",
+      "title_phrases": [
+        "political risk insurance",
+        "investment guarantees",
+        "guarantee officer",
+        "guarantees specialist",
+        "assurance risque politique"
+      ],
+      "context_phrases": [
+        "credit enhancement",
+        "partial risk guarantee",
+        "partial credit guarantee"
+      ]
+    },
+    {
+      "id": "upstream_project_development",
+      "label": "Upstream and Project Development",
+      "classification": "core_investment",
+      "canonical_specialisation": "upstream_project_development",
+      "title_phrases": [
+        "upstream investment",
+        "upstream officer",
+        "project development",
+        "project developer",
+        "développement de projets"
+      ],
+      "context_phrases": [
+        "early stage project development",
+        "bankable project",
+        "project preparation"
+      ]
+    },
+    {
+      "id": "financial_institutions",
+      "label": "Financial Institutions",
+      "classification": "core_investment",
+      "canonical_specialisation": "financial_institutions",
+      "title_phrases": [
+        "financial institutions group",
+        "financial institutions investment",
+        "financial institutions officer",
+        "institutions financières"
+      ],
+      "context_phrases": [
+        "bank investments",
+        "financial institution clients",
+        "fig portfolio"
+      ]
+    },
+    {
+      "id": "credit",
+      "label": "Credit",
+      "classification": "investment_adjacent",
+      "canonical_specialisation": "credit_analysis",
+      "title_phrases": [
+        "credit analyst",
+        "credit officer",
+        "credit manager",
+        "credit risk officer",
+        "analyste crédit",
+        "analista de crédito",
+        "محلل ائتمان",
+        "credit risk associate"
+      ],
+      "context_phrases": [
+        "credit appraisal",
+        "credit underwriting",
+        "credit committee"
+      ]
+    },
+    {
+      "id": "treasury",
+      "label": "Treasury",
+      "classification": "investment_adjacent",
+      "canonical_specialisation": "treasury",
+      "title_phrases": [
+        "treasury analyst",
+        "treasury officer",
+        "treasury manager",
+        "head of treasury",
+        "trésorerie",
+        "tesouraria"
+      ],
+      "context_phrases": [
+        "liquidity management",
+        "foreign exchange management",
+        "cash and liquidity"
+      ]
+    },
+    {
+      "id": "impact_measurement",
+      "label": "Impact Measurement",
+      "classification": "investment_adjacent",
+      "canonical_specialisation": "impact_measurement",
+      "title_phrases": [
+        "impact measurement",
+        "impact management",
+        "impact investing",
+        "impact officer",
+        "mesure d impact"
+      ],
+      "context_phrases": [
+        "investment impact",
+        "impact thesis",
+        "impact metrics"
+      ]
+    },
+    {
+      "id": "esg_safeguards",
+      "label": "ESG and Safeguards",
+      "classification": "investment_adjacent",
+      "canonical_specialisation": "esg_safeguards",
+      "title_phrases": [
+        "esg specialist",
+        "environmental and social specialist",
+        "safeguards specialist",
+        "esg officer",
+        "spécialiste environnemental et social"
+      ],
+      "context_phrases": [
+        "investment safeguards",
+        "environmental and social due diligence",
+        "esg due diligence"
+      ]
+    },
+    {
+      "id": "resource_mobilisation",
+      "label": "Resource Mobilisation",
+      "classification": "investment_adjacent",
+      "canonical_specialisation": "resource_mobilisation",
+      "title_phrases": [
+        "resource mobilisation",
+        "resource mobilization",
+        "capital mobilisation",
+        "capital mobilization",
+        "mobilisation des ressources"
+      ],
+      "context_phrases": [
+        "mobilise private capital",
+        "mobilize private capital",
+        "fundraising from institutional investors"
+      ]
+    }
+  ],
+  "absolute_negative_title_phrases": [
+    "accountant",
+    "accounting manager",
+    "accounts payable",
+    "accounts receivable",
+    "bookkeeper",
+    "payroll",
+    "financial controller",
+    "finance controller",
+    "tax manager",
+    "tax accountant",
+    "internal auditor",
+    "external auditor",
+    "audit manager",
+    "billing specialist",
+    "commission administrator",
+    "technical portfolio",
+    "project portfolio",
+    "product portfolio"
+  ]
+}

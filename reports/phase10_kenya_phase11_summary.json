@@ -1,0 +1,33 @@
+{
+  "report_version": "1.0",
+  "phase": "Kenya public institutions + Phase 11",
+  "generated_at": "2026-07-13T13:22:05.127816Z",
+  "feed_version": "3.8",
+  "summary": {
+    "kenya_public_institution_count": 60,
+    "enabled_kenya_public_institutions": 59,
+    "kenya_public_institution_category_count": 17,
+    "multinational_target_count": 100,
+    "enabled_multinational_targets": 68,
+    "multinational_sector_count": 17,
+    "organisation_registry_count": 243,
+    "new_collector_adapters": [
+      "public_institution_html",
+      "workday",
+      "smartrecruiters",
+      "workable",
+      "multinational_html"
+    ]
+  },
+  "compatibility": {
+    "additive_only": true,
+    "legacy_fields_preserved": true,
+    "stable_packaged_ids_preserved": true,
+    "packaged_snapshot_live_refresh_performed": false
+  },
+  "limitations": [
+    "The packaged snapshot was migrated offline and therefore contains no newly fetched Phase 11 vacancies.",
+    "Registry-only disabled sources require stable public vacancy endpoint validation before activation.",
+    "HTML career-page adapters are conservative and may return zero records for JavaScript-only or anti-bot sites."
+  ]
+}

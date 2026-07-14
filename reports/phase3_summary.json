@@ -1,0 +1,48 @@
+{
+  "phase": "3",
+  "implemented_at": "2026-07-13T07:25:51.557823Z",
+  "feed_version": "3.1",
+  "opportunity_count": 204,
+  "stable_id_sha256": "ba79e6c44627ddcaea771aa368a249f58bcfee806e2cc44329346baad32d4e76",
+  "collector_count": 11,
+  "tests_passed": 123,
+  "jobicy_list_string_fix": true,
+  "requested_filters": [
+    "country",
+    "city",
+    "role_family",
+    "organisation_type",
+    "eligibility"
+  ],
+  "collector_framework": {
+    "registry_driven": true,
+    "independent_source_execution": true,
+    "isolated_failures": true,
+    "runtime_health_metadata": true,
+    "collector_manifest": "reports/collector_manifest.json",
+    "partial_failure_rollback": true,
+    "shared_http_client": true,
+    "retry_backoff": true,
+    "per_source_http_policy": true,
+    "json_cache": true,
+    "structured_error_log": "reports/collector_errors.json"
+  },
+  "validation": {
+    "feed_errors": 0,
+    "feed_warnings": 0,
+    "seed_errors": 0,
+    "seed_warnings": 0
+  },
+  "compatibility": {
+    "stable_ids_unchanged": true,
+    "feed_schema_unchanged": true,
+    "android_projection_unchanged": true
+  },
+  "reports": {
+    "collector_manifest": "reports/collector_manifest.json",
+    "collector_errors": "reports/collector_errors.json",
+    "source_health": "reports/source_health.json",
+    "coverage": "reports/coverage_report.json"
+  },
+  "stable_id_digest_method": "sha256(compact JSON array of opportunity IDs in feed order)"
+}

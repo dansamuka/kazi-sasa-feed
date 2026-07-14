@@ -1,0 +1,13 @@
+{
+  "config_version": "1.0",
+  "_comment": "South Africa is currently Adzuna's only African country index. The general search preserves breadth; targeted searches improve recall for Kazi Sasa's priority lanes.",
+  "searches": [
+    {"country": "za", "query": null, "max_pages": 3, "results_per_page": 50, "purpose": "general breadth"},
+    {"country": "za", "query": "investment", "max_pages": 1, "results_per_page": 50, "purpose": "investment roles"},
+    {"country": "za", "query": "project finance", "max_pages": 1, "results_per_page": 50, "purpose": "DFI and infrastructure finance"},
+    {"country": "za", "query": "climate finance", "max_pages": 1, "results_per_page": 50, "purpose": "climate and sustainable finance"},
+    {"country": "za", "query": "international development", "max_pages": 1, "results_per_page": 50, "purpose": "development roles"},
+    {"country": "za", "query": "NGO", "max_pages": 1, "results_per_page": 50, "purpose": "NGO roles"},
+    {"country": "za", "query": "public sector", "max_pages": 1, "results_per_page": 50, "purpose": "public service and advisory roles"}
+  ]
+}

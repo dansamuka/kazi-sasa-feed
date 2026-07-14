@@ -1,0 +1,12 @@
+{
+  "hotfix": "phase11_run35",
+  "feed_version": "3.8",
+  "fixed_failures": [
+    "Kenya PSC javascript postback apply URLs",
+    "non-canonical government_public_sector industry",
+    "run #35 Himalayas healthcare taxonomy warnings",
+    "Jobicy Healthcare & Medical taxonomy warnings"
+  ],
+  "publication_contract_changed": false,
+  "stable_id_contract_changed": false
+}

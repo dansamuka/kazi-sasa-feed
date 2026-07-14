@@ -1,0 +1,1684 @@
+{
+  "meta": {
+    "feed_version": "3.8",
+    "generated_at": "2026-07-13T06:17:23.164332Z",
+    "next_expected_update": "2026-07-13T12:17:23.164332Z",
+    "opportunity_count": 10,
+    "source_count": 9,
+    "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
+    "is_sample_data": true,
+    "supported_languages": [
+      "en",
+      "fr",
+      "pt",
+      "ar",
+      "sw"
+    ],
+    "location_registry_version": "2.0",
+    "source_expansion_version": "1.0",
+    "deduplication_version": "2.0",
+    "investment_taxonomy_version": "1.0",
+    "investment_classifier_version": "1.0",
+    "dfi_source_pack_version": "1.0",
+    "enterprise_adapter_version": "1.1",
+    "ngo_source_pack_version": "1.0",
+    "ngo_taxonomy_version": "1.0",
+    "ngo_classifier_version": "1.1",
+    "official_vacancy_quality_version": "1.1",
+    "government_source_pack_version": "1.0",
+    "government_schema_version": "1.0",
+    "kenya_public_institutions_version": "1.0",
+    "multinational_source_pack_version": "1.0",
+    "multinational_adapter_version": "1.0"
+  },
+  "opportunities": [
+    {
+      "id": "ks_2026-07-08_acumen_9f2a1c",
+      "title": "Senior Climate Finance Analyst",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Acumen",
+        "type": "ngo",
+        "verified": true,
+        "id": "acumen",
+        "type_detail": "ngo",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "Kenya",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "city": "Nairobi",
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -1.2833,
+          "lon": 36.8167
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Nairobi",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "hybrid",
+      "seniority": "senior",
+      "categories": [
+        "climate_finance",
+        "general_programmes"
+      ],
+      "skills_required": [
+        "financial_modelling",
+        "credit_analysis_skill",
+        "excel"
+      ],
+      "skills_preferred": [
+        "impact_measurement",
+        "python"
+      ],
+      "posted_at": "2026-07-08T09:00:00Z",
+      "deadline": "2026-07-25T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "period": "year",
+        "disclosed": false
+      },
+      "source": {
+        "name": "ReliefWeb",
+        "url": "https://reliefweb.int/jobs/acumen-senior-climate-finance-analyst",
+        "confidence": "official",
+        "last_seen_at": "2026-07-10T06:00:00Z",
+        "id": "reliefweb",
+        "kind": "institutional_aggregator",
+        "registry_managed": true
+      },
+      "apply_url": "https://acumen.org/careers/senior-climate-finance-analyst",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": "Open to Kenya-based applicants; work authorisation required.",
+      "summary": "Lead deal analysis and portfolio monitoring across off-grid energy and climate-adjacent investments in East Africa.",
+      "raw_description_url": "https://reliefweb.int/jobs/acumen-senior-climate-finance-analyst",
+      "specialisations": [
+        "climate_finance",
+        "general_programmes"
+      ],
+      "industry": "financial_services",
+      "role_family": "investment",
+      "role_subfamily": "climate_finance",
+      "thematic_sectors": [
+        "finance",
+        "climate"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.86,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "core_investment",
+        "track": "climate_finance",
+        "canonical_specialisation": "climate_finance",
+        "confidence": 0.98,
+        "evidence": [
+          "canonical_specialisation:climate_finance",
+          "title_phrase:climate_finance"
+        ],
+        "negative_evidence": [],
+        "dfi_relevance": "adjacent_experience",
+        "dfi_confidence": 0.76,
+        "is_investment_role": true
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "ngo",
+        "registry_id": "acumen",
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": true,
+        "organisation_group": "ngo",
+        "classification": "institutional_support",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.68,
+        "evidence": [
+          "ngo_or_un_institution"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": "acumen",
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "ngo",
+        "registry_id": "acumen",
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "acumen",
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "acumen",
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-07-06_responsability_3b7e2d",
+      "title": "Credit Risk Associate, Energy Access",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "responsAbility Investments",
+        "type": "private",
+        "verified": true,
+        "id": null,
+        "type_detail": "private",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Remote (Kenya)",
+        "country": "Kenya",
+        "region": "Nairobi",
+        "is_remote_from_kenya": true,
+        "scope": "national",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 0.93,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_evidence": [
+          "existing_country"
+        ],
+        "matched_location_alias": "Kenya",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "remote_kenya",
+      "seniority": "mid",
+      "categories": [
+        "climate_finance",
+        "risk_management"
+      ],
+      "skills_required": [
+        "credit_analysis_skill",
+        "excel",
+        "financial_modelling"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-07-06T09:00:00Z",
+      "deadline": "2026-07-20T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "responsAbility Careers",
+        "url": "https://www.responsability.com/careers",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-09T12:00:00Z",
+        "id": null,
+        "kind": "aggregator",
+        "registry_managed": false
+      },
+      "apply_url": "https://www.responsability.com/careers/credit-risk-associate",
+      "apply_is_official": false,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Support borrowing-base reviews and credit memos for PAYGo solar and productive-use lending clients.",
+      "raw_description_url": "https://www.responsability.com/careers/credit-risk-associate",
+      "specialisations": [
+        "climate_finance",
+        "risk_management"
+      ],
+      "industry": "financial_services",
+      "role_family": "investment",
+      "role_subfamily": "credit_analysis",
+      "thematic_sectors": [
+        "finance",
+        "climate"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.92,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "remote_from_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "investment_adjacent",
+        "track": "credit",
+        "canonical_specialisation": "credit_analysis",
+        "confidence": 0.96,
+        "evidence": [
+          "title_phrase:credit_risk_associate"
+        ],
+        "negative_evidence": [],
+        "dfi_relevance": "adjacent_experience",
+        "dfi_confidence": 0.76,
+        "is_investment_role": true
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "private",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "private",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-07-01_giz_7a1d9e",
+      "title": "Country Programme Lead, Climate Adaptation",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "GIZ",
+        "type": "multilateral",
+        "verified": true,
+        "id": null,
+        "type_detail": "multilateral",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Kampala, Uganda",
+        "country": "Uganda",
+        "region": "Kampala",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": "Uganda",
+        "city": "Kampala",
+        "country_code": "UG",
+        "country_canonical": "Uganda",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "UGA",
+        "admin_area": null,
+        "coordinates": {
+          "lat": 0.3333,
+          "lon": 32.5833
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Kampala",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "onsite",
+      "seniority": "leadership",
+      "categories": [
+        "general_programmes",
+        "climate_adaptation",
+        "programme_management"
+      ],
+      "skills_required": [
+        "programme_management_skill",
+        "stakeholder_management"
+      ],
+      "skills_preferred": [
+        "french"
+      ],
+      "posted_at": "2026-06-28T09:00:00Z",
+      "deadline": "2026-07-31T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "EUR",
+        "period": "year",
+        "disclosed": false
+      },
+      "source": {
+        "name": "ReliefWeb",
+        "url": "https://reliefweb.int/jobs/giz-country-programme-lead",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T06:00:00Z",
+        "id": "reliefweb",
+        "kind": "institutional_aggregator",
+        "registry_managed": true
+      },
+      "apply_url": "https://jobs.giz.de/country-programme-lead",
+      "apply_is_official": true,
+      "flags": [
+        "relocation_worthy"
+      ],
+      "eligibility_notes": "Requires eligibility to work in Uganda or sponsorship via GIZ.",
+      "summary": "Direct a multi-country climate adaptation portfolio spanning agriculture and water security.",
+      "raw_description_url": "https://reliefweb.int/jobs/giz-country-programme-lead",
+      "specialisations": [
+        "general_programmes",
+        "climate_adaptation",
+        "programme_management"
+      ],
+      "industry": "development_humanitarian",
+      "role_family": "development_programmes",
+      "role_subfamily": "general_programmes",
+      "thematic_sectors": [
+        "development",
+        "climate"
+      ],
+      "eligibility": {
+        "status": "uncertain",
+        "confidence": 0.62,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_africa",
+          "work_authorisation_unknown"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "institutional_support",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.72,
+        "evidence": [
+          "institution_context:multilateral"
+        ],
+        "negative_evidence": [],
+        "dfi_relevance": "institutional_role",
+        "dfi_confidence": 0.9,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": true,
+        "institution_type": "multilateral",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "technical_programme",
+        "track": "climate_resilience",
+        "canonical_specialisation": "climate_adaptation",
+        "confidence": 0.96,
+        "evidence": [
+          "canonical_specialisation:climate_adaptation",
+          "title_phrase:climate_adaptation"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": true,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "multilateral",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-07-09_invisible_5c8f31",
+      "title": "AI Data Evaluator (Contract, Finance Domain)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Invisible Technologies",
+        "type": "private",
+        "verified": true,
+        "id": null,
+        "type_detail": "private",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Remote (Global)",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": true,
+        "scope": "international",
+        "relocation_country": null,
+        "city": null,
+        "country_code": null,
+        "country_canonical": null,
+        "region_canonical": null,
+        "normalisation_confidence": 0.0,
+        "country_iso3": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false
+      },
+      "work_mode": "remote_global",
+      "seniority": "mid",
+      "categories": [
+        "data_science"
+      ],
+      "skills_required": [
+        "financial_modelling",
+        "written_english"
+      ],
+      "skills_preferred": [
+        "credit_analysis_skill"
+      ],
+      "posted_at": "2026-07-09T09:00:00Z",
+      "deadline": "2026-07-18T23:59:00Z",
+      "deadline_confidence": "inferred",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "period": "hour",
+        "disclosed": false
+      },
+      "source": {
+        "name": "RemoteOK",
+        "url": "https://remoteok.com/remote-jobs/invisible-ai-data-evaluator",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-10T04:00:00Z",
+        "id": "remoteok",
+        "kind": "commercial_aggregator",
+        "registry_managed": true
+      },
+      "apply_url": "https://invisible.co/careers/ai-data-evaluator",
+      "apply_is_official": false,
+      "flags": [
+        "ai_relevant"
+      ],
+      "eligibility_notes": null,
+      "summary": "Evaluate AI model outputs on finance and credit-analysis tasks for a US-based AI training platform.",
+      "raw_description_url": "https://remoteok.com/remote-jobs/invisible-ai-data-evaluator",
+      "specialisations": [
+        "data_science"
+      ],
+      "industry": "technology",
+      "role_family": "technology",
+      "role_subfamily": "data_science",
+      "thematic_sectors": [
+        "technology"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.78,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "remote_global_or_worldwide"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "private",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "private",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-07-05_safaricom_1e9a44",
+      "title": "HR Business Partner",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Safaricom PLC",
+        "type": "employer",
+        "verified": true,
+        "id": "safaricom",
+        "type_detail": "multinational",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "Kenya",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "city": "Nairobi",
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -1.2833,
+          "lon": 36.8167
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Nairobi",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "onsite",
+      "seniority": "mid",
+      "categories": [
+        "general_people_ops"
+      ],
+      "skills_required": [
+        "employee_relations_skill",
+        "ms_office"
+      ],
+      "skills_preferred": [
+        "compensation_management_skill"
+      ],
+      "posted_at": "2026-07-05T09:00:00Z",
+      "deadline": "2026-07-22T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "Safaricom Careers",
+        "url": "https://www.safaricom.co.ke/careers",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T09:00:00Z",
+        "id": null,
+        "kind": "direct_or_official",
+        "registry_managed": false
+      },
+      "apply_url": "https://www.safaricom.co.ke/careers/hr-business-partner",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Partner with a commercial division on talent, performance, and employee-relations matters.",
+      "raw_description_url": "https://www.safaricom.co.ke/careers/hr-business-partner",
+      "specialisations": [
+        "general_people_ops"
+      ],
+      "industry": "human_resources",
+      "role_family": "human_resources",
+      "role_subfamily": "general_people_ops",
+      "thematic_sectors": [
+        "people"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.86,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "multinational",
+        "registry_id": "safaricom",
+        "source_pack": "phase11_multinationals",
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [
+          "support_title:hr_business_partner"
+        ],
+        "is_programme_role": false,
+        "registry_id": "safaricom",
+        "source_pack": "phase11_multinationals",
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "multinational",
+        "registry_id": "safaricom",
+        "source_pack": "phase11_multinationals",
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "safaricom",
+        "source_pack": "phase11_multinationals",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": true,
+        "sector": "telecommunications",
+        "registry_id": "safaricom",
+        "source_pack": "phase11_multinationals",
+        "phase11_priority_employer": true,
+        "african_city_footprint": [
+          "Nairobi",
+          "Addis Ababa"
+        ]
+      }
+    },
+    {
+      "id": "ks_2026-06-30_sarova_2d4b18",
+      "title": "Front Office Supervisor",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Sarova Hotels",
+        "type": "employer",
+        "verified": true,
+        "id": null,
+        "type_detail": "employer",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Mombasa, Kenya",
+        "country": "Kenya",
+        "region": "Mombasa",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "city": "Mombasa",
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -4.0667,
+          "lon": 39.6667
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Mombasa",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "onsite",
+      "seniority": "entry",
+      "categories": [
+        "hotel_operations"
+      ],
+      "skills_required": [
+        "customer_service_skill",
+        "scheduling"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-30T09:00:00Z",
+      "deadline": "2026-07-15T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "MyJobMag",
+        "url": "https://www.myjobmag.co.ke/job/front-office-supervisor-sarova",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-08T09:00:00Z",
+        "id": "myjobmag",
+        "kind": "commercial_aggregator",
+        "registry_managed": true
+      },
+      "apply_url": "https://www.sarovahotels.com/careers/front-office-supervisor",
+      "apply_is_official": false,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Oversee front-desk operations and guest experience for a coastal resort property.",
+      "raw_description_url": "https://www.myjobmag.co.ke/job/front-office-supervisor-sarova",
+      "specialisations": [
+        "hotel_operations"
+      ],
+      "industry": "hospitality_tourism",
+      "role_family": "hospitality",
+      "role_subfamily": "hotel_operations",
+      "thematic_sectors": [
+        "hospitality"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.86,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-06-20_yali_8e3c77",
+      "title": "Mandela Washington Fellowship for Young African Leaders",
+      "opportunity_type": "fellowship",
+      "organisation": {
+        "name": "YALI / U.S. Department of State",
+        "type": "multilateral",
+        "verified": true,
+        "id": null,
+        "type_detail": "multilateral",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "United States (6-week academic + leadership institute)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": "United States",
+        "city": null,
+        "country_code": null,
+        "country_canonical": "United States",
+        "region_canonical": null,
+        "normalisation_confidence": 0.0,
+        "country_iso3": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false
+      },
+      "work_mode": "onsite",
+      "seniority": "mid",
+      "categories": [
+        "general_programmes"
+      ],
+      "skills_required": [],
+      "skills_preferred": [
+        "programme_management_skill",
+        "civic_leadership"
+      ],
+      "posted_at": "2026-06-20T09:00:00Z",
+      "deadline": "2026-09-15T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "YALI Network",
+        "url": "https://yali.state.gov/mwf",
+        "confidence": "official",
+        "last_seen_at": "2026-07-05T09:00:00Z",
+        "id": "yali-network",
+        "kind": "direct_or_manual",
+        "registry_managed": true
+      },
+      "apply_url": "https://yali.state.gov/mwf/apply",
+      "apply_is_official": true,
+      "flags": [
+        "hidden_gem"
+      ],
+      "eligibility_notes": "Open to applicants aged 25-35 from Sub-Saharan Africa with a demonstrated leadership record. Fully funded.",
+      "summary": "A fully-funded U.S. leadership institute and professional development experience for young African leaders across business, civic, and public-management tracks.",
+      "raw_description_url": "https://yali.state.gov/mwf",
+      "specialisations": [
+        "general_programmes"
+      ],
+      "industry": "development_humanitarian",
+      "role_family": "development_programmes",
+      "role_subfamily": "general_programmes",
+      "thematic_sectors": [
+        "development"
+      ],
+      "eligibility": {
+        "status": "uncertain",
+        "confidence": 0.35,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "insufficient_eligibility_evidence"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "institutional_support",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.72,
+        "evidence": [
+          "institution_context:multilateral"
+        ],
+        "negative_evidence": [],
+        "dfi_relevance": "institutional_role",
+        "dfi_confidence": 0.9,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": true,
+        "institution_type": "multilateral",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "multilateral",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-07-03_sunculture_4f1a92",
+      "title": "Credit Analyst, Agri-Finance",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "SunCulture",
+        "type": "employer",
+        "verified": true,
+        "id": null,
+        "type_detail": "employer",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "Kenya",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "city": "Nairobi",
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -1.2833,
+          "lon": 36.8167
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Nairobi",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "hybrid",
+      "seniority": "mid",
+      "categories": [
+        "climate_finance",
+        "general_programmes"
+      ],
+      "skills_required": [
+        "credit_analysis_skill",
+        "excel"
+      ],
+      "skills_preferred": [
+        "agri_finance_skill"
+      ],
+      "posted_at": "2026-07-03T09:00:00Z",
+      "deadline": "2026-07-24T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "SunCulture Careers",
+        "url": "https://sunculture.com/careers",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T09:00:00Z",
+        "id": null,
+        "kind": "direct_or_official",
+        "registry_managed": false
+      },
+      "apply_url": "https://sunculture.com/careers/credit-analyst-agri-finance",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Assess borrower creditworthiness for a solar-powered irrigation asset-financing portfolio.",
+      "raw_description_url": "https://sunculture.com/careers/credit-analyst-agri-finance",
+      "specialisations": [
+        "climate_finance",
+        "general_programmes"
+      ],
+      "industry": "financial_services",
+      "role_family": "investment",
+      "role_subfamily": "credit_analysis",
+      "thematic_sectors": [
+        "finance",
+        "climate"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.86,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "investment_adjacent",
+        "track": "credit",
+        "canonical_specialisation": "credit_analysis",
+        "confidence": 0.94,
+        "evidence": [
+          "title_phrase:credit_analyst"
+        ],
+        "negative_evidence": [],
+        "dfi_relevance": "adjacent_experience",
+        "dfi_confidence": 0.76,
+        "is_investment_role": true
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-06-25_naivas_6b2e05",
+      "title": "Retail Store Supervisor",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Naivas Limited",
+        "type": "employer",
+        "verified": true,
+        "id": null,
+        "type_detail": "employer",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Nakuru, Kenya",
+        "country": "Kenya",
+        "region": "Nakuru",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null,
+        "city": "Nakuru",
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 1.0,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -0.2667,
+          "lon": 36.0667
+        },
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Nakuru",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "onsite",
+      "seniority": "entry",
+      "categories": [
+        "store_management"
+      ],
+      "skills_required": [
+        "inventory_management_skill",
+        "team_supervision"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-25T09:00:00Z",
+      "deadline": "2026-07-12T23:59:00Z",
+      "deadline_confidence": "inferred",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "BrighterMonday",
+        "url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-07T09:00:00Z",
+        "id": "brightermonday",
+        "kind": "commercial_aggregator",
+        "registry_managed": true
+      },
+      "apply_url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas",
+      "apply_is_official": false,
+      "flags": [
+        "urgent"
+      ],
+      "eligibility_notes": null,
+      "summary": "Manage daily store operations, stock levels, and a supervisory team at a large-format retail branch.",
+      "raw_description_url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas",
+      "specialisations": [
+        "store_management"
+      ],
+      "industry": "retail",
+      "role_family": "sales_business_development",
+      "role_subfamily": "store_management",
+      "thematic_sectors": [
+        "retail"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.86,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "duty_station_in_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "employer",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    },
+    {
+      "id": "ks_2026-06-15_cx_kenya_0a9d63",
+      "title": "Customer Experience Associate (Remote)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Unlisted BPO Recruiter",
+        "type": "unverified",
+        "verified": false,
+        "id": null,
+        "type_detail": "unverified",
+        "registry_managed": false
+      },
+      "location": {
+        "raw": "Remote (Kenya)",
+        "country": "Kenya",
+        "region": null,
+        "is_remote_from_kenya": true,
+        "scope": "national",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "KE",
+        "country_canonical": "Kenya",
+        "region_canonical": "East Africa",
+        "normalisation_confidence": 0.93,
+        "country_iso3": "KEN",
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_evidence": [
+          "existing_country"
+        ],
+        "matched_location_alias": "Kenya",
+        "location_language": "en",
+        "is_african": true
+      },
+      "work_mode": "remote_kenya",
+      "seniority": "entry",
+      "categories": [
+        "customer_success"
+      ],
+      "skills_required": [
+        "communication"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-15T09:00:00Z",
+      "deadline": null,
+      "deadline_confidence": "unknown",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "Community WhatsApp forward",
+        "url": "https://example-unverified-board.com/cx-remote-kenya",
+        "confidence": "unverified",
+        "last_seen_at": "2026-06-20T09:00:00Z",
+        "id": null,
+        "kind": "unverified",
+        "registry_managed": false
+      },
+      "apply_url": "https://example-unverified-board.com/cx-remote-kenya/apply",
+      "apply_is_official": false,
+      "flags": [
+        "eligibility_review"
+      ],
+      "eligibility_notes": "Source could not be verified against an official employer page - treat with caution and never pay a fee to apply.",
+      "summary": "A remote customer-support role circulated via community channels; organisation identity is unconfirmed.",
+      "raw_description_url": null,
+      "specialisations": [
+        "customer_success"
+      ],
+      "industry": "customer_operations",
+      "role_family": "customer_operations",
+      "role_subfamily": "customer_success",
+      "thematic_sectors": [
+        "customer_operations"
+      ],
+      "eligibility": {
+        "status": "likely_eligible",
+        "confidence": 0.92,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "work_authorisation_required": null,
+        "evidence": [
+          "remote_from_kenya"
+        ],
+        "detected_language": "en"
+      },
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "unverified",
+        "registry_id": null,
+        "source_pack": null,
+        "phase7_priority_institution": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": false,
+        "organisation_group": "other",
+        "classification": "not_ngo_un",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.95,
+        "evidence": [],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": null,
+        "source_pack": null,
+        "phase8_priority_organisation": false
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "unverified",
+        "registry_id": null,
+        "source_pack": null,
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": null,
+        "source_pack": null,
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": null,
+        "source_pack": null,
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      }
+    }
+  ]
+}

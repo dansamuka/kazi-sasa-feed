@@ -1,0 +1,2396 @@
+{
+  "registry_version": "1.0",
+  "_comment": "Phase 11 priority multinational employer coverage. organisations.json remains authoritative for adapters and execution.",
+  "target_count": 100,
+  "sectors": [
+    "automotive",
+    "aviation",
+    "banking",
+    "consulting",
+    "energy",
+    "fintech",
+    "fmcg",
+    "hospitality",
+    "industrials",
+    "insurance",
+    "logistics",
+    "medical_devices",
+    "payments",
+    "pharmaceuticals",
+    "professional_services",
+    "technology",
+    "telecommunications"
+  ],
+  "employers": [
+    {
+      "organisation_id": "standard-chartered",
+      "name": "Standard Chartered",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.sc.com/en/global-careers/early-careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo"
+      ]
+    },
+    {
+      "organisation_id": "standard-bank-group",
+      "name": "Standard Bank Group",
+      "sector": "banking",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://standardbank.wd3.myworkdayjobs.com/StandardBankCareers",
+      "countries": [
+        "ZA",
+        "KE",
+        "NG",
+        "GH",
+        "UG",
+        "TZ"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Nairobi",
+        "Lagos",
+        "Accra",
+        "Kampala",
+        "Dar es Salaam"
+      ]
+    },
+    {
+      "organisation_id": "absa-group",
+      "name": "Absa Group",
+      "sector": "banking",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://absa.wd3.myworkdayjobs.com/Absa_Careers",
+      "countries": [
+        "ZA",
+        "KE",
+        "GH",
+        "UG",
+        "TZ",
+        "BW"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Nairobi",
+        "Accra",
+        "Kampala",
+        "Dar es Salaam",
+        "Gaborone"
+      ]
+    },
+    {
+      "organisation_id": "citigroup",
+      "name": "Citigroup",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://jobs.citi.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "ecobank-transnational",
+      "name": "Ecobank Transnational",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://ecobank.com/group/careers",
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "CI",
+        "SN",
+        "TG"
+      ],
+      "cities": [
+        "Nairobi",
+        "Lagos",
+        "Accra",
+        "Abidjan",
+        "Dakar",
+        "Lome"
+      ]
+    },
+    {
+      "organisation_id": "united-bank-for-africa",
+      "name": "United Bank for Africa",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.ubagroup.com/careers/",
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "UG",
+        "TZ"
+      ],
+      "cities": [
+        "Nairobi",
+        "Lagos",
+        "Accra",
+        "Kampala",
+        "Dar es Salaam"
+      ]
+    },
+    {
+      "organisation_id": "access-bank-group",
+      "name": "Access Bank Group",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.accessbankplc.com/careers",
+      "countries": [
+        "KE",
+        "NG",
+        "GH",
+        "ZA",
+        "RW"
+      ],
+      "cities": [
+        "Nairobi",
+        "Lagos",
+        "Accra",
+        "Johannesburg",
+        "Kigali"
+      ]
+    },
+    {
+      "organisation_id": "equity-group-holdings",
+      "name": "Equity Group Holdings",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://equitygroupholdings.com/careers/",
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "CD",
+        "SS"
+      ],
+      "cities": [
+        "Nairobi",
+        "Kampala",
+        "Dar es Salaam",
+        "Kigali",
+        "Kinshasa"
+      ]
+    },
+    {
+      "organisation_id": "kcb-group",
+      "name": "KCB Group",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://ke.kcbgroup.com/about-us/careers",
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "BI",
+        "SS"
+      ],
+      "cities": [
+        "Nairobi",
+        "Kampala",
+        "Dar es Salaam",
+        "Kigali",
+        "Bujumbura"
+      ]
+    },
+    {
+      "organisation_id": "ncba-group",
+      "name": "NCBA Group",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://ke.ncbagroup.com/careers/",
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "CI",
+        "GH"
+      ],
+      "cities": [
+        "Nairobi",
+        "Kampala",
+        "Dar es Salaam",
+        "Kigali",
+        "Abidjan",
+        "Accra"
+      ]
+    },
+    {
+      "organisation_id": "im-group",
+      "name": "I&M Group",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.imbankgroup.com/ke/careers/",
+      "countries": [
+        "KE",
+        "TZ",
+        "RW",
+        "UG",
+        "MU"
+      ],
+      "cities": [
+        "Nairobi",
+        "Dar es Salaam",
+        "Kigali",
+        "Kampala",
+        "Port Louis"
+      ]
+    },
+    {
+      "organisation_id": "cooperative-bank-kenya",
+      "name": "Co-operative Bank of Kenya",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.co-opbank.co.ke/careers/",
+      "countries": [
+        "KE",
+        "SS"
+      ],
+      "cities": [
+        "Nairobi",
+        "Juba"
+      ]
+    },
+    {
+      "organisation_id": "diamond-trust-bank-group",
+      "name": "Diamond Trust Bank Group",
+      "sector": "banking",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://dtbk.dtbafrica.com/careers/",
+      "countries": [
+        "KE",
+        "UG",
+        "TZ",
+        "BI"
+      ],
+      "cities": [
+        "Nairobi",
+        "Kampala",
+        "Dar es Salaam",
+        "Bujumbura"
+      ]
+    },
+    {
+      "organisation_id": "old-mutual-africa",
+      "name": "Old Mutual Africa",
+      "sector": "insurance",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.oldmutual.com/careers/",
+      "countries": [
+        "ZA",
+        "KE",
+        "ZW",
+        "MW",
+        "NA",
+        "UG"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Nairobi",
+        "Harare",
+        "Lilongwe",
+        "Windhoek",
+        "Kampala"
+      ]
+    },
+    {
+      "organisation_id": "sanlam",
+      "name": "Sanlam",
+      "sector": "insurance",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.sanlam.com/careers/Pages/default.aspx",
+      "countries": [
+        "ZA",
+        "KE",
+        "MA",
+        "NG",
+        "GH"
+      ],
+      "cities": [
+        "Cape Town",
+        "Johannesburg",
+        "Nairobi",
+        "Casablanca",
+        "Lagos",
+        "Accra"
+      ]
+    },
+    {
+      "organisation_id": "allianz",
+      "name": "Allianz",
+      "sector": "insurance",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.allianz.com/",
+      "countries": [
+        "ZA",
+        "KE",
+        "MA",
+        "CI",
+        "EG"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Nairobi",
+        "Casablanca",
+        "Abidjan",
+        "Cairo"
+      ]
+    },
+    {
+      "organisation_id": "aig",
+      "name": "AIG",
+      "sector": "insurance",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.aig.com/home/careers",
+      "countries": [
+        "ZA",
+        "KE",
+        "EG"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Nairobi",
+        "Cairo"
+      ]
+    },
+    {
+      "organisation_id": "prudential",
+      "name": "Prudential",
+      "sector": "insurance",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.prudentialplc.com/en/careers/",
+      "countries": [
+        "KE",
+        "GH",
+        "UG",
+        "CI",
+        "CM"
+      ],
+      "cities": [
+        "Nairobi",
+        "Accra",
+        "Kampala",
+        "Abidjan",
+        "Douala"
+      ]
+    },
+    {
+      "organisation_id": "mastercard",
+      "name": "Mastercard",
+      "sector": "payments",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "visa",
+      "name": "Visa",
+      "sector": "payments",
+      "adapter": "smartrecruiters",
+      "enabled": true,
+      "career_identifier": "Visa",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "deloitte",
+      "name": "Deloitte",
+      "sector": "professional_services",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.deloitte.com/global/en/careers.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "pwc",
+      "name": "PwC",
+      "sector": "professional_services",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.pwc.com/gx/en/careers.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "ey",
+      "name": "EY",
+      "sector": "professional_services",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.ey.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "kpmg",
+      "name": "KPMG",
+      "sector": "professional_services",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://kpmg.com/xx/en/home/careers.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "accenture",
+      "name": "Accenture",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.accenture.com/us-en/careers/jobsearch",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "mckinsey-company",
+      "name": "McKinsey & Company",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.mckinsey.com/careers/search-jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "boston-consulting-group",
+      "name": "Boston Consulting Group",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.bcg.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "bain-company",
+      "name": "Bain & Company",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.bain.com/careers/find-a-role/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "dalberg-advisors",
+      "name": "Dalberg Advisors",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://dalberg.com/join-us/",
+      "countries": [
+        "KE",
+        "ZA",
+        "SN",
+        "RW",
+        "NG"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Dakar",
+        "Kigali",
+        "Lagos"
+      ]
+    },
+    {
+      "organisation_id": "control-risks",
+      "name": "Control Risks",
+      "sector": "consulting",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.controlrisks.com/careers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos"
+      ]
+    },
+    {
+      "organisation_id": "microsoft",
+      "name": "Microsoft",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://jobs.careers.microsoft.com/global/en/search",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "google",
+      "name": "Google",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.google.com/about/careers/applications/jobs/results/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "amazon",
+      "name": "Amazon",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.amazon.jobs/en/search",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "ibm",
+      "name": "IBM",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.ibm.com/careers/search",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "oracle-corporation",
+      "name": "Oracle",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.oracle.com/jobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "sap",
+      "name": "SAP",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://jobs.sap.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "cisco",
+      "name": "Cisco",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://jobs.cisco.com/jobs/SearchJobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "huawei",
+      "name": "Huawei",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://career.huawei.com/reccampportal/portal5/index.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "ericsson",
+      "name": "Ericsson",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.ericsson.com/en/careers/global-locations/africa",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "nokia",
+      "name": "Nokia",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.nokia.com/about-us/careers/search-for-jobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "salesforce",
+      "name": "Salesforce",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.salesforce.com/en/jobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "meta",
+      "name": "Meta",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.metacareers.com/jobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "uber",
+      "name": "Uber",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.uber.com/global/en/careers/list/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "bolt",
+      "name": "Bolt",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://bolt.eu/en/careers/positions/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "glovo",
+      "name": "Glovo",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://jobs.glovoapp.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "jumia",
+      "name": "Jumia",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://group.jumia.com/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "safaricom",
+      "name": "Safaricom",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.safaricom.co.ke/careers",
+      "countries": [
+        "KE",
+        "ET"
+      ],
+      "cities": [
+        "Nairobi",
+        "Addis Ababa"
+      ]
+    },
+    {
+      "organisation_id": "airtel-africa",
+      "name": "Airtel Africa",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.airtel.africa/careers",
+      "countries": [
+        "KE",
+        "NG",
+        "UG",
+        "TZ",
+        "ZM",
+        "MW",
+        "RW"
+      ],
+      "cities": [
+        "Nairobi",
+        "Lagos",
+        "Kampala",
+        "Dar es Salaam",
+        "Lusaka",
+        "Lilongwe",
+        "Kigali"
+      ]
+    },
+    {
+      "organisation_id": "mtn-group",
+      "name": "MTN Group",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.mtn.com/careers/",
+      "countries": [
+        "ZA",
+        "NG",
+        "GH",
+        "UG",
+        "RW",
+        "ZM"
+      ],
+      "cities": [
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Kampala",
+        "Kigali",
+        "Lusaka"
+      ]
+    },
+    {
+      "organisation_id": "orange",
+      "name": "Orange",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://orange.jobs/jobs/search.do",
+      "countries": [
+        "EG",
+        "MA",
+        "CI",
+        "SN",
+        "CM",
+        "TN"
+      ],
+      "cities": [
+        "Cairo",
+        "Casablanca",
+        "Abidjan",
+        "Dakar",
+        "Douala",
+        "Tunis"
+      ]
+    },
+    {
+      "organisation_id": "liquid-intelligent-technologies",
+      "name": "Liquid Intelligent Technologies",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://liquid.tech/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "ZW",
+        "ZM",
+        "UG",
+        "RW"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Harare",
+        "Lusaka",
+        "Kampala",
+        "Kigali"
+      ]
+    },
+    {
+      "organisation_id": "ihs-towers",
+      "name": "IHS Towers",
+      "sector": "telecommunications",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.ihstowers.com/careers/",
+      "countries": [
+        "NG",
+        "ZA",
+        "RW",
+        "CM",
+        "CI"
+      ],
+      "cities": [
+        "Lagos",
+        "Johannesburg",
+        "Kigali",
+        "Douala",
+        "Abidjan"
+      ]
+    },
+    {
+      "organisation_id": "africa-data-centres",
+      "name": "Africa Data Centres",
+      "sector": "technology",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.africadatacentres.com/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Cape Town",
+        "Lagos"
+      ]
+    },
+    {
+      "organisation_id": "flutterwave",
+      "name": "Flutterwave",
+      "sector": "fintech",
+      "adapter": "workable",
+      "enabled": false,
+      "career_identifier": "flutterwave",
+      "countries": [
+        "NG",
+        "KE",
+        "GH",
+        "ZA"
+      ],
+      "cities": [
+        "Lagos",
+        "Nairobi",
+        "Accra",
+        "Johannesburg"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "m-kopa",
+      "name": "M-KOPA",
+      "sector": "fintech",
+      "adapter": "workable",
+      "enabled": true,
+      "career_identifier": "m-kopa",
+      "countries": [
+        "KE",
+        "UG",
+        "NG",
+        "GH",
+        "ZA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Kampala",
+        "Lagos",
+        "Accra",
+        "Johannesburg"
+      ]
+    },
+    {
+      "organisation_id": "unilever",
+      "name": "Unilever",
+      "sector": "fmcg",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "procter-gamble",
+      "name": "Procter & Gamble",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.pgcareers.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "nestle",
+      "name": "Nestlé",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.nestle.com/jobs/search-jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "diageo",
+      "name": "Diageo",
+      "sector": "fmcg",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "british-american-tobacco",
+      "name": "British American Tobacco",
+      "sector": "fmcg",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://bat.wd3.myworkdayjobs.com/Experienced",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "coca-cola-company",
+      "name": "The Coca-Cola Company",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://careers.coca-colacompany.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "coca-cola-beverages-africa",
+      "name": "Coca-Cola Beverages Africa",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.ccbagroup.com/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "pepsico",
+      "name": "PepsiCo",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": true,
+      "career_identifier": "https://www.pepsicojobs.com/main/jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "mars-incorporated",
+      "name": "Mars Incorporated",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.mars.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "mondelez-international",
+      "name": "Mondelez International",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.mondelezinternational.com/careers/jobs/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "danone",
+      "name": "Danone",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.danone.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "heineken",
+      "name": "HEINEKEN",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.theheinekencompany.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "ab-inbev",
+      "name": "AB InBev",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.ab-inbev.com/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "reckitt",
+      "name": "Reckitt",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.reckitt.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "loreal",
+      "name": "L’Oréal",
+      "sector": "fmcg",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.loreal.com/en_US/jobs/SearchJobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "johnson-johnson",
+      "name": "Johnson & Johnson",
+      "sector": "pharmaceuticals",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://jj.wd5.myworkdayjobs.com/JJ",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "roche",
+      "name": "Roche",
+      "sector": "pharmaceuticals",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://roche.wd3.myworkdayjobs.com/roche-ext",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "novartis",
+      "name": "Novartis",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.novartis.com/careers/career-search",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "gsk",
+      "name": "GSK",
+      "sector": "pharmaceuticals",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://gsk.wd5.myworkdayjobs.com/GSKCareers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "pfizer",
+      "name": "Pfizer",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.pfizer.com/about/careers/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "astrazeneca",
+      "name": "AstraZeneca",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.astrazeneca.com/search-jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "sanofi",
+      "name": "Sanofi",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://jobs.sanofi.com/en/search-jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "bayer",
+      "name": "Bayer",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://career.bayer.com/en/career",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "abbott",
+      "name": "Abbott",
+      "sector": "pharmaceuticals",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.jobs.abbott/us/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "medtronic",
+      "name": "Medtronic",
+      "sector": "medical_devices",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://jobs.medtronic.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "shell",
+      "name": "Shell",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.shell.com/careers/about-careers-at-shell/search-for-a-job.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "totalenergies",
+      "name": "TotalEnergies",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://jobs.totalenergies.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "bp",
+      "name": "bp",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.bp.com/en/global/corporate/careers/search-and-apply.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "eni",
+      "name": "Eni",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.eni.com/en-IT/careers.html",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "engie",
+      "name": "ENGIE",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://jobs.engie.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "siemens",
+      "name": "Siemens",
+      "sector": "industrials",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://jobs.siemens.com/careers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "schneider-electric",
+      "name": "Schneider Electric",
+      "sector": "industrials",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.se.com/jobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "ge-vernova",
+      "name": "GE Vernova",
+      "sector": "energy",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.gevernova.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "maersk",
+      "name": "Maersk",
+      "sector": "logistics",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.maersk.com/careers/vacancies",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "dhl-group",
+      "name": "DHL Group",
+      "sector": "logistics",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.dhl.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "dp-world",
+      "name": "DP World",
+      "sector": "logistics",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.dpworld.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "africa-global-logistics",
+      "name": "Africa Global Logistics",
+      "sector": "logistics",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.aglgroup.com/en/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "fedex",
+      "name": "FedEx",
+      "sector": "logistics",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.fedex.com/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "emirates-group",
+      "name": "Emirates Group",
+      "sector": "aviation",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.emiratesgroupcareers.com/search-and-apply/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "qatar-airways",
+      "name": "Qatar Airways",
+      "sector": "aviation",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://careers.qatarairways.com/global/en/search-results",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "marriott-international",
+      "name": "Marriott International",
+      "sector": "hospitality",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://marriott.wd5.myworkdayjobs.com/MarriottJobs",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "hilton",
+      "name": "Hilton",
+      "sector": "hospitality",
+      "adapter": "workday",
+      "enabled": true,
+      "career_identifier": "https://hilton.wd1.myworkdayjobs.com/Hilton_Careers",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "accor",
+      "name": "Accor",
+      "sector": "hospitality",
+      "adapter": "smartrecruiters",
+      "enabled": true,
+      "career_identifier": "Accor",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ]
+    },
+    {
+      "organisation_id": "toyota",
+      "name": "Toyota",
+      "sector": "automotive",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.toyota-global.com/company/profile/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    },
+    {
+      "organisation_id": "cfao",
+      "name": "CFAO",
+      "sector": "automotive",
+      "adapter": "multinational_html",
+      "enabled": false,
+      "career_identifier": "https://www.cfaogroup.com/en/careers/",
+      "countries": [
+        "KE",
+        "ZA",
+        "NG",
+        "GH",
+        "EG",
+        "MA"
+      ],
+      "cities": [
+        "Nairobi",
+        "Johannesburg",
+        "Lagos",
+        "Accra",
+        "Cairo",
+        "Casablanca"
+      ],
+      "disabled_reason": "Registry-only target pending stable public vacancy endpoint validation."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "registry_version": "2.0",
+  "_comment": "Phase 9 official government/public-service portal registry. Uganda and Rwanda remain registered but disabled until stable public vacancy endpoints are verified.",
+  "valid_adapter_types": [
+    "government_html",
+    "government_pdf",
+    "government_circular",
+    "government_json"
+  ],
+  "portals": [
+    {
+      "id": "kenya-public-service-commission",
+      "name": "Kenya Public Service Commission",
+      "country_code": "KE",
+      "country_name": "Kenya",
+      "adapter": "government_html",
+      "listing_url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
+      "enabled": true,
+      "default_location": "Kenya",
+      "citizenship_required": true,
+      "eligible_nationalities": [
+        "KE"
+      ],
+      "application_method": "PSCIMS online application",
+      "application_form_url": "https://psckjobs.go.ke/",
+      "source_name": "Kenya Public Service Commission official vacancies",
+      "source_pack": "phase9_government_wave1"
+    },
+    {
+      "id": "uganda-public-service-commission",
+      "name": "Uganda Public Service Commission",
+      "country_code": "UG",
+      "country_name": "Uganda",
+      "adapter": "government_html",
+      "listing_url": "https://vacancies.psc.go.ug/",
+      "enabled": false,
+      "disabled_reason": "Public site returns HTTP 403 to automated clients; enable after a stable permitted endpoint is verified.",
+      "citizenship_required": true,
+      "eligible_nationalities": [
+        "UG"
+      ],
+      "source_pack": "phase9_government_wave1"
+    },
+    {
+      "id": "rwanda-mifotra",
+      "name": "Rwanda MIFOTRA e-Recruitment",
+      "country_code": "RW",
+      "country_name": "Rwanda",
+      "adapter": "government_json",
+      "listing_url": "https://recruitment.mifotra.gov.rw/",
+      "enabled": false,
+      "disabled_reason": "JavaScript application; public vacancy API endpoint not verified offline.",
+      "citizenship_required": true,
+      "eligible_nationalities": [
+        "RW"
+      ],
+      "source_pack": "phase9_government_wave1"
+    },
+    {
+      "id": "tanzania-ajira",
+      "name": "Tanzania Public Service Recruitment Secretariat",
+      "country_code": "TZ",
+      "country_name": "Tanzania",
+      "adapter": "government_circular",
+      "listing_url": "https://www.ajira.go.tz/",
+      "enabled": true,
+      "pdf_parser": "tanzania_psrs",
+      "max_documents": 8,
+      "default_location": "Tanzania",
+      "citizenship_required": true,
+      "eligible_nationalities": [
+        "TZ"
+      ],
+      "application_method": "Tanzania Recruitment Portal",
+      "application_form_url": "https://portal.ajira.go.tz/",
+      "source_name": "Tanzania PSRS official advertisements",
+      "source_pack": "phase9_government_wave1",
+      "advert_reference_prefix": "PSRS"
+    },
+    {
+      "id": "south-africa-dpsa",
+      "name": "South Africa Department of Public Service and Administration",
+      "country_code": "ZA",
+      "country_name": "South Africa",
+      "adapter": "government_circular",
+      "listing_url": "https://www.dpsa.gov.za/newsroom/psvc/",
+      "enabled": true,
+      "pdf_parser": "south_africa_dpsa",
+      "max_documents": 40,
+      "default_location": "South Africa",
+      "citizenship_required": true,
+      "eligible_nationalities": [
+        "ZA"
+      ],
+      "application_method": "Z83 / advertising department instructions",
+      "application_form_url": "https://www.dpsa.gov.za/dpsa2g/documents/forms/Z83.pdf",
+      "source_name": "South Africa DPSA official vacancy circular",
+      "source_pack": "phase9_government_wave1"
+    }
+  ]
+}

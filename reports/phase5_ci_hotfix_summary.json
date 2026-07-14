@@ -1,0 +1,17 @@
+{
+  "phase": "5",
+  "patch": "ci-hotfix-1",
+  "feed_version": "3.3",
+  "status": "complete",
+  "tests": {
+    "passed": 187,
+    "failed": 0,
+    "new_regression_tests": 5
+  },
+  "fixes": [
+    "normalise Recruitee SQL-style UTC timestamps to ISO-8601 Z",
+    "drop impossible deadlines that predate posted_at without dropping the vacancy",
+    "HTML-decode source taxonomy labels before mapping",
+    "map live Jobicy categories and RemoteOK tags reported by run 23"
+  ]
+}
