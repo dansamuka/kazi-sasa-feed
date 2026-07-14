@@ -1,0 +1,11 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 12 run #43 mobile build-order hotfix",
+  "summary": {
+    "root_cause": "safe deployment preserved stale docs/index.html and tests ran before rebuilding it",
+    "workflow_pretest_site_rebuild": true,
+    "test_count": 300,
+    "stale_site_simulation_passed": true,
+    "feed_version": "3.8"
+  }
+}

@@ -43,6 +43,13 @@ jobs:
       - name: Validate generated source compatibility registry
         run: python3 scripts/validate_sources.py sources.json
 
+      # Safe deployment preserves the current live feed and previously built page.
+      # Rebuild the page from that live feed and the newly deployed UI source before
+      # running tests, so UI regressions are checked against the current template
+      # rather than a deliberately preserved stale docs/index.html.
+      - name: Rebuild test site from current live feed
+        run: python3 scripts/site/build_site.py --feed feed.json --out docs/index.html
+
       - name: Run offline tests
         run: python3 -m pytest scripts/tests -q
 

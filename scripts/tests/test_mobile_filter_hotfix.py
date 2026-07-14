@@ -50,3 +50,12 @@ def test_site_javascript_remains_syntactically_valid():
         text=True,
     )
     assert result.returncode == 0, result.stderr
+
+
+def test_workflow_rebuilds_site_before_offline_tests():
+    workflow = (REPO / ".github/workflows/refresh-feed.yml").read_text(encoding="utf-8")
+    build_marker = "- name: Rebuild test site from current live feed"
+    test_marker = "- name: Run offline tests"
+    assert build_marker in workflow
+    assert workflow.index(build_marker) < workflow.index(test_marker)
+    assert "python3 scripts/site/build_site.py --feed feed.json --out docs/index.html" in workflow
