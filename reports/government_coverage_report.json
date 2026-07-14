@@ -1,45 +1,66 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-14T12:01:38.982571Z",
-  "feed_generated_at": "2026-07-14T12:01:38.299132Z",
+  "generated_at": "2026-07-14T12:21:10.987991Z",
+  "feed_generated_at": "2026-07-14T12:21:10.575518Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 885,
-    "government_opportunity_count": 14,
-    "phase9_priority_opportunity_count": 3,
+    "opportunity_count": 1217,
+    "government_opportunity_count": 337,
+    "phase9_priority_opportunity_count": 326,
     "represented_portals": 5,
-    "represented_countries": 3,
-    "with_advert_reference_count": 3,
-    "with_deadline_count": 3,
-    "with_number_of_positions_count": 2
+    "represented_countries": 5,
+    "with_advert_reference_count": 326,
+    "with_deadline_count": 57,
+    "with_number_of_positions_count": 8
   },
   "coverage": {
     "by_country": {
+      "South Africa": 311,
       "unknown": 9,
-      "Kenya": 3,
-      "South Africa": 1,
-      "Tanzania": 1
+      "Kenya": 6,
+      "Zambia": 6,
+      "Tanzania": 4,
+      "Seychelles": 1
     },
     "by_portal": {
+      "South Africa Department of Public Service and Administration": 318,
       "Kenya Broadcasting Corporation": 10,
-      "Kenya Public Service Commission": 1,
-      "Kenya Railways Corporation": 1,
-      "South Africa Department of Public Service and Administration": 1,
-      "Tanzania Public Service Recruitment Secretariat": 1
+      "Kenya Public Service Commission": 4,
+      "Tanzania Public Service Recruitment Secretariat": 4,
+      "Kenya Railways Corporation": 1
     },
     "by_public_service_grade": {
-      "unknown": 13,
-      "E": 1
+      "unknown": 333,
+      "E": 4
     },
     "by_role_family": {
+      "health": 37,
+      "technology": 37,
+      "government_administration": 36,
+      "development_programmes": 34,
+      "operations": 26,
+      "human_resources": 24,
+      "economics_and_research": 18,
+      "investment": 18,
+      "risk_and_compliance": 15,
+      "agriculture": 13,
+      "logistics": 12,
+      "education": 10,
+      "monitoring_evaluation_and_learning": 10,
+      "administration": 9,
+      "banking_and_finance": 7,
       "unknown": 6,
+      "esg_and_safeguards": 5,
+      "engineering": 3,
+      "real_estate": 3,
+      "hospitality": 2,
+      "legal": 2,
+      "marketing_communications": 2,
+      "procurement": 2,
       "sales_business_development": 2,
-      "banking_and_finance": 1,
-      "government_administration": 1,
-      "human_resources": 1,
-      "legal": 1,
-      "monitoring_evaluation_and_learning": 1,
-      "technology": 1
+      "skilled_trades": 2,
+      "customer_operations": 1,
+      "energy": 1
     }
   }
 }

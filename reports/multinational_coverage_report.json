@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-14T12:01:38.984089Z",
-  "feed_generated_at": "2026-07-14T12:01:38.299132Z",
+  "generated_at": "2026-07-14T12:21:10.990566Z",
+  "feed_generated_at": "2026-07-14T12:21:10.575518Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
@@ -40,30 +40,30 @@
       "The Coca-Cola Company": 1
     },
     "by_country": {
-      "unknown": 109,
+      "unknown": 107,
       "South Africa": 11,
       "Madagascar": 9,
       "Uganda": 5,
-      "Botswana": 2,
-      "Morocco": 2
+      "Morocco": 4,
+      "Botswana": 2
     },
     "by_city": {
-      "unknown": 126,
+      "unknown": 124,
       "Cape Town": 8,
-      "Casablanca": 1,
+      "Casablanca": 3,
       "Gqeberha": 1,
       "Johannesburg": 1,
       "Tangier": 1
     },
     "by_role_family": {
-      "unknown": 92,
+      "unknown": 91,
       "logistics": 20,
       "hospitality": 9,
       "marketing_communications": 6,
+      "banking_and_finance": 2,
       "development_programmes": 2,
       "sales_business_development": 2,
       "technology": 2,
-      "banking_and_finance": 1,
       "customer_operations": 1,
       "design": 1,
       "engineering": 1,
