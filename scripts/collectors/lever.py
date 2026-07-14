@@ -193,7 +193,7 @@ def collect_lever_board(builder, company: dict, session=None) -> int:
             "seniority": _lever_seniority(categories.get("level"), title),
             "categories": mapped_categories,
             "specialisations": mapped_categories,
-            "industry": builder.map_industry(categories.get("team", "")) or classify_industry(title, description_text),
+            "industry": builder.industry_for_specialisations(mapped_categories) or classify_industry(title, description_text),
             "skills_required": [],
             "skills_preferred": [],
             "posted_at": millis_to_iso(job.get("createdAt")),

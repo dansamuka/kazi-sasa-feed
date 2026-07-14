@@ -185,7 +185,7 @@ def collect_ashby_board(builder, company: dict, session=None) -> int:
             "seniority": infer_seniority(title),
             "categories": categories,
             "specialisations": categories,
-            "industry": (builder.map_industry(department) if department else None) or classify_industry(title, full_description_text),
+            "industry": builder.industry_for_specialisations(categories) or classify_industry(title, full_description_text),
             "skills_required": [],
             "skills_preferred": [],
             "posted_at": job.get("publishedAt"),

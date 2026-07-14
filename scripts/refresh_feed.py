@@ -86,6 +86,10 @@ class FeedBuilder:
             _taxonomy_key(source_key): {_taxonomy_key(term) for term in terms}
             for source_key, terms in taxonomy.get("ignored_specialisation_terms", {}).items()
         }
+        self._warned_unmapped_industries: set[str] = set()
+        self._warned_unmapped_specialisations: set[tuple[str, str]] = set()
+        self._warned_invalid_specialisation_mappings: set[tuple[str, str, str]] = set()
+        self._warned_unmapped_skills: set[str] = set()
         self.opportunities: list[dict] = []
         self.rejected_scope: list[dict] = []
 
@@ -112,7 +116,10 @@ class FeedBuilder:
             return None
         mapped = self._industry_aliases.get(_taxonomy_key(raw))
         if mapped is None:
-            print(f"WARN: industry term '{raw}' not in taxonomy.json industries - add it or an alias for it", file=sys.stderr)
+            key = _taxonomy_key(raw)
+            if key not in self._warned_unmapped_industries:
+                self._warned_unmapped_industries.add(key)
+                print(f"WARN: industry term '{raw}' not in taxonomy.json industries - add it or an alias for it", file=sys.stderr)
             return None
         return mapped
 
@@ -140,16 +147,22 @@ class FeedBuilder:
         global_map = self._source_specialisation_aliases.get("*", {})
         mapped = source_map.get(normalised) or global_map.get(normalised) or self._specialisation_aliases.get(normalised)
         if mapped is None:
-            print(
-                f"WARN: specialisation '{raw}' from {source_key_normalised} is unmapped; dropping it rather than publishing raw taxonomy",
-                file=sys.stderr,
-            )
+            warning_key = (source_key_normalised, normalised)
+            if warning_key not in self._warned_unmapped_specialisations:
+                self._warned_unmapped_specialisations.add(warning_key)
+                print(
+                    f"WARN: specialisation '{raw}' from {source_key_normalised} is unmapped; dropping it rather than publishing raw taxonomy",
+                    file=sys.stderr,
+                )
             return None
         if mapped not in self._specialisation_aliases:
-            print(
-                f"WARN: configured mapping for '{raw}' points to unknown specialisation id '{mapped}'; dropping it",
-                file=sys.stderr,
-            )
+            warning_key = (source_key_normalised, normalised, str(mapped))
+            if warning_key not in self._warned_invalid_specialisation_mappings:
+                self._warned_invalid_specialisation_mappings.add(warning_key)
+                print(
+                    f"WARN: configured mapping for '{raw}' points to unknown specialisation id '{mapped}'; dropping it",
+                    file=sys.stderr,
+                )
             return None
         return mapped
 
@@ -177,7 +190,10 @@ class FeedBuilder:
     def map_skill(self, raw: str) -> str | None:
         mapped = self._skill_aliases.get(_taxonomy_key(raw))
         if mapped is None:
-            print(f"WARN: skill '{raw}' not in taxonomy.json - dropping raw term", file=sys.stderr)
+            key = _taxonomy_key(raw)
+            if key not in self._warned_unmapped_skills:
+                self._warned_unmapped_skills.add(key)
+                print(f"WARN: skill '{raw}' not in taxonomy.json - dropping raw term", file=sys.stderr)
             return None
         return mapped
 

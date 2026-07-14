@@ -117,7 +117,7 @@ def collect_greenhouse_board(builder, company: dict, session=None) -> int:
             "seniority": infer_seniority(title),
             "categories": categories,
             "specialisations": categories,
-            "industry": (builder.map_industry(raw_categories[0]) if raw_categories else None) or classify_industry(title, content_html),
+            "industry": builder.industry_for_specialisations(categories) or classify_industry(title, content_html),
             "skills_required": [],
             "skills_preferred": [],
             "posted_at": job.get("updated_at"),  # Greenhouse doesn't expose posted_at separately

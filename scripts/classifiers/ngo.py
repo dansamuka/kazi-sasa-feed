@@ -43,7 +43,7 @@ class NGOClassification:
             "classification": self.classification,
             "track": self.track,
             "canonical_specialisation": self.canonical_specialisation,
-            "confidence": round(self.confidence, 2),
+            "confidence": round(min(1.0, max(0.0, float(self.confidence))), 2),
             "evidence": list(self.evidence),
             "negative_evidence": list(self.negative_evidence),
             "is_programme_role": self.is_programme_role,
@@ -124,6 +124,10 @@ class NGOClassifier:
             score = max(0.0, score - 0.45)
         if support and score < 0.9:
             score = max(0.0, score - 0.35)
+
+        # Multiple independent signals may add above 1.0. Confidence is a
+        # probability-like schema field, so clamp before publication.
+        score = min(0.99, max(0.0, score))
 
         if score >= 0.75 and track:
             classification = str(track.get("classification") or "technical_programme")

@@ -9,7 +9,8 @@ from html import unescape
 from typing import Any, Iterable
 from urllib.parse import urljoin, urlparse
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+import warnings
 
 from normalizers.temporal import normalise_datetime
 from ._common import (
@@ -27,6 +28,18 @@ from ._common import (
 )
 
 
+def _html_soup(value: Any) -> BeautifulSoup:
+    """Parse mixed official-site markup without noisy XML-as-HTML warnings.
+
+    Some vacancy endpoints return XML or XHTML while still requiring tolerant
+    HTML traversal. The warning is diagnostic noise here; extraction remains
+    deliberately tolerant because these endpoints are inconsistent.
+    """
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", XMLParsedAsHTMLWarning)
+        return BeautifulSoup(value or "", "html.parser")
+
+
 def clean_text(value: Any) -> str | None:
     if value is None:
         return None
@@ -35,7 +48,7 @@ def clean_text(value: Any) -> str | None:
     elif isinstance(value, dict):
         value = " ".join(str(item) for item in value.values() if item not in (None, ""))
     raw = unescape(str(value))
-    text = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True) if "<" in raw and ">" in raw else raw
+    text = _html_soup(raw).get_text(" ", strip=True) if "<" in raw and ">" in raw else raw
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
 
@@ -90,7 +103,7 @@ def has_vacancy_evidence(page_html: str, url: str, title: str, context_text: str
     """Require vacancy-specific evidence before publishing generic HTML links."""
     if jsonld_job_postings(page_html):
         return True
-    soup = BeautifulSoup(page_html or "", "html.parser")
+    soup = _html_soup(page_html)
     text = clean_text(soup.get_text(" ", strip=True)) or clean_text(context_text) or ""
     url_l = (url or "").casefold()
     strong_url = bool(re.search(r"/(?:job|jobs|vacanc(?:y|ies)|position|requisition|opening)s?[/_-](?:[a-z0-9-]*\d|[a-z0-9-]{8,})", url_l))
@@ -122,7 +135,7 @@ def iter_job_postings(payload: Any) -> Iterable[dict[str, Any]]:
 
 
 def jsonld_job_postings(html: str) -> list[dict[str, Any]]:
-    soup = BeautifulSoup(html or "", "html.parser")
+    soup = _html_soup(html)
     jobs: list[dict[str, Any]] = []
     for script in soup.find_all("script", attrs={"type": re.compile(r"application/ld\+json", re.I)}):
         raw = script.string or script.get_text()
@@ -201,7 +214,7 @@ def extract_page_location(page_html: str, *, context_text: str = "", title: str 
     multilingual location labels, listing-card context, or a title that itself
     contains a canonical place.
     """
-    soup = BeautifulSoup(page_html or "", "html.parser")
+    soup = _html_soup(page_html)
     candidates: list[str] = []
 
     # Structured HTML and PageUp-style location elements.
@@ -355,7 +368,7 @@ def opportunity_from_page(builder, target: dict, *, title: str, url: str, page_h
             candidate["raw_description_url"] = url
             return candidate
 
-    soup = BeautifulSoup(page_html or "", "html.parser")
+    soup = _html_soup(page_html)
     page_heading = soup.find("h1") or soup.find("title")
     page_title = clean_text(page_heading.get_text(" ", strip=True) if page_heading else None)
     title = choose_job_title(title, page_title, target.get("name"))
@@ -414,7 +427,7 @@ def opportunity_from_page(builder, target: dict, *, title: str, url: str, page_h
 
 
 def extract_candidate_links(html: str, base_url: str, patterns: list[str], exclude_patterns: list[str] | None = None) -> list[tuple[str, str, str]]:
-    soup = BeautifulSoup(html or "", "html.parser")
+    soup = _html_soup(html)
     compiled = [re.compile(pattern, re.I) for pattern in patterns]
     excluded = [re.compile(pattern, re.I) for pattern in (exclude_patterns or [])]
     results: list[tuple[str, str, str]] = []

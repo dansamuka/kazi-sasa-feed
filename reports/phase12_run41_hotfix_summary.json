@@ -1,0 +1,12 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 12 run #41 hotfix",
+  "generated_at": "2026-07-14T08:52:27.357637Z",
+  "fixes": [
+    "Clamp NGO profile confidence to the schema range 0..1",
+    "Regression-test stacked canonical and context evidence",
+    "Deduplicate repeated taxonomy warnings per source term",
+    "Derive ATS industry from canonical specialisations before text fallback",
+    "Suppress intentional XML-as-HTML parser diagnostics in official-site extraction"
+  ]
+}
