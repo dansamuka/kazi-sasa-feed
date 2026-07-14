@@ -7,6 +7,11 @@
   "government_input_count": 14,
   "government_published_count": 14,
   "government_removed_count": 0,
+  "government_safe_duplicate_count": 0,
+  "government_destructive_loss_count": 0,
+  "government_total_removed_percent": 0.0,
+  "government_duplicate_consolidation_percent": 0.0,
+  "government_destructive_loss_percent": 0.0,
   "government_loss_percent": 0.0,
   "events": [],
   "note": "Snapshot audit; live refresh reports pre-publication cross-source removals."
