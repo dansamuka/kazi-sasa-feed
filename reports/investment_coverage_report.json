@@ -1,21 +1,21 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-14T13:50:28.345617Z",
-  "feed_generated_at": "2026-07-14T12:21:10.575518Z",
+  "generated_at": "2026-07-14T14:06:52.992700Z",
+  "feed_generated_at": "2026-07-14T14:06:52.699759Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1217,
+    "opportunity_count": 1219,
     "investment_role_count": 93,
     "institutional_support_role_count": 7,
     "investment_role_percent": 7.6,
     "direct_dfi_investment_count": 10,
     "dfi_institutional_role_count": 7,
-    "false_positive_guarded_count": 111,
+    "false_positive_guarded_count": 114,
     "represented_investment_tracks": 14
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 1117,
+      "not_investment": 1119,
       "core_investment": 81,
       "investment_adjacent": 12,
       "institutional_support": 7
@@ -27,25 +27,25 @@
       "asset_management": 9,
       "treasury": 9,
       "infrastructure_finance": 8,
+      "portfolio_management": 4,
       "financial_institutions": 3,
-      "portfolio_management": 3,
-      "corporate_finance": 2,
       "resource_mobilisation": 2,
       "blended_finance": 1,
       "climate_finance": 1,
+      "corporate_finance": 1,
       "credit": 1,
       "structured_finance": 1
     },
     "by_dfi_relevance": {
-      "none": 1117,
+      "none": 1119,
       "adjacent_experience": 83,
       "direct_investment": 10,
       "institutional_role": 7
     },
     "by_country": {
-      "South Africa": 68,
+      "South Africa": 69,
       "Morocco": 10,
-      "unknown": 9,
+      "unknown": 8,
       "Guinea": 2,
       "Angola": 1,
       "Benin": 1,
@@ -53,11 +53,10 @@
       "Liberia": 1
     },
     "by_source": {
-      "Adzuna": 49,
+      "Adzuna": 50,
       "South Africa DPSA official vacancy circular": 18,
       "DFI and multilateral official career page": 17,
       "Cornerstone-hosted institutional board": 7,
-      "Himalayas": 1,
       "Sun King": 1
     },
     "by_organisation_type": {

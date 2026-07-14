@@ -1,22 +1,22 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-14T13:50:28.347515Z",
-  "feed_generated_at": "2026-07-14T12:21:10.575518Z",
+  "generated_at": "2026-07-14T14:06:52.994709Z",
+  "feed_generated_at": "2026-07-14T14:06:52.699759Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1217,
-    "ngo_or_un_opportunity_count": 69,
-    "phase8_priority_opportunity_count": 62,
-    "programme_role_count": 167,
+    "opportunity_count": 1219,
+    "ngo_or_un_opportunity_count": 71,
+    "phase8_priority_opportunity_count": 64,
+    "programme_role_count": 169,
     "represented_organisations": 9,
-    "represented_countries": 19,
-    "official_application_count": 69,
+    "represented_countries": 18,
+    "official_application_count": 71,
     "official_application_percent": 100.0
   },
   "coverage": {
     "by_organisation": {
       "One Acre Fund": 31,
-      "UNICEF": 17,
+      "UNICEF": 19,
       "GiveDirectly": 8,
       "MSF West and Central Africa": 6,
       "Acumen": 2,
@@ -27,34 +27,35 @@
     },
     "by_organisation_group": {
       "ngo": 51,
-      "un_agency": 17,
+      "un_agency": 19,
       "development_implementer": 1
     },
     "by_classification": {
       "not_ngo_un": 1005,
-      "development": 110,
-      "humanitarian": 45,
+      "development": 109,
+      "humanitarian": 46,
       "institutional_support": 45,
-      "technical_programme": 12
+      "technical_programme": 14
     },
     "by_track": {
       "programme_management": 78,
-      "field_operations": 31,
+      "field_operations": 32,
       "research_learning": 12,
       "monitoring_evaluation_learning": 11,
       "safeguarding_protection": 10,
-      "partnerships_resource_mobilisation": 7,
+      "partnerships_resource_mobilisation": 6,
+      "nutrition_food_security": 4,
       "public_health": 4,
       "gender_inclusion": 3,
       "humanitarian_response": 3,
-      "nutrition_food_security": 3,
       "climate_resilience": 2,
       "community_engagement": 1,
+      "education_programmes": 1,
       "grants_and_compliance": 1,
       "humanitarian_logistics": 1
     },
     "by_country": {
-      "unknown": 14,
+      "unknown": 17,
       "Rwanda": 13,
       "Côte d’Ivoire": 6,
       "Kenya": 6,
@@ -66,7 +67,6 @@
       "Malawi": 2,
       "Equatorial Guinea": 1,
       "Eritrea": 1,
-      "Madagascar": 1,
       "Mozambique": 1,
       "Senegal": 1,
       "Somalia": 1,
@@ -77,7 +77,7 @@
     },
     "by_source": {
       "One Acre Fund": 31,
-      "PageUp-hosted institutional board": 17,
+      "PageUp-hosted institutional board": 19,
       "GiveDirectly": 8,
       "MSF West and Central Africa": 6,
       "Acumen": 2,
@@ -92,12 +92,12 @@
       "operations": 12,
       "administration": 4,
       "human_resources": 4,
+      "health": 3,
       "humanitarian": 3,
       "procurement": 3,
       "monitoring_evaluation_and_learning": 2,
       "banking_and_finance": 1,
       "education": 1,
-      "health": 1,
       "sales_business_development": 1
     }
   }
