@@ -107,17 +107,22 @@ def _keys(opp: dict) -> list[str]:
             value = canonical_url(opp.get(field))
             if value:
                 keys.append(f"url:{value}")
-    semantic = _semantic_key(opp)
-    if semantic:
-        keys.append(semantic)
-    org = _usable_organisation_name(opp)
-    title = _norm(opp.get("title"))
-    location = opp.get("location") or {}
-    country = _norm(location.get("country_code") or location.get("country"))
-    city = _norm(location.get("city"))
-    desc = _description_hash(opp)
-    if org and title and desc and country:
-        keys.append(f"content:{org}|{title}|{country}|{city}|{desc}")
+    # Government vacancies are identified only by their stable ID and explicit
+    # government identity key.  They must never be collapsed by broad semantic
+    # or description fingerprints: circulars routinely contain repeated job
+    # titles across grades, departments, locations, and advert references.
+    if not government_key:
+        semantic = _semantic_key(opp)
+        if semantic:
+            keys.append(semantic)
+        org = _usable_organisation_name(opp)
+        title = _norm(opp.get("title"))
+        location = opp.get("location") or {}
+        country = _norm(location.get("country_code") or location.get("country"))
+        city = _norm(location.get("city"))
+        desc = _description_hash(opp)
+        if org and title and desc and country:
+            keys.append(f"content:{org}|{title}|{country}|{city}|{desc}")
     return keys
 
 
@@ -151,6 +156,8 @@ def deduplicate_opportunities(opportunities: list[dict]) -> tuple[list[dict], di
     kept: list[dict] = []
     key_to_index: dict[str, int] = {}
     events: list[dict] = []
+    government_safe_duplicate_count = 0
+    government_destructive_loss_count = 0
 
     for candidate in opportunities:
         candidate_keys = _keys(candidate)
@@ -172,6 +179,18 @@ def deduplicate_opportunities(opportunities: list[dict]) -> tuple[list[dict], di
         all_keys = set(_keys(winner)) | set(_keys(loser))
         for key in all_keys:
             key_to_index[key] = index
+        winner_is_government = _is_government_opportunity(winner)
+        loser_is_government = _is_government_opportunity(loser)
+        government_match = any(key.startswith("government:") for key in matched_keys)
+        exact_id_match = any(key.startswith("id:") for key in matched_keys)
+        government_duplicate_type = None
+        if loser_is_government:
+            if winner_is_government and (government_match or exact_id_match):
+                government_safe_duplicate_count += 1
+                government_duplicate_type = "safe_identity_consolidation"
+            else:
+                government_destructive_loss_count += 1
+                government_duplicate_type = "destructive_or_unexplained_loss"
         events.append({
             "kept_id": winner.get("id"),
             "removed_id": loser.get("id"),
@@ -179,11 +198,19 @@ def deduplicate_opportunities(opportunities: list[dict]) -> tuple[list[dict], di
             "kept_source": (winner.get("source") or {}).get("name"),
             "removed_source": (loser.get("source") or {}).get("name"),
             "matched_by": sorted(matched_keys)[:8],
+            "government_duplicate_type": government_duplicate_type,
         })
 
     government_input = sum(1 for row in opportunities if _is_government_opportunity(row))
     government_published = sum(1 for row in kept if _is_government_opportunity(row))
     government_removed = government_input - government_published
+    # ``government_removed`` includes legitimate consolidation where the same
+    # post appears in both a full circular and a department-specific PDF.  The
+    # certification gate must measure only unexplained/destructive loss, not
+    # safe duplicate cleanup.
+    government_total_removed_percent = round((government_removed / government_input * 100), 1) if government_input else 0.0
+    government_safe_duplicate_percent = round((government_safe_duplicate_count / government_input * 100), 1) if government_input else 0.0
+    government_destructive_loss_percent = round((government_destructive_loss_count / government_input * 100), 1) if government_input else 0.0
     report = {
         "input_count": len(opportunities),
         "published_count": len(kept),
@@ -192,7 +219,13 @@ def deduplicate_opportunities(opportunities: list[dict]) -> tuple[list[dict], di
         "government_input_count": government_input,
         "government_published_count": government_published,
         "government_removed_count": government_removed,
-        "government_loss_percent": round((government_removed / government_input * 100), 1) if government_input else 0.0,
+        "government_safe_duplicate_count": government_safe_duplicate_count,
+        "government_destructive_loss_count": government_destructive_loss_count,
+        "government_total_removed_percent": government_total_removed_percent,
+        "government_duplicate_consolidation_percent": government_safe_duplicate_percent,
+        "government_destructive_loss_percent": government_destructive_loss_percent,
+        # Backward-compatible field: "loss" now means destructive loss only.
+        "government_loss_percent": government_destructive_loss_percent,
         "events": events,
     }
     return kept, report

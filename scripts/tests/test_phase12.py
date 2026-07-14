@@ -198,3 +198,39 @@ def test_explicit_nationality_requirement_uses_african_country_code():
     assert access['status'] == 'confirmed_specific_african_nationality'
     assert access['citizenship_required'] is True
     assert access['eligible_nationalities'] == ['KE']
+
+
+def test_government_safe_duplicate_consolidation_is_not_certification_loss():
+    first = government_row('gov-1', 'PSC/1/2026', 'Economist')
+    second = government_row('gov-2', 'PSC/1/2026', 'Economist')
+    kept, dedup = deduplicate_opportunities([first, second])
+    assert len(kept) == 1
+    assert dedup['government_safe_duplicate_count'] == 1
+    assert dedup['government_duplicate_consolidation_percent'] == 50.0
+    assert dedup['government_destructive_loss_count'] == 0
+    assert dedup['government_destructive_loss_percent'] == 0.0
+    report = evaluate({'meta': {'feed_version': '3.8'}, 'opportunities': kept}, dedup)
+    assert not any('government deduplication loss' in error for error in report['errors'])
+
+
+def test_government_posts_with_same_semantics_but_different_references_survive():
+    first = government_row('gov-1', 'PSC/1/2026', 'Economist')
+    second = government_row('gov-2', 'PSC/2/2026', 'Economist')
+    # Deliberately make every broad semantic/content signal identical.  The
+    # explicit advert reference must still preserve both government posts.
+    for row in (first, second):
+        row['summary'] = 'Identical public service vacancy description ' * 10
+        row['location']['city'] = 'Nairobi'
+        row['deadline'] = '2026-08-01T23:59:59Z'
+    kept, report = deduplicate_opportunities([first, second])
+    assert len(kept) == 2
+    assert report['government_removed_count'] == 0
+    assert report['government_destructive_loss_percent'] == 0.0
+
+
+def test_certification_gate_still_rejects_destructive_government_loss():
+    report = evaluate(
+        {'meta': {'feed_version': '3.8'}, 'opportunities': []},
+        {'government_destructive_loss_percent': 5.1, 'government_duplicate_consolidation_percent': 49.9},
+    )
+    assert any('destructive government deduplication loss is 5.1%' in error for error in report['errors'])

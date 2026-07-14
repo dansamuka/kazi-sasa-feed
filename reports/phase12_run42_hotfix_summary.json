@@ -1,0 +1,19 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 12 run #42 government deduplication gate hotfix",
+  "feed_version": "3.8",
+  "root_cause": "Safe duplicate consolidation across full and department-specific government circular PDFs was incorrectly counted as destructive data loss.",
+  "changes": [
+    "Government vacancies are excluded from broad semantic and content-hash deduplication.",
+    "Government identity uses stable ID or country, institution, advert reference and title.",
+    "Safe duplicate consolidation and destructive loss are reported separately.",
+    "The 5 percent certification threshold applies only to destructive or unexplained government loss."
+  ],
+  "validation": {
+    "tests_passed": 294,
+    "synthetic_government_input": 640,
+    "synthetic_safe_consolidation_percent": 50.0,
+    "synthetic_destructive_loss_percent": 0.0,
+    "synthetic_certification_status": "passed"
+  }
+}

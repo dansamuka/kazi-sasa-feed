@@ -76,7 +76,8 @@ def migrate_data(root: Path, data: dict, *, mark_bootstrap: bool = False) -> tup
         "input": len(data.get("opportunities", [])),
         "non_african_removed": len(rejected),
         "published": len(rows),
-        "government_deduplication_loss_percent": dedup.get("government_loss_percent", 0.0),
+        "government_deduplication_loss_percent": dedup.get("government_destructive_loss_percent", dedup.get("government_loss_percent", 0.0)),
+        "government_duplicate_consolidation_percent": dedup.get("government_duplicate_consolidation_percent", 0.0),
         "rejected": rejected,
         "deduplication": dedup,
     }

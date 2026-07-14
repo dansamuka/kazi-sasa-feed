@@ -1,0 +1,13 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 12 mobile filter UI hotfix",
+  "generated_at": "2026-07-14T11:47:38.114985Z",
+  "changes": {
+    "collapsible_filters_all_viewports": true,
+    "mobile_default_collapsed": true,
+    "mobile_search_not_sticky": true,
+    "active_filter_count": true,
+    "mobile_dropdown_bottom_sheet": true,
+    "feed_schema_changed": false
+  }
+}

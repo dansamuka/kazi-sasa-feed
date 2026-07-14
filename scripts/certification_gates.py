@@ -85,9 +85,14 @@ def evaluate(feed: dict[str, Any], deduplication_report: dict[str, Any] | None =
             f"{len(missing_structured_nationality)} citizenship-restricted government roles lack nationality codes"
         )
 
-    government_loss = float(deduplication_report.get("government_loss_percent") or 0.0)
+    government_loss = float(
+        deduplication_report.get("government_destructive_loss_percent",
+                                 deduplication_report.get("government_loss_percent", 0.0))
+        or 0.0
+    )
+    government_consolidation = float(deduplication_report.get("government_duplicate_consolidation_percent") or 0.0)
     if government_loss > 5.0:
-        errors.append(f"government deduplication loss is {government_loss:.1f}%; maximum is 5%")
+        errors.append(f"destructive government deduplication loss is {government_loss:.1f}%; maximum is 5%")
 
     pending = by_relevance.get("official_location_pending", 0)
     unresolved = by_relevance.get("unresolved", 0)
@@ -120,6 +125,7 @@ def evaluate(feed: dict[str, Any], deduplication_report: dict[str, Any] | None =
             "official_location_pending_percent": pending_pct,
             "unresolved_location_percent": unresolved_pct,
             "government_deduplication_loss_percent": government_loss,
+            "government_duplicate_consolidation_percent": government_consolidation,
         },
         "coverage": {
             "by_africa_relevance": dict(by_relevance.most_common()),

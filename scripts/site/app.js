@@ -348,6 +348,67 @@ function optionsFor(key) {
     .slice(0, limit);
 }
 
+const MOBILE_FILTER_QUERY = window.matchMedia('(max-width: 760px)');
+
+function activeFilterCount() {
+  let count = state.datePosted ? 1 : 0;
+  if (state.keyword.trim()) count += 1;
+  if (state.location.trim()) count += 1;
+  PILL_CONFIGS.forEach(config => {
+    if (config.kind === 'multi') count += state[config.key].size;
+  });
+  return count;
+}
+
+function filtersAreOpen() {
+  const hero = document.querySelector('.search-hero');
+  if (!hero) return true;
+  if (MOBILE_FILTER_QUERY.matches) return hero.classList.contains('filters-open');
+  return !hero.classList.contains('filters-collapsed');
+}
+
+function updateFilterToggle() {
+  const toggle = document.getElementById('filterToggle');
+  const label = document.getElementById('filterToggleLabel');
+  const countNode = document.getElementById('activeFilterCount');
+  if (!toggle || !label || !countNode) return;
+  const open = filtersAreOpen();
+  const count = activeFilterCount();
+  toggle.setAttribute('aria-expanded', String(open));
+  label.textContent = open ? 'Hide filters' : 'Show filters';
+  countNode.textContent = count ? `${count} active` : 'None active';
+}
+
+function setFiltersOpen(open) {
+  const hero = document.querySelector('.search-hero');
+  if (!hero) return;
+  closeAllDropdowns();
+  if (MOBILE_FILTER_QUERY.matches) {
+    hero.classList.toggle('filters-open', open);
+    hero.classList.remove('filters-collapsed');
+  } else {
+    hero.classList.toggle('filters-collapsed', !open);
+    hero.classList.remove('filters-open');
+  }
+  updateFilterToggle();
+}
+
+function setupFilterToggle() {
+  const toggle = document.getElementById('filterToggle');
+  if (!toggle) return;
+  // Mobile starts collapsed to keep roles visible; desktop keeps the familiar
+  // expanded filter row but can also be collapsed by the user.
+  setFiltersOpen(!MOBILE_FILTER_QUERY.matches);
+  toggle.addEventListener('click', () => setFiltersOpen(!filtersAreOpen()));
+  MOBILE_FILTER_QUERY.addEventListener('change', event => setFiltersOpen(!event.matches));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      closeAllDropdowns();
+      if (MOBILE_FILTER_QUERY.matches && filtersAreOpen()) setFiltersOpen(false);
+    }
+  });
+}
+
 function closeAllDropdowns() {
   document.querySelectorAll('.li-dropdown.open').forEach(element => element.classList.remove('open'));
   PILL_CONFIGS.forEach(config => {
@@ -411,6 +472,7 @@ function updatePillLabels() {
       pill.classList.toggle('active', count > 0);
     }
   });
+  updateFilterToggle();
 }
 
 function setupPills() {
@@ -565,11 +627,11 @@ function render() {
   });
 }
 
-document.getElementById('keywordInput').addEventListener('input', event => { state.keyword = event.target.value; state.page = 1; render(); });
-document.getElementById('locationInput').addEventListener('input', event => { state.location = event.target.value; state.page = 1; render(); });
-document.getElementById('searchBtn').addEventListener('click', () => { state.page = 1; render(); });
-document.getElementById('keywordInput').addEventListener('keydown', event => { if (event.key === 'Enter') { state.page = 1; render(); } });
-document.getElementById('locationInput').addEventListener('keydown', event => { if (event.key === 'Enter') { state.page = 1; render(); } });
+document.getElementById('keywordInput').addEventListener('input', event => { state.keyword = event.target.value; state.page = 1; updateFilterToggle(); render(); });
+document.getElementById('locationInput').addEventListener('input', event => { state.location = event.target.value; state.page = 1; updateFilterToggle(); render(); });
+document.getElementById('searchBtn').addEventListener('click', () => { state.page = 1; if (MOBILE_FILTER_QUERY.matches) setFiltersOpen(false); render(); });
+document.getElementById('keywordInput').addEventListener('keydown', event => { if (event.key === 'Enter') { state.page = 1; if (MOBILE_FILTER_QUERY.matches) setFiltersOpen(false); render(); } });
+document.getElementById('locationInput').addEventListener('keydown', event => { if (event.key === 'Enter') { state.page = 1; if (MOBILE_FILTER_QUERY.matches) setFiltersOpen(false); render(); } });
 document.getElementById('sortSelect').addEventListener('change', event => { state.sortBy = event.target.value; state.page = 1; render(); });
 document.getElementById('clearAllBtn').addEventListener('click', () => {
   state = newFilterState(state.sortBy, state.expanded);
@@ -585,5 +647,6 @@ renderSourceStrip();
 renderFreshnessStatus();
 renderFooterMeta();
 setupPills();
+setupFilterToggle();
 updatePillLabels();
 render();

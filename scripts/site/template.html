@@ -251,6 +251,56 @@
 
   .li-search-btn:hover { opacity: 0.87; }
 
+  .filter-toolbar {
+    max-width: 900px;
+    margin: 10px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .filter-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 38px;
+    padding: 8px 13px;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: var(--card);
+    color: var(--cream);
+    font-family: var(--body);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .filter-toggle:hover,
+  .filter-toggle:focus-visible {
+    border-color: var(--gold-dim);
+    background: var(--navy-raised);
+    outline: none;
+  }
+
+  .filter-toggle-count {
+    color: var(--gold);
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .filter-toggle-chevron {
+    color: var(--slate-dim);
+    transition: transform 0.18s ease;
+  }
+
+  .filter-toggle[aria-expanded="true"] .filter-toggle-chevron {
+    transform: rotate(180deg);
+  }
+
+  .search-hero.filters-collapsed .li-pill-row { display: none; }
+
   /* Filter pill row - each pill is a button that reveals a small dropdown
      panel directly below it, same interaction pattern as LinkedIn's job-
      search filter row (Date posted / Experience level / Job type / Remote /
@@ -593,9 +643,13 @@
     margin-top: 28px;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 760px) {
     .hero { padding: 44px 18px 28px; }
-    .search-hero { padding: 12px 18px; }
+    .source-strip { padding: 0 18px 30px; }
+    .search-hero {
+      position: static;
+      padding: 12px 18px;
+    }
     main { padding: 24px 18px 70px; }
     .hero-stats { gap: 26px; }
     .li-searchbar { flex-direction: column; }
@@ -603,7 +657,64 @@
     .li-box { border-bottom: 1px solid var(--border); }
     .li-box:last-of-type { border-bottom: none; }
     .li-search-btn { padding: 13px; }
+    .filter-toolbar { margin-top: 9px; }
+    .filter-toggle {
+      width: 100%;
+      justify-content: center;
+      min-height: 42px;
+    }
+    .search-hero.mobile-filters-collapsed:not(.filters-open) .li-pill-row,
+    .search-hero.filters-collapsed .li-pill-row { display: none; }
+    .search-hero.filters-open .li-pill-row {
+      display: flex;
+      max-height: min(52vh, 430px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 2px 2px 10px;
+      scrollbar-width: thin;
+    }
+    .li-pill-row {
+      align-items: stretch;
+      gap: 7px;
+    }
+    .li-pill-wrap { flex: 1 1 calc(50% - 4px); }
+    .li-pill {
+      width: 100%;
+      height: 100%;
+      min-height: 39px;
+      padding: 8px 12px;
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .li-clear-btn {
+      flex: 1 1 100%;
+      min-height: 40px;
+      border: 1px solid var(--border-soft);
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .li-dropdown {
+      position: fixed;
+      left: 14px;
+      right: 14px;
+      top: auto;
+      bottom: 14px;
+      width: auto;
+      min-width: 0;
+      max-height: min(62vh, 520px);
+      z-index: 80;
+      border-radius: 14px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.62);
+    }
     .result-count { margin-left: 0; width: 100%; order: 99; }
+    .card { padding: 18px 17px; }
+    .card-top { gap: 10px; }
+    .confidence-badge { padding: 4px 7px; }
+  }
+
+  @media (max-width: 420px) {
+    .li-pill-wrap { flex-basis: 100%; }
   }
 
   ::-webkit-scrollbar { width: 10px; }
@@ -626,7 +737,7 @@
 
 <div class="source-strip" id="sourceStrip"></div>
 
-<div class="search-hero">
+<div class="search-hero mobile-filters-collapsed">
   <div class="li-searchbar">
     <div class="li-box li-box-keyword">
       <span class="li-icon">&#8981;</span>
@@ -638,6 +749,15 @@
       <input type="text" id="locationInput" placeholder="Location">
     </div>
     <button class="li-search-btn" id="searchBtn">Search</button>
+  </div>
+
+  <div class="filter-toolbar">
+    <button class="filter-toggle" id="filterToggle" type="button" aria-controls="pillRow" aria-expanded="true">
+      <span aria-hidden="true">&#9776;</span>
+      <span id="filterToggleLabel">Hide filters</span>
+      <span class="filter-toggle-count" id="activeFilterCount"></span>
+      <span class="filter-toggle-chevron" aria-hidden="true">&#9662;</span>
+    </button>
   </div>
 
   <div class="li-pill-row" id="pillRow">
