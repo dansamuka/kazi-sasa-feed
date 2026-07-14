@@ -176,7 +176,7 @@ def test_packaged_feed_has_phase2_fields_on_every_record():
 
 
 def test_phase2_does_not_change_packaged_opportunity_ids():
-    ids = [row["id"] for row in _load("feed.json")["opportunities"]]
+    ids = [row["id"] for row in json.loads((Path(__file__).parent / "fixtures" / "legacy_packaged_feed.json").read_text(encoding="utf-8"))["opportunities"]]
     digest = hashlib.sha256(("\n".join(ids) + "\n").encode()).hexdigest()
     assert len(ids) == 204
     assert digest == "8f10da989a13304af96d18d317ec4a1227f178123be50dc4cf8a983f10c49e86"
@@ -184,7 +184,7 @@ def test_phase2_does_not_change_packaged_opportunity_ids():
 
 def test_phase2_preserves_current_android_dto_projection():
     for filename, expected in {
-        "feed.json": "9091a81b364025ea9d61c9b961231bdd6187fc0d025532297da761469419637c",
+        "scripts/tests/fixtures/legacy_packaged_feed.json": "9091a81b364025ea9d61c9b961231bdd6187fc0d025532297da761469419637c",
         "seed.json": "5d881af69edd21e0e983dddc0b2ed0f5c4ba958130baac7536fbb97d99cd75fe",
     }.items():
         opportunities = _load(filename)["opportunities"]

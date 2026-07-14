@@ -451,3 +451,8 @@ with meaningful access evidence. Use the **Certification scope**,
 **Africa relevance**, and **African applicant access** filters to inspect the
 broader index. Known non-African roles without an Africa remit are rejected and
 audited in `reports/rejected_records.json`.
+
+
+## Phase 12 run #38 compatibility fix
+
+The repository-root `feed.json` is a mutable live publication artifact. Historical 204-record stable-ID and Android compatibility assertions now use `scripts/tests/fixtures/legacy_packaged_feed.json`, while Phase 12 certification is validated by migrating the current root feed in memory. This allows the same test suite to pass against both the bundled snapshot and the live repository feed.

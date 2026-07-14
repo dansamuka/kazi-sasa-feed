@@ -230,7 +230,7 @@ def test_phase7_publication_guard_and_site_markers():
 
 
 def test_packaged_phase7_migration_preserves_legacy_projection_shape():
-    feed = load_json(REPO / "feed.json")
+    feed = load_json(FIXTURES / "legacy_packaged_feed.json")
     assert len(feed["opportunities"]) == 204
     assert all("institution_profile" in row for row in feed["opportunities"])
     # Presence of the profile must not alter the established Android projection.

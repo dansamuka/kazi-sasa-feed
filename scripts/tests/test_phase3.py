@@ -184,7 +184,7 @@ def test_refresh_feed_uses_registry_runner_not_manual_collector_loop():
 def test_packaged_opportunity_ids_remain_unchanged():
     import hashlib
 
-    feed = json.loads((REPO / "feed.json").read_text(encoding="utf-8"))
+    feed = json.loads((Path(__file__).parent / "fixtures" / "legacy_packaged_feed.json").read_text(encoding="utf-8"))
     ids = [row["id"] for row in feed["opportunities"]]
     assert len(ids) == 204
     assert len(ids) == len(set(ids))

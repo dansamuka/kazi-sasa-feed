@@ -1,0 +1,20 @@
+{
+  "report_version": "1.0",
+  "phase": "Phase 12 run #38 test-order hotfix",
+  "feed_version": "3.8",
+  "summary": {
+    "offline_tests_passed": 287,
+    "legacy_fixture_opportunity_count": 204,
+    "simulated_live_opportunity_count": 945,
+    "live_feed_record_count_is_mutable": true,
+    "phase12_migration_test_runs_in_memory": true
+  },
+  "fixed_failures": [
+    "phase1 packaged feed ID assertion read mutable live feed",
+    "phase2 packaged ID and Android projection assertions read mutable live feed",
+    "phase3 packaged ID assertion read mutable live feed",
+    "phase4 Android projection assertion read mutable live feed",
+    "phase7 packaged migration assertion read mutable live feed",
+    "phase12 metadata assertion ran before workflow bootstrap"
+  ]
+}

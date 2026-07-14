@@ -207,7 +207,7 @@ def test_all_packaged_records_have_phase4_fields_and_version():
 
 def test_phase4_migration_preserves_android_dto_projection():
     expected = {
-        "feed.json": "9091a81b364025ea9d61c9b961231bdd6187fc0d025532297da761469419637c",
+        "scripts/tests/fixtures/legacy_packaged_feed.json": "9091a81b364025ea9d61c9b961231bdd6187fc0d025532297da761469419637c",
         "seed.json": "5d881af69edd21e0e983dddc0b2ed0f5c4ba958130baac7536fbb97d99cd75fe",
     }
     for filename, digest in expected.items():

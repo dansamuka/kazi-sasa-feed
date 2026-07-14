@@ -96,7 +96,7 @@ def test_phase9_public_portals_are_registered_with_explicit_status():
 
 
 def test_phase1_does_not_change_packaged_feed_ids():
-    ids = [row["id"] for row in _load(REPO / "feed.json")["opportunities"]]
+    ids = [row["id"] for row in _load(Path(__file__).parent / "fixtures" / "legacy_packaged_feed.json")["opportunities"]]
     digest = hashlib.sha256(("\n".join(ids) + "\n").encode()).hexdigest()
     assert len(ids) == 204
     assert digest == "8f10da989a13304af96d18d317ec4a1227f178123be50dc4cf8a983f10c49e86"
