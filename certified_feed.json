@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "3.8",
-    "generated_at": "2026-07-15T08:38:34.466110Z",
-    "next_expected_update": "2026-07-15T14:38:34.466127Z",
-    "opportunity_count": 328,
+    "generated_at": "2026-07-15T14:11:15.667663Z",
+    "next_expected_update": "2026-07-15T20:11:15.667679Z",
+    "opportunity_count": 329,
     "source_count": 4,
     "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
     "is_sample_data": false,
@@ -37,9 +37,386 @@
     "government_deduplication_version": "3.0",
     "eligibility_evidence_version": "2.0",
     "certified_subset": true,
-    "parent_opportunity_count": 1215
+    "parent_opportunity_count": 1217
   },
   "opportunities": [
+    {
+      "id": "official-unicef-cbd744dff213ac3f",
+      "title": "Social Policy Specialist, (NO-3), Fixed Term Position, #00137627 Malawi, Lilongwe (Open to Malawian Nationals Only)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "UNICEF",
+        "type": "multilateral",
+        "verified": true,
+        "id": "unicef",
+        "type_detail": "un_agency",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Social Policy Specialist, (NO-3), Fixed Term Position, #00137627 Malawi, Lilongwe (Open to Malawian Nationals Only)",
+        "country": "Malawi",
+        "region": "Southern Africa",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": null,
+        "country_code": "MW",
+        "country_iso3": "MWI",
+        "city": "Lilongwe",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -13.9667,
+          "lon": 33.8167
+        },
+        "normalisation_confidence": 1.0,
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Lilongwe",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "Malawi",
+        "region_canonical": "Southern Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": null,
+      "categories": [],
+      "specialisations": [],
+      "source_context_specialisations": [
+        "programme_management"
+      ],
+      "industry": "technology",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": null,
+      "deadline": null,
+      "deadline_confidence": "unknown",
+      "years_experience_min": null,
+      "years_experience_max": null,
+      "education_required": null,
+      "education_field": [],
+      "languages_required": [],
+      "contract_type": "fixed_term",
+      "source": {
+        "name": "PageUp-hosted institutional board",
+        "url": "https://jobs.unicef.org/",
+        "confidence": "official",
+        "last_seen_at": "2026-07-15T13:50:08.888216Z",
+        "id": "pageup-institutional-board",
+        "kind": "institution_official",
+        "registry_managed": true
+      },
+      "apply_url": "https://jobs.unicef.org/en-us/job/594506/social-policy-specialist-no3-fixed-term-position-00137627-malawi-lilongwe-open-to-malawian-nationals-only",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+      "raw_description_url": "https://jobs.unicef.org/en-us/job/594506/social-policy-specialist-no3-fixed-term-position-00137627-malawi-lilongwe-open-to-malawian-nationals-only",
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase7_priority_institution": false
+      },
+      "role_family": "technology",
+      "role_subfamily": null,
+      "thematic_sectors": [
+        "technology"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": true,
+        "organisation_group": "un_agency",
+        "classification": "institutional_support",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.68,
+        "evidence": [
+          "ngo_or_un_institution"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": false,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase8_priority_organisation": true
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "MW",
+        "known_country_name": "Malawi"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.96,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "eligible_nationalities": [
+          "MW"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.96,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "MW"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "detected_language": "en"
+      }
+    },
+    {
+      "id": "official-unicef-4633c57b0fe3675a",
+      "title": "Social Policy Officer, NO-2, Fixed Term Position, Malawi, Lilongwe, Malawi, #00137610 (Open to Malawian Nationals Only)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "UNICEF",
+        "type": "multilateral",
+        "verified": true,
+        "id": "unicef",
+        "type_detail": "un_agency",
+        "registry_managed": true
+      },
+      "location": {
+        "raw": "Social Policy Officer, NO-2, Fixed Term Position, Malawi, Lilongwe, Malawi, #00137610 (Open to Malawian Nationals Only)",
+        "country": "Malawi",
+        "region": "Southern Africa",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
+        "relocation_country": null,
+        "country_code": "MW",
+        "country_iso3": "MWI",
+        "city": "Lilongwe",
+        "admin_area": null,
+        "coordinates": {
+          "lat": -13.9667,
+          "lon": 33.8167
+        },
+        "normalisation_confidence": 1.0,
+        "normalisation_evidence": [
+          "existing_country",
+          "explicit_city_alias"
+        ],
+        "matched_location_alias": "Lilongwe",
+        "location_language": "en",
+        "is_african": true,
+        "country_canonical": "Malawi",
+        "region_canonical": "Southern Africa",
+        "known_non_african": false,
+        "global_location_evidence": []
+      },
+      "work_mode": null,
+      "seniority": null,
+      "categories": [],
+      "specialisations": [],
+      "source_context_specialisations": [
+        "programme_management"
+      ],
+      "industry": "technology",
+      "skills_required": [],
+      "skills_preferred": [],
+      "posted_at": null,
+      "deadline": null,
+      "deadline_confidence": "unknown",
+      "years_experience_min": null,
+      "years_experience_max": null,
+      "education_required": null,
+      "education_field": [],
+      "languages_required": [],
+      "contract_type": "fixed_term",
+      "source": {
+        "name": "PageUp-hosted institutional board",
+        "url": "https://jobs.unicef.org/",
+        "confidence": "official",
+        "last_seen_at": "2026-07-15T13:50:09.489319Z",
+        "id": "pageup-institutional-board",
+        "kind": "institution_official",
+        "registry_managed": true
+      },
+      "apply_url": "https://jobs.unicef.org/en-us/job/594514/social-policy-officer-no2-fixed-term-position-malawi-lilongwe-malawi-00137610-open-to-malawian-nationals-only",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+      "raw_description_url": "https://jobs.unicef.org/en-us/job/594514/social-policy-officer-no2-fixed-term-position-malawi-lilongwe-malawi-00137610-open-to-malawian-nationals-only",
+      "institution_profile": {
+        "is_dfi_or_multilateral": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase7_priority_institution": false
+      },
+      "role_family": "technology",
+      "role_subfamily": null,
+      "thematic_sectors": [
+        "technology"
+      ],
+      "investment_profile": {
+        "classification": "not_investment",
+        "track": null,
+        "canonical_specialisation": null,
+        "confidence": 0.78,
+        "evidence": [],
+        "negative_evidence": [],
+        "dfi_relevance": "none",
+        "dfi_confidence": 0.82,
+        "is_investment_role": false
+      },
+      "ngo_profile": {
+        "is_ngo_or_un": true,
+        "organisation_group": "un_agency",
+        "classification": "development",
+        "track": "advocacy_policy",
+        "canonical_specialisation": "advocacy",
+        "confidence": 0.99,
+        "evidence": [
+          "title_phrase:policy_officer",
+          "ngo_or_un_institution"
+        ],
+        "negative_evidence": [],
+        "is_programme_role": true,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase8_priority_organisation": true
+      },
+      "government_profile": {
+        "is_government_or_public_service": false,
+        "institution_type": "un_agency",
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase9_priority_portal": false,
+        "phase10_kenya_public_institution": false,
+        "public_institution_category": null,
+        "advert_reference": null,
+        "public_service_grade": null,
+        "salary_scale": null,
+        "number_of_positions": null,
+        "citizenship_required": null,
+        "eligible_nationalities": [],
+        "application_method": null,
+        "application_form_url": null,
+        "internal_only": false,
+        "county_or_region_requirement": null,
+        "source_document_url": null
+      },
+      "public_institution_profile": {
+        "is_kenya_public_institution": false,
+        "category": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "country_code": null
+      },
+      "multinational_profile": {
+        "is_multinational": false,
+        "sector": null,
+        "registry_id": "unicef",
+        "source_pack": "phase8_ngo_un_development",
+        "phase11_priority_employer": false,
+        "african_city_footprint": []
+      },
+      "africa_relevance": {
+        "status": "africa_based_confirmed",
+        "confidence": 0.99,
+        "evidence": [
+          "physical_duty_station_in_africa"
+        ],
+        "certification_level": "certified",
+        "default_visible": true,
+        "known_country_code": "MW",
+        "known_country_name": "Malawi"
+      },
+      "african_applicant_access": {
+        "status": "confirmed_specific_african_nationality",
+        "confidence": 0.96,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "eligible_nationalities": [
+          "MW"
+        ],
+        "citizenship_required": true,
+        "work_authorisation_required": null,
+        "certification_level": "certified"
+      },
+      "eligibility": {
+        "status": "citizenship_restricted",
+        "confidence": 0.96,
+        "citizenship_required": true,
+        "eligible_nationalities": [
+          "MW"
+        ],
+        "work_authorisation_required": null,
+        "evidence": [
+          "explicit_african_nationality_requirement"
+        ],
+        "evidence_strength": "explicit",
+        "detected_language": "en"
+      }
+    },
     {
       "id": "official-unicef-199d17f462bea0a7",
       "title": "Evidence Generation Consultant (Nationals Only), Khartoum, Remote, #594436",
@@ -53,25 +430,26 @@
         "registry_managed": true
       },
       "location": {
-        "raw": "Middle East and North Africa Region",
-        "country": null,
+        "raw": "Evidence Generation Consultant (Nationals Only), Khartoum, Remote, #594436",
+        "country": "Sudan",
         "region": "North Africa",
-        "is_remote_from_kenya": true,
-        "scope": "international",
+        "is_remote_from_kenya": false,
+        "scope": "regional",
         "relocation_country": null,
-        "country_code": null,
-        "country_iso3": null,
-        "city": null,
+        "country_code": "SD",
+        "country_iso3": "SDN",
+        "city": "Khartoum",
         "admin_area": null,
         "coordinates": null,
-        "normalisation_confidence": 0.68,
+        "normalisation_confidence": 1.0,
         "normalisation_evidence": [
-          "explicit_region_alias"
+          "existing_country",
+          "explicit_city_alias"
         ],
-        "matched_location_alias": null,
+        "matched_location_alias": "Khartoum",
         "location_language": "en",
         "is_african": true,
-        "country_canonical": null,
+        "country_canonical": "Sudan",
         "region_canonical": "North Africa",
         "known_non_african": false,
         "global_location_evidence": []
@@ -79,14 +457,10 @@
       "work_mode": "remote_regional",
       "seniority": null,
       "categories": [
-        "research_learning",
-        "gender_inclusion",
-        "technical_writing"
+        "research_learning"
       ],
       "specialisations": [
-        "research_learning",
-        "gender_inclusion",
-        "technical_writing"
+        "research_learning"
       ],
       "source_context_specialisations": [
         "programme_management"
@@ -94,23 +468,20 @@
       "industry": "development_humanitarian",
       "skills_required": [],
       "skills_preferred": [],
-      "posted_at": "2026-07-15T06:50:00Z",
-      "deadline": "2026-07-21T23:59:59Z",
-      "deadline_confidence": "explicit",
+      "posted_at": null,
+      "deadline": null,
+      "deadline_confidence": "unknown",
       "years_experience_min": null,
       "years_experience_max": null,
-      "education_required": "masters",
+      "education_required": null,
       "education_field": [],
-      "languages_required": [
-        "arabic",
-        "english"
-      ],
+      "languages_required": [],
       "contract_type": "consultant",
       "source": {
         "name": "PageUp-hosted institutional board",
         "url": "https://jobs.unicef.org/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:19:22.359269Z",
+        "last_seen_at": "2026-07-15T13:50:10.088971Z",
         "id": "pageup-institutional-board",
         "kind": "institution_official",
         "registry_managed": true
@@ -119,7 +490,7 @@
       "apply_is_official": true,
       "flags": [],
       "eligibility_notes": null,
-      "summary": "Vacancies | UNICEF Careers Skip to main content Global Links Visit UNICEF Global Careers Toggle navigation Unicef default logo Careers Explore UNICEF About UNICEF Where we work Explore careers Working in emergencies Diversity and inclusion Leadership recruitment Support UNICEF Search jobs Candidate ...",
+      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
       "raw_description_url": "https://jobs.unicef.org/en-us/job/594436/evidence-generation-consultant-nationals-only-khartoum-remote-594436",
       "institution_profile": {
         "is_dfi_or_multilateral": false,
@@ -206,192 +577,8 @@
         ],
         "certification_level": "certified",
         "default_visible": true,
-        "known_country_code": null,
-        "known_country_name": null
-      },
-      "african_applicant_access": {
-        "status": "local_only",
-        "confidence": 0.88,
-        "evidence": [
-          "explicit_nationality_requirement_country_unresolved"
-        ],
-        "evidence_strength": "explicit",
-        "eligible_nationalities": [],
-        "citizenship_required": true,
-        "work_authorisation_required": null,
-        "certification_level": "conditional"
-      },
-      "eligibility": {
-        "status": "local_only",
-        "confidence": 0.88,
-        "citizenship_required": true,
-        "eligible_nationalities": [],
-        "work_authorisation_required": null,
-        "evidence": [
-          "explicit_nationality_requirement_country_unresolved"
-        ],
-        "evidence_strength": "explicit",
-        "detected_language": "en"
-      }
-    },
-    {
-      "id": "official-unicef-ab5934217ab5c5f7",
-      "title": "Assessment of the 2nd Phase of the Programme for Advancing the Rights of Persons with Disabilities, particularly Women and Children with disabilities,(Nationals only) Banjul, Home-based, 594418",
-      "opportunity_type": "job",
-      "organisation": {
-        "name": "UNICEF",
-        "type": "multilateral",
-        "verified": true,
-        "id": "unicef",
-        "type_detail": "un_agency",
-        "registry_managed": true
-      },
-      "location": {
-        "raw": "Assessment of the 2nd Phase of the Programme for Advancing the Rights of Persons with Disabilities, particularly Women and Children with disabilities,(Nationals only) Banjul, Home-based, 594418",
-        "country": "Gambia",
-        "region": "West Africa",
-        "is_remote_from_kenya": false,
-        "scope": "regional",
-        "relocation_country": null,
-        "country_code": "GM",
-        "country_iso3": "GMB",
-        "city": "Banjul",
-        "admin_area": null,
-        "coordinates": {
-          "lat": 13.4667,
-          "lon": -16.65
-        },
-        "normalisation_confidence": 1.0,
-        "normalisation_evidence": [
-          "existing_country",
-          "explicit_city_alias"
-        ],
-        "matched_location_alias": "Banjul",
-        "location_language": "en",
-        "is_african": true,
-        "country_canonical": "Gambia",
-        "region_canonical": "West Africa",
-        "known_non_african": false,
-        "global_location_evidence": []
-      },
-      "work_mode": null,
-      "seniority": null,
-      "categories": [],
-      "specialisations": [],
-      "source_context_specialisations": [
-        "programme_management"
-      ],
-      "industry": "technology",
-      "skills_required": [],
-      "skills_preferred": [],
-      "posted_at": null,
-      "deadline": null,
-      "deadline_confidence": "unknown",
-      "years_experience_min": null,
-      "years_experience_max": null,
-      "education_required": null,
-      "education_field": [],
-      "languages_required": [],
-      "contract_type": "unknown",
-      "source": {
-        "name": "PageUp-hosted institutional board",
-        "url": "https://jobs.unicef.org/",
-        "confidence": "official",
-        "last_seen_at": "2026-07-15T08:19:26.230605Z",
-        "id": "pageup-institutional-board",
-        "kind": "institution_official",
-        "registry_managed": true
-      },
-      "apply_url": "https://jobs.unicef.org/en-us/job/594418/assessment-of-the-2nd-phase-of-the-programme-for-advancing-the-rights-of-persons-with-disabilities-particularly-women-and-children-with-disabilitiesnationals-only-banjul-homebased-594418",
-      "apply_is_official": true,
-      "flags": [],
-      "eligibility_notes": null,
-      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
-      "raw_description_url": "https://jobs.unicef.org/en-us/job/594418/assessment-of-the-2nd-phase-of-the-programme-for-advancing-the-rights-of-persons-with-disabilities-particularly-women-and-children-with-disabilitiesnationals-only-banjul-homebased-594418",
-      "institution_profile": {
-        "is_dfi_or_multilateral": false,
-        "institution_type": "un_agency",
-        "registry_id": "unicef",
-        "source_pack": "phase8_ngo_un_development",
-        "phase7_priority_institution": false
-      },
-      "role_family": "technology",
-      "role_subfamily": null,
-      "thematic_sectors": [
-        "technology"
-      ],
-      "investment_profile": {
-        "classification": "not_investment",
-        "track": null,
-        "canonical_specialisation": null,
-        "confidence": 0.78,
-        "evidence": [],
-        "negative_evidence": [],
-        "dfi_relevance": "none",
-        "dfi_confidence": 0.82,
-        "is_investment_role": false
-      },
-      "ngo_profile": {
-        "is_ngo_or_un": true,
-        "organisation_group": "un_agency",
-        "classification": "institutional_support",
-        "track": null,
-        "canonical_specialisation": null,
-        "confidence": 0.68,
-        "evidence": [
-          "ngo_or_un_institution"
-        ],
-        "negative_evidence": [],
-        "is_programme_role": false,
-        "registry_id": "unicef",
-        "source_pack": "phase8_ngo_un_development",
-        "phase8_priority_organisation": true
-      },
-      "government_profile": {
-        "is_government_or_public_service": false,
-        "institution_type": "un_agency",
-        "registry_id": "unicef",
-        "source_pack": "phase8_ngo_un_development",
-        "phase9_priority_portal": false,
-        "phase10_kenya_public_institution": false,
-        "public_institution_category": null,
-        "advert_reference": null,
-        "public_service_grade": null,
-        "salary_scale": null,
-        "number_of_positions": null,
-        "citizenship_required": null,
-        "eligible_nationalities": [],
-        "application_method": null,
-        "application_form_url": null,
-        "internal_only": false,
-        "county_or_region_requirement": null,
-        "source_document_url": null
-      },
-      "public_institution_profile": {
-        "is_kenya_public_institution": false,
-        "category": null,
-        "registry_id": "unicef",
-        "source_pack": "phase8_ngo_un_development",
-        "country_code": null
-      },
-      "multinational_profile": {
-        "is_multinational": false,
-        "sector": null,
-        "registry_id": "unicef",
-        "source_pack": "phase8_ngo_un_development",
-        "phase11_priority_employer": false,
-        "african_city_footprint": []
-      },
-      "africa_relevance": {
-        "status": "africa_based_confirmed",
-        "confidence": 0.99,
-        "evidence": [
-          "physical_duty_station_in_africa"
-        ],
-        "certification_level": "certified",
-        "default_visible": true,
-        "known_country_code": "GM",
-        "known_country_name": "Gambia"
+        "known_country_code": "SD",
+        "known_country_name": "Sudan"
       },
       "african_applicant_access": {
         "status": "confirmed_specific_african_nationality",
@@ -401,7 +588,7 @@
         ],
         "evidence_strength": "explicit",
         "eligible_nationalities": [
-          "GM"
+          "SD"
         ],
         "citizenship_required": true,
         "work_authorisation_required": null,
@@ -412,7 +599,7 @@
         "confidence": 0.96,
         "citizenship_required": true,
         "eligible_nationalities": [
-          "GM"
+          "SD"
         ],
         "work_authorisation_required": null,
         "evidence": [
@@ -478,7 +665,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:46.153363Z",
+        "last_seen_at": "2026-07-15T14:08:32.935018Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -674,7 +861,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:46.224311Z",
+        "last_seen_at": "2026-07-15T14:08:32.991139Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -874,7 +1061,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:46.294714Z",
+        "last_seen_at": "2026-07-15T14:08:33.046744Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1070,7 +1257,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:46.364820Z",
+        "last_seen_at": "2026-07-15T14:08:33.102226Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1266,7 +1453,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:57.714710Z",
+        "last_seen_at": "2026-07-15T14:08:44.843363Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1466,7 +1653,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:35:57.838078Z",
+        "last_seen_at": "2026-07-15T14:08:44.952620Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1662,7 +1849,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:01.908452Z",
+        "last_seen_at": "2026-07-15T14:08:48.959531Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1864,7 +2051,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:02.042830Z",
+        "last_seen_at": "2026-07-15T14:08:49.071845Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -2072,7 +2259,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:18.883827Z",
+        "last_seen_at": "2026-07-15T14:09:04.979232Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -2280,7 +2467,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:18.991381Z",
+        "last_seen_at": "2026-07-15T14:09:05.074365Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -2485,7 +2672,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.127932Z",
+        "last_seen_at": "2026-07-15T14:09:05.203592Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -2693,7 +2880,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.265095Z",
+        "last_seen_at": "2026-07-15T14:09:05.323910Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -2901,7 +3088,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.374140Z",
+        "last_seen_at": "2026-07-15T14:09:05.421067Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -3111,7 +3298,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.470731Z",
+        "last_seen_at": "2026-07-15T14:09:05.505470Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -3323,7 +3510,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.567401Z",
+        "last_seen_at": "2026-07-15T14:09:05.589008Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -3533,7 +3720,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.714868Z",
+        "last_seen_at": "2026-07-15T14:09:05.721119Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -3748,7 +3935,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.818424Z",
+        "last_seen_at": "2026-07-15T14:09:05.813498Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -3961,7 +4148,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:19.921188Z",
+        "last_seen_at": "2026-07-15T14:09:05.919523Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -4176,7 +4363,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.063464Z",
+        "last_seen_at": "2026-07-15T14:09:06.061293Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -4379,7 +4566,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.160629Z",
+        "last_seen_at": "2026-07-15T14:09:06.148810Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -4578,7 +4765,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.258282Z",
+        "last_seen_at": "2026-07-15T14:09:06.233682Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -4778,7 +4965,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.355752Z",
+        "last_seen_at": "2026-07-15T14:09:06.320264Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -4979,7 +5166,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.449704Z",
+        "last_seen_at": "2026-07-15T14:09:06.403275Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -5180,7 +5367,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.546865Z",
+        "last_seen_at": "2026-07-15T14:09:06.488505Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -5382,7 +5569,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.646084Z",
+        "last_seen_at": "2026-07-15T14:09:06.576438Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -5580,7 +5767,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.743510Z",
+        "last_seen_at": "2026-07-15T14:09:06.663237Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -5780,7 +5967,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.834434Z",
+        "last_seen_at": "2026-07-15T14:09:06.740943Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -5980,7 +6167,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:20.927742Z",
+        "last_seen_at": "2026-07-15T14:09:06.822764Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -6176,7 +6363,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.021991Z",
+        "last_seen_at": "2026-07-15T14:09:06.902934Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -6373,7 +6560,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.127568Z",
+        "last_seen_at": "2026-07-15T14:09:06.995045Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -6570,7 +6757,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.231541Z",
+        "last_seen_at": "2026-07-15T14:09:07.086847Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -6770,7 +6957,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.337836Z",
+        "last_seen_at": "2026-07-15T14:09:07.180023Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -6970,7 +7157,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.443208Z",
+        "last_seen_at": "2026-07-15T14:09:07.274482Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -7170,7 +7357,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.548096Z",
+        "last_seen_at": "2026-07-15T14:09:07.367024Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -7370,7 +7557,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.651898Z",
+        "last_seen_at": "2026-07-15T14:09:07.461066Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -7575,7 +7762,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.738408Z",
+        "last_seen_at": "2026-07-15T14:09:07.534974Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -7772,7 +7959,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.828722Z",
+        "last_seen_at": "2026-07-15T14:09:07.611397Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -7973,7 +8160,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:21.918592Z",
+        "last_seen_at": "2026-07-15T14:09:07.688157Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -8173,7 +8360,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.010569Z",
+        "last_seen_at": "2026-07-15T14:09:07.766861Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -8373,7 +8560,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.100785Z",
+        "last_seen_at": "2026-07-15T14:09:07.845188Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -8570,7 +8757,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.189448Z",
+        "last_seen_at": "2026-07-15T14:09:07.921656Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -8767,7 +8954,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.276933Z",
+        "last_seen_at": "2026-07-15T14:09:07.997661Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -8967,7 +9154,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.365558Z",
+        "last_seen_at": "2026-07-15T14:09:08.073693Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -9164,7 +9351,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.454519Z",
+        "last_seen_at": "2026-07-15T14:09:08.150398Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -9364,7 +9551,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.546184Z",
+        "last_seen_at": "2026-07-15T14:09:08.228686Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -9565,7 +9752,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.629223Z",
+        "last_seen_at": "2026-07-15T14:09:08.297927Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -9762,7 +9949,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.713331Z",
+        "last_seen_at": "2026-07-15T14:09:08.367896Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -9959,7 +10146,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.800555Z",
+        "last_seen_at": "2026-07-15T14:09:08.436683Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -10159,7 +10346,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:22.885224Z",
+        "last_seen_at": "2026-07-15T14:09:08.506504Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -10367,7 +10554,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.046114Z",
+        "last_seen_at": "2026-07-15T14:09:08.660265Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -10573,7 +10760,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.141797Z",
+        "last_seen_at": "2026-07-15T14:09:08.744921Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -10781,7 +10968,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.251725Z",
+        "last_seen_at": "2026-07-15T14:09:08.842348Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -10991,7 +11178,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.370976Z",
+        "last_seen_at": "2026-07-15T14:09:08.950457Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -11201,7 +11388,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.548496Z",
+        "last_seen_at": "2026-07-15T14:09:09.117162Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -11409,7 +11596,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.656575Z",
+        "last_seen_at": "2026-07-15T14:09:09.216958Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -11620,7 +11807,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.759712Z",
+        "last_seen_at": "2026-07-15T14:09:09.309186Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -11824,7 +12011,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.856090Z",
+        "last_seen_at": "2026-07-15T14:09:09.393380Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -12030,7 +12217,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:23.960049Z",
+        "last_seen_at": "2026-07-15T14:09:09.491744Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -12238,7 +12425,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.065579Z",
+        "last_seen_at": "2026-07-15T14:09:09.595826Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -12444,7 +12631,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.162733Z",
+        "last_seen_at": "2026-07-15T14:09:09.680258Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -12652,7 +12839,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.255105Z",
+        "last_seen_at": "2026-07-15T14:09:09.760781Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -12861,7 +13048,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.388603Z",
+        "last_seen_at": "2026-07-15T14:09:09.882325Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -13070,7 +13257,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.510634Z",
+        "last_seen_at": "2026-07-15T14:09:09.997818Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -13280,7 +13467,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.659893Z",
+        "last_seen_at": "2026-07-15T14:09:10.139058Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -13491,7 +13678,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.794038Z",
+        "last_seen_at": "2026-07-15T14:09:10.264814Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -13695,7 +13882,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:24.929491Z",
+        "last_seen_at": "2026-07-15T14:09:10.389253Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -13901,7 +14088,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.053748Z",
+        "last_seen_at": "2026-07-15T14:09:10.501584Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -14105,7 +14292,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.177070Z",
+        "last_seen_at": "2026-07-15T14:09:10.614723Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -14316,7 +14503,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.303930Z",
+        "last_seen_at": "2026-07-15T14:09:10.731590Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -14520,7 +14707,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.444404Z",
+        "last_seen_at": "2026-07-15T14:09:10.867744Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -14724,7 +14911,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.602040Z",
+        "last_seen_at": "2026-07-15T14:09:11.008351Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -14928,7 +15115,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.738125Z",
+        "last_seen_at": "2026-07-15T14:09:11.132252Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -15134,7 +15321,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.863281Z",
+        "last_seen_at": "2026-07-15T14:09:11.242364Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -15338,7 +15525,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:25.988827Z",
+        "last_seen_at": "2026-07-15T14:09:11.355133Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -15546,7 +15733,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.132605Z",
+        "last_seen_at": "2026-07-15T14:09:11.492285Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -15752,7 +15939,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.260676Z",
+        "last_seen_at": "2026-07-15T14:09:11.610075Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -15958,7 +16145,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.388363Z",
+        "last_seen_at": "2026-07-15T14:09:11.726609Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -16164,7 +16351,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.513806Z",
+        "last_seen_at": "2026-07-15T14:09:11.841630Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -16370,7 +16557,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.631828Z",
+        "last_seen_at": "2026-07-15T14:09:11.949445Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -16574,7 +16761,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.802872Z",
+        "last_seen_at": "2026-07-15T14:09:12.118583Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -16785,7 +16972,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:26.950872Z",
+        "last_seen_at": "2026-07-15T14:09:12.258259Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -16997,7 +17184,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.089496Z",
+        "last_seen_at": "2026-07-15T14:09:12.395315Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -17208,7 +17395,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.246342Z",
+        "last_seen_at": "2026-07-15T14:09:12.542680Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -17418,7 +17605,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.394854Z",
+        "last_seen_at": "2026-07-15T14:09:12.679399Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -17630,7 +17817,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.540912Z",
+        "last_seen_at": "2026-07-15T14:09:12.820967Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -17842,7 +18029,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.692335Z",
+        "last_seen_at": "2026-07-15T14:09:12.965266Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -18051,7 +18238,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.842874Z",
+        "last_seen_at": "2026-07-15T14:09:13.105641Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -18256,7 +18443,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:27.974779Z",
+        "last_seen_at": "2026-07-15T14:09:13.229652Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -18464,7 +18651,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.094455Z",
+        "last_seen_at": "2026-07-15T14:09:13.337934Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -18672,7 +18859,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.255866Z",
+        "last_seen_at": "2026-07-15T14:09:13.490584Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -18875,7 +19062,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.390116Z",
+        "last_seen_at": "2026-07-15T14:09:13.614422Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -19087,7 +19274,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.529995Z",
+        "last_seen_at": "2026-07-15T14:09:13.743593Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -19296,7 +19483,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.669151Z",
+        "last_seen_at": "2026-07-15T14:09:13.872938Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -19503,7 +19690,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.795119Z",
+        "last_seen_at": "2026-07-15T14:09:13.988279Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -19710,7 +19897,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:28.940919Z",
+        "last_seen_at": "2026-07-15T14:09:14.124425Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -19915,7 +20102,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.059551Z",
+        "last_seen_at": "2026-07-15T14:09:14.229019Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -20124,7 +20311,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.174500Z",
+        "last_seen_at": "2026-07-15T14:09:14.334035Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -20333,7 +20520,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.290476Z",
+        "last_seen_at": "2026-07-15T14:09:14.440255Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -20541,7 +20728,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.404658Z",
+        "last_seen_at": "2026-07-15T14:09:14.543844Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -20744,7 +20931,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.508720Z",
+        "last_seen_at": "2026-07-15T14:09:14.633853Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -20947,7 +21134,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.604428Z",
+        "last_seen_at": "2026-07-15T14:09:14.715705Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -21154,7 +21341,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.753693Z",
+        "last_seen_at": "2026-07-15T14:09:14.857859Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -21364,7 +21551,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:29.929311Z",
+        "last_seen_at": "2026-07-15T14:09:15.029794Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -21572,7 +21759,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.044534Z",
+        "last_seen_at": "2026-07-15T14:09:15.131493Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -21778,7 +21965,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.167944Z",
+        "last_seen_at": "2026-07-15T14:09:15.242140Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -21987,7 +22174,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.289549Z",
+        "last_seen_at": "2026-07-15T14:09:15.356077Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -22196,7 +22383,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.434766Z",
+        "last_seen_at": "2026-07-15T14:09:15.484868Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -22398,7 +22585,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.556562Z",
+        "last_seen_at": "2026-07-15T14:09:15.594365Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -22598,7 +22785,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.657857Z",
+        "last_seen_at": "2026-07-15T14:09:15.685564Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -22807,7 +22994,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:30.799498Z",
+        "last_seen_at": "2026-07-15T14:09:15.818598Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -23015,7 +23202,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.002070Z",
+        "last_seen_at": "2026-07-15T14:09:16.021400Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -23219,7 +23406,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.110379Z",
+        "last_seen_at": "2026-07-15T14:09:16.119646Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -23425,7 +23612,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.215273Z",
+        "last_seen_at": "2026-07-15T14:09:16.213037Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -23632,7 +23819,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.337451Z",
+        "last_seen_at": "2026-07-15T14:09:16.327376Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -23842,7 +24029,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.452923Z",
+        "last_seen_at": "2026-07-15T14:09:16.432334Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -24055,7 +24242,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.547313Z",
+        "last_seen_at": "2026-07-15T14:09:16.516529Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -24261,7 +24448,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.659592Z",
+        "last_seen_at": "2026-07-15T14:09:16.616911Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -24463,7 +24650,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.777298Z",
+        "last_seen_at": "2026-07-15T14:09:16.721596Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -24671,7 +24858,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.890257Z",
+        "last_seen_at": "2026-07-15T14:09:16.824132Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -24880,7 +25067,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:31.993736Z",
+        "last_seen_at": "2026-07-15T14:09:16.918896Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -25090,7 +25277,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.090551Z",
+        "last_seen_at": "2026-07-15T14:09:17.004185Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -25303,7 +25490,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.188660Z",
+        "last_seen_at": "2026-07-15T14:09:17.092685Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -25513,7 +25700,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.290002Z",
+        "last_seen_at": "2026-07-15T14:09:17.183043Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -25719,7 +25906,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.423467Z",
+        "last_seen_at": "2026-07-15T14:09:17.311179Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -25927,7 +26114,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.539262Z",
+        "last_seen_at": "2026-07-15T14:09:17.417750Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -26133,7 +26320,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.639187Z",
+        "last_seen_at": "2026-07-15T14:09:17.507195Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -26344,7 +26531,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.735686Z",
+        "last_seen_at": "2026-07-15T14:09:17.592988Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -26555,7 +26742,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.847527Z",
+        "last_seen_at": "2026-07-15T14:09:17.695103Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -26760,7 +26947,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:32.967014Z",
+        "last_seen_at": "2026-07-15T14:09:17.805772Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -26966,7 +27153,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.067325Z",
+        "last_seen_at": "2026-07-15T14:09:17.895650Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -27179,7 +27366,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.173612Z",
+        "last_seen_at": "2026-07-15T14:09:17.991694Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -27387,7 +27574,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.274079Z",
+        "last_seen_at": "2026-07-15T14:09:18.081193Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -27588,7 +27775,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.372765Z",
+        "last_seen_at": "2026-07-15T14:09:18.166991Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -27789,7 +27976,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.487398Z",
+        "last_seen_at": "2026-07-15T14:09:18.270949Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -28000,7 +28187,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.620840Z",
+        "last_seen_at": "2026-07-15T14:09:18.400032Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -28214,7 +28401,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.719453Z",
+        "last_seen_at": "2026-07-15T14:09:18.486972Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -28424,7 +28611,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:33.888220Z",
+        "last_seen_at": "2026-07-15T14:09:18.649339Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -28636,7 +28823,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.041350Z",
+        "last_seen_at": "2026-07-15T14:09:18.785713Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -28847,7 +29034,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.162552Z",
+        "last_seen_at": "2026-07-15T14:09:18.899847Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -29055,7 +29242,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.270105Z",
+        "last_seen_at": "2026-07-15T14:09:18.997877Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -29262,7 +29449,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.371244Z",
+        "last_seen_at": "2026-07-15T14:09:19.084540Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -29470,7 +29657,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.465856Z",
+        "last_seen_at": "2026-07-15T14:09:19.165192Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -29678,7 +29865,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.559804Z",
+        "last_seen_at": "2026-07-15T14:09:19.248927Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -29883,7 +30070,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.667864Z",
+        "last_seen_at": "2026-07-15T14:09:19.342673Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -30090,7 +30277,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.818182Z",
+        "last_seen_at": "2026-07-15T14:09:19.488324Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -30296,7 +30483,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:34.936493Z",
+        "last_seen_at": "2026-07-15T14:09:19.596913Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -30500,7 +30687,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.051569Z",
+        "last_seen_at": "2026-07-15T14:09:19.699664Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -30702,7 +30889,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.178227Z",
+        "last_seen_at": "2026-07-15T14:09:19.816060Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -30905,7 +31092,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.291938Z",
+        "last_seen_at": "2026-07-15T14:09:19.921267Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -31105,7 +31292,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.405954Z",
+        "last_seen_at": "2026-07-15T14:09:20.026662Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -31308,7 +31495,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.551530Z",
+        "last_seen_at": "2026-07-15T14:09:20.118166Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -31511,7 +31698,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.653303Z",
+        "last_seen_at": "2026-07-15T14:09:20.203616Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -31714,7 +31901,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.752696Z",
+        "last_seen_at": "2026-07-15T14:09:20.288407Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -31917,7 +32104,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.852020Z",
+        "last_seen_at": "2026-07-15T14:09:20.373525Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -32120,7 +32307,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:35.950564Z",
+        "last_seen_at": "2026-07-15T14:09:20.458704Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -32323,7 +32510,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.048503Z",
+        "last_seen_at": "2026-07-15T14:09:20.544126Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -32526,7 +32713,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.146498Z",
+        "last_seen_at": "2026-07-15T14:09:20.629360Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -32729,7 +32916,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.244193Z",
+        "last_seen_at": "2026-07-15T14:09:20.715001Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -32933,7 +33120,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.350356Z",
+        "last_seen_at": "2026-07-15T14:09:20.809305Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -33136,7 +33323,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.452603Z",
+        "last_seen_at": "2026-07-15T14:09:20.898511Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -33340,7 +33527,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.574843Z",
+        "last_seen_at": "2026-07-15T14:09:21.011744Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -33546,7 +33733,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.690182Z",
+        "last_seen_at": "2026-07-15T14:09:21.117681Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -33747,7 +33934,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.782337Z",
+        "last_seen_at": "2026-07-15T14:09:21.197667Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -33951,7 +34138,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:36.898353Z",
+        "last_seen_at": "2026-07-15T14:09:21.301964Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -34156,7 +34343,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.034627Z",
+        "last_seen_at": "2026-07-15T14:09:21.428388Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -34357,7 +34544,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.146027Z",
+        "last_seen_at": "2026-07-15T14:09:21.527637Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -34565,7 +34752,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.332502Z",
+        "last_seen_at": "2026-07-15T14:09:21.708885Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -34771,7 +34958,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.456961Z",
+        "last_seen_at": "2026-07-15T14:09:21.818291Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -34980,7 +35167,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.592474Z",
+        "last_seen_at": "2026-07-15T14:09:21.941634Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -35184,7 +35371,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.717944Z",
+        "last_seen_at": "2026-07-15T14:09:22.054253Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -35388,7 +35575,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.854746Z",
+        "last_seen_at": "2026-07-15T14:09:22.178706Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -35588,7 +35775,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:37.963433Z",
+        "last_seen_at": "2026-07-15T14:09:22.277057Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -35792,7 +35979,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.088095Z",
+        "last_seen_at": "2026-07-15T14:09:22.391729Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -35992,7 +36179,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.203726Z",
+        "last_seen_at": "2026-07-15T14:09:22.497198Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -36202,7 +36389,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.309395Z",
+        "last_seen_at": "2026-07-15T14:09:22.589205Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -36410,7 +36597,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.412585Z",
+        "last_seen_at": "2026-07-15T14:09:22.681182Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -36620,7 +36807,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.537285Z",
+        "last_seen_at": "2026-07-15T14:09:22.798310Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -36822,7 +37009,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.650538Z",
+        "last_seen_at": "2026-07-15T14:09:22.899686Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -37028,7 +37215,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.755292Z",
+        "last_seen_at": "2026-07-15T14:09:22.992218Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -37230,7 +37417,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:38.855763Z",
+        "last_seen_at": "2026-07-15T14:09:23.078840Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -37432,7 +37619,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.022260Z",
+        "last_seen_at": "2026-07-15T14:09:23.232789Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -37640,7 +37827,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.142473Z",
+        "last_seen_at": "2026-07-15T14:09:23.344408Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -37850,7 +38037,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.252650Z",
+        "last_seen_at": "2026-07-15T14:09:23.444936Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -38053,7 +38240,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.356507Z",
+        "last_seen_at": "2026-07-15T14:09:23.538263Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -38257,7 +38444,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.539018Z",
+        "last_seen_at": "2026-07-15T14:09:23.721342Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -38465,7 +38652,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.733319Z",
+        "last_seen_at": "2026-07-15T14:09:23.913080Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -38669,7 +38856,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:39.914425Z",
+        "last_seen_at": "2026-07-15T14:09:24.089958Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -38873,7 +39060,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.079588Z",
+        "last_seen_at": "2026-07-15T14:09:24.247355Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -39075,7 +39262,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.254930Z",
+        "last_seen_at": "2026-07-15T14:09:24.417023Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -39279,7 +39466,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.416633Z",
+        "last_seen_at": "2026-07-15T14:09:24.571591Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -39486,7 +39673,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.579224Z",
+        "last_seen_at": "2026-07-15T14:09:24.725252Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -39693,7 +39880,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.742698Z",
+        "last_seen_at": "2026-07-15T14:09:24.876951Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -39900,7 +40087,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:40.902095Z",
+        "last_seen_at": "2026-07-15T14:09:25.026160Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -40105,7 +40292,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.049131Z",
+        "last_seen_at": "2026-07-15T14:09:25.169079Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -40309,7 +40496,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.197933Z",
+        "last_seen_at": "2026-07-15T14:09:25.313627Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -40516,7 +40703,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.457902Z",
+        "last_seen_at": "2026-07-15T14:09:25.579104Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -40722,7 +40909,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.569196Z",
+        "last_seen_at": "2026-07-15T14:09:25.679994Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -40929,7 +41116,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.672780Z",
+        "last_seen_at": "2026-07-15T14:09:25.770984Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -41138,7 +41325,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.781104Z",
+        "last_seen_at": "2026-07-15T14:09:25.869218Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -41350,7 +41537,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.891261Z",
+        "last_seen_at": "2026-07-15T14:09:25.970816Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -41552,7 +41739,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:41.993076Z",
+        "last_seen_at": "2026-07-15T14:09:26.062890Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -41756,7 +41943,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.095689Z",
+        "last_seen_at": "2026-07-15T14:09:26.155334Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -41965,7 +42152,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.198770Z",
+        "last_seen_at": "2026-07-15T14:09:26.246259Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -42169,7 +42356,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.302967Z",
+        "last_seen_at": "2026-07-15T14:09:26.339536Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -42369,7 +42556,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.396183Z",
+        "last_seen_at": "2026-07-15T14:09:26.422455Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -42574,7 +42761,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.503799Z",
+        "last_seen_at": "2026-07-15T14:09:26.520467Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -42781,7 +42968,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.600486Z",
+        "last_seen_at": "2026-07-15T14:09:26.606098Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -42983,7 +43170,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.693688Z",
+        "last_seen_at": "2026-07-15T14:09:26.687575Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -43188,7 +43375,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.791125Z",
+        "last_seen_at": "2026-07-15T14:09:26.771166Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -43389,7 +43576,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.892054Z",
+        "last_seen_at": "2026-07-15T14:09:26.859723Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -43592,7 +43779,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:42.988494Z",
+        "last_seen_at": "2026-07-15T14:09:26.945934Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -43796,7 +43983,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.090154Z",
+        "last_seen_at": "2026-07-15T14:09:27.038670Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -44003,7 +44190,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.197656Z",
+        "last_seen_at": "2026-07-15T14:09:27.137807Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -44201,7 +44388,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.294151Z",
+        "last_seen_at": "2026-07-15T14:09:27.224050Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -44401,7 +44588,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.391474Z",
+        "last_seen_at": "2026-07-15T14:09:27.311238Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -44605,7 +44792,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.488203Z",
+        "last_seen_at": "2026-07-15T14:09:27.396099Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -44813,7 +45000,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.585853Z",
+        "last_seen_at": "2026-07-15T14:09:27.482027Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -45015,7 +45202,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.683921Z",
+        "last_seen_at": "2026-07-15T14:09:27.567651Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -45218,7 +45405,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.777093Z",
+        "last_seen_at": "2026-07-15T14:09:27.650266Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -45427,7 +45614,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.869002Z",
+        "last_seen_at": "2026-07-15T14:09:27.730922Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -45628,7 +45815,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:43.996072Z",
+        "last_seen_at": "2026-07-15T14:09:27.851493Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -45831,7 +46018,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.090542Z",
+        "last_seen_at": "2026-07-15T14:09:27.935856Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -46035,7 +46222,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.186793Z",
+        "last_seen_at": "2026-07-15T14:09:28.020506Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -46245,7 +46432,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.288790Z",
+        "last_seen_at": "2026-07-15T14:09:28.108922Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -46455,7 +46642,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.384096Z",
+        "last_seen_at": "2026-07-15T14:09:28.191451Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -46661,7 +46848,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.484923Z",
+        "last_seen_at": "2026-07-15T14:09:28.280842Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -46863,7 +47050,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.580780Z",
+        "last_seen_at": "2026-07-15T14:09:28.363284Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -47067,7 +47254,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.678163Z",
+        "last_seen_at": "2026-07-15T14:09:28.448748Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -47270,7 +47457,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.777430Z",
+        "last_seen_at": "2026-07-15T14:09:28.536106Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -47476,7 +47663,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.869914Z",
+        "last_seen_at": "2026-07-15T14:09:28.616939Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -47674,7 +47861,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:44.969224Z",
+        "last_seen_at": "2026-07-15T14:09:28.705942Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -47876,7 +48063,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.065760Z",
+        "last_seen_at": "2026-07-15T14:09:28.790694Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -48074,7 +48261,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.160433Z",
+        "last_seen_at": "2026-07-15T14:09:28.873314Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -48279,7 +48466,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.262208Z",
+        "last_seen_at": "2026-07-15T14:09:28.961498Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -48478,7 +48665,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.352261Z",
+        "last_seen_at": "2026-07-15T14:09:29.038562Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -48674,7 +48861,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.440853Z",
+        "last_seen_at": "2026-07-15T14:09:29.113504Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -48878,7 +49065,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.537546Z",
+        "last_seen_at": "2026-07-15T14:09:29.198053Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -49080,7 +49267,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.630082Z",
+        "last_seen_at": "2026-07-15T14:09:29.275453Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -49277,7 +49464,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.719643Z",
+        "last_seen_at": "2026-07-15T14:09:29.353346Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -49473,7 +49660,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.815622Z",
+        "last_seen_at": "2026-07-15T14:09:29.434143Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -49669,7 +49856,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:45.913006Z",
+        "last_seen_at": "2026-07-15T14:09:29.517049Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -49871,7 +50058,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.008847Z",
+        "last_seen_at": "2026-07-15T14:09:29.598284Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -50075,7 +50262,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.109038Z",
+        "last_seen_at": "2026-07-15T14:09:29.684275Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -50273,7 +50460,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.210284Z",
+        "last_seen_at": "2026-07-15T14:09:29.773249Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -50469,7 +50656,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.304027Z",
+        "last_seen_at": "2026-07-15T14:09:29.853470Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -50673,7 +50860,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.396545Z",
+        "last_seen_at": "2026-07-15T14:09:29.931986Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -50869,7 +51056,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.484980Z",
+        "last_seen_at": "2026-07-15T14:09:30.007223Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -51065,7 +51252,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.572344Z",
+        "last_seen_at": "2026-07-15T14:09:30.080774Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -51265,7 +51452,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.652333Z",
+        "last_seen_at": "2026-07-15T14:09:30.147800Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -51463,7 +51650,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.746110Z",
+        "last_seen_at": "2026-07-15T14:09:30.244599Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -51660,7 +51847,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.831955Z",
+        "last_seen_at": "2026-07-15T14:09:30.323317Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -51856,7 +52043,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:46.923088Z",
+        "last_seen_at": "2026-07-15T14:09:30.398739Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -52056,7 +52243,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.017734Z",
+        "last_seen_at": "2026-07-15T14:09:30.482681Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -52254,7 +52441,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.109343Z",
+        "last_seen_at": "2026-07-15T14:09:30.562185Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -52451,7 +52638,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.201136Z",
+        "last_seen_at": "2026-07-15T14:09:30.642448Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -52653,7 +52840,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.281614Z",
+        "last_seen_at": "2026-07-15T14:09:30.710617Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -52850,7 +53037,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.364254Z",
+        "last_seen_at": "2026-07-15T14:09:30.780805Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -53046,7 +53233,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.446150Z",
+        "last_seen_at": "2026-07-15T14:09:30.849303Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -53249,7 +53436,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.584957Z",
+        "last_seen_at": "2026-07-15T14:09:30.976680Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -53449,7 +53636,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.676015Z",
+        "last_seen_at": "2026-07-15T14:09:31.054608Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -53648,7 +53835,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.763737Z",
+        "last_seen_at": "2026-07-15T14:09:31.129752Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -53849,7 +54036,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.850587Z",
+        "last_seen_at": "2026-07-15T14:09:31.203235Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -54045,7 +54232,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:47.936985Z",
+        "last_seen_at": "2026-07-15T14:09:31.277342Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -54245,7 +54432,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.020672Z",
+        "last_seen_at": "2026-07-15T14:09:31.348076Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -54448,7 +54635,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.105721Z",
+        "last_seen_at": "2026-07-15T14:09:31.422753Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -54653,7 +54840,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.190956Z",
+        "last_seen_at": "2026-07-15T14:09:31.495738Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -54857,7 +55044,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.277802Z",
+        "last_seen_at": "2026-07-15T14:09:31.567661Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -55058,7 +55245,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.363671Z",
+        "last_seen_at": "2026-07-15T14:09:31.639729Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -55260,7 +55447,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.449931Z",
+        "last_seen_at": "2026-07-15T14:09:31.711752Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -55458,7 +55645,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.574123Z",
+        "last_seen_at": "2026-07-15T14:09:31.823731Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -55658,7 +55845,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.688718Z",
+        "last_seen_at": "2026-07-15T14:09:31.926353Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -55854,7 +56041,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.804327Z",
+        "last_seen_at": "2026-07-15T14:09:32.033657Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -56050,7 +56237,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:48.913754Z",
+        "last_seen_at": "2026-07-15T14:09:32.133732Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -56254,7 +56441,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.032136Z",
+        "last_seen_at": "2026-07-15T14:09:32.244398Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -56454,7 +56641,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.146681Z",
+        "last_seen_at": "2026-07-15T14:09:32.352810Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -56650,7 +56837,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.263524Z",
+        "last_seen_at": "2026-07-15T14:09:32.458845Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -56852,7 +57039,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.412455Z",
+        "last_seen_at": "2026-07-15T14:09:32.596183Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -57057,7 +57244,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.532120Z",
+        "last_seen_at": "2026-07-15T14:09:32.705749Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -57261,7 +57448,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.648927Z",
+        "last_seen_at": "2026-07-15T14:09:32.812436Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -57464,7 +57651,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.762796Z",
+        "last_seen_at": "2026-07-15T14:09:32.918747Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -57666,7 +57853,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.878408Z",
+        "last_seen_at": "2026-07-15T14:09:33.025216Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -57868,7 +58055,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:49.982932Z",
+        "last_seen_at": "2026-07-15T14:09:33.119756Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -58070,7 +58257,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.099047Z",
+        "last_seen_at": "2026-07-15T14:09:33.225876Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -58266,7 +58453,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.201479Z",
+        "last_seen_at": "2026-07-15T14:09:33.320206Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -58466,7 +58653,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.301046Z",
+        "last_seen_at": "2026-07-15T14:09:33.407122Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -58664,7 +58851,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.393558Z",
+        "last_seen_at": "2026-07-15T14:09:33.488396Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -58864,7 +59051,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.491468Z",
+        "last_seen_at": "2026-07-15T14:09:33.572660Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -59073,7 +59260,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.643156Z",
+        "last_seen_at": "2026-07-15T14:09:33.712602Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -59277,7 +59464,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.766838Z",
+        "last_seen_at": "2026-07-15T14:09:33.825201Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -59481,7 +59668,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:50.881279Z",
+        "last_seen_at": "2026-07-15T14:09:33.925775Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -59687,7 +59874,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.004819Z",
+        "last_seen_at": "2026-07-15T14:09:34.038291Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -59889,7 +60076,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.126462Z",
+        "last_seen_at": "2026-07-15T14:09:34.151502Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -60092,7 +60279,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.264566Z",
+        "last_seen_at": "2026-07-15T14:09:34.280632Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -60288,7 +60475,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.413128Z",
+        "last_seen_at": "2026-07-15T14:09:34.420996Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -60488,7 +60675,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.571748Z",
+        "last_seen_at": "2026-07-15T14:09:34.570991Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -60688,7 +60875,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.707557Z",
+        "last_seen_at": "2026-07-15T14:09:34.695924Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -60894,7 +61081,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.829390Z",
+        "last_seen_at": "2026-07-15T14:09:34.808336Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -61102,7 +61289,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:51.951382Z",
+        "last_seen_at": "2026-07-15T14:09:34.920426Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -61308,7 +61495,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.059820Z",
+        "last_seen_at": "2026-07-15T14:09:35.019142Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -61514,7 +61701,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.191163Z",
+        "last_seen_at": "2026-07-15T14:09:35.142984Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -61718,7 +61905,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.323830Z",
+        "last_seen_at": "2026-07-15T14:09:35.266498Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -61924,7 +62111,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.421874Z",
+        "last_seen_at": "2026-07-15T14:09:35.353259Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -62131,7 +62318,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.547211Z",
+        "last_seen_at": "2026-07-15T14:09:35.467772Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -62331,7 +62518,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.645884Z",
+        "last_seen_at": "2026-07-15T14:09:35.553301Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -62535,7 +62722,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.750876Z",
+        "last_seen_at": "2026-07-15T14:09:35.648160Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -62743,7 +62930,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.841631Z",
+        "last_seen_at": "2026-07-15T14:09:35.727634Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -62949,7 +63136,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:52.950464Z",
+        "last_seen_at": "2026-07-15T14:09:35.823235Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -63151,7 +63338,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.064659Z",
+        "last_seen_at": "2026-07-15T14:09:35.926241Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -63353,7 +63540,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.179559Z",
+        "last_seen_at": "2026-07-15T14:09:36.027206Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -63557,7 +63744,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.295145Z",
+        "last_seen_at": "2026-07-15T14:09:36.131484Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -63761,7 +63948,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.411482Z",
+        "last_seen_at": "2026-07-15T14:09:36.235976Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -63965,7 +64152,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.516474Z",
+        "last_seen_at": "2026-07-15T14:09:36.330079Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -64167,7 +64354,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.613813Z",
+        "last_seen_at": "2026-07-15T14:09:36.426690Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -64367,7 +64554,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.717399Z",
+        "last_seen_at": "2026-07-15T14:09:36.533475Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -64565,7 +64752,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.817519Z",
+        "last_seen_at": "2026-07-15T14:09:36.622115Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -64770,7 +64957,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:53.926624Z",
+        "last_seen_at": "2026-07-15T14:09:36.724663Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -64966,7 +65153,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.041942Z",
+        "last_seen_at": "2026-07-15T14:09:36.826285Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -65162,7 +65349,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.153748Z",
+        "last_seen_at": "2026-07-15T14:09:36.924534Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -65358,7 +65545,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.251319Z",
+        "last_seen_at": "2026-07-15T14:09:37.012870Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -65558,7 +65745,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.347450Z",
+        "last_seen_at": "2026-07-15T14:09:37.097539Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -65758,7 +65945,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.444312Z",
+        "last_seen_at": "2026-07-15T14:09:37.183020Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -65961,7 +66148,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.549293Z",
+        "last_seen_at": "2026-07-15T14:09:37.275485Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -66161,7 +66348,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.676701Z",
+        "last_seen_at": "2026-07-15T14:09:37.391985Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -66363,7 +66550,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.778642Z",
+        "last_seen_at": "2026-07-15T14:09:37.483409Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -66560,7 +66747,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.867832Z",
+        "last_seen_at": "2026-07-15T14:09:37.559125Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -66756,7 +66943,7 @@
         "name": "South Africa DPSA official vacancy circular",
         "url": "https://www.dpsa.gov.za/newsroom/psvc/",
         "confidence": "official",
-        "last_seen_at": "2026-07-15T08:36:54.970728Z",
+        "last_seen_at": "2026-07-15T14:09:37.639751Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false

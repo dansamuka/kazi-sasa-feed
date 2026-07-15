@@ -1,23 +1,23 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-15T13:49:08.211820Z",
-  "feed_generated_at": "2026-07-15T08:38:34.466110Z",
+  "generated_at": "2026-07-15T14:11:16.037573Z",
+  "feed_generated_at": "2026-07-15T14:11:15.667663Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1215,
-    "investment_role_count": 94,
+    "opportunity_count": 1217,
+    "investment_role_count": 92,
     "institutional_support_role_count": 10,
-    "investment_role_percent": 7.7,
-    "direct_dfi_investment_count": 12,
+    "investment_role_percent": 7.6,
+    "direct_dfi_investment_count": 11,
     "dfi_institutional_role_count": 10,
-    "false_positive_guarded_count": 108,
+    "false_positive_guarded_count": 113,
     "represented_investment_tracks": 14
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 1111,
-      "core_investment": 82,
-      "investment_adjacent": 12,
+      "not_investment": 1115,
+      "core_investment": 81,
+      "investment_adjacent": 11,
       "institutional_support": 10
     },
     "by_track": {
@@ -27,25 +27,25 @@
       "asset_management": 9,
       "treasury": 9,
       "infrastructure_finance": 8,
-      "portfolio_management": 6,
+      "portfolio_management": 5,
       "financial_institutions": 3,
-      "resource_mobilisation": 2,
       "blended_finance": 1,
       "climate_finance": 1,
       "credit": 1,
       "portfolio_operations": 1,
+      "resource_mobilisation": 1,
       "structured_finance": 1
     },
     "by_dfi_relevance": {
-      "none": 1111,
-      "adjacent_experience": 82,
-      "direct_investment": 12,
+      "none": 1115,
+      "adjacent_experience": 81,
+      "direct_investment": 11,
       "institutional_role": 10
     },
     "by_country": {
       "South Africa": 69,
-      "Morocco": 10,
-      "unknown": 9,
+      "Morocco": 9,
+      "unknown": 8,
       "Guinea": 2,
       "Benin": 1,
       "Cameroon": 1,
@@ -56,18 +56,16 @@
       "Adzuna": 48,
       "South Africa DPSA official vacancy circular": 18,
       "DFI and multilateral official career page": 17,
-      "Cornerstone-hosted institutional board": 9,
-      "PageUp-hosted institutional board": 1,
+      "Cornerstone-hosted institutional board": 8,
       "Sun King": 1
     },
     "by_organisation_type": {
       "unverified": 48,
       "government": 18,
       "investment_firm": 14,
-      "multilateral": 9,
+      "multilateral": 8,
       "development_bank": 3,
-      "private": 1,
-      "un_agency": 1
+      "private": 1
     }
   }
 }
