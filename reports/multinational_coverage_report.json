@@ -1,22 +1,22 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-15T19:16:09.363614Z",
-  "feed_generated_at": "2026-07-15T14:11:15.667663Z",
+  "generated_at": "2026-07-15T19:39:43.147474Z",
+  "feed_generated_at": "2026-07-15T19:39:42.769140Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
     "enabled_employer_count": 68,
-    "multinational_opportunity_count": 139,
-    "phase11_priority_opportunity_count": 130,
+    "multinational_opportunity_count": 141,
+    "phase11_priority_opportunity_count": 132,
     "represented_employers": 13,
     "represented_countries": 5,
     "represented_cities": 5,
-    "official_application_count": 136,
-    "official_application_percent": 97.8
+    "official_application_count": 138,
+    "official_application_percent": 97.9
   },
   "coverage": {
     "by_sector": {
-      "hospitality": 93,
+      "hospitality": 95,
       "technology": 31,
       "unknown": 9,
       "banking": 2,
@@ -25,7 +25,7 @@
       "telecommunications": 1
     },
     "by_employer": {
-      "Accor": 93,
+      "Accor": 95,
       "Bolt": 20,
       "Nawiri Group": 8,
       "Jumia": 6,
@@ -40,7 +40,7 @@
       "The Coca-Cola Company": 1
     },
     "by_country": {
-      "unknown": 109,
+      "unknown": 111,
       "South Africa": 11,
       "Madagascar": 8,
       "Senegal": 6,
@@ -48,7 +48,7 @@
       "Botswana": 1
     },
     "by_city": {
-      "unknown": 125,
+      "unknown": 127,
       "Cape Town": 8,
       "Casablanca": 3,
       "Gqeberha": 1,
@@ -56,9 +56,9 @@
       "Tangier": 1
     },
     "by_role_family": {
-      "unknown": 92,
+      "unknown": 93,
       "logistics": 20,
-      "hospitality": 9,
+      "hospitality": 10,
       "operations": 4,
       "banking_and_finance": 2,
       "development_programmes": 2,
@@ -71,7 +71,7 @@
       "human_resources": 1
     },
     "by_source": {
-      "Multinational employer official careers": 127,
+      "Multinational employer official careers": 129,
       "Nawiri Group": 8,
       "Adzuna": 3,
       "NGO and UN official career page": 1

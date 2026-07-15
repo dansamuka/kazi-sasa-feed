@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-15T19:16:09.295222Z",
-  "feed_generated_at": "2026-07-15T14:11:15.667663Z",
+  "generated_at": "2026-07-15T19:39:43.571430Z",
+  "feed_generated_at": "2026-07-15T19:39:42.769140Z",
   "feed_version": "3.8",
   "status": "passed",
   "errors": [],
@@ -9,32 +9,31 @@
     "broad index official-location-pending share is 13.2%; certified default hides these rows"
   ],
   "summary": {
-    "broad_index_count": 1217,
-    "certified_default_count": 329,
-    "certified_default_percent": 27.0,
+    "broad_index_count": 1221,
+    "certified_default_count": 325,
+    "certified_default_percent": 26.6,
     "known_non_african_published": 0,
     "official_location_pending_percent": 13.2,
     "unresolved_location_percent": 0.0,
     "government_deduplication_loss_percent": 0.0,
-    "government_duplicate_consolidation_percent": 0.0
+    "government_duplicate_consolidation_percent": 48.8
   },
   "coverage": {
     "by_africa_relevance": {
-      "africa_based_confirmed": 1006,
+      "africa_based_confirmed": 1009,
       "official_location_pending": 161,
       "global_access_unconfirmed": 47,
-      "africa_regional": 3
+      "africa_regional": 4
     },
     "by_african_applicant_access": {
-      "unknown": 886,
-      "confirmed_specific_african_nationality": 329,
-      "local_only": 1,
-      "not_open": 1
+      "unknown": 895,
+      "confirmed_specific_african_nationality": 325,
+      "local_only": 1
     },
     "by_evidence_strength": {
-      "none": 886,
-      "structured_source": 326,
-      "explicit": 5
+      "none": 895,
+      "structured_source": 322,
+      "explicit": 4
     }
   }
 }
