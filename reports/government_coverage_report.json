@@ -1,41 +1,43 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-16T08:18:53.725854Z",
-  "feed_generated_at": "2026-07-15T19:39:42.769140Z",
+  "generated_at": "2026-07-16T08:35:07.079686Z",
+  "feed_generated_at": "2026-07-16T08:35:06.685012Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1221,
-    "government_opportunity_count": 333,
-    "phase9_priority_opportunity_count": 322,
-    "represented_portals": 4,
+    "opportunity_count": 1238,
+    "government_opportunity_count": 337,
+    "phase9_priority_opportunity_count": 326,
+    "represented_portals": 5,
     "represented_countries": 5,
-    "with_advert_reference_count": 322,
-    "with_deadline_count": 53,
-    "with_number_of_positions_count": 4
+    "with_advert_reference_count": 326,
+    "with_deadline_count": 57,
+    "with_number_of_positions_count": 8
   },
   "coverage": {
     "by_country": {
       "South Africa": 311,
       "unknown": 9,
+      "Kenya": 6,
       "Zambia": 6,
       "Tanzania": 4,
-      "Kenya": 2,
       "Seychelles": 1
     },
     "by_portal": {
       "South Africa Department of Public Service and Administration": 318,
       "Kenya Broadcasting Corporation": 10,
+      "Kenya Public Service Commission": 4,
       "Tanzania Public Service Recruitment Secretariat": 4,
       "Kenya Railways Corporation": 1
     },
     "by_public_service_grade": {
-      "unknown": 333
+      "unknown": 333,
+      "E": 4
     },
     "by_role_family": {
       "health": 37,
-      "technology": 36,
+      "technology": 37,
+      "government_administration": 36,
       "development_programmes": 34,
-      "government_administration": 33,
       "operations": 26,
       "human_resources": 24,
       "economics_and_research": 18,

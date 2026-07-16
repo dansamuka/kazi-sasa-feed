@@ -1,15 +1,15 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-16T08:18:53.724631Z",
-  "feed_generated_at": "2026-07-15T19:39:42.769140Z",
+  "generated_at": "2026-07-16T08:35:07.078607Z",
+  "feed_generated_at": "2026-07-16T08:35:06.685012Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1221,
+    "opportunity_count": 1238,
     "ngo_or_un_opportunity_count": 69,
     "phase8_priority_opportunity_count": 62,
-    "programme_role_count": 176,
+    "programme_role_count": 177,
     "represented_organisations": 9,
-    "represented_countries": 19,
+    "represented_countries": 18,
     "official_application_count": 69,
     "official_application_percent": 100.0
   },
@@ -31,40 +31,40 @@
       "development_implementer": 1
     },
     "by_classification": {
-      "not_ngo_un": 1002,
+      "not_ngo_un": 1017,
       "development": 110,
-      "humanitarian": 51,
-      "institutional_support": 43,
-      "technical_programme": 15
+      "humanitarian": 53,
+      "institutional_support": 44,
+      "technical_programme": 14
     },
     "by_track": {
-      "programme_management": 78,
-      "field_operations": 39,
+      "programme_management": 79,
+      "field_operations": 38,
       "research_learning": 13,
       "monitoring_evaluation_learning": 10,
       "safeguarding_protection": 8,
       "partnerships_resource_mobilisation": 6,
-      "gender_inclusion": 5,
+      "humanitarian_response": 4,
+      "nutrition_food_security": 4,
       "public_health": 4,
       "climate_resilience": 3,
-      "nutrition_food_security": 3,
-      "humanitarian_response": 2,
-      "advocacy_policy": 1,
+      "gender_inclusion": 3,
       "community_engagement": 1,
       "grants_and_compliance": 1,
       "humanitarian_logistics": 1,
+      "migration_displacement": 1,
       "wash_shelter": 1
     },
     "by_country": {
       "Rwanda": 14,
-      "unknown": 10,
+      "unknown": 12,
       "Burundi": 6,
       "Côte d’Ivoire": 6,
+      "Nigeria": 6,
       "Kenya": 5,
-      "Nigeria": 5,
-      "Malawi": 4,
       "Democratic Republic of the Congo": 2,
       "Ethiopia": 2,
+      "Malawi": 2,
       "Niger": 2,
       "Tanzania": 2,
       "Uganda": 2,
@@ -74,8 +74,7 @@
       "Mauritania": 1,
       "Mozambique": 1,
       "Senegal": 1,
-      "South Africa": 1,
-      "Sudan": 1
+      "South Africa": 1
     },
     "by_source": {
       "One Acre Fund": 32,
@@ -88,19 +87,19 @@
       "MCD Global Health": 1
     },
     "by_role_family": {
-      "development_programmes": 14,
       "agriculture": 13,
+      "development_programmes": 12,
       "technology": 12,
       "operations": 11,
+      "human_resources": 5,
       "administration": 4,
-      "human_resources": 4,
       "procurement": 3,
+      "health": 2,
       "banking_and_finance": 1,
-      "economics_and_research": 1,
       "education": 1,
       "esg_and_safeguards": 1,
-      "health": 1,
       "humanitarian": 1,
+      "investment": 1,
       "monitoring_evaluation_and_learning": 1,
       "sales_business_development": 1
     }

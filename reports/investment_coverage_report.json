@@ -1,71 +1,76 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-16T08:18:53.722290Z",
-  "feed_generated_at": "2026-07-15T19:39:42.769140Z",
+  "generated_at": "2026-07-16T08:35:07.076427Z",
+  "feed_generated_at": "2026-07-16T08:35:06.685012Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1221,
-    "investment_role_count": 98,
-    "institutional_support_role_count": 11,
-    "investment_role_percent": 8.0,
-    "direct_dfi_investment_count": 12,
-    "dfi_institutional_role_count": 11,
-    "false_positive_guarded_count": 109,
-    "represented_investment_tracks": 14
+    "opportunity_count": 1238,
+    "investment_role_count": 97,
+    "institutional_support_role_count": 15,
+    "investment_role_percent": 7.8,
+    "direct_dfi_investment_count": 13,
+    "dfi_institutional_role_count": 15,
+    "false_positive_guarded_count": 126,
+    "represented_investment_tracks": 15
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 1112,
-      "core_investment": 87,
-      "institutional_support": 11,
-      "investment_adjacent": 11
+      "not_investment": 1126,
+      "core_investment": 85,
+      "institutional_support": 15,
+      "investment_adjacent": 12
     },
     "by_track": {
       "project_finance": 20,
-      "investment_analysis": 19,
       "investment_operations": 18,
+      "investment_analysis": 17,
       "asset_management": 9,
       "treasury": 9,
       "infrastructure_finance": 8,
-      "portfolio_management": 6,
-      "financial_institutions": 3,
+      "portfolio_management": 5,
+      "financial_institutions": 4,
       "blended_finance": 1,
       "climate_finance": 1,
       "credit": 1,
+      "impact_measurement": 1,
       "portfolio_operations": 1,
       "resource_mobilisation": 1,
       "structured_finance": 1
     },
     "by_dfi_relevance": {
-      "none": 1112,
-      "adjacent_experience": 86,
-      "direct_investment": 12,
-      "institutional_role": 11
+      "none": 1126,
+      "adjacent_experience": 84,
+      "institutional_role": 15,
+      "direct_investment": 13
     },
     "by_country": {
-      "South Africa": 74,
-      "Morocco": 10,
-      "unknown": 8,
+      "South Africa": 71,
+      "Morocco": 9,
+      "unknown": 9,
       "Guinea": 2,
       "Benin": 1,
+      "Burundi": 1,
       "Cameroon": 1,
       "Liberia": 1,
-      "Nigeria": 1
+      "Nigeria": 1,
+      "Uganda": 1
     },
     "by_source": {
-      "Adzuna": 53,
+      "Adzuna": 50,
       "South Africa DPSA official vacancy circular": 18,
       "DFI and multilateral official career page": 17,
-      "Cornerstone-hosted institutional board": 9,
+      "Cornerstone-hosted institutional board": 10,
+      "PageUp-hosted institutional board": 1,
       "Sun King": 1
     },
     "by_organisation_type": {
-      "unverified": 53,
+      "unverified": 50,
       "government": 18,
       "investment_firm": 14,
-      "multilateral": 9,
+      "multilateral": 10,
       "development_bank": 3,
-      "private": 1
+      "private": 1,
+      "un_agency": 1
     }
   }
 }
