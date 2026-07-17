@@ -1,22 +1,22 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-17T19:15:23.909351Z",
-  "feed_generated_at": "2026-07-17T14:04:15.394074Z",
+  "generated_at": "2026-07-17T19:32:31.521003Z",
+  "feed_generated_at": "2026-07-17T19:32:31.270830Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
     "enabled_employer_count": 68,
-    "multinational_opportunity_count": 141,
-    "phase11_priority_opportunity_count": 132,
+    "multinational_opportunity_count": 140,
+    "phase11_priority_opportunity_count": 131,
     "represented_employers": 13,
     "represented_countries": 5,
     "represented_cities": 4,
-    "official_application_count": 138,
+    "official_application_count": 137,
     "official_application_percent": 97.9
   },
   "coverage": {
     "by_sector": {
-      "hospitality": 95,
+      "hospitality": 94,
       "technology": 31,
       "unknown": 9,
       "banking": 2,
@@ -25,7 +25,7 @@
       "telecommunications": 1
     },
     "by_employer": {
-      "Accor": 95,
+      "Accor": 94,
       "Bolt": 20,
       "Nawiri Group": 8,
       "Jumia": 6,
@@ -40,7 +40,7 @@
       "The Coca-Cola Company": 1
     },
     "by_country": {
-      "unknown": 114,
+      "unknown": 113,
       "South Africa": 11,
       "Madagascar": 6,
       "Senegal": 6,
@@ -48,29 +48,30 @@
       "Morocco": 2
     },
     "by_city": {
-      "unknown": 129,
+      "unknown": 128,
       "Cape Town": 8,
       "Casablanca": 2,
       "Gqeberha": 1,
       "Johannesburg": 1
     },
     "by_role_family": {
-      "unknown": 89,
+      "unknown": 88,
       "logistics": 20,
-      "hospitality": 14,
+      "hospitality": 13,
       "operations": 4,
       "banking_and_finance": 2,
       "development_programmes": 2,
       "marketing_communications": 2,
       "sales_business_development": 2,
       "technology": 2,
+      "administration": 1,
       "customer_operations": 1,
       "design": 1,
       "engineering": 1,
       "human_resources": 1
     },
     "by_source": {
-      "Multinational employer official careers": 129,
+      "Multinational employer official careers": 128,
       "Nawiri Group": 8,
       "Adzuna": 3,
       "NGO and UN official career page": 1
