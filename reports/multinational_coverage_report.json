@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-17T13:44:46.861687Z",
-  "feed_generated_at": "2026-07-17T08:30:16.548834Z",
+  "generated_at": "2026-07-17T14:04:15.943574Z",
+  "feed_generated_at": "2026-07-17T14:04:15.394074Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
@@ -40,9 +40,9 @@
       "The Coca-Cola Company": 1
     },
     "by_country": {
-      "unknown": 112,
+      "unknown": 114,
       "South Africa": 11,
-      "Madagascar": 8,
+      "Madagascar": 6,
       "Senegal": 6,
       "Botswana": 2,
       "Morocco": 2
@@ -55,9 +55,9 @@
       "Johannesburg": 1
     },
     "by_role_family": {
-      "unknown": 91,
+      "unknown": 89,
       "logistics": 20,
-      "hospitality": 12,
+      "hospitality": 14,
       "operations": 4,
       "banking_and_finance": 2,
       "development_programmes": 2,
