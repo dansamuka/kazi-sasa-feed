@@ -1,13 +1,13 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-17T08:14:37.231595Z",
-  "feed_generated_at": "2026-07-16T19:41:52.200664Z",
+  "generated_at": "2026-07-17T08:30:16.921148Z",
+  "feed_generated_at": "2026-07-17T08:30:16.548834Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1239,
-    "government_opportunity_count": 337,
+    "opportunity_count": 1255,
+    "government_opportunity_count": 338,
     "phase9_priority_opportunity_count": 326,
-    "represented_portals": 5,
+    "represented_portals": 6,
     "represented_countries": 5,
     "with_advert_reference_count": 326,
     "with_deadline_count": 57,
@@ -16,7 +16,7 @@
   "coverage": {
     "by_country": {
       "South Africa": 311,
-      "unknown": 9,
+      "unknown": 10,
       "Kenya": 6,
       "Zambia": 6,
       "Tanzania": 4,
@@ -27,10 +27,11 @@
       "Kenya Broadcasting Corporation": 10,
       "Kenya Public Service Commission": 4,
       "Tanzania Public Service Recruitment Secretariat": 4,
+      "Egerton University": 1,
       "Kenya Railways Corporation": 1
     },
     "by_public_service_grade": {
-      "unknown": 333,
+      "unknown": 334,
       "E": 4
     },
     "by_role_family": {
@@ -43,7 +44,7 @@
       "economics_and_research": 18,
       "investment": 18,
       "risk_and_compliance": 15,
-      "agriculture": 13,
+      "agriculture": 14,
       "logistics": 12,
       "education": 10,
       "monitoring_evaluation_and_learning": 10,

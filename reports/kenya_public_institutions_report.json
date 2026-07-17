@@ -1,33 +1,36 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-17T08:14:37.232745Z",
-  "feed_generated_at": "2026-07-16T19:41:52.200664Z",
+  "generated_at": "2026-07-17T08:30:16.921894Z",
+  "feed_generated_at": "2026-07-17T08:30:16.548834Z",
   "feed_version": "3.8",
   "summary": {
     "configured_institution_count": 60,
     "enabled_institution_count": 59,
-    "opportunity_count": 11,
-    "represented_institutions": 2,
-    "represented_categories": 2
+    "opportunity_count": 12,
+    "represented_institutions": 3,
+    "represented_categories": 3
   },
   "coverage": {
     "by_category": {
       "state_owned_enterprise": 10,
+      "public_university": 1,
       "railways": 1
     },
     "by_institution": {
       "Kenya Broadcasting Corporation": 10,
+      "Egerton University": 1,
       "Kenya Railways Corporation": 1
     },
     "by_role_family": {
       "unknown": 6,
       "sales_business_development": 2,
+      "agriculture": 1,
       "banking_and_finance": 1,
       "legal": 1,
       "technology": 1
     },
     "by_city": {
-      "unknown": 9,
+      "unknown": 10,
       "Nairobi": 2
     }
   }
