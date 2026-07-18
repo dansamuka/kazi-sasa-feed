@@ -1,25 +1,29 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-18T13:21:53.632475Z",
-  "feed_generated_at": "2026-07-18T08:20:42.875203Z",
+  "generated_at": "2026-07-18T13:44:38.288769Z",
+  "feed_generated_at": "2026-07-18T13:44:37.777591Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 923,
-    "government_opportunity_count": 20,
-    "phase9_priority_opportunity_count": 8,
-    "represented_portals": 5,
-    "represented_countries": 2,
-    "with_advert_reference_count": 8,
-    "with_deadline_count": 6,
+    "opportunity_count": 1531,
+    "government_opportunity_count": 633,
+    "phase9_priority_opportunity_count": 621,
+    "represented_portals": 6,
+    "represented_countries": 5,
+    "with_advert_reference_count": 621,
+    "with_deadline_count": 47,
     "with_number_of_positions_count": 8
   },
   "coverage": {
     "by_country": {
+      "South Africa": 604,
       "unknown": 10,
       "Kenya": 6,
-      "Tanzania": 4
+      "Zambia": 6,
+      "Tanzania": 4,
+      "Benin": 3
     },
     "by_portal": {
+      "South Africa Department of Public Service and Administration": 613,
       "Kenya Broadcasting Corporation": 10,
       "Kenya Public Service Commission": 4,
       "Tanzania Public Service Recruitment Secretariat": 4,
@@ -27,20 +31,39 @@
       "Kenya Railways Corporation": 1
     },
     "by_public_service_grade": {
-      "unknown": 16,
+      "unknown": 629,
       "E": 4
     },
     "by_role_family": {
+      "humanitarian": 89,
+      "development_programmes": 78,
+      "technology": 75,
+      "government_administration": 43,
+      "human_resources": 43,
+      "health": 41,
+      "operations": 36,
+      "investment": 30,
+      "agriculture": 29,
+      "risk_and_compliance": 22,
+      "logistics": 17,
+      "banking_and_finance": 16,
+      "engineering": 15,
+      "monitoring_evaluation_and_learning": 15,
+      "economics_and_research": 13,
+      "administration": 9,
+      "legal": 9,
+      "public_policy": 9,
+      "skilled_trades": 9,
+      "education": 8,
+      "marketing_communications": 6,
       "unknown": 6,
-      "government_administration": 3,
-      "health": 2,
-      "sales_business_development": 2,
-      "technology": 2,
-      "agriculture": 1,
-      "banking_and_finance": 1,
-      "development_programmes": 1,
-      "human_resources": 1,
-      "legal": 1
+      "real_estate": 4,
+      "procurement": 3,
+      "sales_business_development": 3,
+      "hospitality": 2,
+      "customer_operations": 1,
+      "energy": 1,
+      "esg_and_safeguards": 1
     }
   }
 }
