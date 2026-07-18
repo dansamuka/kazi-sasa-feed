@@ -1,33 +1,33 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-18T07:56:42.802006Z",
-  "feed_generated_at": "2026-07-17T19:32:31.270830Z",
+  "generated_at": "2026-07-18T08:20:43.136298Z",
+  "feed_generated_at": "2026-07-18T08:20:42.875203Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 927,
-    "investment_role_count": 68,
+    "opportunity_count": 923,
+    "investment_role_count": 75,
     "institutional_support_role_count": 19,
-    "investment_role_percent": 7.3,
+    "investment_role_percent": 8.1,
     "direct_dfi_investment_count": 13,
     "dfi_institutional_role_count": 19,
-    "false_positive_guarded_count": 99,
+    "false_positive_guarded_count": 100,
     "represented_investment_tracks": 12
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 840,
-      "core_investment": 66,
+      "not_investment": 829,
+      "core_investment": 73,
       "institutional_support": 19,
       "investment_adjacent": 2
     },
     "by_track": {
-      "project_finance": 20,
-      "investment_analysis": 18,
-      "investment_operations": 14,
+      "investment_analysis": 19,
+      "project_finance": 17,
+      "investment_operations": 16,
+      "infrastructure_finance": 8,
       "portfolio_management": 5,
       "financial_institutions": 4,
       "climate_finance": 1,
-      "corporate_finance": 1,
       "credit": 1,
       "guarantees_risk_insurance": 1,
       "portfolio_operations": 1,
@@ -35,16 +35,16 @@
       "structured_finance": 1
     },
     "by_dfi_relevance": {
-      "none": 840,
-      "adjacent_experience": 55,
+      "none": 829,
+      "adjacent_experience": 62,
       "institutional_role": 19,
       "direct_investment": 13
     },
     "by_country": {
-      "South Africa": 54,
-      "unknown": 4,
+      "South Africa": 49,
+      "Morocco": 9,
+      "unknown": 8,
       "Guinea": 2,
-      "Angola": 1,
       "Benin": 1,
       "Burundi": 1,
       "Cameroon": 1,
@@ -54,17 +54,16 @@
       "Uganda": 1
     },
     "by_source": {
-      "Adzuna": 51,
+      "Adzuna": 46,
+      "DFI and multilateral official career page": 18,
       "Cornerstone-hosted institutional board": 10,
-      "DFI and multilateral official career page": 5,
-      "Himalayas": 1,
       "Sun King": 1
     },
     "by_organisation_type": {
-      "unverified": 52,
+      "unverified": 46,
+      "investment_firm": 15,
       "multilateral": 10,
       "development_bank": 3,
-      "investment_firm": 2,
       "private": 1
     }
   }

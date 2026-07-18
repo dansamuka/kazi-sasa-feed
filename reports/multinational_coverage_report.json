@@ -1,18 +1,18 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-18T07:56:42.805277Z",
-  "feed_generated_at": "2026-07-17T19:32:31.270830Z",
+  "generated_at": "2026-07-18T08:20:43.141223Z",
+  "feed_generated_at": "2026-07-18T08:20:42.875203Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
     "enabled_employer_count": 68,
-    "multinational_opportunity_count": 140,
-    "phase11_priority_opportunity_count": 131,
+    "multinational_opportunity_count": 139,
+    "phase11_priority_opportunity_count": 130,
     "represented_employers": 13,
     "represented_countries": 5,
-    "represented_cities": 4,
+    "represented_cities": 3,
     "official_application_count": 137,
-    "official_application_percent": 97.9
+    "official_application_percent": 98.6
   },
   "coverage": {
     "by_sector": {
@@ -20,8 +20,8 @@
       "technology": 31,
       "unknown": 9,
       "banking": 2,
-      "payments": 2,
       "fmcg": 1,
+      "payments": 1,
       "telecommunications": 1
     },
     "by_employer": {
@@ -30,18 +30,18 @@
       "Nawiri Group": 8,
       "Jumia": 6,
       "Amazon": 3,
-      "Visa": 2,
       "Absa Group": 1,
       "Cisco": 1,
       "Citigroup": 1,
       "Google": 1,
       "Orange": 1,
       "Tetra Tech International Development": 1,
-      "The Coca-Cola Company": 1
+      "The Coca-Cola Company": 1,
+      "Visa": 1
     },
     "by_country": {
       "unknown": 113,
-      "South Africa": 11,
+      "South Africa": 10,
       "Madagascar": 6,
       "Senegal": 6,
       "Botswana": 2,
@@ -51,8 +51,7 @@
       "unknown": 128,
       "Cape Town": 8,
       "Casablanca": 2,
-      "Gqeberha": 1,
-      "Johannesburg": 1
+      "Gqeberha": 1
     },
     "by_role_family": {
       "unknown": 88,
@@ -62,18 +61,18 @@
       "banking_and_finance": 2,
       "development_programmes": 2,
       "marketing_communications": 2,
-      "sales_business_development": 2,
       "technology": 2,
       "administration": 1,
       "customer_operations": 1,
       "design": 1,
       "engineering": 1,
-      "human_resources": 1
+      "human_resources": 1,
+      "sales_business_development": 1
     },
     "by_source": {
       "Multinational employer official careers": 128,
       "Nawiri Group": 8,
-      "Adzuna": 3,
+      "Adzuna": 2,
       "NGO and UN official career page": 1
     },
     "registry_city_footprint": {

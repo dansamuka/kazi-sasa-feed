@@ -1,21 +1,22 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-18T07:56:42.802535Z",
-  "feed_generated_at": "2026-07-17T19:32:31.270830Z",
+  "generated_at": "2026-07-18T08:20:43.137225Z",
+  "feed_generated_at": "2026-07-18T08:20:42.875203Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 927,
-    "dfi_or_multilateral_opportunity_count": 34,
-    "phase7_priority_institution_opportunity_count": 34,
-    "dfi_investment_role_count": 15,
-    "represented_institutions": 5,
-    "represented_countries": 17,
-    "official_application_count": 32,
-    "official_application_percent": 94.1
+    "opportunity_count": 923,
+    "dfi_or_multilateral_opportunity_count": 47,
+    "phase7_priority_institution_opportunity_count": 47,
+    "dfi_investment_role_count": 28,
+    "represented_institutions": 6,
+    "represented_countries": 18,
+    "official_application_count": 45,
+    "official_application_percent": 95.7
   },
   "coverage": {
     "by_institution": {
       "World Bank Group": 24,
+      "Africa50": 13,
       "African Development Bank": 4,
       "DBSA": 2,
       "Private Infrastructure Development Group": 2,
@@ -23,11 +24,12 @@
     },
     "by_institution_type": {
       "multilateral": 24,
-      "development_bank": 8,
-      "investment_firm": 2
+      "investment_firm": 15,
+      "development_bank": 8
     },
     "by_country": {
-      "unknown": 7,
+      "unknown": 11,
+      "Morocco": 9,
       "South Africa": 5,
       "Kenya": 4,
       "Côte d’Ivoire": 2,
@@ -48,11 +50,11 @@
     },
     "by_source": {
       "Cornerstone-hosted institutional board": 24,
-      "DFI and multilateral official career page": 8,
+      "DFI and multilateral official career page": 21,
       "Adzuna": 2
     },
     "by_role_family": {
-      "investment": 15,
+      "investment": 28,
       "technology": 5,
       "development_programmes": 4,
       "operations": 2,
@@ -66,16 +68,17 @@
     },
     "by_dfi_relevance": {
       "institutional_role": 19,
-      "direct_investment": 13,
-      "adjacent_experience": 2
+      "adjacent_experience": 15,
+      "direct_investment": 13
     },
     "by_investment_track": {
+      "infrastructure_finance": 8,
+      "investment_operations": 5,
       "financial_institutions": 4,
       "portfolio_management": 4,
+      "investment_analysis": 2,
       "climate_finance": 1,
       "guarantees_risk_insurance": 1,
-      "investment_analysis": 1,
-      "investment_operations": 1,
       "portfolio_operations": 1,
       "project_finance": 1,
       "resource_mobilisation": 1

@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed_version": "3.8",
-    "generated_at": "2026-07-17T19:32:31.270830Z",
-    "next_expected_update": "2026-07-18T01:32:31.270844Z",
-    "opportunity_count": 10,
-    "source_count": 4,
+    "generated_at": "2026-07-18T08:20:42.875203Z",
+    "next_expected_update": "2026-07-18T14:20:42.875219Z",
+    "opportunity_count": 9,
+    "source_count": 3,
     "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
     "is_sample_data": false,
     "supported_languages": [
@@ -37,7 +37,7 @@
     "government_deduplication_version": "3.0",
     "eligibility_evidence_version": "2.0",
     "certified_subset": true,
-    "parent_opportunity_count": 927
+    "parent_opportunity_count": 923
   },
   "opportunities": [
     {
@@ -100,7 +100,7 @@
         "name": "PageUp-hosted institutional board",
         "url": "https://jobs.unicef.org/",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:15:55.696990Z",
+        "last_seen_at": "2026-07-18T07:57:17.360161Z",
         "id": "pageup-institutional-board",
         "kind": "institution_official",
         "registry_managed": true
@@ -281,7 +281,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:47.093936Z",
+        "last_seen_at": "2026-07-18T08:15:58.705527Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -477,7 +477,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:47.164636Z",
+        "last_seen_at": "2026-07-18T08:15:58.776239Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -677,7 +677,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:47.235286Z",
+        "last_seen_at": "2026-07-18T08:15:58.846264Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -873,7 +873,7 @@
         "name": "Kenya Public Service Commission official vacancies",
         "url": "https://psckjobs.go.ke/ActiveJobsAdverts.aspx",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:47.305635Z",
+        "last_seen_at": "2026-07-18T08:15:58.916466Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1069,7 +1069,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:52.146446Z",
+        "last_seen_at": "2026-07-18T08:16:04.940492Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1269,7 +1269,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:52.268754Z",
+        "last_seen_at": "2026-07-18T08:16:05.064071Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1465,7 +1465,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:53.191957Z",
+        "last_seen_at": "2026-07-18T08:16:06.201138Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1667,7 +1667,7 @@
         "name": "Tanzania PSRS official advertisements",
         "url": "https://www.ajira.go.tz/",
         "confidence": "official",
-        "last_seen_at": "2026-07-17T19:27:53.317464Z",
+        "last_seen_at": "2026-07-18T08:16:06.330200Z",
         "id": null,
         "kind": "direct_or_official",
         "registry_managed": false
@@ -1805,194 +1805,6 @@
         ],
         "evidence_strength": "structured_source",
         "detected_language": "sw"
-      }
-    },
-    {
-      "id": "adzuna-5740946163",
-      "title": "Industrial Instrumentation Sales Engineer Sandton X 2",
-      "opportunity_type": "job",
-      "organisation": {
-        "name": "SPILASTYLE CC",
-        "type": "unverified",
-        "verified": false,
-        "id": null,
-        "type_detail": "unverified",
-        "registry_managed": false
-      },
-      "location": {
-        "raw": "South Africa",
-        "country": "South Africa",
-        "region": null,
-        "is_remote_from_kenya": false,
-        "scope": "national",
-        "relocation_country": null,
-        "city": null,
-        "country_code": "ZA",
-        "country_iso3": "ZAF",
-        "admin_area": null,
-        "coordinates": null,
-        "country_canonical": "South Africa",
-        "region_canonical": "Southern Africa",
-        "normalisation_confidence": 0.93,
-        "normalisation_evidence": [
-          "existing_country",
-          "explicit_region_alias"
-        ],
-        "matched_location_alias": "South Africa",
-        "location_language": "en",
-        "is_african": true,
-        "known_non_african": false,
-        "global_location_evidence": []
-      },
-      "work_mode": null,
-      "seniority": null,
-      "categories": [
-        "general_sales"
-      ],
-      "specialisations": [
-        "general_sales"
-      ],
-      "industry": null,
-      "skills_required": [],
-      "skills_preferred": [],
-      "posted_at": "2026-05-26T06:10:29Z",
-      "deadline": null,
-      "deadline_confidence": "unknown",
-      "years_experience_min": null,
-      "years_experience_max": null,
-      "education_required": null,
-      "education_field": [],
-      "contract_type": "unknown",
-      "source": {
-        "name": "Adzuna",
-        "url": "https://www.adzuna.co.za",
-        "confidence": "aggregated",
-        "last_seen_at": "2026-07-17T19:32:04.515416Z",
-        "id": "adzuna",
-        "kind": "commercial_aggregator",
-        "registry_managed": true
-      },
-      "apply_url": "https://www.adzuna.co.za/land/ad/5740946163?se=AgYFMBaC8RG2_bgw2cxh0Q&utm_medium=api&utm_source=34f454e6&v=7A74BD0D583A23BF3C3F8965C51AA33ADEB5CA47",
-      "apply_is_official": false,
-      "flags": [],
-      "eligibility_notes": null,
-      "summary": "INDUSTRIAL INSTRUMENTATION SALES ENGINEER X 2 ONLY SOUTH AFRICAN NATIONALS NEED APPLY REPORTING TO THE SALES MANAGER MARKET RELATED (/- R30K basic) REMUNERATION DEPENDING ON EXPERIENCE 1. OPEN ENDED COMMISSION OTE, BASED ON SALES MARGIN. 2. CAR AND FUEL ALLOWANCE 3. PENSION 4. MEDICAL AID 5. TRAININ...",
-      "raw_description_url": "https://www.adzuna.co.za/land/ad/5740946163?se=AgYFMBaC8RG2_bgw2cxh0Q&utm_medium=api&utm_source=34f454e6&v=7A74BD0D583A23BF3C3F8965C51AA33ADEB5CA47",
-      "compensation": {
-        "min": 360000,
-        "max": 360000,
-        "currency": "ZAR",
-        "period": "year",
-        "disclosed": true
-      },
-      "institution_profile": {
-        "is_dfi_or_multilateral": false,
-        "institution_type": "unverified",
-        "registry_id": null,
-        "source_pack": null,
-        "phase7_priority_institution": false
-      },
-      "role_family": "sales_business_development",
-      "role_subfamily": "general_sales",
-      "thematic_sectors": [],
-      "investment_profile": {
-        "classification": "not_investment",
-        "track": null,
-        "canonical_specialisation": null,
-        "confidence": 0.78,
-        "evidence": [],
-        "negative_evidence": [],
-        "dfi_relevance": "none",
-        "dfi_confidence": 0.82,
-        "is_investment_role": false
-      },
-      "ngo_profile": {
-        "is_ngo_or_un": false,
-        "organisation_group": "other",
-        "classification": "not_ngo_un",
-        "track": null,
-        "canonical_specialisation": null,
-        "confidence": 0.95,
-        "evidence": [],
-        "negative_evidence": [],
-        "is_programme_role": false,
-        "registry_id": null,
-        "source_pack": null,
-        "phase8_priority_organisation": false
-      },
-      "government_profile": {
-        "is_government_or_public_service": false,
-        "institution_type": "unverified",
-        "registry_id": null,
-        "source_pack": null,
-        "phase9_priority_portal": false,
-        "phase10_kenya_public_institution": false,
-        "public_institution_category": null,
-        "advert_reference": null,
-        "public_service_grade": null,
-        "salary_scale": null,
-        "number_of_positions": null,
-        "citizenship_required": null,
-        "eligible_nationalities": [],
-        "application_method": null,
-        "application_form_url": null,
-        "internal_only": false,
-        "county_or_region_requirement": null,
-        "source_document_url": null
-      },
-      "public_institution_profile": {
-        "is_kenya_public_institution": false,
-        "category": null,
-        "registry_id": null,
-        "source_pack": null,
-        "country_code": null
-      },
-      "multinational_profile": {
-        "is_multinational": false,
-        "sector": null,
-        "registry_id": null,
-        "source_pack": null,
-        "phase11_priority_employer": false,
-        "african_city_footprint": []
-      },
-      "africa_relevance": {
-        "status": "africa_based_confirmed",
-        "confidence": 0.99,
-        "evidence": [
-          "physical_duty_station_in_africa"
-        ],
-        "certification_level": "certified",
-        "default_visible": true,
-        "known_country_code": "ZA",
-        "known_country_name": "South Africa"
-      },
-      "african_applicant_access": {
-        "status": "confirmed_specific_african_nationality",
-        "confidence": 0.96,
-        "evidence": [
-          "explicit_african_nationality_requirement"
-        ],
-        "evidence_strength": "explicit",
-        "eligible_nationalities": [
-          "ZA"
-        ],
-        "citizenship_required": true,
-        "work_authorisation_required": null,
-        "certification_level": "certified"
-      },
-      "eligibility": {
-        "status": "citizenship_restricted",
-        "confidence": 0.96,
-        "citizenship_required": true,
-        "eligible_nationalities": [
-          "ZA"
-        ],
-        "work_authorisation_required": null,
-        "evidence": [
-          "explicit_african_nationality_requirement"
-        ],
-        "evidence_strength": "explicit",
-        "detected_language": "en"
       }
     }
   ]
