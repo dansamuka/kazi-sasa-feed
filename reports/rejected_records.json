@@ -1,7 +1,2918 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-19T19:10:31.821384Z",
-  "rejected_count": 0,
-  "records": [],
-  "note": "Snapshot report; live refresh records strict Africa-scope rejections."
+  "generated_at": "2026-07-19T19:36:11.925458Z",
+  "rejected_count": 71,
+  "records": [
+    {
+      "id": "cornerstone-world-bank-group-eb7ce81106b89401",
+      "title": "WBG Pioneer - Research and Data Analysis Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Almaty, KZ",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KZ",
+        "country_iso3": "KAZ",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Kazakhstan",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KZ",
+        "known_country_name": "Kazakhstan"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-5c22ab32a9dc0eb9",
+      "title": "WBG Pioneer - Portfolio Analytics and Business Intelligence Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Almaty, KZ",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KZ",
+        "country_iso3": "KAZ",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Kazakhstan",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KZ",
+        "known_country_name": "Kazakhstan"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-42e98a3ae72ad8ea",
+      "title": "(Associate) Investment Officer, Financial Institutions Group, Ecuador",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Quito, EC",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "EC",
+        "country_iso3": "ECU",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Ecuador",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "EC",
+        "known_country_name": "Ecuador"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-fad71b17114684be",
+      "title": "Lead Transport Specialist",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "New Delhi, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-7981276624ba8e45",
+      "title": "Lead Energy Specialist",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "New Delhi, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-f522522af27b9e05",
+      "title": "WBG Pioneer -AI/Data Science Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Chennai, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-16641bf7bae11e99",
+      "title": "WBG Pioneer - Environmental and Social Analyst Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Buenos Aires, AR, Sao Paulo, BR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "AR",
+        "country_iso3": "ARG",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Argentina",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AR",
+        "known_country_name": "Argentina"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-ffe0f861662e4703",
+      "title": "WBG Pioneer - Country Office Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Berlin, DE",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "DE",
+        "country_iso3": "DEU",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Germany",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "DE",
+        "known_country_name": "Germany"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-487531e576ea23ca",
+      "title": "WBG Pioneer",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Montevideo, UY",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "UY",
+        "country_iso3": "URY",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Uruguay",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "UY",
+        "known_country_name": "Uruguay"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-81db9898def1833c",
+      "title": "Operations Analyst – Business Developpment",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Rome, IT",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IT",
+        "country_iso3": "ITA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Italy",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IT",
+        "known_country_name": "Italy"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-07e20feedea2f47e",
+      "title": "WBG Pioneer -Storytelling & Communications Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Muscat, OM",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "OM",
+        "country_iso3": "OMN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Oman",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "OM",
+        "known_country_name": "Oman"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-aff96f0421c9469e",
+      "title": "WBG Pioneer - Outcomes intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Brasilia, BR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BR",
+        "country_iso3": "BRA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Brazil",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BR",
+        "known_country_name": "Brazil"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-2b8a2d7c3a7bd1d4",
+      "title": "WBG Pioneer - E&S Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Amman, JO",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "JO",
+        "country_iso3": "JOR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Jordan",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "JO",
+        "known_country_name": "Jordan"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-266222582e2595dd",
+      "title": "WBG Pioneer - Environmental and Social Analyst intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Buenos Aires, AR, Sao Paulo, BR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "AR",
+        "country_iso3": "ARG",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Argentina",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AR",
+        "known_country_name": "Argentina"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-4fa7dfbc3921d345",
+      "title": "Investment Analyst - FIG",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Manila, PH",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "PH",
+        "country_iso3": "PHL",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Philippines",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "PH",
+        "known_country_name": "Philippines"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-8a6f05b4f232a53a",
+      "title": "WBG Pioneer - Korea Green Growth Trust Fund (KGGTF) Interns",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Seoul, KR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KR",
+        "country_iso3": "KOR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Korea, Republic of",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KR",
+        "known_country_name": "Korea, Republic of"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-240b234e7acdd28e",
+      "title": "WBG Pioneer- Environment Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Muscat, OM",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "OM",
+        "country_iso3": "OMN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Oman",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "OM",
+        "known_country_name": "Oman"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-109be8dd480da50f",
+      "title": "WBG Pioneer -Water Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Muscat, OM",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "OM",
+        "country_iso3": "OMN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Oman",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "OM",
+        "known_country_name": "Oman"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-4f36390533ce0bc3",
+      "title": "WBG Pioneer - Country Operations Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Kuwait City, KW",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KW",
+        "country_iso3": "KWT",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Kuwait",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KW",
+        "known_country_name": "Kuwait"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-b1f500ae2d073a1f",
+      "title": "WBG Pioneer - Private Sector Engagements Intern - copy",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Kuwait City, KW",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KW",
+        "country_iso3": "KWT",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Kuwait",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KW",
+        "known_country_name": "Kuwait"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-549a3571ab17cf4d",
+      "title": "WBG Pioneer - Private Sector Engagements Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Kuwait City, KW",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "KW",
+        "country_iso3": "KWT",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Kuwait",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "KW",
+        "known_country_name": "Kuwait"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-833e2d793a61a2e6",
+      "title": "WBG Pioneer -Design Thinking Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Sofia, BG",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BG",
+        "country_iso3": "BGR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Bulgaria",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BG",
+        "known_country_name": "Bulgaria"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-0ee56e2268944642",
+      "title": "WBG Pioneer - Climate Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Muscat, OM",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "OM",
+        "country_iso3": "OMN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Oman",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "OM",
+        "known_country_name": "Oman"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-946d4365827b3ecf",
+      "title": "WBG Pioneer - Investment Analysis Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Vienna, AT",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "AT",
+        "country_iso3": "AUT",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Austria",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AT",
+        "known_country_name": "Austria"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-7c23f69db7ae2c77",
+      "title": "WBG Pioneer - Macro and Operations Support Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Buenos Aires, AR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "AR",
+        "country_iso3": "ARG",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Argentina",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AR",
+        "known_country_name": "Argentina"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-4810ab109e2902cf",
+      "title": "WBG Pioneer - Knowledge Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Vienna, AT",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "AT",
+        "country_iso3": "AUT",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Austria",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AT",
+        "known_country_name": "Austria"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-42858609843dac63",
+      "title": "WBG Pioneer - Transport Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Beijing, CN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CN",
+        "country_iso3": "CHN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "China",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CN",
+        "known_country_name": "China"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-3633e963091158ef",
+      "title": "WBG Pioneer - Blended Finance Operations Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Brussels, BE",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BE",
+        "country_iso3": "BEL",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Belgium",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BE",
+        "known_country_name": "Belgium"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-c347b68de4bbce0a",
+      "title": "WBG Pioneer - Infrastructure Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Sao Paulo, BR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BR",
+        "country_iso3": "BRA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Brazil",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BR",
+        "known_country_name": "Brazil"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-deb0f4e4d3a18b55",
+      "title": "E T Consultant, Investment Analyst, Financial Institutions Group, Ecuador",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Quito, EC",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "EC",
+        "country_iso3": "ECU",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Ecuador",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "EC",
+        "known_country_name": "Ecuador"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-6c9df04671170095",
+      "title": "WBG Pioneer - Infrastructure Investment Analyst Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Bogota, CO",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CO",
+        "country_iso3": "COL",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Colombia",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CO",
+        "known_country_name": "Colombia"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-a58f3bce1e83b0f7",
+      "title": "WBG Pioneer - Infrastructure Investment Analyst Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Lima, PE",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "PE",
+        "country_iso3": "PER",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Peru",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "PE",
+        "known_country_name": "Peru"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-52cba748d33d8a00",
+      "title": "WBG Pioneer - Operational Analyst Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Hanoi, VN, Ho Chi Minh City",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "VN",
+        "country_iso3": "VNM",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Viet Nam",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "VN",
+        "known_country_name": "Viet Nam"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-445d73d20717303f",
+      "title": "WBG Pioneer - Data Analysis Intern, Environmental Quality",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Beijing, CN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CN",
+        "country_iso3": "CHN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "China",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CN",
+        "known_country_name": "China"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-7311ca4885637fff",
+      "title": "WBG Pioneer - Research & Knowledge Management Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Beijing, CN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CN",
+        "country_iso3": "CHN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "China",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CN",
+        "known_country_name": "China"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-56f00ab6e67c1ed8",
+      "title": "Investment Analyst - Infrastructure",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Bucharest, RO",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "RO",
+        "country_iso3": "ROU",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Romania",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "RO",
+        "known_country_name": "Romania"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-20c0e47a243f06b0",
+      "title": "WBG Pioneer - ESF Intern (Environmental) / ESF Intern (Social Development)",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Tashkent, UZ",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "UZ",
+        "country_iso3": "UZB",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Uzbekistan",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "UZ",
+        "known_country_name": "Uzbekistan"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-919c0cb7b928e505",
+      "title": "WBG Pioneer - Labor Economist Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Brussels, BE",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BE",
+        "country_iso3": "BEL",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Belgium",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BE",
+        "known_country_name": "Belgium"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-80e4138832a8beb5",
+      "title": "WBG Pioneer - Health Systems Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Kyiv, UA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "UA",
+        "country_iso3": "UKR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Ukraine",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "UA",
+        "known_country_name": "Ukraine"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-4a6e73b09dc0bbd6",
+      "title": "WBG Pioneer - Technology Learning Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Sofia, BG",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BG",
+        "country_iso3": "BGR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Bulgaria",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BG",
+        "known_country_name": "Bulgaria"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-1e3eb2e2500f1cd3",
+      "title": "WBG Pioneer - Procurement Sourcing Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Chennai, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-d1557877618ebfad",
+      "title": "WBG Pioneer - Procurement Operations & Advisory Intern",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Chennai, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-c6bde8467182189b",
+      "title": "E T Temporary",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Kyiv, UA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "UA",
+        "country_iso3": "UKR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Ukraine",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "UA",
+        "known_country_name": "Ukraine"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-89932bc8cf31b923",
+      "title": "E T Consultant - Legal Analyst",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Istanbul, TR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "TR",
+        "country_iso3": "TUR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Türkiye",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "TR",
+        "known_country_name": "Türkiye"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-42a33389ff2bf933",
+      "title": "Operations Analyst, Financial Institutions Group Advisory, Brazil",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Sao Paulo, BR",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BR",
+        "country_iso3": "BRA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Brazil",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BR",
+        "known_country_name": "Brazil"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-a72eb227758fc742",
+      "title": "Legal Analyst",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Amman, JO",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "JO",
+        "country_iso3": "JOR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Jordan",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "JO",
+        "known_country_name": "Jordan"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-fe23eba00a7d1071",
+      "title": "Senior Operations officer",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Riyadh, SA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "SA",
+        "country_iso3": "SAU",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Saudi Arabia",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "SA",
+        "known_country_name": "Saudi Arabia"
+      }
+    },
+    {
+      "id": "cornerstone-world-bank-group-56c5a577045ffb5e",
+      "title": "Investment Analyst - FIG",
+      "organisation": "World Bank Group",
+      "location": {
+        "raw": "Mumbai, IN",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "IN",
+        "country_iso3": "IND",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "India",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "IN",
+        "known_country_name": "India"
+      }
+    },
+    {
+      "id": "official-unicef-40bf62eeb7225374",
+      "title": "Temporary Appointment: Contracts Associate, GS-6 (2 Posts), in Individual Consultant Services (ICS), Global Shared Services Centre, Budapest, Hungary",
+      "organisation": "UNICEF",
+      "location": {
+        "raw": "Temporary Appointment: Contracts Associate, GS-6 (2 Posts), in Individual Consultant Services (ICS), Global Shared Services Centre, Budapest, Hungary",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": true,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "GS",
+        "country_iso3": "SGS",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "South Georgia and the South Sandwich Islands",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "GS",
+        "known_country_name": "South Georgia and the South Sandwich Islands"
+      }
+    },
+    {
+      "id": "official-norfund-d8e25e12d2fcdd5e",
+      "title": "Investment Manager, Ukraine Fund, Oslo",
+      "organisation": "Norfund",
+      "location": {
+        "raw": "Oslo, NO",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "NO",
+        "country_iso3": "NOR",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Norway",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "NO",
+        "known_country_name": "Norway"
+      }
+    },
+    {
+      "id": "smartrecruiters-accor-5c18e47f49d72796e7",
+      "title": "COORDENADOR ADMINISTRATIVO FINANCEIRO",
+      "organisation": "Accor",
+      "location": {
+        "raw": "Salvador, BA, br",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "BA",
+        "country_iso3": "BIH",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Bosnia and Herzegovina",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "BA",
+        "known_country_name": "Bosnia and Herzegovina"
+      }
+    },
+    {
+      "id": "smartrecruiters-accor-6018891f80ef240b50",
+      "title": "Front Office Manager",
+      "organisation": "Accor",
+      "location": {
+        "raw": "Alba, CN, it",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CN",
+        "country_iso3": "CHN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "China",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CN",
+        "known_country_name": "China"
+      }
+    },
+    {
+      "id": "smartrecruiters-accor-df00ade3c49c3ccccb",
+      "title": "Auxiliar de Recepção",
+      "organisation": "Accor",
+      "location": {
+        "raw": "Belém, PA, br",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "PA",
+        "country_iso3": "PAN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Panama",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "PA",
+        "known_country_name": "Panama"
+      }
+    },
+    {
+      "id": "smartrecruiters-accor-a0ffc2d3b4291aa585",
+      "title": "Garçom",
+      "organisation": "Accor",
+      "location": {
+        "raw": "Curitiba, PR, br",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "PR",
+        "country_iso3": "PRI",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Puerto Rico",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "PR",
+        "known_country_name": "Puerto Rico"
+      }
+    },
+    {
+      "id": "smartrecruiters-accor-9856c2a095b6f91a63",
+      "title": "CAMAREIRA / ARRUMADEIRA",
+      "organisation": "Accor",
+      "location": {
+        "raw": "Curitiba, PR, br",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "PR",
+        "country_iso3": "PRI",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Puerto Rico",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "PR",
+        "known_country_name": "Puerto Rico"
+      }
+    },
+    {
+      "id": "ashby-ramp-3f94674f-6af8-4e10-9631-77b1b0a410bf",
+      "title": "Account Executive, SMB | Canada",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (Canada)",
+        "country": "Canada",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "CA",
+        "country_iso3": "CAN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Canada",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CA",
+        "known_country_name": "Canada"
+      }
+    },
+    {
+      "id": "ashby-ramp-afe866c3-3725-4416-9e5f-530ed89b295d",
+      "title": "Manager, Scaled Customer Success",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "San Francisco, CA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CA",
+        "country_iso3": "CAN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Canada",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CA",
+        "known_country_name": "Canada"
+      }
+    },
+    {
+      "id": "ashby-ramp-03e2d4e1-73ad-4f09-a058-2eb9ce34c2bc",
+      "title": "Technical Consultant, Mid-Market",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-e32364c2-a952-44c3-b2dc-a1c6204ddb8a",
+      "title": "Technical Accounting Manager",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "San Francisco, CA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CA",
+        "country_iso3": "CAN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Canada",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CA",
+        "known_country_name": "Canada"
+      }
+    },
+    {
+      "id": "ashby-ramp-220e674a-fc70-439f-bacf-687553ca59c9",
+      "title": "Solutions Consultant, Commercial",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-cc0af88a-2a19-493d-93cf-c5090f986f1f",
+      "title": "AI Partnerships Manager",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "San Francisco, CA",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": null,
+        "relocation_country": null,
+        "country_code": "CA",
+        "country_iso3": "CAN",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "Canada",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "CA",
+        "known_country_name": "Canada"
+      }
+    },
+    {
+      "id": "ashby-ramp-218e3fef-0fa7-4ad4-b401-9ba0c76c0ff0",
+      "title": "Technical Consultant, S/4HANA",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-492823d8-9651-46cf-9d33-a632ef706879",
+      "title": "Solutions Consultant, Post Sales, Mid-Market",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-13fe8467-b624-4f30-8aad-af441dfb1797",
+      "title": "Technical Consultant, Oracle Fusion",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-85bb97ba-b1fe-4a3b-be35-df4d40b7455e",
+      "title": "Technical Consultant, Workday",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-8ca5c32b-e6c7-47e3-af23-291f122fa0f8",
+      "title": "Solutions Consultant, Post Sales, Commercial",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "ashby-ramp-971abc99-f20b-43f0-91d6-90bcbfa2c8d9",
+      "title": "Solutions Consultant, Post Sales, Enterprise",
+      "organisation": "Ramp",
+      "location": {
+        "raw": "Remote (US)",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "city": null,
+        "admin_area": null,
+        "coordinates": null,
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "himalayas-project-operations-coordinator",
+      "title": "Project & Operations Coordinator",
+      "organisation": "Connect Centric",
+      "location": {
+        "raw": "United States",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "admin_area": null,
+        "coordinates": null,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "himalayas-engineering-manager-apac",
+      "title": "Engineering Manager - APAC",
+      "organisation": "Solventum",
+      "location": {
+        "raw": "Australia",
+        "country": "Australia",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "AU",
+        "country_iso3": "AUS",
+        "admin_area": null,
+        "coordinates": null,
+        "country_canonical": "Australia",
+        "region_canonical": "Non-Africa",
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "AU",
+        "known_country_name": "Australia"
+      }
+    },
+    {
+      "id": "himalayas-director-senior-director-client-services-lead",
+      "title": "Director/Senior Director, Client Services Lead",
+      "organisation": "BlastX Consulting",
+      "location": {
+        "raw": "United States",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "admin_area": null,
+        "coordinates": null,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    },
+    {
+      "id": "himalayas-senior-clinical-workflow-implementation-manager-iqueue-for-inpatient-flow",
+      "title": "Senior Clinical Workflow Implementation Manager, iQueue for Inpatient Flow",
+      "organisation": "LeanTaaS",
+      "location": {
+        "raw": "United States",
+        "country": "United States",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": null,
+        "city": null,
+        "country_code": "US",
+        "country_iso3": "USA",
+        "admin_area": null,
+        "coordinates": null,
+        "country_canonical": "United States",
+        "region_canonical": "Non-Africa",
+        "normalisation_confidence": 0.96,
+        "normalisation_evidence": [],
+        "matched_location_alias": null,
+        "location_language": "en",
+        "is_african": false,
+        "known_non_african": true,
+        "global_location_evidence": [
+          "global_country_registry_match"
+        ]
+      },
+      "reason": "known_non_african_without_africa_remit",
+      "africa_relevance": {
+        "status": "non_african",
+        "confidence": 0.99,
+        "evidence": [
+          "known_non_african_duty_station"
+        ],
+        "certification_level": "excluded",
+        "default_visible": false,
+        "known_country_code": "US",
+        "known_country_name": "United States"
+      }
+    }
+  ]
 }
