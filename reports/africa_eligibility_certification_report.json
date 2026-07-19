@@ -1,6 +1,6 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-19T13:48:54.004636Z",
+  "generated_at": "2026-07-19T19:10:31.897186Z",
   "feed_generated_at": "2026-07-19T13:48:52.957851Z",
   "feed_version": "3.8",
   "status": "passed",
@@ -16,7 +16,7 @@
     "official_location_pending_percent": 11.0,
     "unresolved_location_percent": 0.0,
     "government_deduplication_loss_percent": 0.0,
-    "government_duplicate_consolidation_percent": 49.1
+    "government_duplicate_consolidation_percent": 0.0
   },
   "coverage": {
     "by_africa_relevance": {
