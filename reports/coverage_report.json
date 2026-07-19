@@ -1,12 +1,12 @@
 {
   "report_version": "5.0",
-  "generated_at": "2026-07-19T13:23:15.710822Z",
-  "feed_generated_at": "2026-07-19T08:52:32.612491Z",
+  "generated_at": "2026-07-19T13:48:53.335035Z",
+  "feed_generated_at": "2026-07-19T13:48:52.957851Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1510,
+    "opportunity_count": 1522,
     "source_count": 26,
-    "organisation_count": 163,
+    "organisation_count": 160,
     "validation_errors": 0,
     "validation_warnings": 0,
     "represented_country_codes": 29,
@@ -20,14 +20,14 @@
     ],
     "location_registry_version": "2.0",
     "investment_taxonomy_version": "1.0",
-    "investment_roles": 93,
-    "dfi_direct_roles": 14,
+    "investment_roles": 106,
+    "dfi_direct_roles": 15,
     "dfi_institutional_roles": 19,
-    "dfi_or_multilateral_opportunities": 35,
-    "phase7_priority_institution_opportunities": 35,
+    "dfi_or_multilateral_opportunities": 49,
+    "phase7_priority_institution_opportunities": 49,
     "ngo_or_un_opportunities": 66,
     "phase8_priority_organisation_opportunities": 58,
-    "ngo_programme_roles": 325,
+    "ngo_programme_roles": 328,
     "kenya_public_institution_opportunities": 12,
     "multinational_opportunities": 139,
     "phase11_priority_employer_opportunities": 130,
@@ -41,16 +41,16 @@
       "Multinational employer official careers": 128,
       "Ramp": 50,
       "One Acre Fund": 32,
-      "Cornerstone-hosted institutional board": 25,
+      "Cornerstone-hosted institutional board": 26,
+      "DFI and multilateral official career page": 21,
       "PageUp-hosted institutional board": 13,
       "Kenya public institution official vacancies": 12,
       "Remotive": 11,
-      "DFI and multilateral official career page": 8,
       "Nawiri Group": 8,
       "GiveDirectly": 7,
-      "Himalayas": 7,
       "MSF West and Central Africa": 7,
       "Stripe": 7,
+      "Himalayas": 5,
       "PostHog": 5,
       "Tanzania PSRS official advertisements": 5,
       "Kenya Public Service Commission official vacancies": 4,
@@ -63,79 +63,79 @@
       "MCD Global Health": 1
     },
     "by_source_confidence": {
-      "official": 1086,
-      "aggregated": 424
+      "official": 1100,
+      "aggregated": 422
     },
     "by_organisation_type": {
       "government": 622,
-      "unverified": 420,
+      "unverified": 418,
       "private": 216,
       "multinational": 139,
       "ngo": 52,
-      "multilateral": 25,
+      "multilateral": 26,
+      "investment_firm": 15,
       "un_agency": 13,
       "state_owned_enterprise": 11,
       "development_bank": 8,
-      "investment_firm": 2,
       "consulting_firm": 1,
       "university": 1
     },
     "by_opportunity_type": {
-      "job": 1464,
+      "job": 1476,
       "internship": 46
     },
     "by_industry": {
-      "development_humanitarian": 292,
-      "unknown": 249,
-      "technology": 180,
-      "operations_supply_chain": 152,
-      "financial_services": 67,
+      "development_humanitarian": 290,
+      "unknown": 250,
+      "technology": 192,
+      "operations_supply_chain": 155,
+      "financial_services": 74,
       "human_resources": 59,
       "energy_environment": 56,
       "public_sector": 52,
-      "sales_business_development": 51,
-      "healthcare": 48,
+      "sales_business_development": 48,
       "agriculture_food": 46,
+      "healthcare": 46,
       "transport_logistics": 43,
-      "legal": 37,
-      "hospitality_tourism": 31,
+      "legal": 36,
+      "hospitality_tourism": 30,
       "marketing_communications": 26,
-      "skilled_trades": 26,
       "engineering": 24,
-      "administration": 22,
+      "administration": 23,
+      "skilled_trades": 21,
       "security": 14,
-      "education": 11,
-      "customer_operations": 8,
+      "customer_operations": 10,
+      "education": 10,
       "construction": 5,
+      "design_creative": 5,
       "real_estate": 5,
-      "design_creative": 4,
       "consulting": 2
     },
     "by_country": {
-      "South Africa": 1032,
-      "unknown": 217,
+      "South Africa": 1028,
+      "unknown": 220,
       "Nigeria": 59,
-      "Kenya": 35,
+      "Kenya": 37,
       "Tanzania": 25,
       "Benin": 22,
       "Zambia": 18,
       "Rwanda": 16,
       "Mozambique": 12,
-      "Côte d’Ivoire": 9,
-      "Senegal": 9,
+      "Morocco": 11,
+      "Côte d’Ivoire": 10,
+      "Senegal": 10,
       "Gabon": 8,
-      "Madagascar": 8,
       "Burundi": 7,
+      "Madagascar": 7,
       "Uganda": 6,
       "Cameroon": 4,
       "Ethiopia": 3,
       "Guinea": 3,
       "Botswana": 2,
       "Democratic Republic of the Congo": 2,
+      "Egypt": 2,
       "Malawi": 2,
-      "Morocco": 2,
       "Togo": 2,
-      "Egypt": 1,
       "Equatorial Guinea": 1,
       "Liberia": 1,
       "Niger": 1,
@@ -144,105 +144,106 @@
       "United States": 1
     },
     "by_location_scope": {
-      "unknown": 614,
+      "unknown": 618,
       "national": 438,
-      "regional": 409,
-      "international": 49
+      "regional": 418,
+      "international": 48
     },
     "by_work_mode": {
-      "unknown": 1435,
+      "unknown": 1446,
       "hybrid": 43,
-      "remote_global": 24,
+      "remote_global": 23,
       "onsite": 7,
+      "remote_kenya": 2,
       "remote_regional": 1
     },
     "by_role_family": {
-      "technology": 206,
+      "technology": 215,
       "operations": 133,
-      "development_programmes": 120,
-      "unknown": 106,
-      "banking_and_finance": 94,
+      "development_programmes": 119,
+      "unknown": 107,
+      "investment": 106,
       "humanitarian": 93,
-      "investment": 93,
-      "sales_business_development": 73,
-      "engineering": 63,
-      "human_resources": 63,
+      "banking_and_finance": 91,
+      "sales_business_development": 72,
+      "human_resources": 65,
       "government_administration": 57,
+      "engineering": 53,
       "health": 49,
       "agriculture": 44,
       "energy": 41,
-      "logistics": 38,
-      "hospitality": 31,
+      "logistics": 37,
+      "hospitality": 32,
       "marketing_communications": 31,
       "risk_and_compliance": 25,
-      "legal": 23,
+      "legal": 21,
       "administration": 20,
       "monitoring_evaluation_and_learning": 17,
+      "customer_operations": 15,
       "economics_and_research": 14,
       "consulting": 11,
-      "education": 11,
-      "skilled_trades": 11,
-      "customer_operations": 10,
-      "design": 10,
+      "design": 11,
+      "education": 10,
+      "skilled_trades": 10,
       "public_policy": 9,
       "real_estate": 7,
       "procurement": 6,
       "esg_and_safeguards": 1
     },
     "by_thematic_sector": {
-      "development": 326,
-      "technology": 180,
-      "operations": 156,
-      "finance": 125,
-      "private_sector": 98,
-      "public_sector": 69,
-      "energy": 60,
+      "development": 330,
+      "technology": 192,
+      "operations": 159,
+      "finance": 136,
+      "private_sector": 100,
+      "public_sector": 74,
+      "energy": 61,
+      "climate": 60,
+      "infrastructure": 59,
       "people": 59,
-      "climate": 58,
       "research": 54,
-      "health": 50,
+      "health": 48,
       "agriculture": 47,
       "food_systems": 46,
-      "infrastructure": 45,
       "logistics": 44,
       "governance": 37,
-      "hospitality": 31,
+      "hospitality": 30,
       "communications": 26,
-      "skilled_trades": 26,
-      "administration": 22,
-      "education": 15,
+      "administration": 23,
+      "skilled_trades": 21,
       "capital_markets": 14,
+      "education": 14,
       "public_policy": 14,
       "security": 14,
-      "financial_inclusion": 9,
-      "customer_operations": 8,
-      "humanitarian": 7,
+      "financial_inclusion": 12,
+      "customer_operations": 10,
+      "humanitarian": 6,
+      "design": 5,
       "real_estate": 5,
-      "design": 4,
       "international_relations": 3,
       "advisory": 2
     },
     "by_eligibility_status": {
-      "uncertain": 887,
+      "uncertain": 899,
       "citizenship_restricted": 623
     },
     "by_city": {
-      "unknown": 1049,
-      "Cape Town": 135,
-      "Johannesburg": 128,
-      "Pretoria": 92,
-      "Durban": 16,
+      "unknown": 1053,
+      "Cape Town": 144,
+      "Johannesburg": 119,
+      "Pretoria": 91,
       "Gqeberha": 16,
+      "Durban": 14,
+      "Casablanca": 11,
       "Kigali": 11,
-      "Abidjan": 9,
+      "Abidjan": 10,
       "Nairobi": 9,
       "Bloemfontein": 6,
       "Livingstone": 6,
+      "Dakar": 4,
       "Addis Ababa": 3,
       "Conakry": 3,
-      "Dakar": 3,
       "Lagos": 3,
-      "Casablanca": 2,
       "Douala": 2,
       "Goma": 2,
       "Jinja": 2,
@@ -259,117 +260,118 @@
       "Niamey": 1
     },
     "by_region_canonical": {
-      "Southern Africa": 1066,
-      "unknown": 211,
-      "West Africa": 107,
-      "East Africa": 100,
-      "Central Africa": 17,
-      "Africa": 4,
-      "North Africa": 4,
+      "Southern Africa": 1062,
+      "unknown": 214,
+      "West Africa": 109,
+      "East Africa": 101,
+      "Central Africa": 16,
+      "North Africa": 14,
+      "Africa": 5,
       "Non-Africa": 1
     },
     "by_location_language": {
-      "en": 1510
+      "en": 1522
     },
     "by_location_confidence": {
-      "high_0.90_plus": 1293,
-      "low_below_0.60": 211,
+      "high_0.90_plus": 1302,
+      "low_below_0.60": 214,
       "medium_0.60_0.89": 6
     },
     "by_admin_area": {
-      "unknown": 1330,
-      "Gauteng": 107,
+      "unknown": 1347,
+      "Gauteng": 102,
       "Western Cape": 28,
-      "Eastern Cape": 12,
+      "Eastern Cape": 11,
       "Mpumalanga": 10,
       "Northern Cape": 9,
       "KwaZulu-Natal": 4,
       "Addis Ababa": 3,
       "Limpopo": 3,
       "Free State": 2,
-      "Casablanca-Settat": 1,
-      "North West": 1
+      "North West": 2,
+      "Casablanca-Settat": 1
     },
     "by_location_resolution": {
-      "physical_country": 1293,
-      "official_location_pending": 189,
-      "location_neutral": 27,
+      "physical_country": 1302,
+      "official_location_pending": 193,
+      "location_neutral": 26,
       "unresolved": 1
     },
     "by_investment_classification": {
-      "not_investment": 1398,
-      "core_investment": 78,
+      "not_investment": 1397,
+      "core_investment": 92,
       "institutional_support": 19,
-      "investment_adjacent": 15
+      "investment_adjacent": 14
     },
     "by_investment_track": {
-      "none": 1417,
-      "investment_analysis": 21,
+      "none": 1416,
+      "investment_analysis": 22,
+      "investment_operations": 17,
       "project_finance": 16,
       "asset_management": 14,
-      "investment_operations": 13,
       "treasury": 12,
+      "infrastructure_finance": 9,
       "portfolio_management": 6,
       "financial_institutions": 5,
-      "credit": 2,
       "climate_finance": 1,
+      "credit": 1,
       "guarantees_risk_insurance": 1,
       "portfolio_operations": 1,
       "resource_mobilisation": 1
     },
     "by_dfi_relevance": {
-      "none": 1398,
-      "adjacent_experience": 79,
+      "none": 1397,
+      "adjacent_experience": 91,
       "institutional_role": 19,
-      "direct_investment": 14
+      "direct_investment": 15
     },
     "by_investment_confidence": {
-      "medium_0.65_0.84": 1420,
-      "high_0.85_plus": 90
+      "medium_0.65_0.84": 1423,
+      "high_0.85_plus": 99
     },
     "by_institution_type": {
       "government": 622,
-      "unverified": 420,
+      "unverified": 418,
       "private": 216,
       "multinational": 139,
       "ngo": 52,
-      "multilateral": 25,
+      "multilateral": 26,
+      "investment_firm": 15,
       "un_agency": 13,
       "state_owned_enterprise": 11,
       "development_bank": 8,
-      "investment_firm": 2,
       "consulting_firm": 1,
       "university": 1
     },
     "by_institution_source_pack": {
-      "none": 653,
+      "none": 651,
       "phase9_government_wave1": 622,
       "phase11_multinationals": 130,
       "phase8_ngo_un_development": 58,
-      "phase7_dfi_multilateral": 35,
+      "phase7_dfi_multilateral": 49,
       "phase10_kenya_public_institutions": 12
     },
     "by_phase7_priority": {
-      "other": 1475,
-      "priority": 35
+      "other": 1473,
+      "priority": 49
     },
     "by_ngo_classification": {
-      "not_ngo_un": 1141,
-      "development": 172,
+      "not_ngo_un": 1149,
+      "development": 175,
       "humanitarian": 147,
-      "institutional_support": 44,
+      "institutional_support": 45,
       "technical_programme": 6
     },
     "by_ngo_track": {
-      "none": 1185,
-      "programme_management": 128,
-      "safeguarding_protection": 104,
+      "none": 1194,
+      "programme_management": 131,
+      "safeguarding_protection": 105,
       "field_operations": 36,
       "advocacy_policy": 15,
       "monitoring_evaluation_learning": 13,
       "research_learning": 7,
       "partnerships_resource_mobilisation": 6,
-      "humanitarian_response": 5,
+      "humanitarian_response": 4,
       "nutrition_food_security": 3,
       "community_engagement": 2,
       "public_health": 2,
@@ -379,23 +381,23 @@
       "migration_displacement": 1
     },
     "by_ngo_organisation_group": {
-      "other": 1444,
+      "other": 1456,
       "ngo": 52,
       "un_agency": 13,
       "development_implementer": 1
     },
     "by_phase8_priority": {
-      "other": 1452,
+      "other": 1464,
       "priority": 58
     },
     "by_public_institution_category": {
-      "none": 1498,
+      "none": 1510,
       "state_owned_enterprise": 10,
       "public_university": 1,
       "railways": 1
     },
     "by_multinational_sector": {
-      "none": 1380,
+      "none": 1392,
       "hospitality": 94,
       "technology": 31,
       "banking": 2,
@@ -404,171 +406,171 @@
       "telecommunications": 1
     },
     "by_phase11_priority": {
-      "other": 1380,
+      "other": 1392,
       "priority": 130
     },
     "by_africa_relevance": {
-      "africa_based_confirmed": 1298,
-      "official_location_pending": 163,
-      "global_access_unconfirmed": 45,
+      "africa_based_confirmed": 1307,
+      "official_location_pending": 167,
+      "global_access_unconfirmed": 44,
       "africa_regional": 3,
       "africa_remit_non_african_location": 1
     },
     "by_african_applicant_access": {
-      "unknown": 887,
+      "unknown": 899,
       "confirmed_specific_african_nationality": 623
     },
     "by_access_evidence_strength": {
-      "none": 887,
+      "none": 899,
       "structured_source": 622,
       "explicit": 1
     },
     "by_certification_level": {
-      "certified|unverified": 675,
+      "certified|unverified": 684,
       "certified|certified": 623,
-      "unverified|unverified": 208,
+      "unverified|unverified": 211,
       "conditional|unverified": 4
     }
   },
   "data_completeness": {
     "country": {
-      "count": 1293,
-      "percent": 85.6
+      "count": 1302,
+      "percent": 85.5
     },
     "work_mode": {
-      "count": 75,
+      "count": 76,
       "percent": 5.0
     },
     "industry": {
-      "count": 1261,
-      "percent": 83.5
+      "count": 1272,
+      "percent": 83.6
     },
     "specialisations": {
-      "count": 1091,
+      "count": 1101,
       "percent": 72.3
     },
     "seniority": {
-      "count": 542,
-      "percent": 35.9
+      "count": 563,
+      "percent": 37.0
     },
     "years_experience": {
-      "count": 373,
-      "percent": 24.7
+      "count": 380,
+      "percent": 25.0
     },
     "education_required": {
-      "count": 404,
+      "count": 408,
       "percent": 26.8
     },
     "contract_type_known": {
-      "count": 374,
-      "percent": 24.8
+      "count": 376,
+      "percent": 24.7
     },
     "deadline": {
-      "count": 53,
-      "percent": 3.5
+      "count": 52,
+      "percent": 3.4
     },
     "skills_required": {
       "count": 0,
       "percent": 0.0
     },
     "compensation": {
-      "count": 83,
-      "percent": 5.5
+      "count": 80,
+      "percent": 5.3
     },
     "eligibility_notes": {
       "count": 622,
-      "percent": 41.2
+      "percent": 40.9
     },
     "official_apply_url": {
-      "count": 1086,
-      "percent": 71.9
+      "count": 1100,
+      "percent": 72.3
     },
     "organisation_registry_id": {
-      "count": 1083,
-      "percent": 71.7
+      "count": 1097,
+      "percent": 72.1
     },
     "country_code": {
-      "count": 1293,
-      "percent": 85.6
+      "count": 1302,
+      "percent": 85.5
     },
     "city": {
-      "count": 461,
-      "percent": 30.5
+      "count": 469,
+      "percent": 30.8
     },
     "role_family": {
-      "count": 1404,
+      "count": 1415,
       "percent": 93.0
     },
     "thematic_sectors": {
-      "count": 1302,
-      "percent": 86.2
+      "count": 1315,
+      "percent": 86.4
     },
     "eligibility_evidence": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "meaningful_eligibility_evidence": {
       "count": 623,
-      "percent": 41.3
+      "percent": 40.9
     },
     "africa_relevance_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "african_applicant_access_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "source_registry_id": {
-      "count": 876,
-      "percent": 58.0
+      "count": 888,
+      "percent": 58.3
     },
     "country_iso3": {
-      "count": 1293,
-      "percent": 85.6
+      "count": 1302,
+      "percent": 85.5
     },
     "admin_area": {
-      "count": 180,
-      "percent": 11.9
+      "count": 175,
+      "percent": 11.5
     },
     "coordinates": {
-      "count": 309,
-      "percent": 20.5
+      "count": 308,
+      "percent": 20.2
     },
     "location_evidence": {
-      "count": 1298,
-      "percent": 86.0
+      "count": 1307,
+      "percent": 85.9
     },
     "location_language": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "eligibility_language": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "investment_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "investment_evidence": {
-      "count": 255,
-      "percent": 16.9
+      "count": 270,
+      "percent": 17.7
     },
     "institution_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "institution_registry_id": {
-      "count": 1083,
-      "percent": 71.7
+      "count": 1097,
+      "percent": 72.1
     },
     "public_institution_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     },
     "multinational_profile": {
-      "count": 1510,
+      "count": 1522,
       "percent": 100.0
     }
   }
