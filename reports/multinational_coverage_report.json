@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-20T19:46:59.696431Z",
-  "feed_generated_at": "2026-07-20T14:32:15.053621Z",
+  "generated_at": "2026-07-20T20:05:47.875752Z",
+  "feed_generated_at": "2026-07-20T20:05:47.363855Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
@@ -52,9 +52,9 @@
       "Casablanca": 2
     },
     "by_role_family": {
-      "unknown": 85,
+      "unknown": 84,
       "logistics": 20,
-      "hospitality": 14,
+      "hospitality": 15,
       "operations": 4,
       "marketing_communications": 3,
       "development_programmes": 2,
