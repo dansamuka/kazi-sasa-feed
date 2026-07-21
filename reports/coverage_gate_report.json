@@ -1,23 +1,23 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T19:28:00.768388Z",
-  "feed_generated_at": "2026-07-21T14:17:38.942292Z",
+  "generated_at": "2026-07-21T19:45:05.220863Z",
+  "feed_generated_at": "2026-07-21T19:45:04.290054Z",
   "feed_version": "3.8",
   "status": "passed",
   "errors": [],
   "warnings": [
-    "Phase 5 target: ZA concentration is 67.5%; target maximum is 55%"
+    "Phase 5 target: ZA concentration is 66.7%; target maximum is 55%"
   ],
   "metrics": {
-    "opportunity_count": 1548,
+    "opportunity_count": 1560,
     "by_region": {
       "Central Africa": 18,
       "West Africa": 106,
-      "East Africa": 105,
+      "East Africa": 104,
       "Non-Africa": 1,
-      "North Africa": 25,
-      "Southern Africa": 1082,
-      "unknown": 206,
+      "North Africa": 24,
+      "Southern Africa": 1077,
+      "unknown": 225,
       "Africa": 5
     },
     "by_country_code": {
@@ -32,16 +32,18 @@
       "UG": 6,
       "BI": 7,
       "ET": 3,
-      "ZA": 1045,
+      "ZA": 1040,
       "NG": 56,
       "SL": 1,
       "RW": 15,
       "LR": 1,
       "MZ": 11,
       "GN": 2,
-      "location_neutral": 26,
-      "SO": 2,
-      "official_location_pending": 188,
+      "official_location_pending": 191,
+      "location_neutral": 39,
+      "TD": 1,
+      "LY": 1,
+      "SO": 1,
       "MR": 1,
       "GQ": 2,
       "MA": 12,
@@ -55,11 +57,11 @@
       "TG": 2,
       "AO": 1
     },
-    "physical_country_records": 1332,
-    "location_neutral_records": 26,
-    "location_neutral_percent": 1.7,
-    "official_location_pending_records": 188,
-    "official_location_pending_percent": 12.1,
+    "physical_country_records": 1328,
+    "location_neutral_records": 39,
+    "location_neutral_percent": 2.5,
+    "official_location_pending_records": 191,
+    "official_location_pending_percent": 12.2,
     "unresolved_location_records": 2,
     "unresolved_location_percent": 0.1,
     "by_source": {
@@ -68,11 +70,11 @@
       "DFI and multilateral official career page": 21,
       "NGO and UN official career page": 3,
       "Kenya public institution official vacancies": 12,
-      "Multinational employer official careers": 123,
+      "Multinational employer official careers": 124,
       "Kenya Public Service Commission official vacancies": 8,
       "Tanzania PSRS official advertisements": 3,
       "South Africa DPSA official vacancy circular": 613,
-      "Adzuna": 411,
+      "Adzuna": 406,
       "One Acre Fund": 31,
       "Acumen": 2,
       "GiveDirectly": 9,
@@ -88,9 +90,10 @@
       "MCD Global Health": 1,
       "Himalayas": 24,
       "Remotive": 10,
+      "Jobicy": 16,
       "RemoteOK": 1
     },
-    "official_apply_records": 1102,
-    "official_apply_percent": 71.2
+    "official_apply_records": 1103,
+    "official_apply_percent": 70.7
   }
 }

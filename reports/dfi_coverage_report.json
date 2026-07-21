@@ -1,10 +1,10 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T19:28:00.771715Z",
-  "feed_generated_at": "2026-07-21T14:17:38.942292Z",
+  "generated_at": "2026-07-21T19:45:04.826319Z",
+  "feed_generated_at": "2026-07-21T19:45:04.290054Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1548,
+    "opportunity_count": 1560,
     "dfi_or_multilateral_opportunity_count": 50,
     "phase7_priority_institution_opportunity_count": 50,
     "dfi_investment_role_count": 29,
