@@ -1,33 +1,35 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T08:33:46.916343Z",
-  "feed_generated_at": "2026-07-20T20:05:47.363855Z",
+  "generated_at": "2026-07-21T08:55:57.471408Z",
+  "feed_generated_at": "2026-07-21T08:55:56.951190Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1515,
-    "dfi_or_multilateral_opportunity_count": 36,
-    "phase7_priority_institution_opportunity_count": 36,
-    "dfi_investment_role_count": 16,
-    "represented_institutions": 5,
-    "represented_countries": 17,
-    "official_application_count": 34,
-    "official_application_percent": 94.4
+    "opportunity_count": 1544,
+    "dfi_or_multilateral_opportunity_count": 50,
+    "phase7_priority_institution_opportunity_count": 50,
+    "dfi_investment_role_count": 29,
+    "represented_institutions": 6,
+    "represented_countries": 19,
+    "official_application_count": 48,
+    "official_application_percent": 96.0
   },
   "coverage": {
     "by_institution": {
-      "World Bank Group": 26,
+      "World Bank Group": 27,
+      "Africa50": 13,
       "African Development Bank": 4,
       "DBSA": 2,
       "Private Infrastructure Development Group": 2,
       "Shelter Afrique Development Bank": 2
     },
     "by_institution_type": {
-      "multilateral": 26,
-      "development_bank": 8,
-      "investment_firm": 2
+      "multilateral": 27,
+      "investment_firm": 15,
+      "development_bank": 8
     },
     "by_country": {
-      "unknown": 7,
+      "unknown": 11,
+      "Morocco": 9,
       "South Africa": 5,
       "Kenya": 4,
       "Senegal": 3,
@@ -35,6 +37,7 @@
       "Côte d’Ivoire": 2,
       "Guinea": 2,
       "Burundi": 1,
+      "Democratic Republic of the Congo": 1,
       "Egypt": 1,
       "Ethiopia": 1,
       "Liberia": 1,
@@ -47,12 +50,12 @@
       "United States": 1
     },
     "by_source": {
-      "Cornerstone-hosted institutional board": 26,
-      "DFI and multilateral official career page": 8,
+      "Cornerstone-hosted institutional board": 27,
+      "DFI and multilateral official career page": 21,
       "Adzuna": 2
     },
     "by_role_family": {
-      "investment": 16,
+      "investment": 29,
       "development_programmes": 5,
       "technology": 5,
       "operations": 2,
@@ -62,21 +65,22 @@
       "economics_and_research": 1,
       "hospitality": 1,
       "humanitarian": 1,
+      "procurement": 1,
       "real_estate": 1
     },
     "by_dfi_relevance": {
-      "institutional_role": 20,
-      "direct_investment": 14,
-      "adjacent_experience": 2
+      "institutional_role": 21,
+      "adjacent_experience": 15,
+      "direct_investment": 14
     },
     "by_investment_track": {
+      "infrastructure_finance": 9,
+      "investment_operations": 5,
       "financial_institutions": 4,
+      "investment_analysis": 3,
       "portfolio_management": 3,
-      "investment_analysis": 2,
       "climate_finance": 1,
       "impact_measurement": 1,
-      "infrastructure_finance": 1,
-      "investment_operations": 1,
       "portfolio_operations": 1,
       "project_finance": 1,
       "resource_mobilisation": 1

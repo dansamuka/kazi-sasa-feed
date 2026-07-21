@@ -1,22 +1,22 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T08:33:46.922252Z",
-  "feed_generated_at": "2026-07-20T20:05:47.363855Z",
+  "generated_at": "2026-07-21T08:55:57.477084Z",
+  "feed_generated_at": "2026-07-21T08:55:56.951190Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
     "enabled_employer_count": 68,
-    "multinational_opportunity_count": 138,
-    "phase11_priority_opportunity_count": 129,
+    "multinational_opportunity_count": 133,
+    "phase11_priority_opportunity_count": 124,
     "represented_employers": 12,
     "represented_countries": 5,
     "represented_cities": 2,
-    "official_application_count": 137,
-    "official_application_percent": 99.3
+    "official_application_count": 132,
+    "official_application_percent": 99.2
   },
   "coverage": {
     "by_sector": {
-      "hospitality": 94,
+      "hospitality": 89,
       "technology": 31,
       "unknown": 9,
       "banking": 1,
@@ -25,7 +25,7 @@
       "telecommunications": 1
     },
     "by_employer": {
-      "Accor": 94,
+      "Accor": 89,
       "Bolt": 20,
       "Nawiri Group": 8,
       "Jumia": 6,
@@ -39,7 +39,7 @@
       "Visa": 1
     },
     "by_country": {
-      "unknown": 115,
+      "unknown": 110,
       "South Africa": 9,
       "Senegal": 6,
       "Botswana": 3,
@@ -47,14 +47,14 @@
       "Morocco": 2
     },
     "by_city": {
-      "unknown": 128,
+      "unknown": 123,
       "Cape Town": 8,
       "Casablanca": 2
     },
     "by_role_family": {
-      "unknown": 84,
+      "unknown": 80,
       "logistics": 20,
-      "hospitality": 15,
+      "hospitality": 14,
       "operations": 4,
       "marketing_communications": 3,
       "development_programmes": 2,
@@ -68,7 +68,7 @@
       "sales_business_development": 1
     },
     "by_source": {
-      "Multinational employer official careers": 128,
+      "Multinational employer official careers": 123,
       "Nawiri Group": 8,
       "Adzuna": 1,
       "NGO and UN official career page": 1
