@@ -1,24 +1,24 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T13:58:43.950049Z",
-  "feed_generated_at": "2026-07-21T08:55:56.951190Z",
+  "generated_at": "2026-07-21T14:17:39.486691Z",
+  "feed_generated_at": "2026-07-21T14:17:38.942292Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1544,
+    "opportunity_count": 1548,
     "investment_role_count": 118,
     "institutional_support_role_count": 21,
     "investment_role_percent": 7.6,
     "direct_dfi_investment_count": 14,
     "dfi_institutional_role_count": 21,
-    "false_positive_guarded_count": 150,
-    "represented_investment_tracks": 14
+    "false_positive_guarded_count": 153,
+    "represented_investment_tracks": 15
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 1405,
-      "core_investment": 102,
+      "not_investment": 1409,
+      "core_investment": 103,
       "institutional_support": 21,
-      "investment_adjacent": 16
+      "investment_adjacent": 15
     },
     "by_track": {
       "investment_analysis": 30,
@@ -29,15 +29,16 @@
       "infrastructure_finance": 9,
       "financial_institutions": 5,
       "portfolio_management": 5,
-      "credit": 2,
       "transaction_advisory": 2,
       "climate_finance": 1,
+      "credit": 1,
       "impact_measurement": 1,
       "portfolio_operations": 1,
-      "resource_mobilisation": 1
+      "resource_mobilisation": 1,
+      "upstream_project_development": 1
     },
     "by_dfi_relevance": {
-      "none": 1405,
+      "none": 1409,
       "adjacent_experience": 104,
       "institutional_role": 21,
       "direct_investment": 14

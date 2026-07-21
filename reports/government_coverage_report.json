@@ -1,23 +1,23 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-21T13:58:43.954727Z",
-  "feed_generated_at": "2026-07-21T08:55:56.951190Z",
+  "generated_at": "2026-07-21T14:17:39.491444Z",
+  "feed_generated_at": "2026-07-21T14:17:38.942292Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1544,
-    "government_opportunity_count": 632,
-    "phase9_priority_opportunity_count": 620,
+    "opportunity_count": 1548,
+    "government_opportunity_count": 636,
+    "phase9_priority_opportunity_count": 624,
     "represented_portals": 6,
     "represented_countries": 5,
-    "with_advert_reference_count": 620,
-    "with_deadline_count": 47,
-    "with_number_of_positions_count": 7
+    "with_advert_reference_count": 624,
+    "with_deadline_count": 51,
+    "with_number_of_positions_count": 11
   },
   "coverage": {
     "by_country": {
       "South Africa": 604,
+      "Kenya": 10,
       "unknown": 10,
-      "Kenya": 6,
       "Zambia": 6,
       "Benin": 3,
       "Tanzania": 3
@@ -25,21 +25,24 @@
     "by_portal": {
       "South Africa Department of Public Service and Administration": 613,
       "Kenya Broadcasting Corporation": 10,
-      "Kenya Public Service Commission": 4,
+      "Kenya Public Service Commission": 8,
       "Tanzania Public Service Recruitment Secretariat": 3,
       "Egerton University": 1,
       "Kenya Railways Corporation": 1
     },
     "by_public_service_grade": {
       "unknown": 628,
-      "E": 4
+      "E": 4,
+      "CSG 11": 2,
+      "CSG 12": 1,
+      "Not Defined": 1
     },
     "by_role_family": {
       "humanitarian": 89,
       "development_programmes": 78,
       "technology": 75,
+      "government_administration": 46,
       "human_resources": 44,
-      "government_administration": 43,
       "health": 39,
       "operations": 36,
       "investment": 30,
@@ -51,10 +54,10 @@
       "monitoring_evaluation_and_learning": 15,
       "economics_and_research": 13,
       "administration": 9,
+      "education": 9,
       "legal": 9,
       "public_policy": 9,
       "skilled_trades": 9,
-      "education": 8,
       "marketing_communications": 6,
       "unknown": 6,
       "real_estate": 4,
