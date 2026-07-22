@@ -1,21 +1,21 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-22T08:33:33.258706Z",
-  "feed_generated_at": "2026-07-21T19:45:04.290054Z",
+  "generated_at": "2026-07-22T08:50:33.771349Z",
+  "feed_generated_at": "2026-07-22T08:50:33.265767Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1560,
-    "dfi_or_multilateral_opportunity_count": 50,
-    "phase7_priority_institution_opportunity_count": 50,
-    "dfi_investment_role_count": 29,
+    "opportunity_count": 1564,
+    "dfi_or_multilateral_opportunity_count": 48,
+    "phase7_priority_institution_opportunity_count": 48,
+    "dfi_investment_role_count": 28,
     "represented_institutions": 6,
     "represented_countries": 19,
-    "official_application_count": 48,
-    "official_application_percent": 96.0
+    "official_application_count": 46,
+    "official_application_percent": 95.8
   },
   "coverage": {
     "by_institution": {
-      "World Bank Group": 27,
+      "World Bank Group": 25,
       "Africa50": 13,
       "African Development Bank": 4,
       "DBSA": 2,
@@ -23,7 +23,7 @@
       "Shelter Afrique Development Bank": 2
     },
     "by_institution_type": {
-      "multilateral": 27,
+      "multilateral": 25,
       "investment_firm": 15,
       "development_bank": 8
     },
@@ -31,15 +31,15 @@
       "unknown": 11,
       "Morocco": 9,
       "South Africa": 5,
-      "Kenya": 4,
+      "Kenya": 3,
       "Senegal": 3,
       "Cameroon": 2,
       "Côte d’Ivoire": 2,
-      "Guinea": 2,
       "Burundi": 1,
       "Democratic Republic of the Congo": 1,
       "Egypt": 1,
       "Ethiopia": 1,
+      "Guinea": 1,
       "Liberia": 1,
       "Mozambique": 1,
       "Nigeria": 1,
@@ -50,12 +50,12 @@
       "United States": 1
     },
     "by_source": {
-      "Cornerstone-hosted institutional board": 27,
+      "Cornerstone-hosted institutional board": 25,
       "DFI and multilateral official career page": 21,
       "Adzuna": 2
     },
     "by_role_family": {
-      "investment": 29,
+      "investment": 28,
       "development_programmes": 5,
       "technology": 5,
       "operations": 2,
@@ -65,18 +65,17 @@
       "economics_and_research": 1,
       "hospitality": 1,
       "humanitarian": 1,
-      "procurement": 1,
-      "real_estate": 1
+      "procurement": 1
     },
     "by_dfi_relevance": {
-      "institutional_role": 21,
+      "institutional_role": 20,
       "adjacent_experience": 15,
-      "direct_investment": 14
+      "direct_investment": 13
     },
     "by_investment_track": {
       "infrastructure_finance": 9,
       "investment_operations": 5,
-      "financial_institutions": 4,
+      "financial_institutions": 3,
       "investment_analysis": 3,
       "portfolio_management": 3,
       "climate_finance": 1,
