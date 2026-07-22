@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-22T19:25:35.063601Z",
-  "feed_generated_at": "2026-07-22T14:19:12.209815Z",
+  "generated_at": "2026-07-22T19:46:07.711036Z",
+  "feed_generated_at": "2026-07-22T19:46:07.202977Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
@@ -39,11 +39,11 @@
       "Visa": 1
     },
     "by_country": {
-      "unknown": 111,
+      "unknown": 112,
       "South Africa": 9,
       "Senegal": 6,
-      "Botswana": 3,
       "Morocco": 3,
+      "Botswana": 2,
       "Madagascar": 2
     },
     "by_city": {
