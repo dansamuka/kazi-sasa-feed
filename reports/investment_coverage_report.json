@@ -1,54 +1,54 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-23T08:35:05.780761Z",
-  "feed_generated_at": "2026-07-22T19:46:07.202977Z",
+  "generated_at": "2026-07-23T08:51:40.714525Z",
+  "feed_generated_at": "2026-07-23T08:51:40.189024Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1540,
-    "investment_role_count": 115,
+    "opportunity_count": 1511,
+    "investment_role_count": 102,
     "institutional_support_role_count": 21,
-    "investment_role_percent": 7.5,
+    "investment_role_percent": 6.8,
     "direct_dfi_investment_count": 14,
     "dfi_institutional_role_count": 21,
-    "false_positive_guarded_count": 144,
+    "false_positive_guarded_count": 130,
     "represented_investment_tracks": 13
   },
   "coverage": {
     "by_classification": {
-      "not_investment": 1404,
-      "core_investment": 99,
+      "not_investment": 1388,
+      "core_investment": 86,
       "institutional_support": 21,
       "investment_adjacent": 16
     },
     "by_track": {
-      "investment_analysis": 28,
-      "project_finance": 19,
-      "investment_operations": 17,
+      "investment_analysis": 27,
+      "project_finance": 20,
       "asset_management": 14,
+      "investment_operations": 13,
       "treasury": 12,
-      "infrastructure_finance": 9,
-      "portfolio_management": 6,
-      "financial_institutions": 4,
+      "portfolio_management": 5,
+      "financial_institutions": 3,
+      "portfolio_operations": 2,
       "resource_mobilisation": 2,
       "climate_finance": 1,
       "credit": 1,
       "impact_measurement": 1,
-      "portfolio_operations": 1
+      "infrastructure_finance": 1
     },
     "by_dfi_relevance": {
-      "none": 1404,
-      "adjacent_experience": 101,
+      "none": 1388,
+      "adjacent_experience": 88,
       "institutional_role": 21,
       "direct_investment": 14
     },
     "by_country": {
       "South Africa": 88,
-      "Morocco": 9,
-      "unknown": 7,
-      "Cameroon": 2,
+      "unknown": 3,
       "Angola": 1,
       "Benin": 1,
       "Burundi": 1,
+      "Cameroon": 1,
+      "Egypt": 1,
       "Guinea": 1,
       "Kenya": 1,
       "Liberia": 1,
@@ -59,16 +59,16 @@
     "by_source": {
       "Adzuna": 55,
       "South Africa DPSA official vacancy circular": 30,
-      "DFI and multilateral official career page": 17,
       "Cornerstone-hosted institutional board": 12,
+      "DFI and multilateral official career page": 4,
       "Sun King": 1
     },
     "by_organisation_type": {
       "unverified": 55,
       "government": 30,
-      "investment_firm": 15,
       "multilateral": 12,
       "development_bank": 2,
+      "investment_firm": 2,
       "private": 1
     }
   }

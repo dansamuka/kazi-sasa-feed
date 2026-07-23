@@ -1,10 +1,10 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-23T08:35:05.785869Z",
-  "feed_generated_at": "2026-07-22T19:46:07.202977Z",
+  "generated_at": "2026-07-23T08:51:40.719295Z",
+  "feed_generated_at": "2026-07-23T08:51:40.189024Z",
   "feed_version": "3.8",
   "summary": {
-    "opportunity_count": 1540,
+    "opportunity_count": 1511,
     "government_opportunity_count": 646,
     "phase9_priority_opportunity_count": 634,
     "represented_portals": 6,
