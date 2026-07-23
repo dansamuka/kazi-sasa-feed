@@ -1,23 +1,23 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-07-23T19:22:46.315905Z",
-  "feed_generated_at": "2026-07-23T14:28:15.449166Z",
+  "generated_at": "2026-07-23T19:40:08.237371Z",
+  "feed_generated_at": "2026-07-23T19:40:07.706779Z",
   "feed_version": "3.8",
   "summary": {
     "configured_employer_count": 100,
     "enabled_employer_count": 68,
-    "multinational_opportunity_count": 134,
-    "phase11_priority_opportunity_count": 125,
+    "multinational_opportunity_count": 129,
+    "phase11_priority_opportunity_count": 120,
     "represented_employers": 12,
-    "represented_countries": 4,
+    "represented_countries": 5,
     "represented_cities": 3,
-    "official_application_count": 133,
-    "official_application_percent": 99.3
+    "official_application_count": 128,
+    "official_application_percent": 99.2
   },
   "coverage": {
     "by_sector": {
       "hospitality": 90,
-      "technology": 31,
+      "technology": 26,
       "unknown": 9,
       "banking": 1,
       "fmcg": 1,
@@ -26,7 +26,7 @@
     },
     "by_employer": {
       "Accor": 90,
-      "Bolt": 20,
+      "Bolt": 15,
       "Nawiri Group": 8,
       "Jumia": 6,
       "Amazon": 3,
@@ -39,22 +39,23 @@
       "Visa": 1
     },
     "by_country": {
-      "unknown": 114,
+      "unknown": 108,
       "South Africa": 9,
       "Senegal": 6,
       "Morocco": 3,
-      "Botswana": 2
+      "Botswana": 2,
+      "Cabo Verde": 1
     },
     "by_city": {
-      "unknown": 123,
+      "unknown": 118,
       "Cape Town": 8,
       "Casablanca": 2,
       "Marrakesh": 1
     },
     "by_role_family": {
-      "unknown": 79,
-      "logistics": 20,
+      "unknown": 81,
       "hospitality": 15,
+      "sales_business_development": 11,
       "operations": 6,
       "marketing_communications": 3,
       "administration": 2,
@@ -63,11 +64,13 @@
       "banking_and_finance": 1,
       "customer_operations": 1,
       "design": 1,
-      "sales_business_development": 1,
+      "investment": 1,
+      "logistics": 1,
+      "public_policy": 1,
       "technology": 1
     },
     "by_source": {
-      "Multinational employer official careers": 124,
+      "Multinational employer official careers": 119,
       "Nawiri Group": 8,
       "Adzuna": 1,
       "NGO and UN official career page": 1
