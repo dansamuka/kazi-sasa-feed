@@ -1,18 +1,2948 @@
 {
   "report_version": "1.0",
-  "input_count": 1533,
-  "published_count": 1533,
-  "removed_count": 0,
+  "input_count": 1438,
+  "published_count": 1172,
+  "removed_count": 266,
   "official_replacements": 0,
-  "government_input_count": 644,
-  "government_published_count": 644,
-  "government_removed_count": 0,
-  "government_safe_duplicate_count": 0,
+  "government_input_count": 542,
+  "government_published_count": 290,
+  "government_removed_count": 252,
+  "government_safe_duplicate_count": 252,
   "government_destructive_loss_count": 0,
-  "government_total_removed_percent": 0.0,
-  "government_duplicate_consolidation_percent": 0.0,
+  "government_total_removed_percent": 46.5,
+  "government_duplicate_consolidation_percent": 46.5,
   "government_destructive_loss_percent": 0.0,
   "government_loss_percent": 0.0,
-  "events": [],
-  "note": "Snapshot audit; live refresh reports pre-publication cross-source removals."
+  "events": [
+    {
+      "kept_id": "cornerstone-world-bank-group-3ee5ac76731b566a",
+      "removed_id": "cornerstone-world-bank-group-232a62d72b2a4788",
+      "replaced_existing": false,
+      "kept_source": "Cornerstone-hosted institutional board",
+      "removed_source": "Cornerstone-hosted institutional board",
+      "matched_by": [
+        "content:world bank group|wbg pioneer environmental and social development intern|ke|nairobi|30afafb89f7de14c30a9",
+        "semantic:world bank group|wbg pioneer environmental and social development intern|ke|nairobi"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-cd1010094e8dd5a7df",
+      "removed_id": "government-za-south-africa-dpsa-13e940ee7e1ef360ce",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 01|director international trade promotions ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e70b5a951be8822399",
+      "removed_id": "government-za-south-africa-dpsa-eadb74e34655ad4341",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 02|scientific technician grade a c ref no 3 3 1 59 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-817b7acc541f9e1d3f",
+      "removed_id": "government-za-south-africa-dpsa-f58a13eb5b91932e14",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 03|administration clerk supervisor ref no 3 3 1 60 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ace1372a47a14d5b8c",
+      "removed_id": "government-za-south-africa-dpsa-5dc8ebb92b0d9beae7",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 04|senior laboratory assistant ref no 3 3 1 61 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-839d4092b3f533163b",
+      "removed_id": "government-za-south-africa-dpsa-44d9aa652d14de3625",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 05|administration clerk ref no 3 3 1 63 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9e93b74bcd9d94a59e",
+      "removed_id": "government-za-south-africa-dpsa-99e8e238145945907e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 06|administration clerk ref no 3 3 1 62 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-177616b63c6c83fac2",
+      "removed_id": "government-za-south-africa-dpsa-fe60b29879d9f5256e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 07|director state owned entities governance ref no dsoeg"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-19a9f36e7542e9b14e",
+      "removed_id": "government-za-south-africa-dpsa-9e9c29e0a6192a245e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 08|deputy director broadcasting technologies and services"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f472daf7f04d2a755a",
+      "removed_id": "government-za-south-africa-dpsa-1056df8b32f0e4cb26",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 09|artisan foreman grade a electrician ref no fsnc 2026 07 20"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-00f2ed21bec3be6ceb",
+      "removed_id": "government-za-south-africa-dpsa-fb765c365aafa8ebaa",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 10|artisan production grade a plumber area ref no fsnc"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-27d209de54698229f6",
+      "removed_id": "government-za-south-africa-dpsa-3dcedfc54d2366bb01",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 11|artisan production grade a welder ref no fsnc 2026 07 22"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-39517e05a88fb24b48",
+      "removed_id": "government-za-south-africa-dpsa-ca7af36373958d2237",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 12|vetting session workers freelancers ref no di 24 26 26 x5"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-62324fe8dd6253c2ea",
+      "removed_id": "government-za-south-africa-dpsa-f7a5f0f469d37a3dfc",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 13|assistant director internal audit ref no hr4 4 3 2asdia uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-45bc7a63d58360a974",
+      "removed_id": "government-za-south-africa-dpsa-b729502c74d34aaf36",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 14|assistant director human resources management"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-71788d08057fb4f41e",
+      "removed_id": "government-za-south-africa-dpsa-132d00c67ea97986f8",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 15|senior practitioner employee relation ref no hr4 4 7 6 x2"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e6da8d8b3addf9c2ca",
+      "removed_id": "government-za-south-africa-dpsa-60bb12dbaf90635ea4",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 16|senior practitioner human resource development and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e0b62f67ee2d1179f1",
+      "removed_id": "government-za-south-africa-dpsa-914c0a0b1b5e77a060",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 17|senior practitioner human resources management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f3289c874dac837648",
+      "removed_id": "government-za-south-africa-dpsa-c3acb9aa28b21aa899",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 18|team leader x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5f27d7a60e892cfe8c",
+      "removed_id": "government-za-south-africa-dpsa-5ac2629d40448eadad",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 19|ohs inspector electrical engineering ref no hr4 4 6 1"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c0eae700d0fcdd2bdb",
+      "removed_id": "government-za-south-africa-dpsa-fa2e98040cbe39fab4",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 20|ohs inspector civil engineering ref no hr4 4 6 3"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c9ba3665670f814144",
+      "removed_id": "government-za-south-africa-dpsa-cf1d1c8583016cf266",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 21|ohs inspector mechanical engineering ref no hr4 4 6 4"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-afc552fb75dc8fb043",
+      "removed_id": "government-za-south-africa-dpsa-551ef858d946ba71ee",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 22|ohs inspector mechanical engineering ref no hr4 4 6 05"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c1e847fdb4b5890521",
+      "removed_id": "government-za-south-africa-dpsa-30dcb27d6741c7d3c5",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 23|administration officer ref no hr4 26 07 13ho"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7580e6576c47e11d84",
+      "removed_id": "government-za-south-africa-dpsa-3fe4347b36809adbc8",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 24|professional nurse grade 1 3 medical adjudication ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-447f56232b46eda33c",
+      "removed_id": "government-za-south-africa-dpsa-bba5dfd8d82da500e0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 25|human resource management clerk ref no hr4 4 7 9 x4"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-816e1c37b4602a4e6e",
+      "removed_id": "government-za-south-africa-dpsa-b174ba6b62303839a5",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 26|administration clerk inspection enforcement services"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-006869f2a5609d0ee0",
+      "removed_id": "government-za-south-africa-dpsa-355f9e8785195d38f6",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 27|internship office of the uif commissioner ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4e5bc749ea874b1c3f",
+      "removed_id": "government-za-south-africa-dpsa-d434e5378bb4f2e0ba",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 28|internship audit governance coordinator ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-77b8243465a81b1c1f",
+      "removed_id": "government-za-south-africa-dpsa-2ffaeec4a2dce78feb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 29|internship compliance support ref no hr4 4 1 3cs2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ef8fa839953a3ac5cf",
+      "removed_id": "government-za-south-africa-dpsa-0cfa661d1755c5c9ea",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 30|internship risk management ref no hr4 4 1 3 rm2026 uif x4"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-0e81a7876bb22cb9bb",
+      "removed_id": "government-za-south-africa-dpsa-acb7188b27af8856cd",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 31|internship internal audit ref no hr4 4 1 3 ia2026 uif x4"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-dbfd9816142b49c328",
+      "removed_id": "government-za-south-africa-dpsa-b08fc60f84a9d8ba79",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 32|internship strategic planning monitoring and evaluation"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e61672225b658a3db3",
+      "removed_id": "government-za-south-africa-dpsa-a40666299541d4ff0a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 33|internship research and policy development ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5c620402f622e4696d",
+      "removed_id": "government-za-south-africa-dpsa-47d2fab9c8b5911d3e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 34|internship administrator office of the cio ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e157af3865c5a78bc5",
+      "removed_id": "government-za-south-africa-dpsa-afe2ec6286d3f274b3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 35|internship it projects ref no hr4 4 1 3 itp2026 uif x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3caf7982b24a4d4c46",
+      "removed_id": "government-za-south-africa-dpsa-b893f937346e60788a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 36|internship it business support ref no hr4 4 1 3 itbs2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c4b3660c68f39688de",
+      "removed_id": "government-za-south-africa-dpsa-19b3e387eee0e8e2e2",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 37|internship it infrastructure support ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-68fe54ed14be161047",
+      "removed_id": "government-za-south-africa-dpsa-2af33327c221ef43d3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 38|internship it business application ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a3772ac6a1da343c42",
+      "removed_id": "government-za-south-africa-dpsa-89e4334b0536d768b6",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 39|internship ict risk and security ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-74dbe77abd91923f41",
+      "removed_id": "government-za-south-africa-dpsa-b725f4a975911b42a6",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 40|internship administrator office of the director ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-55dfcdf26bafa34b15",
+      "removed_id": "government-za-south-africa-dpsa-713989f3f82f74e547",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 41|internship human resource practices ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-05a73524b02ed9810d",
+      "removed_id": "government-za-south-africa-dpsa-8cbe19464103cbe50f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 42|internship employee relations ref no hr4 4 1 3 er2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-35bcd2a90237d0d0fb",
+      "removed_id": "government-za-south-africa-dpsa-faedf5b8f36dde374e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 43|internship employee health and welness programme ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5925c901732da61ae4",
+      "removed_id": "government-za-south-africa-dpsa-8601c576d2cbd58638",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 44|internship diversity management ref no hr4 4 1 3 dm2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8465588d05c0fb1a2b",
+      "removed_id": "government-za-south-africa-dpsa-06433f869259669d06",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 45|internship occupational health and safety ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-577f7c283b34f42f76",
+      "removed_id": "government-za-south-africa-dpsa-baf1443c1437d7aa3a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 46|internship training and development ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-acf577ecf555313a26",
+      "removed_id": "government-za-south-africa-dpsa-134e1981e6819f4f19",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 47|internship employee performance management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7495ef8a5930650357",
+      "removed_id": "government-za-south-africa-dpsa-c0bcad99e7f06e44fa",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 48|internship organizational development business process"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a2fec5828f27157059",
+      "removed_id": "government-za-south-africa-dpsa-c2ab29c782e6e9d9d8",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 49|internship legal services ref no hr4 4 1 3 ls2026 uif x5"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-65df3744d5b8aae49b",
+      "removed_id": "government-za-south-africa-dpsa-3e9448b6c5f9686d12",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 50|internship board services and case management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c4ae78c8d8a45201f9",
+      "removed_id": "government-za-south-africa-dpsa-88bb5d9d108ccbd57c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 51|internship corporate governance ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5cf69a82ab18a9fa48",
+      "removed_id": "government-za-south-africa-dpsa-b5531e99fbaf25d086",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 52|internship communication and marketing ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-60379c764d06be2cd9",
+      "removed_id": "government-za-south-africa-dpsa-106368c9a1e912d69b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 53|internship demand and acquisition ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-11362c6017eb9ac8e5",
+      "removed_id": "government-za-south-africa-dpsa-c6a6ef686ceeec6e4c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 54|internship maintenance management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-547e98873b05124fe7",
+      "removed_id": "government-za-south-africa-dpsa-ea8edef34c451bd7db",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 55|internship records management ref no hr4 4 1 3 rm2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-abe972139e823fc14e",
+      "removed_id": "government-za-south-africa-dpsa-2c4cade72c6279f30f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 56|internship asset and fleet management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-0a565c0857b558589f",
+      "removed_id": "government-za-south-africa-dpsa-e6979cf54e27451e93",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 57|internship revenue management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-330f2e63cc115ec1cd",
+      "removed_id": "government-za-south-africa-dpsa-be3bb77812bb65a6b6",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 58|internship budget ref no hr4 4 1 3 b2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f4b98e183787b76e43",
+      "removed_id": "government-za-south-africa-dpsa-93dc58ffb41c9e653a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 59|internship bank reconciliation ref no hr4 4 1 3 br2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-92377a1eaddad0563e",
+      "removed_id": "government-za-south-africa-dpsa-aa7f94f904c04870d3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 60|internship ap claims creditors ref no hr4 4 1 3 apcc2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-0997cf42bba1713cab",
+      "removed_id": "government-za-south-africa-dpsa-57ab44c6c342fb0435",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 61|internship ap trade creditors internship ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-12c6fa6a70b0a7561d",
+      "removed_id": "government-za-south-africa-dpsa-69ffb10b067933cf06",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 62|internship labour activation programmes ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a7541cc6f2876680ae",
+      "removed_id": "government-za-south-africa-dpsa-0864b87813c11f00b9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 63|internship compliance services ref no hr4 4 1 3 cs2026 uif"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-617336e419b80a0eeb",
+      "removed_id": "government-za-south-africa-dpsa-9e975481439cba0cee",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 64|internship business operations statistics ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-64e1f0b9c08b284c6b",
+      "removed_id": "government-za-south-africa-dpsa-b9845c2cf7c6ea7c59",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 65|internship provincial support ref no hr4 4 1 3 ps2026 uif x4"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-afde622e906030f825",
+      "removed_id": "government-za-south-africa-dpsa-5d2eba91dc5e0cc5f9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 66|internship operation systems support services ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6b3410127c9058e072",
+      "removed_id": "government-za-south-africa-dpsa-6e0cf4e2c8a19b71ad",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 67|internship declarations and call centre services ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-66a3ebcb555133deaa",
+      "removed_id": "government-za-south-africa-dpsa-197a2023d70417e5fe",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 68|senior human resource practitioner recruitment and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-994c0a6ebf2eee70b2",
+      "removed_id": "government-za-south-africa-dpsa-fa66e36591142f9b01",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 69|human resource officer recruitment and selection ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-b6bff34018e4dc1b51",
+      "removed_id": "government-za-south-africa-dpsa-8f2cb5cd85d8d92def",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 70|director development cooperation ref no ndoh 61 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-91333f03840d12ada8",
+      "removed_id": "government-za-south-africa-dpsa-c15a70d718bfef96c3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 71|deputy director health promotion ref no ndoh 62 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-61fa8f4bee8369ec50",
+      "removed_id": "government-za-south-africa-dpsa-b11d4352ad715cfa81",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 72|deputy director health international strategic"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-86b78701bc73757bce",
+      "removed_id": "government-za-south-africa-dpsa-a7522ce3578fd2c67e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 73|deputy director community health workers ref no ndoh"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-19fd263aeed840233e",
+      "removed_id": "government-za-south-africa-dpsa-80d725b6eedcebb62d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 74|assistant director administration ref no ndoh 64 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-51a8c9da1a157b74d7",
+      "removed_id": "government-za-south-africa-dpsa-e941fe5c8bc0c5410f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 75|assistant director administration non communicable"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-34ea8b34e9a9886357",
+      "removed_id": "government-za-south-africa-dpsa-204a967cf1ca2dae12",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 76|senior administrative officer ref no ndoh 59 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c1dd4f4cdf07e0db20",
+      "removed_id": "government-za-south-africa-dpsa-5c1c93020acbe72bb7",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 77|senior administrative officer ref no ndoh 60 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e9485c20a297e2c57d",
+      "removed_id": "government-za-south-africa-dpsa-f325d420835bdd7704",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 78|physical control security officer ref no ndoh 65 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-cd522fd486f5c70d22",
+      "removed_id": "government-za-south-africa-dpsa-5216456afd84910009",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 79|secretary ref no ndoh 63 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-78de8cabc6d9fc34b4",
+      "removed_id": "government-za-south-africa-dpsa-95df7d484e02b6ffc3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 80|supply chain clerk production ref no ndoh 66 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8ad0d01a4ddc443940",
+      "removed_id": "government-za-south-africa-dpsa-865774f5da2fbed109",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 81|assistant director financial accounting ref no wctvetc"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8a7fad2895f424a3e0",
+      "removed_id": "government-za-south-africa-dpsa-5e19cf27d519046b54",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 82|human resources management and development ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-894568402d35771a95",
+      "removed_id": "government-za-south-africa-dpsa-6c630e1932aadefb93",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 83|local office manager ref no hrmc 54 26 1"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f25c6cd4f17051243d",
+      "removed_id": "government-za-south-africa-dpsa-96fe7cb6bdf7342fc8",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 84|assistant director immigration services inspectorate x2"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a6643647b0bfbd041c",
+      "removed_id": "government-za-south-africa-dpsa-7127abbd0efadfa565",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 85|assistant director photo capturing ref no hrmc 54 26 3"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-bbbb8b8050680788e8",
+      "removed_id": "government-za-south-africa-dpsa-788a11f5f19152141a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 86|control immigration officer inspectorate ref no hrmc"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3bbf2a3360087fb5c1",
+      "removed_id": "government-za-south-africa-dpsa-1645b2d160adc1e952",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 87|senior administrative officer ref no hrmc 54 26 5"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ca7e639ed8c6a965c4",
+      "removed_id": "government-za-south-africa-dpsa-aa7836484c835212a3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 88|senior administrative officer finance ref no hrmc 54 26 6"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6adfc1d8b86bbc0bc3",
+      "removed_id": "government-za-south-africa-dpsa-b340e4c690702d412b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 89|immigration officer inspectorate x10 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c39120bd226c033bd2",
+      "removed_id": "government-za-south-africa-dpsa-5ab85841bbade275ac",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 90|director general ref no 26 18 dg"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-050c19ff4c33c5f23e",
+      "removed_id": "government-za-south-africa-dpsa-0784d5145eb118d5cc",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 91|solicitor general ref no 26 20 sg"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-55e2f14b68baaee132",
+      "removed_id": "government-za-south-africa-dpsa-f142d53c00b68f052f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 92|chief state law adviser ref no 26 23 ocsla"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-451829f536a7e4a597",
+      "removed_id": "government-za-south-africa-dpsa-caad19d474fa00e281",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 93|chief master ref no 26 19 mfs"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-768289c0b7a4985635",
+      "removed_id": "government-za-south-africa-dpsa-de1f3292661387b2c3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 94|deputy director general institutional development and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-53d492b26c9a2042ca",
+      "removed_id": "government-za-south-africa-dpsa-359de0577672cd962c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 95|deputy director general information communication"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-b9b76e03e6ddd8a2a8",
+      "removed_id": "government-za-south-africa-dpsa-3c9480732b7a4ee67b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 96|state attorney x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1fdae4fc9764d70415",
+      "removed_id": "government-za-south-africa-dpsa-2c01ed455d8e7c8db1",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 97|master of the high court x3 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c377db3c20f809aec8",
+      "removed_id": "government-za-south-africa-dpsa-e47cc0b1afaa34aee7",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 98|senior family advocate x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ca1a0474e2eea0e621",
+      "removed_id": "government-za-south-africa-dpsa-f35788e77c1da8a8c3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 99|senior assistant state attorney lp5 lp6 x18 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-39c54451a8a31f49c2",
+      "removed_id": "government-za-south-africa-dpsa-e7a6422923ec015cb3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 100|assistant state attorney lp3 lp4 x29 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ae3f695239c509e968",
+      "removed_id": "government-za-south-africa-dpsa-19a2d35204b59d1c62",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 101|chief director monitoring and evaluation ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-fe3bf3e5370b42f5b6",
+      "removed_id": "government-za-south-africa-dpsa-03b65821cf3adb85eb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 102|deputy director human resource administration ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3303ffa8469afb31f6",
+      "removed_id": "government-za-south-africa-dpsa-32f682754d60c3ed00",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 103|professional construction project manager grade a c"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-17b27329390378fabc",
+      "removed_id": "government-za-south-africa-dpsa-96c2b3ed0c9cd1afeb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 104|senior supply chain practitioner ref no 3 1 1 1 2026 184"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-aaab6e2ffa08262a2b",
+      "removed_id": "government-za-south-africa-dpsa-edbb199d69d85968ef",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 105|personal assistant ref no 3 1 1 1 2026 182"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c28ca616a0888e8d35",
+      "removed_id": "government-za-south-africa-dpsa-2f71ed1808f7ebd6e7",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 106|secretary ref no 3 1 1 1 2026 183"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5be8659612b96cc31a",
+      "removed_id": "government-za-south-africa-dpsa-538484752e6915d52c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 107|principal inspector ref no 080"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9cf1913dd4c23de05b",
+      "removed_id": "government-za-south-africa-dpsa-5371a8b190fb6c19ae",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 108|inspector mine surveying ref no 081 x3 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1c5400ab91f307429b",
+      "removed_id": "government-za-south-africa-dpsa-edddae99546e756795",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 109|personal assistant to ddg mineral and petroleum"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-359e24e6f0320d0a49",
+      "removed_id": "government-za-south-africa-dpsa-cb184d323af459739c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 110|driver messenger ref no 083"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1958fa91508a1a4751",
+      "removed_id": "government-za-south-africa-dpsa-544a49547c8806b405",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 111|food aide service ref no 084"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4e479177bbe7a4a978",
+      "removed_id": "government-za-south-africa-dpsa-83afc7fb335ab2f6fb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 112|professional engineer civil ref no misa pe civ 03 x6"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e2e68af6d0ea1cf69c",
+      "removed_id": "government-za-south-africa-dpsa-cf5ca216442918172c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 113|assistant director infrastructure asset management ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-df984f1e86a6b4db66",
+      "removed_id": "government-za-south-africa-dpsa-a1f36e623aff5be33e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 114|internal auditor ref no misa ia 23"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-35effcdcfb4d3a43b6",
+      "removed_id": "government-za-south-africa-dpsa-751758abf3e8437f79",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 115|law reasecher ref no 2026 82 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-be5e67ef05208cebe0",
+      "removed_id": "government-za-south-africa-dpsa-a0efcb35734c4c1814",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 116|law researcher ref no 2026 83 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5c344cfb2478d7f11c",
+      "removed_id": "government-za-south-africa-dpsa-f7c0b053cc973e270b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 117|senior court interpreter ref no 2026 84 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8299e2cdfd5fc6504b",
+      "removed_id": "government-za-south-africa-dpsa-27f8d4fe9b1a84d2ba",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 118|registrar ref no 2026 85 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1d4a2b603318933bb1",
+      "removed_id": "government-za-south-africa-dpsa-d86dddda597ab718df",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 119|administration clerk legal ref no 2026 86 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e5aeb3afbf11b9206e",
+      "removed_id": "government-za-south-africa-dpsa-26b809b252a3b45b0c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 120|usher messenger ref no 2026 87 ocj"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-02717627192a50f08f",
+      "removed_id": "government-za-south-africa-dpsa-3daba0475fbba8c850",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 121|chief director planning alignment ref no 06 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1a361bb4d56750bdb4",
+      "removed_id": "government-za-south-africa-dpsa-7a8057683169c7a3a3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 122|chief director public service ref no 07 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f0250e5f7c0ddaa749",
+      "removed_id": "government-za-south-africa-dpsa-804173609c1344f123",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 123|senior capacity development specialist ref no 08 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7612fe45d80a20d2de",
+      "removed_id": "government-za-south-africa-dpsa-383225841363bb3cf8",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 124|head of the office of the director general ref no 02 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-20c38f0d8bc9aa79a9",
+      "removed_id": "government-za-south-africa-dpsa-8f07f3210a4f436546",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 125|assistant director presidential hotline ref no 09 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1225cafa71cf1e67c0",
+      "removed_id": "government-za-south-africa-dpsa-9cb6456c41502ec1c0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 126|senior internal auditor ref no sia"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-adabc6c68ae6eb724a",
+      "removed_id": "government-za-south-africa-dpsa-9239fc98b5e4984a4b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 127|deputy director organisational design and job evaluation"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1f17b3ba0231fbeaef",
+      "removed_id": "government-za-south-africa-dpsa-92a2066f2c26185efd",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 128|deputy director monitoring and evaluation ref no dsac"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3b2687781c820cf969",
+      "removed_id": "government-za-south-africa-dpsa-8b804276abf2468e2b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 129|assistant director monitoring and evaluation ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c9005c323e120e6869",
+      "removed_id": "government-za-south-africa-dpsa-fb6b1c3a9db702a66d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 130|assistant director organisational design and job"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8d2264502e09f89415",
+      "removed_id": "government-za-south-africa-dpsa-57496f74d243b36fc9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 131|assistant director human resource administration ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9e80b0b3a45dd0cd0a",
+      "removed_id": "government-za-south-africa-dpsa-6aeddace2a68ff4d8c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 132|assistant director africa bilaterals relations africa"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d1893138f671ea9c69",
+      "removed_id": "government-za-south-africa-dpsa-9e783d671f6e0ab1b0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 133|environmental officer specialised production grade a ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ff08d1be2e6d262ccd",
+      "removed_id": "government-za-south-africa-dpsa-f77329b8a7e05f665c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 134|administration officer hrm ref no 070826 03"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2ee99b83c9680748dc",
+      "removed_id": "government-za-south-africa-dpsa-a94157cbb5f6945c43",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 135|administration clerk production ref no 070826 04"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-04230d1a59266df1fa",
+      "removed_id": "government-za-south-africa-dpsa-dba76d9186df881450",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 136|clinical nurse practitioner grade 1 2 pnb1 ref no mmd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a87463dc045bf31505",
+      "removed_id": "government-za-south-africa-dpsa-5333a2c857fe85ca30",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 137|assistant director financial accounting ref no mmd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-421c14c0ac217e2708",
+      "removed_id": "government-za-south-africa-dpsa-feda140a8c1e276e1d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 138|head of clinical uni internal medicine ref no refs 050270"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ec19ba6b77817fa489",
+      "removed_id": "government-za-south-africa-dpsa-85858c210bd2d911d0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 139|medical specialist radiology ref no refs 050278 x1 post"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-42fc59966f9343ba98",
+      "removed_id": "government-za-south-africa-dpsa-d70cde872598eebb72",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 140|assistant manager nursing general pna 7 hast stepdown"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d3aa0ac35ab097f9cf",
+      "removed_id": "government-za-south-africa-dpsa-12488ba2fbbd9e456c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 141|operational manager specialty operating theatre cssd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ad080b12beb714fdc4",
+      "removed_id": "government-za-south-africa-dpsa-a452c2a59c5c391553",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 142|clinical program coordinator human resource ohs ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5a18287db7ffa1a486",
+      "removed_id": "government-za-south-africa-dpsa-c6b305880e39c8eaba",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 143|deputy director fraud corruption and integrity"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c421d2cdce27701e21",
+      "removed_id": "government-za-south-africa-dpsa-14af2c23ead9689c1b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 144|assistant director case management ref no refs 050487"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-868c94df500ba78840",
+      "removed_id": "government-za-south-africa-dpsa-a76dcf5c78cc217bc9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 145|assistant director health and wellness ref no refs 050352"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-962ff96bd933214c77",
+      "removed_id": "government-za-south-africa-dpsa-03c3b19c1c62605fa1",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 146|professional nurse specialty theatre ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-056d3e2abfca6156c9",
+      "removed_id": "government-za-south-africa-dpsa-00affd7d9a9250711c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 147|deputy director supply chain management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-20b43ad5e00f81d2ff",
+      "removed_id": "government-za-south-africa-dpsa-a2fa522744020cc477",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 148|deputy director programme management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-484337925d1458c20d",
+      "removed_id": "government-za-south-africa-dpsa-e803da100152949c4c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 149|engineer production grade a"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f1ea2aebd5c781340a",
+      "removed_id": "government-za-south-africa-dpsa-a188688e36c54349c5",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 150|construction project manager production grade a ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-da81dfc8d85c61a388",
+      "removed_id": "government-za-south-africa-dpsa-b978cd4f032fb70278",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 151|quantity surveyor production grade a ref no qs eth 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-dc357dcc676707d253",
+      "removed_id": "government-za-south-africa-dpsa-51f5fb76b82faa6a6f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 152|quantity surveyor production grade a ref no ncr qs 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2cb8049046760e94a7",
+      "removed_id": "government-za-south-africa-dpsa-11771d9ee4a70b2d7f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 153|assistant director youth women people with disability"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d1cd6486246e08599b",
+      "removed_id": "government-za-south-africa-dpsa-aa9dee6d00f4497b83",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 154|internal control officer ref no ho aocps 062026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-daa3d42bb02e207520",
+      "removed_id": "government-za-south-africa-dpsa-ff44054f199a13b234",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 155|administrative office acquisition ref no ao zsd acq 26"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-485e0d020f1e0b3c37",
+      "removed_id": "government-za-south-africa-dpsa-cd0b1b3c84f17b2c6f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 156|administrative officer tax and banking ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-8e2aa3d130e46deae9",
+      "removed_id": "government-za-south-africa-dpsa-06740dacb80d1260a1",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 157|personal assistant"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-cacd60550823012d5b",
+      "removed_id": "government-za-south-africa-dpsa-8549eb29ceb0ed7c0c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 158|communication officer ref no ho comm 072026 x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6f62e832245051a823",
+      "removed_id": "government-za-south-africa-dpsa-cdddb8dc73cbe2d0e4",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 159|administrative officer construction procurement"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ab4ee2839876b3e91d",
+      "removed_id": "government-za-south-africa-dpsa-f96a58dd7aadd9b240",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:ao|south africa dpsa|26 160|administrative officer acquisition x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-433c4ec408dd5f4420",
+      "removed_id": "government-za-south-africa-dpsa-55b79c1e2feeccad6c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 161|administrative officer post bid supply chain management"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a807cd5815f1aa3833",
+      "removed_id": "government-za-south-africa-dpsa-3e2e3fc67b1d04c117",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 162|human resource supervisor employee benefits ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f42e9aec1c3cbc7a55",
+      "removed_id": "government-za-south-africa-dpsa-a9496194f72dd4a788",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 163|administration officer logistics ref no ao log eth 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-36c0bd4839b9e4b41b",
+      "removed_id": "government-za-south-africa-dpsa-ebcd0bf95577462843",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 164|administrative officer post bid ref no ao pb mr 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f12aca5cff190e75f4",
+      "removed_id": "government-za-south-africa-dpsa-09a30aff7e4cab790c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 165|human resource supervisor ref no hrs zdo 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7028a6ee175f8c8596",
+      "removed_id": "government-za-south-africa-dpsa-683a14797a41563f80",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 166|legal administration officer mr3 mr4 mr5 ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2ab902dc7c0e68a2d8",
+      "removed_id": "government-za-south-africa-dpsa-99f8ba08d6a3f5466f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 167|works inspector"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e57da05d88e1e26233",
+      "removed_id": "government-za-south-africa-dpsa-766bd85a912406371c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 168|works inspector electrical building manager head"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3f1a7f1e1d65d463ad",
+      "removed_id": "government-za-south-africa-dpsa-65f46012d975c77b59",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 169|works inspector electrical building manager la building"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-28aa01a8d08511cec6",
+      "removed_id": "government-za-south-africa-dpsa-ba4dd278d37b32452c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 170|artisan"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-58ca07fe0a2332f09a",
+      "removed_id": "government-za-south-africa-dpsa-0183cd145e53ad560e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 171|artisan electrical x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d20340901897445d42",
+      "removed_id": "government-za-south-africa-dpsa-54db14cb82d96fde3f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 172|administration clerk"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ceeab31134f389039f",
+      "removed_id": "government-za-south-africa-dpsa-e45c0168f0c70710d4",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 173|driver executive support office of the hod ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6966753473a6a582a1",
+      "removed_id": "government-za-south-africa-dpsa-5537c132e2705d0397",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 174|handman ref no h man hg sr 2026 x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-81ddd19b083ddc4d22",
+      "removed_id": "government-za-south-africa-dpsa-74a0e54b975709751d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 175|deputy director human resource practices and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-50a035797b10903a4a",
+      "removed_id": "government-za-south-africa-dpsa-1e56ad49b4ac168b9e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 176|deputy director ref no ncdedat 2026 06 x1 post"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c43110c1a2c2322f41",
+      "removed_id": "government-za-south-africa-dpsa-e508c0e8de439c3d26",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 177|labour relations officer ref no ncdedat 2026 07 x1 post"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-02c4f04f97b1b2c925",
+      "removed_id": "government-za-south-africa-dpsa-183e050c4e80ed6055",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 178|chief director economic planning ref no 01 dedect 2026 nw"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a0f040b7ef3948d9c4",
+      "removed_id": "government-za-south-africa-dpsa-ccb5a180dcf9aa2dfe",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 179|chief director corporate services ref no 02"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9c9e39fe0bafce8b61",
+      "removed_id": "government-za-south-africa-dpsa-ac607de78982dabc20",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 180|chief director integrated economic development services"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-093d5023abe007296a",
+      "removed_id": "government-za-south-africa-dpsa-717dc9abbad6376242",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 181|chief director business regulatory and consumer"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-74e52739c819459084",
+      "removed_id": "government-za-south-africa-dpsa-c209490d8c9b53b232",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 182|director human capital management ref no 05"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7618128c155b7eae5d",
+      "removed_id": "government-za-south-africa-dpsa-cd39c1cad577846518",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 183|director consumer protection ref no 06 dedect 2026 nw"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-138ec4b10237da1f75",
+      "removed_id": "government-za-south-africa-dpsa-7963e5800e0fc04da4",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 184|director supply chain and fleet management ref no 07"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7153adab6c2d96b506",
+      "removed_id": "government-za-south-africa-dpsa-943e9d8c5e4b6f8105",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 185|scientist production level nutrition and product quality"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-651a0bb1ab82e5baa7",
+      "removed_id": "government-za-south-africa-dpsa-439c564b19859a3a47",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 186|assistant director office of the hod elsendburg ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c38e9ad38d486b99ab",
+      "removed_id": "government-za-south-africa-dpsa-8871da4bc200beee67",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 187|animal health technician animal health boland"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-529c9ecb7275363dc9",
+      "removed_id": "government-za-south-africa-dpsa-7ae52231e33ed771eb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 188|administrative officer agricultural partnership for"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ec5b0feedee099c2f7",
+      "removed_id": "government-za-south-africa-dpsa-9227d480336eb3fd37",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 189|administrative officer arts and culture ref no cas 17 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9e50da18e6fca020e4",
+      "removed_id": "government-za-south-africa-dpsa-fc5665ca12047f4069",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 190|administration clerk library service hermanus region"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-a4bc156c9e52954b46",
+      "removed_id": "government-za-south-africa-dpsa-0260a364a445844d3f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 191|finance clerk library administrative support services ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6a086483cc481021be",
+      "removed_id": "government-za-south-africa-dpsa-d06d8e83a21bec3940",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 192|administration clerk library service stellenbosch"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-23c490f0119fe2a1f2",
+      "removed_id": "government-za-south-africa-dpsa-de0d5ea280e2d6da7b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 193|registry reception clerk archive administrative support"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-13ab38e30770c57045",
+      "removed_id": "government-za-south-africa-dpsa-f8af0e5332ece463da",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 194|director red tape reduction ref no dedat 22 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c56abff6b169465a15",
+      "removed_id": "government-za-south-africa-dpsa-068744a4a6d58ce27f",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 195|deputy director red tape reduction ref no dedat 24 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-791559b2f673fd07e8",
+      "removed_id": "government-za-south-africa-dpsa-ded22e8b10431c20ec",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 196|assistant director cape catalyst ref no dedat 23 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4d6bde3deed8b090fc",
+      "removed_id": "government-za-south-africa-dpsa-94f12b61f2aff73db0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 197|director financial accounting ref no 325"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-27aa110fbd2efec4d5",
+      "removed_id": "government-za-south-africa-dpsa-27a776086a14e63276",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 198|medical specialist grade 1 to 3 obstetrics and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5a2a9513eeaca42a11",
+      "removed_id": "government-za-south-africa-dpsa-b6638d6cbb522fb781",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 199|manager pharmaceutical services"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-716c971e91e44a1df2",
+      "removed_id": "government-za-south-africa-dpsa-b8e70eb0e372a017db",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:sc|south africa dpsa|26 200|medical officer grade 1 to 3 emergency medicine"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1ba41ba2c411d854f2",
+      "removed_id": "government-za-south-africa-dpsa-7b477254b8f3664688",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 201|medical officer grade 1 to 3"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-79f89e6bd5666cad90",
+      "removed_id": "government-za-south-africa-dpsa-d9f0051ebc511fd657",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 202|medical officer grade 1 to 3"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-24153866090add9d0e",
+      "removed_id": "government-za-south-africa-dpsa-e8e07fc82bd1df82c9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 203|clinical psychologist grade 1 to 3"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-56ab42b8b3714ca6a5",
+      "removed_id": "government-za-south-africa-dpsa-b8e81394c97075ba32",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 204|pharmacist grade 1 to 3 x3 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-caff8a36b23508c716",
+      "removed_id": "government-za-south-africa-dpsa-7ea75a10b18ca3a749",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 205|operational manager nursing specialty trauma and opd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-b6a04ce9713e803053",
+      "removed_id": "government-za-south-africa-dpsa-1b5f10cc600d30a953",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 206|quality assurance manager"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2e8bbad2a0d9955104",
+      "removed_id": "government-za-south-africa-dpsa-d4e1a25a83cc8ed8bb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 207|social worker supervisor grade 1 to 2"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2bec38c0b6623038c4",
+      "removed_id": "government-za-south-africa-dpsa-ea02649a93b559894c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 208|clinical nurse practitioner grade 1 and 2 primary health"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7fc8d67d19b3be94cd",
+      "removed_id": "government-za-south-africa-dpsa-e6f40d46be78c3a1db",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 209|lecturer nursing grade 1 to 2 undergraduate"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-5d2d2a476af397228d",
+      "removed_id": "government-za-south-africa-dpsa-042a4dcbc2199a547d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 210|administrative manager corporate services"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-fc4c68b669065858d9",
+      "removed_id": "government-za-south-africa-dpsa-ee02e4a40613875a56",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 211|occupational therapist grade 1 to 3 mental health"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-eb537a68b887d71c01",
+      "removed_id": "government-za-south-africa-dpsa-45724ab23faea1deb1",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 212|senior personnel practitioner"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-44400fc9f109fb74c6",
+      "removed_id": "government-za-south-africa-dpsa-6396e81fde09122c0a",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 213|administrative officer support services reception"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-dd5d7be3b5124e03b1",
+      "removed_id": "government-za-south-africa-dpsa-32f047a84b0c81613c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 214|administrative officer information management"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7c61f813d899efb2fb",
+      "removed_id": "government-za-south-africa-dpsa-d6ee0010811f2c7737",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 215|professional nurse grade 1 to 3 general surgery female"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-7afc295320ae62e5ae",
+      "removed_id": "government-za-south-africa-dpsa-3b6f513ebaa7d2c245",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 216|professional nurse grade 1 to 3 general palliative care"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-34e65190bffeb49234",
+      "removed_id": "government-za-south-africa-dpsa-1a16c8e5c3be9c5d75",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 217|professional nurse grade 1 to 3 general nursing"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ff649e90a9624a48ff",
+      "removed_id": "government-za-south-africa-dpsa-65a2396a6f57ba60c3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 218|professional nurse grade 1 to 3 general nursing clinical"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d8109d89a73b658f8e",
+      "removed_id": "government-za-south-africa-dpsa-3308ce54cf2500718d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 219|professional nurse grade 1 to 3 x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4dc959437f1ff59347",
+      "removed_id": "government-za-south-africa-dpsa-047da432a5cb8543eb",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 220|pharmacist assistant post basic grade 1 to 3 x2 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-40847cbecdd9e51dd0",
+      "removed_id": "government-za-south-africa-dpsa-54632ccc47d0bf454e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 221|personnel officer advertising"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ead81e512f28507c61",
+      "removed_id": "government-za-south-africa-dpsa-c85ccbb96d954c426e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 222|administration clerk supply chain management"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1054235f8eacef1298",
+      "removed_id": "government-za-south-africa-dpsa-ad08122288357fb29b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:sc|south africa dpsa|26 223|administration clerk admissions"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-be4344aa2a293d461f",
+      "removed_id": "government-za-south-africa-dpsa-cfcbbb7c3fbd8fc828",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 224|administration clerk finance admin fees"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-fced34228dc038e398",
+      "removed_id": "government-za-south-africa-dpsa-3d264f93c8c8f24c99",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 225|administration clerk support"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-59afd697a291a2bb21",
+      "removed_id": "government-za-south-africa-dpsa-96e3d2d8b7e38adb90",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 226|staff nurse grade 1 to 3 various components x8 posts"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-da2016a9baaa58790e",
+      "removed_id": "government-za-south-africa-dpsa-3f26d144cee1222698",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:sc|south africa dpsa|26 227|staff nurse grade 1 to 3 opd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-e62bdbd623460c860e",
+      "removed_id": "government-za-south-africa-dpsa-92b2989c58794092cf",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 228|staff nurse grade 1 to 3 theatre and trauma"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-3e6e6b2225ff6de541",
+      "removed_id": "government-za-south-africa-dpsa-d50d53588bd62a3648",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 229|artisan assistant electrical"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-392b912d31df8bd537",
+      "removed_id": "government-za-south-africa-dpsa-dfd2962e93a8884183",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 230|medical specialist grade 1 to 3 urology sessional"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6325904da4575fd459",
+      "removed_id": "government-za-south-africa-dpsa-4646593e1046086dc2",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 231|architect production level education infrastructure"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c2edfabbb4e72257cc",
+      "removed_id": "government-za-south-africa-dpsa-726de1cd1fb9806f71",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 232|architect production level health infrastructure ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-d1eb41861438cf45e8",
+      "removed_id": "government-za-south-africa-dpsa-2e16fe5730ffc879f3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 233|professional electrical engineer production level"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4201bdce35c93cf440",
+      "removed_id": "government-za-south-africa-dpsa-e3e42d406dfb9fe810",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 234|professional engineer production level road"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-544ac63d8f31efb6f1",
+      "removed_id": "government-za-south-africa-dpsa-1bc19ff3f4532c8464",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 235|state accountant management accounting ref no doi"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-39057c42cdcca56eb2",
+      "removed_id": "government-za-south-africa-dpsa-f31494c31c1062a5f1",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 236|electrical engineering technician production level"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-1add5c6b6daf98e8d1",
+      "removed_id": "government-za-south-africa-dpsa-c635597d6726dc2cb0",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 237|personal assistant immovable asset management ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-ab8536477ac387bd6b",
+      "removed_id": "government-za-south-africa-dpsa-f70859cf2e2869e01d",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 238|director public participation ref no lg 17 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-03f8fb3b68bf2dd3c0",
+      "removed_id": "government-za-south-africa-dpsa-ce0c9e6f8386a33990",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 239|deputy director disaster preparedness response"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-4a2a7a8f80eea32303",
+      "removed_id": "government-za-south-africa-dpsa-af8bd704e5b558415e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 240|assistant director disaster institutional capacity"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-b2b22df11aba8f033f",
+      "removed_id": "government-za-south-africa-dpsa-b43953507bed7ac606",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 241|senior administrative officer community police relations"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-c30405470a66dfcb9c",
+      "removed_id": "government-za-south-africa-dpsa-9fd2d25b7b34dc33df",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 242|administration clerk institution of soft security ref no"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-b9781397938fb9ed1d",
+      "removed_id": "government-za-south-africa-dpsa-72d0aed603fec27171",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 243|assistant director risk advisor ref no dotp 41 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-673cc36cb5346f8f5f",
+      "removed_id": "government-za-south-africa-dpsa-4a2da894e0870fa6b9",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 244|chief analyst developer economic governance and"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-cc621aa1af7834bda4",
+      "removed_id": "government-za-south-africa-dpsa-25b259245985230c3e",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 245|capacity building officer education and cultural affairs"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-97c58a53f6dd39c6a2",
+      "removed_id": "government-za-south-africa-dpsa-002543f06348e8ba87",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 246|assistant director service conditions ref no dotp 85 2026"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-f6a79c2931f69d8ef2",
+      "removed_id": "government-za-south-africa-dpsa-4e2f36ee05b20cb293",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 247|performance practitioner performance consulting ref"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-9cfbe55eb23272ee95",
+      "removed_id": "government-za-south-africa-dpsa-6ee705d3367fd9a9c3",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 248|assistant director normative financial compliance pfma"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-6b577cb8865becdbd3",
+      "removed_id": "government-za-south-africa-dpsa-e5026b55a195ee6d1c",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 249|office manager office of the chief director service"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-112023574a6baf0fa2",
+      "removed_id": "government-za-south-africa-dpsa-916e6a9218f15ddb6b",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 250|state accountant management accounting ref no dsd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-2b2db4356636a5f942",
+      "removed_id": "government-za-south-africa-dpsa-fd2815481a1de7c6ce",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 251|social worker atlantis and bergriver sda ref no dsd"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "government-za-south-africa-dpsa-49e9d86a8c660ccfb0",
+      "removed_id": "government-za-south-africa-dpsa-88f535f028758ef992",
+      "replaced_existing": false,
+      "kept_source": "South Africa DPSA official vacancy circular",
+      "removed_source": "South Africa DPSA official vacancy circular",
+      "matched_by": [
+        "government:za|south africa dpsa|26 252|principal provincial inspector law enforcement"
+      ],
+      "government_duplicate_type": "safe_identity_consolidation"
+    },
+    {
+      "kept_id": "adzuna-5804281400",
+      "removed_id": "adzuna-5805517520",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:msp staffing pty|investment|za|cape town"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5804281400",
+      "removed_id": "adzuna-5807247600",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "content:msp staffing pty|investment|za|cape town|4d57b12229f5b96cf70a",
+        "semantic:msp staffing pty|investment|za|cape town"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5790486750",
+      "removed_id": "adzuna-5785465537",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:network finance|investment manager|za|johannesburg"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5786863548",
+      "removed_id": "adzuna-5782165068",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:ca support cc|investment administrator|za|cape town"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5808849037",
+      "removed_id": "adzuna-5812463958",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "content:network finance|project finance associate|za|johannesburg|42636cc17a35e6cfc2d9",
+        "semantic:network finance|project finance associate|za|johannesburg"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5761404294",
+      "removed_id": "adzuna-5768872991",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "content:solarafrica energy pty|senior legal counsel project finance|za|pretoria|3cf5d5924495c1df2d9d",
+        "semantic:solarafrica energy pty|senior legal counsel project finance|za|pretoria"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5781558602",
+      "removed_id": "adzuna-5781558602",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "id:adzuna-5781558602"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "cornerstone-world-bank-group-563686e503805993",
+      "removed_id": "adzuna-5799506124",
+      "replaced_existing": false,
+      "kept_source": "Cornerstone-hosted institutional board",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:world bank group|senior industry specialist climate finance specialist|za|johannesburg"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "cornerstone-world-bank-group-563686e503805993",
+      "removed_id": "adzuna-5798381614",
+      "replaced_existing": false,
+      "kept_source": "Cornerstone-hosted institutional board",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:world bank group|senior industry specialist climate finance specialist|za|johannesburg"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5796267336",
+      "removed_id": "adzuna-5797450795",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "content:forafrika|dmeal specialist|za||bfe2c8193454e4f1fbb0"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5746055984",
+      "removed_id": "adzuna-5768868780",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "semantic:interdot solutions|lead social corporate responsibility|za|pretoria"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5810193539",
+      "removed_id": "adzuna-5810193539",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "id:adzuna-5810193539"
+      ],
+      "government_duplicate_type": null
+    },
+    {
+      "kept_id": "adzuna-5813129906",
+      "removed_id": "adzuna-5813129906",
+      "replaced_existing": false,
+      "kept_source": "Adzuna",
+      "removed_source": "Adzuna",
+      "matched_by": [
+        "id:adzuna-5813129906"
+      ],
+      "government_duplicate_type": null
+    }
+  ]
 }
